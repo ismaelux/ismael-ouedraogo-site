@@ -495,7 +495,7 @@ export default function AcademicSite() {
         <div className="about-grid">
           <FadeIn delay={100}>
             <div className="about-sidebar">
-              <div className="about-photo-frame"><div className="about-initials">IO</div></div>
+              <div className="about-photo-frame"><img src="/photo-ismael.jpg" alt="Ismael Ouedraogo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
               <div className="about-info-block">
                 <div className="about-info-row"><span className="about-info-label">Position</span><span className="about-info-value">Consultant, AFRCE</span></div>
                 <div className="about-info-row"><span className="about-info-label">Institution</span><span className="about-info-value">Banque mondiale</span></div>
