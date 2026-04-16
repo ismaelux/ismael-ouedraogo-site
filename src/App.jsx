@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { BULLETINS, BULLETIN_CATEGORIES } from "./bulletins-data.js";
 
 const CSS = `
   :root {
@@ -108,6 +109,25 @@ const CSS = `
   .bulletin-excerpt { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.7; }
   .bulletin-tags { display: flex; gap: 0.4rem; margin-top: 0.75rem; flex-wrap: wrap; }
   .bulletin-tag { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.1em; padding: 0.2rem 0.6rem; border-radius: 4px; border: 1px solid var(--border-subtle); color: var(--text-muted); }
+  .bulletin-read-more { font-size: 0.78rem; color: var(--accent-gold); margin-top: 0.75rem; font-weight: 500; }
+  .bulletin-card:hover .bulletin-read-more { text-decoration: underline; }
+  .article-overlay { position: fixed; inset: 0; z-index: 200; background: var(--bg-primary); overflow-y: auto; animation: articleIn 0.3s ease; }
+  @keyframes articleIn { from { opacity: 0; } to { opacity: 1; } }
+  .article-container { max-width: 780px; margin: 0 auto; padding: 2rem 2rem 5rem; }
+  .article-back-btn { display: inline-flex; align-items: center; gap: 0.5rem; background: none; border: 1px solid var(--border-subtle); color: var(--accent-gold); padding: 0.5rem 1.2rem; border-radius: 8px; cursor: pointer; font-size: 0.85rem; font-family: var(--font-body); margin-bottom: 2.5rem; transition: all 0.25s; }
+  .article-back-btn:hover { background: rgba(212,168,83,0.1); }
+  .article-meta { display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem; font-size: 0.8rem; color: var(--text-muted); flex-wrap: wrap; }
+  .article-meta-cat { background: rgba(212,168,83,0.1); border: 1px solid rgba(212,168,83,0.2); padding: 0.25rem 0.8rem; border-radius: 100px; color: var(--accent-gold); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; }
+  .article-title { font-family: var(--font-display); font-size: clamp(1.8rem,3.5vw,2.6rem); font-weight: 700; color: var(--text-primary); line-height: 1.2; margin-bottom: 1.5rem; }
+  .article-tags { display: flex; gap: 0.4rem; margin-bottom: 2.5rem; flex-wrap: wrap; }
+  .article-tag { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; padding: 0.25rem 0.7rem; border-radius: 4px; border: 1px solid var(--border-subtle); color: var(--text-muted); }
+  .article-divider { width: 60px; height: 3px; background: linear-gradient(90deg, var(--accent-gold), transparent); margin-bottom: 2.5rem; border-radius: 2px; }
+  .article-section { margin-bottom: 2rem; }
+  .article-sh { font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; color: var(--accent-gold); margin-bottom: 0.75rem; }
+  .article-p { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.85; margin-bottom: 1rem; text-align: justify; }
+  .article-sources { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-card); }
+  .article-sources .article-sh { font-size: 1rem; color: var(--text-muted); }
+  .article-sources .article-p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; font-family: var(--font-mono); }
 
   .course-item { border-bottom: 1px solid var(--border-card); transition: background 0.3s; cursor: pointer; }
   .course-item:last-child { border-bottom: none; }
@@ -202,14 +222,7 @@ const TEACHING = [
   { code: "MATHS", name: "Mathematiques appliquees", detail: "Licence - UCA", level: "L1-L2", summary: "Outils mathematiques pour l'economie : analyse (fonctions, derivees, integrales), algebre lineaire (matrices, systemes d'equations), optimisation sous contrainte (Lagrangien). Applications aux problemes economiques classiques : maximisation de l'utilite, minimisation des couts." },
 ];
 
-const BULLETINS_INIT = [
-  { id: 4, day: "16", month: "AVR", year: "2026", title: "Guerre en Iran : consequences economiques pour l'Afrique de l'Ouest", excerpt: "Analyse des retombees a court et long terme du conflit americano-iranien sur les economies ouest-africaines. Choc petrolier (+40 % sur le Brent), revision a la baisse des previsions de croissance par le FMI (-0,4 pp pour l'Afrique subsaharienne), hausse des prix des carburants de 15 a 40 % sur le continent, et penuries d'engrais menacant les rendements agricoles au Sahel. Le Nigeria, via la raffinerie Dangote (214 000 b/j exportes en mars), emerge comme amortisseur regional, tandis que le Ghana et les pays saheliens figurent parmi les plus vulnerables. Le Senegal, nouveau producteur petrolier, pourrait tirer parti de la conjoncture.", tags: ["Iran", "Petrole", "CEDEAO", "Sahel", "Nigeria"], category: "Geopolitique" },
-  { id: 1, day: "10", month: "MAR", year: "2026", title: "Integration economique africaine : ou en est la ZLECAf ?", excerpt: "Etat des lieux de la mise en oeuvre de la Zone de libre-echange continentale africaine, les defis logistiques, les avancees commerciales et les perspectives pour les economies ouest-africaines.", tags: ["ZLECAf", "Integration", "Commerce"], category: "Integration economique africaine" },
-  { id: 2, day: "03", month: "MAR", year: "2026", title: "Geopolitique du Sahel : recompositions economiques post-CEDEAO", excerpt: "Analyse des consequences economiques du retrait du Mali, du Burkina Faso et du Niger de la CEDEAO. Impact sur les flux commerciaux, les transferts de fonds et les corridors economiques.", tags: ["Sahel", "CEDEAO", "Geopolitique"], category: "Geopolitique Sahel" },
-  { id: 3, day: "24", month: "FEV", year: "2026", title: "Chaines de valeur en Afrique : le role croissant de la Chine", excerpt: "Comment la presence chinoise restructure les chaines de valeur industrielles en Afrique subsaharienne : opportunites, dependances et implications pour la politique industrielle.", tags: ["Chine-Afrique", "Chaines de valeur", "Industrie"], category: "Chaines de valeur regionales" },
-];
-
-const CATEGORIES = ["Tous", "Geopolitique", "Integration economique africaine", "Geopolitique Sahel", "Chaines de valeur regionales"];
+// Bulletins et categories importes depuis bulletins-data.js
 
 const NAV_ITEMS = [
   { id: "home", label: "Accueil" },
@@ -271,9 +284,7 @@ export default function AcademicSite() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [researchTab, setResearchTab] = useState("papers");
   const [bulletinFilter, setBulletinFilter] = useState("Tous");
-  const [bulletins, setBulletins] = useState(BULLETINS_INIT);
-  const [showEditor, setShowEditor] = useState(false);
-  const [editorData, setEditorData] = useState({ title: "", excerpt: "", category: "Integration economique africaine", tags: "" });
+  const [selectedBulletin, setSelectedBulletin] = useState(null);
   const [showPrivate, setShowPrivate] = useState(false);
   const [openCourses, setOpenCourses] = useState({});
 
@@ -299,24 +310,7 @@ export default function AcademicSite() {
   const scrollTo = (id) => { document.getElementById(id)?.scrollIntoView({ behavior: "smooth" }); setMobileMenuOpen(false); };
   const toggleCourse = (code) => { setOpenCourses(prev => ({ ...prev, [code]: !prev[code] })); };
 
-  const addBulletin = () => {
-    if (!editorData.title.trim()) return;
-    const now = new Date();
-    const newB = {
-      id: Date.now(),
-      day: String(now.getDate()).padStart(2, "0"),
-      month: now.toLocaleString("fr-FR", { month: "short" }).toUpperCase().replace(".", ""),
-      year: String(now.getFullYear()),
-      title: editorData.title, excerpt: editorData.excerpt,
-      tags: editorData.tags.split(",").map(t => t.trim()).filter(Boolean),
-      category: editorData.category
-    };
-    setBulletins(prev => [newB, ...prev]);
-    setEditorData({ title: "", excerpt: "", category: "Integration economique africaine", tags: "" });
-    setShowEditor(false);
-  };
-
-  const filteredBulletins = bulletinFilter === "Tous" ? bulletins : bulletins.filter(b => b.category === bulletinFilter);
+  const filteredBulletins = bulletinFilter === "Tous" ? BULLETINS : BULLETINS.filter(b => b.category === bulletinFilter);
   const privatePapers = RESEARCH_PAPERS.filter(p => p.visibility === "private");
 
   return (
@@ -433,29 +427,27 @@ export default function AcademicSite() {
 
       <section className="section" id="bulletins">
         <FadeIn>
-          <div className="section-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "1rem" }}>
-            <div>
-              <div className="section-tag">// Bulletins</div>
-              <h2 className="section-title">Analyses & Eclairages</h2>
-              <p className="section-subtitle">Bulletins sur l'integration economique africaine, la geopolitique du Sahel et les chaines de valeur regionales.</p>
-              <div className="section-divider" />
-            </div>
-            <button className="btn btn-primary" onClick={() => setShowEditor(true)} style={{ marginTop: "0.5rem" }}>+ Nouveau bulletin</button>
+          <div className="section-header">
+            <div className="section-tag">// Bulletins</div>
+            <h2 className="section-title">Analyses & Eclairages</h2>
+            <p className="section-subtitle">Bulletins d'analyse sur l'integration economique africaine, la geopolitique du Sahel et les chaines de valeur regionales.</p>
+            <div className="section-divider" />
           </div>
         </FadeIn>
         <div className="tabs">
-          {CATEGORIES.map(c => (<button key={c} className={`tab-btn ${bulletinFilter === c ? "active" : ""}`} onClick={() => setBulletinFilter(c)}>{c}</button>))}
+          {BULLETIN_CATEGORIES.map(c => (<button key={c} className={`tab-btn ${bulletinFilter === c ? "active" : ""}`} onClick={() => setBulletinFilter(c)}>{c}</button>))}
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
           {filteredBulletins.length === 0 && <div style={{ textAlign: "center", padding: "3rem", color: "var(--text-muted)" }}>Aucun bulletin dans cette categorie pour le moment.</div>}
           {filteredBulletins.map((b, i) => (
             <FadeIn key={b.id} delay={i * 80}>
-              <div className="bulletin-card">
+              <div className="bulletin-card" onClick={() => setSelectedBulletin(b)}>
                 <div className="bulletin-date"><div className="day">{b.day}</div><div className="month">{b.month}</div></div>
                 <div>
                   <div className="bulletin-title">{b.title}</div>
                   <div className="bulletin-excerpt">{b.excerpt}</div>
                   <div className="bulletin-tags">{(b.tags || []).map(t => <span key={t} className="bulletin-tag">{t}</span>)}</div>
+                  <div className="bulletin-read-more">{"\u2192"} Lire l'analyse</div>
                 </div>
               </div>
             </FadeIn>
@@ -551,18 +543,23 @@ export default function AcademicSite() {
         <p style={{ marginTop: "0.75rem", fontSize: "0.7rem" }}>{"\u00A9"} {new Date().getFullYear()} - Tous droits reserves</p>
       </footer>
 
-      {showEditor && (
-        <div className="editor-overlay" onClick={(e) => { if (e.target === e.currentTarget) setShowEditor(false); }}>
-          <div className="editor-panel">
-            <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.5rem", marginBottom: "1.5rem", color: "var(--accent-gold)" }}>Nouveau bulletin</h3>
-            <div className="editor-field"><label className="editor-label">Titre</label><input className="editor-input" placeholder="Ex : L'integration economique en Afrique de l'Ouest" value={editorData.title} onChange={e => setEditorData(p => ({ ...p, title: e.target.value }))} /></div>
-            <div className="editor-field"><label className="editor-label">Categorie</label><select className="editor-input editor-select" value={editorData.category} onChange={e => setEditorData(p => ({ ...p, category: e.target.value }))}>{CATEGORIES.filter(c => c !== "Tous").map(c => <option key={c} value={c}>{c}</option>)}</select></div>
-            <div className="editor-field"><label className="editor-label">Contenu / Resume</label><textarea className="editor-textarea" placeholder="Redigez votre analyse..." value={editorData.excerpt} onChange={e => setEditorData(p => ({ ...p, excerpt: e.target.value }))} /></div>
-            <div className="editor-field"><label className="editor-label">Tags (separes par des virgules)</label><input className="editor-input" placeholder="Ex : ZLECAf, Commerce, CEDEAO" value={editorData.tags} onChange={e => setEditorData(p => ({ ...p, tags: e.target.value }))} /></div>
-            <div className="editor-actions">
-              <button className="btn btn-primary" onClick={addBulletin}>Publier le bulletin</button>
-              <button className="btn btn-ghost" onClick={() => setShowEditor(false)}>Annuler</button>
+      {selectedBulletin && (
+        <div className="article-overlay">
+          <div className="article-container">
+            <button className="article-back-btn" onClick={() => setSelectedBulletin(null)}>{"\u2190"} Retour aux bulletins</button>
+            <div className="article-meta">
+              <span>{selectedBulletin.day} {selectedBulletin.month} {selectedBulletin.year}</span>
+              <span className="article-meta-cat">{selectedBulletin.category}</span>
             </div>
+            <h1 className="article-title">{selectedBulletin.title}</h1>
+            <div className="article-tags">{(selectedBulletin.tags || []).map(t => <span key={t} className="article-tag">{t}</span>)}</div>
+            <div className="article-divider" />
+            {(selectedBulletin.content || []).map((s, i) => (
+              <div key={i} className={s.heading === "Sources" ? "article-sources" : "article-section"}>
+                {s.heading && <h2 className="article-sh">{s.heading}</h2>}
+                {s.paragraphs.map((p, j) => <p key={j} className="article-p">{p}</p>)}
+              </div>
+            ))}
           </div>
         </div>
       )}
