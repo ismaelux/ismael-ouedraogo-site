@@ -203,12 +203,13 @@ const TEACHING = [
 ];
 
 const BULLETINS_INIT = [
+  { id: 4, day: "16", month: "AVR", year: "2026", title: "Guerre en Iran : consequences economiques pour l'Afrique de l'Ouest", excerpt: "Analyse des retombees a court et long terme du conflit americano-iranien sur les economies ouest-africaines. Choc petrolier (+40 % sur le Brent), revision a la baisse des previsions de croissance par le FMI (-0,4 pp pour l'Afrique subsaharienne), hausse des prix des carburants de 15 a 40 % sur le continent, et penuries d'engrais menacant les rendements agricoles au Sahel. Le Nigeria, via la raffinerie Dangote (214 000 b/j exportes en mars), emerge comme amortisseur regional, tandis que le Ghana et les pays saheliens figurent parmi les plus vulnerables. Le Senegal, nouveau producteur petrolier, pourrait tirer parti de la conjoncture.", tags: ["Iran", "Petrole", "CEDEAO", "Sahel", "Nigeria"], category: "Geopolitique" },
   { id: 1, day: "10", month: "MAR", year: "2026", title: "Integration economique africaine : ou en est la ZLECAf ?", excerpt: "Etat des lieux de la mise en oeuvre de la Zone de libre-echange continentale africaine, les defis logistiques, les avancees commerciales et les perspectives pour les economies ouest-africaines.", tags: ["ZLECAf", "Integration", "Commerce"], category: "Integration economique africaine" },
   { id: 2, day: "03", month: "MAR", year: "2026", title: "Geopolitique du Sahel : recompositions economiques post-CEDEAO", excerpt: "Analyse des consequences economiques du retrait du Mali, du Burkina Faso et du Niger de la CEDEAO. Impact sur les flux commerciaux, les transferts de fonds et les corridors economiques.", tags: ["Sahel", "CEDEAO", "Geopolitique"], category: "Geopolitique Sahel" },
   { id: 3, day: "24", month: "FEV", year: "2026", title: "Chaines de valeur en Afrique : le role croissant de la Chine", excerpt: "Comment la presence chinoise restructure les chaines de valeur industrielles en Afrique subsaharienne : opportunites, dependances et implications pour la politique industrielle.", tags: ["Chine-Afrique", "Chaines de valeur", "Industrie"], category: "Chaines de valeur regionales" },
 ];
 
-const CATEGORIES = ["Tous", "Integration economique africaine", "Geopolitique Sahel", "Chaines de valeur regionales"];
+const CATEGORIES = ["Tous", "Geopolitique", "Integration economique africaine", "Geopolitique Sahel", "Chaines de valeur regionales"];
 
 const NAV_ITEMS = [
   { id: "home", label: "Accueil" },
