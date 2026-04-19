@@ -431,7 +431,7 @@ export default function AcademicSite() {
 
       <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
         <div className="nav-inner">
-          <a className="nav-logo" onClick={() => scrollTo("home")}>Isma\u00ebl Ouedraogo<span>{t.navSubtitle}</span></a>
+          <a className="nav-logo" onClick={() => scrollTo("home")}>Ismaël Ouedraogo<span>{t.navSubtitle}</span></a>
           <button className="mobile-toggle" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>{mobileMenuOpen ? "\u2715" : "\u2630"}</button>
           <div className={`nav-links ${mobileMenuOpen ? "open" : ""}`}>
             {NAV_ITEMS.map(n => (<button key={n.id} className={`nav-link ${activeSection === n.id ? "active" : ""}`} onClick={() => scrollTo(n.id)}>{n.label}</button>))}
@@ -447,7 +447,7 @@ export default function AcademicSite() {
         <div className="hero-content">
           <div>
             <div className="hero-tag">{t.heroTag}</div>
-            <h1>Isma\u00ebl Ouedraogo</h1>
+            <h1>Ismaël Ouedraogo</h1>
             <p className="hero-subtitle">{t.heroSubtitle}</p>
             <div className="hero-fields">
               {t.heroFields.map(e => (<span key={e} className="hero-field">{e}</span>))}
@@ -607,7 +607,7 @@ export default function AcademicSite() {
         <div className="about-grid">
           <FadeIn delay={100}>
             <div className="about-sidebar">
-              <div className="about-photo-frame"><img src="/photo-ismael.jpg" alt="Isma\u00ebl Ouedraogo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} onError={(e) => { e.target.style.display = 'none'; e.target.parentElement.innerHTML = '<span style="font-family: Playfair Display, serif; font-size: 4rem; font-weight: 700; color: #B8860B; opacity: 0.3;">IO</span>'; }} /></div>
+              <div className="about-photo-frame"><img src="/photo-ismael.jpg" alt="Ismaël Ouedraogo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} onError={(e) => { e.target.style.display = 'none'; e.target.parentElement.innerHTML = '<span style="font-family: Playfair Display, serif; font-size: 4rem; font-weight: 700; color: #B8860B; opacity: 0.3;">IO</span>'; }} /></div>
               <div className="about-compact">
                 <div className="about-role">
                   <div><div className="about-role-title">{t.roleConsultant}</div><div className="about-role-org">{t.orgWB}</div></div>
@@ -660,7 +660,7 @@ export default function AcademicSite() {
       </div>
 
       <footer className="footer">
-        <div className="footer-brand">Isma\u00ebl Ouedraogo</div>
+        <div className="footer-brand">Ismaël Ouedraogo</div>
         <p>{t.heroTag}</p>
         <p style={{ marginTop: "0.5rem" }}>{"\u00A9"} {new Date().getFullYear()}</p>
       </footer>
