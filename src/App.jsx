@@ -182,46 +182,46 @@ const CSS = `
 
 const T = {
   fr: {
-    navSubtitle: "\u00C9conomiste",
-    heroTag: "\u00C9conomiste \u00B7 Chercheur \u00B7 Consultant",
-    heroSubtitle: "Consultant au Bureau de l\u2019\u00C9conomiste en chef pour l\u2019Afrique, Banque mondiale. Docteur en \u00e9conomie du CERDI (Universit\u00e9 Clermont Auvergne). Recherche en g\u00e9opolitique \u00e9conomique, commerce international et dynamiques d\u2019int\u00e9gration africaine.",
-    heroFields: ["G\u00e9opolitique \u00e9conomique", "Commerce international", "Int\u00e9gration africaine", "Cha\u00eenes de valeur", "\u00C9conomie du Sahel"],
+    navSubtitle: "Économiste",
+    heroTag: "Économiste · Chercheur · Consultant",
+    heroSubtitle: "Consultant au Bureau de l’Économiste en chef pour l’Afrique, Banque mondiale. Docteur en économie du CERDI (Université Clermont Auvergne). Recherche en géopolitique économique, commerce international et dynamiques d’intégration africaine.",
+    heroFields: ["Géopolitique économique", "Commerce international", "Intégration africaine", "Chaînes de valeur", "Économie du Sahel"],
     statWP: "Working Papers",
     statAnalyses: "Analyses",
-    statCourses: "Cours dispens\u00e9s",
-    statConf: "Conf\u00e9rences",
+    statCourses: "Cours dispensés",
+    statConf: "Conférences",
     sectionResearchTag: "Recherche",
     sectionResearchTitle: "Travaux de recherche",
-    sectionResearchSub: "\u00C0 l\u2019intersection de la g\u00e9opolitique et de l\u2019\u00e9conomie internationale, avec un focus sur les dynamiques africaines.",
+    sectionResearchSub: "À l’intersection de la géopolitique et de l’économie internationale, avec un focus sur les dynamiques africaines.",
     tabPapers: "Working Papers",
-    tabThemes: "Th\u00e9matiques",
+    tabThemes: "Thématiques",
     showPrivate: "Afficher les travaux en cours",
-    presentedAt: "Pr\u00e9sent\u00e9 \u00e0 : ",
+    presentedAt: "Présenté à : ",
     draftLabel: "Brouillon - visible uniquement par vous",
-    sectionBulletinTag: "Analyses \u00e9conomiques",
-    sectionBulletinTitle: "\u00C9clairages & Analyses",
-    sectionBulletinSub: "Analyses structur\u00e9es mobilisant les outils de la th\u00e9orie \u00e9conomique sur les dynamiques africaines contemporaines.",
-    latestLabel: "Derni\u00e8re analyse",
+    sectionBulletinTag: "Analyses économiques",
+    sectionBulletinTitle: "Éclairages & Analyses",
+    sectionBulletinSub: "Analyses structurées mobilisant les outils de la théorie économique sur les dynamiques africaines contemporaines.",
+    latestLabel: "Dernière analyse",
     readMin: "min de lecture",
-    readMore: "\u2192 Lire l\u2019analyse",
-    noAnalysis: "Aucune analyse dans cette cat\u00e9gorie pour le moment.",
+    readMore: "→ Lire l’analyse",
+    noAnalysis: "Aucune analyse dans cette catégorie pour le moment.",
     sectionTeachingTag: "Enseignement",
-    sectionTeachingTitle: "Cours dispens\u00e9s",
-    sectionTeachingSub: "Enseignements en \u00e9conomie \u00e0 l\u2019Universit\u00e9 Clermont Auvergne (2022-2026).",
+    sectionTeachingTitle: "Cours dispensés",
+    sectionTeachingSub: "Enseignements en économie à l’Université Clermont Auvergne (2022-2026).",
     sectionAboutTag: "Profil",
-    sectionAboutTitle: "\u00C0 propos",
-    aboutText1: "\u00C9conomiste sp\u00e9cialis\u00e9 dans les relations \u00e9conomiques internationales \u00e0 travers le prisme de la g\u00e9opolitique. Mes recherches portent sur la distance g\u00e9opolitique et ses effets sur le commerce bilat\u00e9ral, l\u2019aide publique au d\u00e9veloppement et les investissements directs \u00e9trangers en Afrique.",
-    aboutText2: "Au sein du Bureau de l\u2019\u00C9conomiste en chef pour l\u2019Afrique \u00e0 la Banque mondiale, je contribue au rapport phare \u201CIntegrating Africa Forward\u201D et \u00e0 des recherches sur la qualit\u00e9 de l\u2019emploi dans les entreprises multinationales et les biens publics r\u00e9gionaux africains.",
-    aboutText3: "Parall\u00e8lement, je d\u00e9veloppe sur ce site des analyses \u00e9conomiques structur\u00e9es sur les dynamiques africaines contemporaines, en mobilisant les outils de la th\u00e9orie \u00e9conomique pour offrir un \u00e9clairage acad\u00e9mique qui d\u00e9passe le simple commentaire journalistique.",
-    confTitle: "Conf\u00e9rences & pr\u00e9sentations",
+    sectionAboutTitle: "À propos",
+    aboutText1: "Économiste spécialisé dans les relations économiques internationales à travers le prisme de la géopolitique. Mes recherches portent sur la distance géopolitique et ses effets sur le commerce bilatéral, l’aide publique au développement et les investissements directs étrangers en Afrique.",
+    aboutText2: "Au sein du Bureau de l’Économiste en chef pour l’Afrique à la Banque mondiale, je contribue au rapport phare “Integrating Africa Forward” et à des recherches sur la qualité de l’emploi dans les entreprises multinationales et les biens publics régionaux africains.",
+    aboutText3: "Parallèlement, je développe sur ce site des analyses économiques structurées sur les dynamiques africaines contemporaines, en mobilisant les outils de la théorie économique pour offrir un éclairage académique qui dépasse le simple commentaire journalistique.",
+    confTitle: "Conférences & présentations",
     sectionContactTag: "Contact",
     sectionContactTitle: "Me contacter",
-    sectionContactSub: "Collaborations, invitations \u00e0 conf\u00e9rences ou questions de recherche.",
+    sectionContactSub: "Collaborations, invitations à conférences ou questions de recherche.",
     contactEmail: "Email",
     contactAffiliation: "Affiliation",
     contactBase: "Base",
     contactFormation: "Formation",
-    backBtn: "\u2190 Retour",
+    backBtn: "← Retour",
     navHome: "Accueil",
     navResearch: "Recherche",
     navBulletins: "Analyses",
@@ -229,16 +229,16 @@ const T = {
     navAbout: "Profil",
     navContact: "Contact",
     roleConsultant: "Consultant, AFRCE",
-    roleTeacher: "Enseignant en \u00e9conomie",
-    rolePhD: "Doctorat en Sciences \u00C9conomiques",
+    roleTeacher: "Enseignant en économie",
+    rolePhD: "Doctorat en Sciences Économiques",
     orgWB: "Banque mondiale",
-    orgUCA: "Universit\u00e9 Clermont Auvergne",
+    orgUCA: "Université Clermont Auvergne",
     orgCERDI: "CERDI, UCA",
   },
   en: {
     navSubtitle: "Economist",
-    heroTag: "Economist \u00B7 Researcher \u00B7 Consultant",
-    heroSubtitle: "Consultant at the Office of the Chief Economist for Africa, World Bank. PhD in Economics from CERDI (Universit\u00e9 Clermont Auvergne). Research in economic geopolitics, international trade and African integration dynamics.",
+    heroTag: "Economist · Researcher · Consultant",
+    heroSubtitle: "Consultant at the Office of the Chief Economist for Africa, World Bank. PhD in Economics from CERDI (Université Clermont Auvergne). Research in economic geopolitics, international trade and African integration dynamics.",
     heroFields: ["Economic Geopolitics", "International Trade", "African Integration", "Value Chains", "Sahel Economics"],
     statWP: "Working Papers",
     statAnalyses: "Analyses",
@@ -257,15 +257,15 @@ const T = {
     sectionBulletinSub: "Structured analyses drawing on economic theory tools to examine contemporary African dynamics.",
     latestLabel: "Latest analysis",
     readMin: "min read",
-    readMore: "\u2192 Read the analysis",
+    readMore: "→ Read the analysis",
     noAnalysis: "No analysis in this category yet.",
     sectionTeachingTag: "Teaching",
     sectionTeachingTitle: "Courses Taught",
-    sectionTeachingSub: "Economics courses at Universit\u00e9 Clermont Auvergne (2022-2026).",
+    sectionTeachingSub: "Economics courses at Université Clermont Auvergne (2022-2026).",
     sectionAboutTag: "Profile",
     sectionAboutTitle: "About",
     aboutText1: "Economist specializing in international economic relations through the lens of geopolitics. My research focuses on geopolitical distance and its effects on bilateral trade, official development assistance and foreign direct investment in Africa.",
-    aboutText2: "Within the Office of the Chief Economist for Africa at the World Bank, I contribute to the flagship report \u201CIntegrating Africa Forward\u201D and to research on job quality in multinational enterprises and African regional public goods.",
+    aboutText2: "Within the Office of the Chief Economist for Africa at the World Bank, I contribute to the flagship report “Integrating Africa Forward” and to research on job quality in multinational enterprises and African regional public goods.",
     aboutText3: "In parallel, I develop on this site structured economic analyses on contemporary African dynamics, drawing on economic theory tools to offer an academic perspective that goes beyond simple journalistic commentary.",
     confTitle: "Conferences & Presentations",
     sectionContactTag: "Contact",
@@ -275,7 +275,7 @@ const T = {
     contactAffiliation: "Affiliation",
     contactBase: "Location",
     contactFormation: "Education",
-    backBtn: "\u2190 Back",
+    backBtn: "← Back",
     navHome: "Home",
     navResearch: "Research",
     navBulletins: "Analyses",
@@ -286,16 +286,16 @@ const T = {
     roleTeacher: "Economics Lecturer",
     rolePhD: "PhD in Economics",
     orgWB: "World Bank",
-    orgUCA: "Universit\u00e9 Clermont Auvergne",
+    orgUCA: "Université Clermont Auvergne",
     orgCERDI: "CERDI, UCA",
   }
 };
 
 const RESEARCH_PAPERS_FR = [
-  { title: "Friendship is as Important as Neighborhood: Geopolitical Distance and Bilateral Trade", desc: "Analyse l\u2019impact de la distance g\u00e9opolitique sur le commerce bilat\u00e9ral, en utilisant des mod\u00e8les de gravit\u00e9 et l\u2019estimation PPML.", tags: ["Commerce bilat\u00e9ral", "G\u00e9opolitique", "PPML"], year: "2024", status: "Working Paper", visibility: "public", presentations: "CSAE Oxford, INFER, CEID" },
-  { title: "Geopolitical Dynamics and the Effectiveness of Regional Trade Agreements", desc: "\u00C9value comment les dynamiques g\u00e9opolitiques influencent l\u2019efficacit\u00e9 des accords commerciaux r\u00e9gionaux.", tags: ["Accords commerciaux", "G\u00e9opolitique", "Panel data"], year: "2024", status: "Working Paper", visibility: "public", presentations: "World Bank Brown Bag Lunch Series" },
-  { title: "Regional Public Goods and African Integration: A Polycentric Governance Framework", desc: "Propose un cadre de gouvernance polycentrique pour les biens publics r\u00e9gionaux et l\u2019int\u00e9gration africaine.", tags: ["Int\u00e9gration africaine", "Biens publics r\u00e9gionaux", "Gouvernance"], year: "2025", status: "En cours", visibility: "private" },
-  { title: "China-Africa Value Chains: Structural Asymmetries and Belt & Road Effects", desc: "Analyse les cha\u00eenes de valeur Chine-Afrique avec les donn\u00e9es EORA MRIO, en \u00e9valuant les asym\u00e9tries structurelles et les effets de la BRI.", tags: ["Chine-Afrique", "Cha\u00eenes de valeur", "BRI"], year: "2025", status: "En cours", visibility: "private" },
+  { title: "Friendship is as Important as Neighborhood: Geopolitical Distance and Bilateral Trade", desc: "Analyse l’impact de la distance géopolitique sur le commerce bilatéral, en utilisant des modèles de gravité et l’estimation PPML.", tags: ["Commerce bilatéral", "Géopolitique", "PPML"], year: "2024", status: "Working Paper", visibility: "public", presentations: "CSAE Oxford, INFER, CEID" },
+  { title: "Geopolitical Dynamics and the Effectiveness of Regional Trade Agreements", desc: "Évalue comment les dynamiques géopolitiques influencent l’efficacité des accords commerciaux régionaux.", tags: ["Accords commerciaux", "Géopolitique", "Panel data"], year: "2024", status: "Working Paper", visibility: "public", presentations: "World Bank Brown Bag Lunch Series" },
+  { title: "Regional Public Goods and African Integration: A Polycentric Governance Framework", desc: "Propose un cadre de gouvernance polycentrique pour les biens publics régionaux et l’intégration africaine.", tags: ["Intégration africaine", "Biens publics régionaux", "Gouvernance"], year: "2025", status: "En cours", visibility: "private" },
+  { title: "China-Africa Value Chains: Structural Asymmetries and Belt & Road Effects", desc: "Analyse les chaînes de valeur Chine-Afrique avec les données EORA MRIO, en évaluant les asymétries structurelles et les effets de la BRI.", tags: ["Chine-Afrique", "Chaînes de valeur", "BRI"], year: "2025", status: "En cours", visibility: "private" },
 ];
 
 const RESEARCH_PAPERS_EN = [
@@ -306,13 +306,13 @@ const RESEARCH_PAPERS_EN = [
 ];
 
 const RESEARCH_THEMES_FR = [
-  { icon: "\u{1F310}", label: "G\u00e9opolitique et relations \u00e9conomiques" },
-  { icon: "\u{1F4B0}", label: "Investissements directs \u00e9trangers (FDI) en Afrique" },
-  { icon: "\u{1F91D}", label: "Aide publique au d\u00e9veloppement (APD)" },
-  { icon: "\u{1F517}", label: "Int\u00e9gration \u00e9conomique r\u00e9gionale" },
-  { icon: "\u26A1", label: "Cha\u00eenes de valeur mondiales et r\u00e9gionales" },
-  { icon: "\u{1F4CA}", label: "Commerce bilat\u00e9ral" },
-  { icon: "\u{1F3DB}", label: "\u00C9conomie politique du Sahel" },
+  { icon: "\u{1F310}", label: "Géopolitique et relations économiques" },
+  { icon: "\u{1F4B0}", label: "Investissements directs étrangers (FDI) en Afrique" },
+  { icon: "\u{1F91D}", label: "Aide publique au développement (APD)" },
+  { icon: "\u{1F517}", label: "Intégration économique régionale" },
+  { icon: "⚡", label: "Chaînes de valeur mondiales et régionales" },
+  { icon: "\u{1F4CA}", label: "Commerce bilatéral" },
+  { icon: "\u{1F3DB}", label: "Économie politique du Sahel" },
 ];
 
 const RESEARCH_THEMES_EN = [
@@ -320,17 +320,17 @@ const RESEARCH_THEMES_EN = [
   { icon: "\u{1F4B0}", label: "Foreign Direct Investment (FDI) in Africa" },
   { icon: "\u{1F91D}", label: "Official Development Assistance (ODA)" },
   { icon: "\u{1F517}", label: "Regional Economic Integration" },
-  { icon: "\u26A1", label: "Global and Regional Value Chains" },
+  { icon: "⚡", label: "Global and Regional Value Chains" },
   { icon: "\u{1F4CA}", label: "Bilateral Trade" },
   { icon: "\u{1F3DB}", label: "Political Economy of the Sahel" },
 ];
 
 const TEACHING_FR = [
-  { code: "MACRO", name: "Macro\u00e9conomie", detail: "Licence - UCA / Clermont-Ferrand", level: "L2-L3", summary: "\u00C9tude des grandes fonctions macro\u00e9conomiques : consommation, investissement, demande globale, politiques budg\u00e9taire et mon\u00e9taire. Analyse des mod\u00e8les IS-LM, des fluctuations conjoncturelles et de la croissance \u00e9conomique \u00e0 long terme. Applications aux \u00e9conomies en d\u00e9veloppement." },
-  { code: "ECMTR", name: "\u00C9conom\u00e9trie", detail: "Licence & Master - UCA", level: "L3-M1", summary: "Introduction aux m\u00e9thodes \u00e9conom\u00e9triques : r\u00e9gressions lin\u00e9aires simples et multiples, moindres carr\u00e9s ordinaires (MCO), tests d\u2019hypoth\u00e8ses, h\u00e9t\u00e9rosc\u00e9dasticit\u00e9, endog\u00e9n\u00e9it\u00e9 et variables instrumentales. Applications sur donn\u00e9es r\u00e9elles avec Stata et R." },
-  { code: "INTEC", name: "\u00C9conomie internationale", detail: "Licence - UCA", level: "L3", summary: "Th\u00e9ories du commerce international : avantages comparatifs (Ricardo, HOS), nouvelles th\u00e9ories du commerce (Krugman), mod\u00e8les de gravit\u00e9. Politiques commerciales, int\u00e9gration r\u00e9gionale, libre-\u00e9change vs protectionnisme. \u00C9tudes de cas sur les accords commerciaux et l\u2019OMC." },
-  { code: "STATS", name: "Statistiques", detail: "Licence - UCA", level: "L1-L2", summary: "Fondements de la statistique descriptive et inf\u00e9rentielle : mesures de tendance centrale et de dispersion, distributions de probabilit\u00e9, estimation et intervalles de confiance, tests param\u00e9triques et non param\u00e9triques. Exercices appliqu\u00e9s sur donn\u00e9es socio-\u00e9conomiques." },
-  { code: "MATHS", name: "Math\u00e9matiques appliqu\u00e9es", detail: "Licence - UCA", level: "L1-L2", summary: "Outils math\u00e9matiques pour l\u2019\u00e9conomie : analyse (fonctions, d\u00e9riv\u00e9es, int\u00e9grales), alg\u00e8bre lin\u00e9aire (matrices, syst\u00e8mes d\u2019\u00e9quations), optimisation sous contrainte (Lagrangien). Applications aux probl\u00e8mes \u00e9conomiques classiques : maximisation de l\u2019utilit\u00e9, minimisation des co\u00fbts." },
+  { code: "MACRO", name: "Macroéconomie", detail: "Licence - UCA / Clermont-Ferrand", level: "L2-L3", summary: "Étude des grandes fonctions macroéconomiques : consommation, investissement, demande globale, politiques budgétaire et monétaire. Analyse des modèles IS-LM, des fluctuations conjoncturelles et de la croissance économique à long terme. Applications aux économies en développement." },
+  { code: "ECMTR", name: "Économétrie", detail: "Licence & Master - UCA", level: "L3-M1", summary: "Introduction aux méthodes économétriques : régressions linéaires simples et multiples, moindres carrés ordinaires (MCO), tests d’hypothèses, hétéroscédasticité, endogénéité et variables instrumentales. Applications sur données réelles avec Stata et R." },
+  { code: "INTEC", name: "Économie internationale", detail: "Licence - UCA", level: "L3", summary: "Théories du commerce international : avantages comparatifs (Ricardo, HOS), nouvelles théories du commerce (Krugman), modèles de gravité. Politiques commerciales, intégration régionale, libre-échange vs protectionnisme. Études de cas sur les accords commerciaux et l’OMC." },
+  { code: "STATS", name: "Statistiques", detail: "Licence - UCA", level: "L1-L2", summary: "Fondements de la statistique descriptive et inférentielle : mesures de tendance centrale et de dispersion, distributions de probabilité, estimation et intervalles de confiance, tests paramétriques et non paramétriques. Exercices appliqués sur données socio-économiques." },
+  { code: "MATHS", name: "Mathématiques appliquées", detail: "Licence - UCA", level: "L1-L2", summary: "Outils mathématiques pour l’économie : analyse (fonctions, dérivées, intégrales), algèbre linéaire (matrices, systèmes d’équations), optimisation sous contrainte (Lagrangien). Applications aux problèmes économiques classiques : maximisation de l’utilité, minimisation des coûts." },
 ];
 
 const TEACHING_EN = [
@@ -432,7 +432,7 @@ export default function AcademicSite() {
       <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
         <div className="nav-inner">
           <a className="nav-logo" onClick={() => scrollTo("home")}>Ismaël Ouedraogo<span>{t.navSubtitle}</span></a>
-          <button className="mobile-toggle" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>{mobileMenuOpen ? "\u2715" : "\u2630"}</button>
+          <button className="mobile-toggle" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>{mobileMenuOpen ? "✕" : "☰"}</button>
           <div className={`nav-links ${mobileMenuOpen ? "open" : ""}`}>
             {NAV_ITEMS.map(n => (<button key={n.id} className={`nav-link ${activeSection === n.id ? "active" : ""}`} onClick={() => scrollTo(n.id)}>{n.label}</button>))}
             <div className="lang-switch">
@@ -586,7 +586,7 @@ export default function AcademicSite() {
                     <span className="course-code">{c.code}</span>
                     <div><div className="course-name">{c.name}</div><div className="course-detail">{c.detail}</div></div>
                     <span style={{ marginLeft: "auto", fontSize: "0.7rem", color: "var(--text-muted)", background: "rgba(0,0,0,0.03)", padding: "0.15rem 0.5rem", borderRadius: "4px", whiteSpace: "nowrap", marginRight: "1rem" }}>{c.level}</span>
-                    <span className={`course-toggle ${openCourses[c.code] ? "open" : ""}`}>{"\u25BE"}</span>
+                    <span className={`course-toggle ${openCourses[c.code] ? "open" : ""}`}>{"▾"}</span>
                   </div>
                   <div className={`course-summary ${openCourses[c.code] ? "open" : ""}`}>{c.summary}</div>
                 </div>
@@ -650,10 +650,10 @@ export default function AcademicSite() {
           </FadeIn>
           <FadeIn delay={150}>
             <div className="contact-grid" style={{ maxWidth: 640, margin: "0 auto" }}>
-              <div className="contact-card"><div className="contact-icon">{"\u{1F4E7}"}</div><div className="contact-label">{t.contactEmail}</div><div className="contact-value"><a href="mailto:contact@ismael-ouedraogo.com">contact@ismael-ouedraogo.com</a></div></div>
+              <div className="contact-card"><div className="contact-icon">{"\u{1F4E7}"}</div><div className="contact-label">{t.contactEmail}</div><div className="contact-value"><a href="mailto:ismaelouedraogo1004@gmail.com">ismaelouedraogo1004@gmail.com</a></div></div>
               <div className="contact-card"><div className="contact-icon">{"\u{1F3DB}"}</div><div className="contact-label">{t.contactAffiliation}</div><div className="contact-value">{t.orgWB} - AFRCE</div></div>
               <div className="contact-card"><div className="contact-icon">{"\u{1F4CD}"}</div><div className="contact-label">{t.contactBase}</div><div className="contact-value">France</div></div>
-              <div className="contact-card"><div className="contact-icon">{"\u{1F393}"}</div><div className="contact-label">{t.contactFormation}</div><div className="contact-value">CERDI, Universit\u00e9 Clermont Auvergne</div></div>
+              <div className="contact-card"><div className="contact-icon">{"\u{1F393}"}</div><div className="contact-label">{t.contactFormation}</div><div className="contact-value">CERDI, Université Clermont Auvergne</div></div>
             </div>
           </FadeIn>
         </section>
@@ -662,7 +662,7 @@ export default function AcademicSite() {
       <footer className="footer">
         <div className="footer-brand">Ismaël Ouedraogo</div>
         <p>{t.heroTag}</p>
-        <p style={{ marginTop: "0.5rem" }}>{"\u00A9"} {new Date().getFullYear()}</p>
+        <p style={{ marginTop: "0.5rem" }}>{"©"} {new Date().getFullYear()}</p>
       </footer>
 
       {selectedBulletin && (
@@ -688,4 +688,5 @@ export default function AcademicSite() {
       )}
     </>
   );
+}
 }
