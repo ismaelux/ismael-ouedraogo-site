@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo, useRef } from "react";
 import { BULLETINS_FR, BULLETINS_EN, CATEGORIES_FR, CATEGORIES_EN } from "./bulletins-data.js";
 import { MAP } from "./west-africa-map.js";
 import "./styles.css";
+import { T_ZH, PAPERS_ZH, THEMES_ZH, COURSES_NOW_ZH, COURSES_PAST_ZH, LEADERS_ZH, CITY_ZH, POLE_ZH, CAT_ZH, MONTH_NUM } from "./i18n-zh.js";
 
 const EMAIL = "ismaelouedraogo1004@gmail.com";
 const EMAIL_PRO = "ismael.ouedraogo@univ-rennes2.fr";
@@ -11,6 +12,7 @@ const MONTHS = {
   en: { JAN: "January", FEB: "February", MAR: "March", APR: "April", MAY: "May", JUN: "June", JUL: "July", AUG: "August", SEP: "September", OCT: "October", NOV: "November", DEC: "December" },
 };
 const fmtDate = (b, lang) => {
+  if (lang === "zh") return `${b.year}年${MONTH_NUM[b.month] || b.month}月${Number(b.day)}日`;
   const m = MONTHS[lang][b.month] || b.month.toLowerCase();
   return lang === "fr" ? `${Number(b.day)} ${m} ${b.year}` : `${Number(b.day)} ${m} ${b.year}`;
 };
@@ -20,6 +22,7 @@ const readingTime = (content) => {
   return Math.max(1, Math.round(words / 230));
 };
 const fr = (s, lang) => (lang === "fr" && typeof s === "string" ? s.replace(/ ([:;?!»])/g, "\u00A0$1").replace(/« /g, "«\u00A0") : s);
+const catLabel = (c, lang) => (lang === "zh" ? CAT_ZH[c] || c : c);
 const slugify = (s) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "").slice(0, 60);
 
 const T = {
@@ -137,6 +140,8 @@ const T = {
   },
 };
 
+T.zh = T_ZH;
+
 const PAPERS = {
   fr: [
     { title: "Friendship is as Important as Neighborhood: Geopolitical Distance and Bilateral Trade", desc: "Mesure l'effet de la distance géopolitique sur le commerce bilatéral à l'aide de modèles de gravité estimés en PPML.", year: "2024", status: "Working paper", presentations: "CSAE Oxford, INFER, CEID" },
@@ -152,10 +157,14 @@ const PAPERS = {
   ],
 };
 
+PAPERS.zh = PAPERS_ZH;
+
 const THEMES = {
   fr: ["Géopolitique et relations économiques", "Commerce bilatéral", "Investissements directs étrangers en Afrique", "Aide publique au développement", "Intégration économique régionale", "Chaînes de valeur mondiales et régionales", "Biens publics régionaux", "Économie politique du Sahel"],
   en: ["Geopolitics and economic relations", "Bilateral trade", "Foreign direct investment in Africa", "Official development assistance", "Regional economic integration", "Global and regional value chains", "Regional public goods", "Political economy of the Sahel"],
 };
+
+THEMES.zh = THEMES_ZH;
 
 const COURSES_NOW = {
   fr: [
@@ -174,6 +183,8 @@ const COURSES_NOW = {
   ],
 };
 
+COURSES_NOW.zh = COURSES_NOW_ZH;
+
 const COURSES_PAST = {
   fr: [
     { name: "Macroéconomie", level: "L2-L3", body: "Consommation, investissement, demande globale, politiques budgétaire et monétaire. Modèle IS-LM, fluctuations conjoncturelles et croissance de long terme, avec des applications aux économies en développement." },
@@ -190,6 +201,8 @@ const COURSES_PAST = {
     { name: "Applied Mathematics", level: "Undergraduate", body: "Functions, derivatives, integrals, linear algebra and constrained optimisation applied to economic problems." },
   ],
 };
+
+COURSES_PAST.zh = COURSES_PAST_ZH;
 
 const UEMOA = ["204", "854", "384", "624", "466", "562", "686", "768"];
 const LEADERS = {
@@ -235,7 +248,7 @@ function WestAfricaMap({ t, lang, onOpenLatest }) {
     const pt = e.touches ? e.touches[0] : e;
     setHover({ c, x: pt.clientX - box.left, y: pt.clientY - box.top });
   };
-  const groups = (c) => [c.group === "aes" ? t.memb.aes : (lang === "fr" ? "CEDEAO" : "ECOWAS"), UEMOA.includes(c.id) ? (lang === "fr" ? "UEMOA" : "WAEMU") : null].filter(Boolean).join(", ");
+  const groups = (c) => [c.group === "aes" ? t.memb.aes : ({ fr: "CEDEAO", en: "ECOWAS", zh: "西共体" })[lang], UEMOA.includes(c.id) ? ({ fr: "UEMOA", en: "WAEMU", zh: "西非经货联盟" })[lang] : null].filter(Boolean).join(", ");
   return (
     <figure className="map-figure">
       <div className="world-wrap" ref={wrap} onMouseLeave={() => setHover(null)}>
@@ -251,7 +264,7 @@ function WestAfricaMap({ t, lang, onOpenLatest }) {
             return (
               <g key={k} pointerEvents="none">
                 {c.port ? <circle cx={c.xy[0]} cy={c.xy[1]} r="4" className="port" /> : <circle cx={c.xy[0]} cy={c.xy[1]} r="3" className="capital" />}
-                <text x={c.xy[0] + p.dx} y={c.xy[1] + p.dy} textAnchor={p.anchor} className={p.aes ? (view === "uemoa" ? "on-uemoa" : "on-aes") : ""}>{c.label}</text>
+                <text x={c.xy[0] + p.dx} y={c.xy[1] + p.dy} textAnchor={p.anchor} className={p.aes ? (view === "uemoa" ? "on-uemoa" : "on-aes") : ""}>{lang === "zh" ? CITY_ZH[k] : c.label}</text>
               </g>
             );
           })}
@@ -259,7 +272,7 @@ function WestAfricaMap({ t, lang, onOpenLatest }) {
         {hover && (
           <div className="tip" style={{ left: hover.x, top: hover.y }}>
             <strong>{hover.c[lang]}</strong>
-            {LEADERS[hover.c.id] && <span className="tip-leader">{LEADERS[hover.c.id][lang]}</span>}
+            {LEADERS[hover.c.id] && <span className="tip-leader">{lang === "zh" ? LEADERS_ZH[hover.c.id] : LEADERS[hover.c.id][lang]}</span>}
             <span className="tip-groups">{groups(hover.c)}</span>
           </div>
         )}
@@ -318,7 +331,7 @@ function WorldMap({ t, lang }) {
           {data.poles.map(p => (
             <g key={p.en} className="pole" pointerEvents="none">
               <circle cx={p.xy[0]} cy={p.xy[1]} r="4.5" />
-              <text x={p.xy[0] + 8} y={p.xy[1] - 6}>{p[lang]}</text>
+              <text x={p.xy[0] + 8} y={p.xy[1] - 6}>{lang === "zh" ? POLE_ZH[p.en] : p[lang]}</text>
             </g>
           ))}
         </svg>
@@ -411,7 +424,7 @@ function Reader({ b, lang, t, onClose }) {
       </div>
       <div className="wrap">
         <header className="reader-head">
-          <div className="reader-meta"><span className="cat">{b.category}</span><span>{fmtDate(b, lang)}</span><span>{readingTime(b.content)} {t.minutes}</span></div>
+          <div className="reader-meta"><span className="cat">{catLabel(b.category, lang)}</span><span>{fmtDate(b, lang)}</span><span>{readingTime(b.content)} {t.minutes}</span></div>
           <h1 className="reader-title">{fr(b.title, lang)}</h1>
           <p className="reader-dek">{fr(b.excerpt, lang)}</p>
           <p className="reader-author">{t.by} <strong>Ismaël Ouédraogo</strong></p>
@@ -423,7 +436,8 @@ function Reader({ b, lang, t, onClose }) {
               <ol>{headings.map(h => <li key={h.id}><a href={`#${h.id}`} className={current === h.id ? "is-current" : ""} onClick={(e) => { e.preventDefault(); document.getElementById(h.id)?.scrollIntoView({ behavior: "smooth" }); }}>{fr(h.label, lang)}</a></li>)}</ol>
             </>}
           </nav>
-          <article className="prose" lang={lang}>
+          <article className="prose" lang={lang === "fr" ? "fr" : "en"}>
+            {lang === "zh" && <p className="zh-note">{t.zhNote}</p>}
             {body.map((s, i) => (
               <section key={i}>
                 {s.heading && <h2 id={slugify(s.heading)}>{fr(s.heading, lang)}</h2>}
@@ -445,13 +459,13 @@ function Reader({ b, lang, t, onClose }) {
 }
 
 const readHash = () => {
-  const m = window.location.hash.match(/^#analyse-(\d+)(?:-(fr|en))?/);
+  const m = window.location.hash.match(/^#analyse-(\d+)(?:-(fr|en|zh))?/);
   return m ? { id: Number(m[1]), lang: m[2] } : null;
 };
 const initialLang = () => {
   const h = readHash();
   if (h && h.lang) return h.lang;
-  try { const s = localStorage.getItem("lang"); if (s === "fr" || s === "en") return s; } catch (e) { /* stockage indisponible */ }
+  try { const s = localStorage.getItem("lang"); if (s === "fr" || s === "en" || s === "zh") return s; } catch (e) { /* stockage indisponible */ }
   return "fr";
 };
 
@@ -466,6 +480,7 @@ export default function App() {
 
   const t = T[lang];
   const bulletins = lang === "fr" ? BULLETINS_FR : BULLETINS_EN;
+  const contentLang = lang === "fr" ? "fr" : "en";
   const categories = (lang === "fr" ? CATEGORIES_FR : CATEGORIES_EN).slice(1);
   const sorted = useMemo(() => [...bulletins].sort((a, b) => b.id - a.id), [bulletins]);
   const latest = sorted[0];
@@ -473,13 +488,13 @@ export default function App() {
   const open = openId != null ? bulletins.find(b => b.id === openId) : null;
 
   useEffect(() => {
-    document.documentElement.lang = lang;
+    document.documentElement.lang = lang === "zh" ? "zh-CN" : lang;
     try { localStorage.setItem("lang", lang); } catch (e) { /* stockage indisponible */ }
     setFilter(null);
   }, [lang]);
 
   useEffect(() => {
-    const base = lang === "fr" ? "Ismaël Ouédraogo, économiste" : "Ismaël Ouédraogo, economist";
+    const base = ({ fr: "Ismaël Ouédraogo, économiste", en: "Ismaël Ouédraogo, economist", zh: "Ismaël Ouédraogo，经济学家" })[lang];
     document.title = open ? `${open.title} | Ismaël Ouédraogo` : base;
     const want = open ? `#analyse-${open.id}-${lang}` : "";
     if (window.location.hash !== want) history.replaceState(null, "", want || window.location.pathname);
@@ -516,6 +531,7 @@ export default function App() {
             <div className="lang" role="group" aria-label={t.langLabel}>
               <button aria-pressed={lang === "fr"} onClick={() => setLang("fr")}>FR</button>
               <button aria-pressed={lang === "en"} onClick={() => setLang("en")}>EN</button>
+              <button aria-pressed={lang === "zh"} onClick={() => setLang("zh")} lang="zh-CN">中文</button>
             </div>
           </nav>
         </div>
@@ -542,12 +558,12 @@ export default function App() {
 
         <section className="section" id="analyses">
           <div className="wrap">
-            <div className="section-head"><h2>{t.analysesTitle}</h2><p>{t.analysesSub}</p></div>
+            <div className="section-head"><h2>{t.analysesTitle}</h2><p>{t.analysesSub}{lang === "zh" && <><br /><span className="zh-hint">{t.zhNote}</span></>}</p></div>
             <a className="lead-analysis" href={`#analyse-${latest.id}-${lang}`} onClick={openAnalysis(latest.id)}>
               <div className="lead-meta">
                 <span>{t.latest}</span>
                 <span className="when">{fmtDate(latest, lang)}</span>
-                <span className="cat-l">{latest.category}</span>
+                <span className="cat-l">{catLabel(latest.category, lang)}</span>
                 <span>{readingTime(latest.content)} {t.minutes}</span>
               </div>
               <div>
@@ -561,7 +577,7 @@ export default function App() {
               <button className="filter" aria-pressed={!filter} onClick={() => setFilter(null)}>{t.all}<span className="count">{sorted.length}</span></button>
               {categories.map(c => {
                 const n = sorted.filter(b => b.category === c).length;
-                return n ? <button key={c} className="filter" aria-pressed={filter === c} onClick={() => setFilter(c)}>{c}<span className="count">{n}</span></button> : null;
+                return n ? <button key={c} className="filter" aria-pressed={filter === c} onClick={() => setFilter(c)}>{catLabel(c, lang)}<span className="count">{n}</span></button> : null;
               })}
             </div>
             {rest.length === 0 ? <p className="empty">{t.empty}</p> : (
@@ -574,7 +590,7 @@ export default function App() {
                         <span className="title">{fr(b.title, lang)}</span>
                         <span className="excerpt">{fr(b.excerpt, lang)}</span>
                       </span>
-                      <span className="cat">{b.category}</span>
+                      <span className="cat">{catLabel(b.category, lang)}</span>
                     </a>
                   </li>
                 ))}

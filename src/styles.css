@@ -288,3 +288,10 @@ a { color: inherit; }
 .map-svg text.on-uemoa { stroke: var(--teal); fill: #fff; }
 .tip .tip-leader { display: block; color: var(--ink); margin-top: 2px; }
 .tip .tip-groups { display: block; color: var(--indigo); margin-top: 4px; font-size: 13px; }
+
+/* Chinois simplifié */
+:lang(zh) { font-family: "Hanken Grotesk", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif; }
+:lang(zh) .hero h1, :lang(zh) .section-head h2, :lang(zh) .hero-lead, :lang(zh) .about-text p, :lang(zh) .themes h3, :lang(zh) .teach h3, :lang(zh) .marks h3, :lang(zh) .paper h3 { font-family: "Newsreader", "Noto Serif SC", "Songti SC", "SimSun", serif; }
+:lang(zh) .hero-lead, :lang(zh) .about-text p { line-height: 1.8; }
+.zh-hint { color: var(--indigo); font-size: 14.5px; }
+.zh-note { font-family: var(--sans); font-size: 15px; color: var(--indigo); background: var(--indigo-soft); border-radius: 8px; padding: 10px 14px; margin-bottom: 24px; }
