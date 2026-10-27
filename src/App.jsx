@@ -545,7 +545,7 @@ export default function App() {
               <p className="hero-lead">{t.lead}</p>
               <ul className="hero-fields">{t.fields.map(f => <li key={f}>{f}</li>)}</ul>
               <div className="hero-roles">
-                {t.roles.map(([r, o]) => <div key={r}><strong>{r}</strong>, {o}</div>)}
+                {t.roles.map(([r, o]) => <div key={r}><strong>{r}</strong>{lang === "zh" ? "，" : ", "}{o}</div>)}
               </div>
               <div className="hero-actions">
                 <a className="btn btn-primary" href={`#analyse-${latest.id}-${lang}`} onClick={openAnalysis(latest.id)}>{t.ctaRead}</a>
