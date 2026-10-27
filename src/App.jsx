@@ -26,7 +26,9 @@ const T = {
   fr: {
     nav: { analyses: "Analyses", research: "Recherche", teaching: "Enseignement", about: "Parcours", contact: "Contact" },
     menu: "Menu", close: "Fermer",
-    lead: "Économiste du développement. J'étudie la manière dont la géopolitique oriente le commerce, l'aide et les investissements en Afrique, et la façon dont l'intégration régionale ouest-africaine se recompose.",
+    lead: "Docteur en économie du développement du CERDI (Centre d'études et de recherches sur le développement international, Université Clermont Auvergne) et ancien consultant au Bureau de l'économiste en chef pour l'Afrique de la Banque mondiale. Recherche en géopolitique économique, commerce international et dynamiques d'intégration africaine.",
+    fields: ["Géopolitique économique", "Commerce international", "Intégration africaine", "Chaînes de valeur", "Biens publics régionaux", "Économie du Sahel"],
+    brandSub: "Économiste du développement, PhD",
     roles: [["Docteur en sciences économiques", "CERDI, Université Clermont Auvergne, Prix Jeune Chercheur 2026"], ["Ancien fellow puis consultant", "Bureau de l'économiste en chef pour l'Afrique, Banque mondiale"], ["Enseigne les sciences économiques", "Université Rennes 2"]],
     ctaRead: "Lire la dernière analyse", ctaContact: "Me contacter",
     mapTitle: "Afrique de l'Ouest : États membres de la CEDEAO, États de l'AES et principaux corridors portuaires",
@@ -34,11 +36,13 @@ const T = {
     mapNote: "Fond de carte Natural Earth. Tracés de corridors schématiques.",
     tabWest: "Afrique de l'Ouest", tabWorld: "Pôles mondiaux",
     worldTitle: "Grands pôles géopolitiques et appartenances des États aux principaux groupements",
-    layers: { overview: "Vue d'ensemble", g7: "G7 et Union européenne", nato: "OTAN", brics: "BRICS", sco: "OCS" },
-    memb: { g7: "G7", eu: "Union européenne", nato: "OTAN", brics: "BRICS, membre", bricsp: "BRICS, pays partenaire", sco: "Organisation de coopération de Shanghai", aes: "Confédération des États du Sahel" },
+    layers: { overview: "Vue d'ensemble", g7: "G7 et Union européenne", nato: "OTAN", brics: "BRICS", sco: "OCS", rcep: "RCEP (Asie-Pacifique)", arab: "Monde arabe et alliance de La Mecque" },
+    memb: { g7: "G7", eu: "Union européenne", nato: "OTAN", brics: "BRICS, membre", bricsp: "BRICS, pays partenaire", sco: "Organisation de coopération de Shanghai", aes: "Confédération des États du Sahel", rcep: "Partenariat économique régional global (RCEP)", arab: "Ligue arabe", makkah: "Alliance de défense de La Mecque (2026)" },
+    viewBlocs: "CEDEAO et AES", viewUemoa: "UEMOA", keyUemoa: "UEMOA (8 États, franc CFA émis par la BCEAO)", keyOutUemoa: "Hors UEMOA",
+    westHint: "Survolez un pays pour voir son nom, son chef de l'État au 27 octobre 2026 et ses appartenances.",
     keyAesW: "AES",
     worldHint: "Survolez ou touchez un pays pour voir ses appartenances.",
-    worldNote: "Composition au 27 octobre 2026 : OTAN (32), UE (27), G7 (7), BRICS (11 membres, 10 partenaires), OCS (10). L'Arabie saoudite figure parmi les membres des BRICS sans avoir officialisé son adhésion. Fond de carte Natural Earth.",
+    worldNote: "Composition au 27 octobre 2026 : OTAN (32), UE (27), G7 (7), BRICS (11 membres, 10 partenaires), OCS (10), RCEP (14 États parties, le Myanmar ayant signé sans ratifier), Ligue arabe (22), alliance de défense signée à La Mecque le 7 août 2026 par l'Arabie saoudite, la Turquie et le Pakistan. L'Arabie saoudite figure parmi les membres des BRICS sans avoir officialisé son adhésion. Singapour, Bahreïn, les Comores et Malte sont trop petits pour apparaître à cette échelle. Fond de carte Natural Earth.",
     noGroup: "Aucun des groupements affichés",
     mapLink: "Voir l'analyse du 27 octobre 2026",
     analysesTitle: "Analyses",
@@ -55,9 +59,9 @@ const T = {
     pastTitle: "Université Clermont Auvergne", pastWhere: "2022-2026",
     aboutTitle: "Parcours",
     about: [
-      "Je suis économiste. Ce qui m'intéresse, c'est la manière dont les rapports entre États se traduisent en flux économiques : avec qui l'on commerce, à qui l'on accorde l'aide, où l'on investit. Ma thèse, soutenue au CERDI en juin 2025 sous la direction de Marie-Françoise Renard, mesure la distance géopolitique entre États à partir de leurs votes à l'Assemblée générale des Nations unies, puis en estime les effets sur le commerce bilatéral, l'aide publique au développement et les investissements directs étrangers chinois.",
-      "Au Bureau de l'économiste en chef pour l'Afrique de la Banque mondiale, où j'ai été fellow puis consultant pendant environ un an et demi, j'ai travaillé sur l'intégration régionale africaine. J'ai contribué au rapport « Integrating Africa: From Threads to Hubs », en particulier aux volets consacrés aux chaînes de valeur régionales et aux biens publics régionaux, ainsi qu'à des travaux sur la qualité de l'emploi dans les filiales de multinationales, à partir des enquêtes de la Banque mondiale auprès des entreprises.",
-      "D'un sujet à l'autre, je suis la même démarche : partir des données, expliciter le mécanisme, séparer ce qui est établi de ce qui relève de l'interprétation. Les analyses publiées sur ce site appliquent cette démarche à l'actualité, du Sahel aux recompositions entre grandes puissances.",
+      "Économiste spécialisé dans les relations économiques internationales, que j'étudie à travers le prisme de la géopolitique. Mes recherches portent sur la distance géopolitique entre États et sur ses effets sur le commerce bilatéral, l'aide publique au développement et les investissements directs étrangers en Afrique. Ma thèse, soutenue au CERDI en juin 2025 sous la direction de Marie-Françoise Renard, mesure cette distance à partir des votes des États à l'Assemblée générale des Nations unies.",
+      "Au sein du Bureau de l'économiste en chef pour l'Afrique de la Banque mondiale, j'ai contribué au rapport phare « Integrating Africa: From Threads to Hubs » ainsi qu'à des recherches sur la qualité de l'emploi dans les entreprises multinationales et sur les biens publics régionaux africains. Ce travail m'a placé au contact direct des questions d'intégration régionale, de chaînes de valeur et de coordination entre États africains.",
+      "Parallèlement, je développe sur ce site des analyses économiques structurées sur les dynamiques africaines contemporaines. Elles mobilisent les outils de la théorie économique et des données vérifiables pour offrir un éclairage académique qui va au-delà du simple commentaire d'actualité.",
     ],
     timeline: [
       ["2026", "Enseignement des sciences économiques", "Université Rennes 2"],
@@ -78,7 +82,9 @@ const T = {
   en: {
     nav: { analyses: "Analyses", research: "Research", teaching: "Teaching", about: "Background", contact: "Contact" },
     menu: "Menu", close: "Close",
-    lead: "Development economist. I study how geopolitics shapes trade, aid and investment in Africa, and how regional integration in West Africa is being reshaped.",
+    lead: "PhD in development economics from CERDI (Centre for Studies and Research on International Development, Université Clermont Auvergne) and former consultant in the World Bank's Office of the Chief Economist for Africa. Research on economic geopolitics, international trade and African integration dynamics.",
+    fields: ["Economic geopolitics", "International trade", "African integration", "Value chains", "Regional public goods", "Sahel economics"],
+    brandSub: "Development economist, PhD",
     roles: [["PhD in Economics", "CERDI, Université Clermont Auvergne, Young Researcher Prize 2026"], ["Former fellow, then consultant", "Office of the Chief Economist for Africa, World Bank"], ["Teaches economics", "Université Rennes 2"]],
     ctaRead: "Read the latest analysis", ctaContact: "Get in touch",
     mapTitle: "West Africa: ECOWAS member states, AES states and main port corridors",
@@ -86,11 +92,13 @@ const T = {
     mapNote: "Base map: Natural Earth. Corridor lines are schematic.",
     tabWest: "West Africa", tabWorld: "Global poles",
     worldTitle: "Major geopolitical poles and state membership of the main groupings",
-    layers: { overview: "Overview", g7: "G7 and European Union", nato: "NATO", brics: "BRICS", sco: "SCO" },
-    memb: { g7: "G7", eu: "European Union", nato: "NATO", brics: "BRICS member", bricsp: "BRICS partner country", sco: "Shanghai Cooperation Organisation", aes: "Confederation of Sahel States" },
+    layers: { overview: "Overview", g7: "G7 and European Union", nato: "NATO", brics: "BRICS", sco: "SCO", rcep: "RCEP (Asia-Pacific)", arab: "Arab world and Makkah alliance" },
+    memb: { g7: "G7", eu: "European Union", nato: "NATO", brics: "BRICS member", bricsp: "BRICS partner country", sco: "Shanghai Cooperation Organisation", aes: "Confederation of Sahel States", rcep: "Regional Comprehensive Economic Partnership (RCEP)", arab: "Arab League", makkah: "Makkah defence alliance (2026)" },
+    viewBlocs: "ECOWAS and AES", viewUemoa: "WAEMU", keyUemoa: "WAEMU (8 states, CFA franc issued by the BCEAO)", keyOutUemoa: "Outside WAEMU",
+    westHint: "Hover over a country to see its name, its head of state as of 27 October 2026 and its memberships.",
     keyAesW: "AES",
     worldHint: "Hover over or tap a country to see its memberships.",
-    worldNote: "Membership as of 27 October 2026: NATO (32), EU (27), G7 (7), BRICS (11 members, 10 partners), SCO (10). Saudi Arabia is listed as a BRICS member but has not formalised its membership. Base map: Natural Earth.",
+    worldNote: "Membership as of 27 October 2026: NATO (32), EU (27), G7 (7), BRICS (11 members, 10 partners), SCO (10), RCEP (14 parties; Myanmar has signed but not ratified), Arab League (22), and the defence alliance signed in Makkah on 7 August 2026 by Saudi Arabia, Turkey and Pakistan. Saudi Arabia is listed as a BRICS member but has not formalised its membership. Singapore, Bahrain, Comoros and Malta are too small to show at this scale. Base map: Natural Earth.",
     noGroup: "None of the groupings shown",
     mapLink: "Read the 27 October 2026 analysis",
     analysesTitle: "Analyses",
@@ -107,9 +115,9 @@ const T = {
     pastTitle: "Université Clermont Auvergne", pastWhere: "2022-2026",
     aboutTitle: "Background",
     about: [
-      "I am an economist. What interests me is how relations between states translate into economic flows: who trades with whom, who receives aid, where capital goes. My PhD, defended at CERDI in June 2025 under the supervision of Marie-Françoise Renard, measures geopolitical distance between states from their votes in the United Nations General Assembly, then estimates its effects on bilateral trade, official development assistance and Chinese foreign direct investment.",
-      "In the World Bank's Office of the Chief Economist for Africa, where I was a fellow and then a consultant for about a year and a half, I worked on African regional integration. I contributed to the report \u201cIntegrating Africa: From Threads to Hubs\u201d, in particular to the parts on regional value chains and regional public goods, and to research on job quality in multinational affiliates using World Bank Enterprise Surveys.",
-      "Whatever the topic, I follow the same approach: start from the data, make the mechanism explicit, and separate what is established from what is interpretation. The analyses on this site apply that approach to current events, from the Sahel to shifts among the major powers.",
+      "Economist specialising in international economic relations, which I study through the lens of geopolitics. My research focuses on geopolitical distance between states and its effects on bilateral trade, official development assistance and foreign direct investment in Africa. My PhD, defended at CERDI in June 2025 under the supervision of Marie-Françoise Renard, measures this distance from states' votes in the United Nations General Assembly.",
+      "In the World Bank's Office of the Chief Economist for Africa, I contributed to the flagship report \u201cIntegrating Africa: From Threads to Hubs\u201d and to research on job quality in multinational enterprises and on African regional public goods. This work put me in direct contact with questions of regional integration, value chains and coordination among African states.",
+      "In parallel, I publish on this site structured economic analyses of contemporary African dynamics. They draw on economic theory and verifiable data to offer an academic perspective that goes beyond simple news commentary.",
     ],
     timeline: [
       ["2026", "Teaching economics", "Université Rennes 2"],
@@ -170,21 +178,43 @@ const COURSES_PAST = {
   fr: [
     { name: "Macroéconomie", level: "L2-L3", body: "Consommation, investissement, demande globale, politiques budgétaire et monétaire. Modèle IS-LM, fluctuations conjoncturelles et croissance de long terme, avec des applications aux économies en développement." },
     { name: "Économétrie", level: "L3-M1", body: "Régression linéaire simple et multiple, MCO, tests d'hypothèses, hétéroscédasticité, endogénéité et variables instrumentales. Applications sur données réelles avec Stata et R." },
-    { name: "Économie internationale", level: "L3", body: "Avantages comparatifs (Ricardo, HOS), nouvelles théories du commerce (Krugman), modèles de gravité, politiques commerciales et intégration régionale." },
+    { name: "Économie internationale", level: "L3", body: "Avantages comparatifs (Ricardo, HOS), nouvelles théories du commerce (Krugman), modèles de gravité, politiques commerciales et intégration régionale. Industrialisation et politique industrielle : économies d'échelle et rendements croissants, concurrence monopolistique, stratégies d'industrialisation par substitution aux importations et par promotion des exportations." },
     { name: "Statistiques et probabilités", level: "L1-L2", body: "Statistique descriptive et inférentielle, lois de probabilité, estimation, intervalles de confiance et tests." },
     { name: "Mathématiques appliquées", level: "L1-L2", body: "Fonctions, dérivées, intégrales, algèbre linéaire et optimisation sous contrainte appliquées aux problèmes économiques." },
   ],
   en: [
     { name: "Macroeconomics", level: "Undergraduate", body: "Consumption, investment, aggregate demand, fiscal and monetary policy. IS-LM model, business cycles and long-run growth, with applications to developing economies." },
     { name: "Econometrics", level: "Undergraduate and master's", body: "Simple and multiple linear regression, OLS, hypothesis testing, heteroscedasticity, endogeneity and instrumental variables. Applied work on real data with Stata and R." },
-    { name: "International Economics", level: "Undergraduate", body: "Comparative advantage (Ricardo, HOS), new trade theory (Krugman), gravity models, trade policy and regional integration." },
+    { name: "International Economics", level: "Undergraduate", body: "Comparative advantage (Ricardo, HOS), new trade theory (Krugman), gravity models, trade policy and regional integration. Industrialisation and industrial policy: economies of scale and increasing returns, monopolistic competition, import-substitution and export-promotion industrialisation strategies." },
     { name: "Statistics and Probability", level: "Undergraduate", body: "Descriptive and inferential statistics, probability distributions, estimation, confidence intervals and tests." },
     { name: "Applied Mathematics", level: "Undergraduate", body: "Functions, derivatives, integrals, linear algebra and constrained optimisation applied to economic problems." },
   ],
 };
 
-function WestAfricaMap({ t, onOpenLatest }) {
+const UEMOA = ["204", "854", "384", "624", "466", "562", "686", "768"];
+const LEADERS = {
+  "204": { fr: "Romuald Wadagni, président de la République depuis mai 2026", en: "Romuald Wadagni, President since May 2026" },
+  "854": { fr: "Capitaine Ibrahim Traoré, président du Faso", en: "Captain Ibrahim Traoré, President of Faso" },
+  "132": { fr: "José Maria Neves, président de la République (élection présidentielle le 15 novembre 2026)", en: "José Maria Neves, President (presidential election on 15 November 2026)" },
+  "384": { fr: "Alassane Ouattara, président de la République", en: "Alassane Ouattara, President" },
+  "270": { fr: "Adama Barrow, président de la République (élection présidentielle le 5 décembre 2026)", en: "Adama Barrow, President (presidential election on 5 December 2026)" },
+  "288": { fr: "John Dramani Mahama, président de la République", en: "John Dramani Mahama, President" },
+  "324": { fr: "Mamadi Doumbouya, président de la République depuis janvier 2026", en: "Mamadi Doumbouya, President since January 2026" },
+  "624": { fr: "Général Horta N'Tam, chef de la transition (élections prévues le 6 décembre 2026)", en: "General Horta N'Tam, head of the transition (elections scheduled for 6 December 2026)" },
+  "430": { fr: "Joseph Boakai, président de la République", en: "Joseph Boakai, President" },
+  "466": { fr: "Général Assimi Goïta, président de la transition", en: "General Assimi Goïta, transitional President" },
+  "562": { fr: "Général Abdourahamane Tiani, chef de l'État", en: "General Abdourahamane Tiani, Head of State" },
+  "566": { fr: "Bola Ahmed Tinubu, président de la République", en: "Bola Ahmed Tinubu, President" },
+  "686": { fr: "Bassirou Diomaye Faye, président de la République, président en exercice de la CEDEAO", en: "Bassirou Diomaye Faye, President, current chair of ECOWAS" },
+  "694": { fr: "Julius Maada Bio, président de la République", en: "Julius Maada Bio, President" },
+  "768": { fr: "Jean-Lucien Savi de Tové, président de la République ; Faure Gnassingbé préside le Conseil des ministres", en: "Jean-Lucien Savi de Tové, President; Faure Gnassingbé chairs the Council of Ministers" },
+};
+
+function WestAfricaMap({ t, lang, onOpenLatest }) {
   const { width, height, countries, cities, corridors } = MAP;
+  const [view, setView] = useState("blocs");
+  const [hover, setHover] = useState(null);
+  const wrap = useRef(null);
   const labelPos = {
     dakar: { dx: -9, dy: 4, anchor: "end" },
     abidjan: { dx: -8, dy: 15, anchor: "end" },
@@ -195,30 +225,59 @@ function WestAfricaMap({ t, onOpenLatest }) {
     ouaga: { dx: 0, dy: -9, anchor: "middle", aes: true },
     niamey: { dx: 8, dy: -6, anchor: "start", aes: true },
   };
+  const cls = (c) => {
+    if (view === "uemoa") return UEMOA.includes(c.id) ? "c-uemoa" : (c.group === "other" ? "c-other" : "c-out");
+    return `c-${c.group}`;
+  };
+  const onMove = (c) => (e) => {
+    if (c.group === "other") { setHover(null); return; }
+    const box = wrap.current.getBoundingClientRect();
+    const pt = e.touches ? e.touches[0] : e;
+    setHover({ c, x: pt.clientX - box.left, y: pt.clientY - box.top });
+  };
+  const groups = (c) => [c.group === "aes" ? t.memb.aes : (lang === "fr" ? "CEDEAO" : "ECOWAS"), UEMOA.includes(c.id) ? (lang === "fr" ? "UEMOA" : "WAEMU") : null].filter(Boolean).join(", ");
   return (
     <figure className="map-figure">
-      <svg className="map-svg" viewBox={`0 0 ${width} ${height}`} role="img" aria-label={t.mapTitle}>
-        <title>{t.mapTitle}</title>
-        {countries.map(c => <path key={c.id} d={c.d} className={`c-${c.group}`} />)}
-        {corridors.map(([a, b]) => {
-          const [x1, y1] = cities[a].xy, [x2, y2] = cities[b].xy;
-          return <line key={a + b} x1={x1} y1={y1} x2={x2} y2={y2} className="corridor" />;
-        })}
-        {Object.entries(cities).map(([k, c]) => {
-          const p = labelPos[k];
-          return (
-            <g key={k}>
-              {c.port ? <circle cx={c.xy[0]} cy={c.xy[1]} r="4" className="port" /> : <circle cx={c.xy[0]} cy={c.xy[1]} r="3" className="capital" />}
-              <text x={c.xy[0] + p.dx} y={c.xy[1] + p.dy} textAnchor={p.anchor} className={p.aes ? "on-aes" : ""}>{c.label}</text>
-            </g>
-          );
-        })}
-      </svg>
+      <div className="world-wrap" ref={wrap} onMouseLeave={() => setHover(null)}>
+        <svg className="map-svg" viewBox={`0 0 ${width} ${height}`} role="img" aria-label={t.mapTitle}>
+          <title>{t.mapTitle}</title>
+          {countries.map(c => <path key={c.id} d={c.d} className={`${cls(c)} ${hover && hover.c === c ? "is-hover" : ""}`} onMouseMove={onMove(c)} onTouchStart={onMove(c)} />)}
+          {view === "blocs" && corridors.map(([a, b]) => {
+            const [x1, y1] = cities[a].xy, [x2, y2] = cities[b].xy;
+            return <line key={a + b} x1={x1} y1={y1} x2={x2} y2={y2} className="corridor" />;
+          })}
+          {Object.entries(cities).map(([k, c]) => {
+            const p = labelPos[k];
+            return (
+              <g key={k} pointerEvents="none">
+                {c.port ? <circle cx={c.xy[0]} cy={c.xy[1]} r="4" className="port" /> : <circle cx={c.xy[0]} cy={c.xy[1]} r="3" className="capital" />}
+                <text x={c.xy[0] + p.dx} y={c.xy[1] + p.dy} textAnchor={p.anchor} className={p.aes ? (view === "uemoa" ? "on-uemoa" : "on-aes") : ""}>{c.label}</text>
+              </g>
+            );
+          })}
+        </svg>
+        {hover && (
+          <div className="tip" style={{ left: hover.x, top: hover.y }}>
+            <strong>{hover.c[lang]}</strong>
+            {LEADERS[hover.c.id] && <span className="tip-leader">{LEADERS[hover.c.id][lang]}</span>}
+            <span className="tip-groups">{groups(hover.c)}</span>
+          </div>
+        )}
+      </div>
+      <div className="layers" role="group">
+        <button className="layer" aria-pressed={view === "blocs"} onClick={() => setView("blocs")}><i style={{ background: "var(--indigo)" }} />{t.viewBlocs}</button>
+        <button className="layer" aria-pressed={view === "uemoa"} onClick={() => setView("uemoa")}><i style={{ background: "var(--teal)" }} />{t.viewUemoa}</button>
+      </div>
       <figcaption className="map-caption">
-        <span className="key"><span className="swatch swatch-ecowas" />{t.keyEcowas}</span>
-        <span className="key"><span className="swatch swatch-aes" />{t.keyAes}</span>
-        <span className="key"><span className="swatch swatch-line" />{t.keyCorridor}</span>
-        <span className="map-note">{t.mapNote} <a href="#" onClick={(e) => { e.preventDefault(); onOpenLatest(); }}>{t.mapLink}</a></span>
+        {view === "blocs" ? <>
+          <span className="key"><span className="swatch swatch-ecowas" />{t.keyEcowas}</span>
+          <span className="key"><span className="swatch swatch-aes" />{t.keyAes}</span>
+          <span className="key"><span className="swatch swatch-line" />{t.keyCorridor}</span>
+        </> : <>
+          <span className="key"><span className="swatch" style={{ background: "var(--teal)" }} />{t.keyUemoa}</span>
+          <span className="key"><span className="swatch" style={{ background: "#C9D1E3" }} />{t.keyOutUemoa}</span>
+        </>}
+        <span className="map-note">{t.westHint} {t.mapNote} <a href="#" onClick={(e) => { e.preventDefault(); onOpenLatest(); }}>{t.mapLink}</a></span>
       </figcaption>
     </figure>
   );
@@ -230,6 +289,8 @@ const LAYERS = {
   nato: [["nato", "var(--teal)"]],
   brics: [["brics", "var(--amber)"], ["bricsp", "#E2B76A"]],
   sco: [["sco", "var(--plum)"]],
+  rcep: [["rcep", "#C25A7C"]],
+  arab: [["makkah", "#1F4E79"], ["arab", "#3F8F5A"]],
 };
 
 function WorldMap({ t, lang }) {
@@ -287,7 +348,7 @@ function HeroMaps({ t, lang, onOpenLatest }) {
         <button role="tab" aria-selected={tab === "west"} onClick={() => setTab("west")}>{t.tabWest}</button>
         <button role="tab" aria-selected={tab === "world"} onClick={() => setTab("world")}>{t.tabWorld}</button>
       </div>
-      {tab === "west" ? <WestAfricaMap t={t} onOpenLatest={onOpenLatest} /> : <WorldMap t={t} lang={lang} />}
+      {tab === "west" ? <WestAfricaMap t={t} lang={lang} onOpenLatest={onOpenLatest} /> : <WorldMap t={t} lang={lang} />}
     </div>
   );
 }
@@ -448,7 +509,7 @@ export default function App() {
     <>
       <header className={`top ${scrolled ? "is-scrolled" : ""}`}>
         <div className="wrap top-inner">
-          <a className="brand" href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}>Ismaël Ouédraogo</a>
+          <a className="brand" href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}>Ismaël Ouédraogo<span className="brand-sub">{t.brandSub}</span></a>
           <button className="menu-btn" aria-expanded={menuOpen} aria-controls="nav" onClick={() => setMenuOpen(o => !o)}>{menuOpen ? t.close : t.menu}</button>
           <nav id="nav" className={`nav ${menuOpen ? "is-open" : ""}`}>
             {Object.entries(t.nav).map(([id, label]) => <a key={id} href={`#${id}`} onClick={go(id)} className={active === id ? "is-active" : ""}>{label}</a>)}
@@ -466,6 +527,7 @@ export default function App() {
             <div>
               <h1>Ismaël Ouédraogo</h1>
               <p className="hero-lead">{t.lead}</p>
+              <ul className="hero-fields">{t.fields.map(f => <li key={f}>{f}</li>)}</ul>
               <div className="hero-roles">
                 {t.roles.map(([r, o]) => <div key={r}><strong>{r}</strong>, {o}</div>)}
               </div>
@@ -485,7 +547,7 @@ export default function App() {
               <div className="lead-meta">
                 <span>{t.latest}</span>
                 <span className="when">{fmtDate(latest, lang)}</span>
-                <span>{latest.category}</span>
+                <span className="cat-l">{latest.category}</span>
                 <span>{readingTime(latest.content)} {t.minutes}</span>
               </div>
               <div>
