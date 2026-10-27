@@ -263,6 +263,8 @@ a { color: inherit; }
 .world-svg path.l-bricsp { fill: #E2B76A; }
 .world-svg path.l-sco { fill: var(--plum); }
 .world-svg path.l-aes { fill: #C2410C; }
+.world-svg path.l-rcep { fill: #C25A7C; }
+.world-svg path.l-makkah { fill: #1F4E79; }
 .world-svg path.is-hover { stroke: var(--ink); stroke-width: 1.2; }
 .world-svg .pole circle { fill: var(--surface); stroke: var(--ink); stroke-width: 1.6; }
 .world-svg .pole text { font-family: var(--sans); font-size: 13px; fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 3.5px; stroke-linejoin: round; }
