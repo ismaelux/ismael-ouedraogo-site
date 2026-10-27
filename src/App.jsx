@@ -27,11 +27,19 @@ const T = {
     nav: { analyses: "Analyses", research: "Recherche", teaching: "Enseignement", about: "Parcours", contact: "Contact" },
     menu: "Menu", close: "Fermer",
     lead: "Économiste du développement. J'étudie la manière dont la géopolitique oriente le commerce, l'aide et les investissements en Afrique, et la façon dont l'intégration régionale ouest-africaine se recompose.",
-    roles: [["ATER en sciences économiques", "Université Rennes 2, 2026-2027"], ["Docteur en sciences économiques", "CERDI, Université Clermont Auvergne"], ["Ancien fellow puis consultant", "Bureau de l'économiste en chef pour l'Afrique, Banque mondiale"]],
+    roles: [["Docteur en sciences économiques", "CERDI, Université Clermont Auvergne, Prix Jeune Chercheur 2026"], ["Ancien fellow puis consultant", "Bureau de l'économiste en chef pour l'Afrique, Banque mondiale"], ["Enseigne les sciences économiques", "Université Rennes 2"]],
     ctaRead: "Lire la dernière analyse", ctaContact: "Me contacter",
     mapTitle: "Afrique de l'Ouest : États membres de la CEDEAO, États de l'AES et principaux corridors portuaires",
     keyEcowas: "CEDEAO (12 États)", keyAes: "AES : Mali, Burkina Faso, Niger", keyCorridor: "Corridors vers les ports",
     mapNote: "Fond de carte Natural Earth. Tracés de corridors schématiques.",
+    tabWest: "Afrique de l'Ouest", tabWorld: "Pôles mondiaux",
+    worldTitle: "Grands pôles géopolitiques et appartenances des États aux principaux groupements",
+    layers: { overview: "Vue d'ensemble", g7: "G7 et Union européenne", nato: "OTAN", brics: "BRICS", sco: "OCS" },
+    memb: { g7: "G7", eu: "Union européenne", nato: "OTAN", brics: "BRICS, membre", bricsp: "BRICS, pays partenaire", sco: "Organisation de coopération de Shanghai", aes: "Confédération des États du Sahel" },
+    keyAesW: "AES",
+    worldHint: "Survolez ou touchez un pays pour voir ses appartenances.",
+    worldNote: "Composition au 27 octobre 2026 : OTAN (32), UE (27), G7 (7), BRICS (11 membres, 10 partenaires), OCS (10). L'Arabie saoudite figure parmi les membres des BRICS sans avoir officialisé son adhésion. Fond de carte Natural Earth.",
+    noGroup: "Aucun des groupements affichés",
     mapLink: "Voir l'analyse du 27 octobre 2026",
     analysesTitle: "Analyses",
     analysesSub: "Notes d'analyse sur l'économie politique africaine. Chaque note part d'un fait d'actualité, l'éclaire par la théorie économique et indique ses sources.",
@@ -43,25 +51,25 @@ const T = {
     themesTitle: "Thèmes de recherche",
     teachingTitle: "Enseignement",
     teachingSub: "J'enseigne l'économie depuis 2022, en licence et en master, du cours magistral aux travaux dirigés.",
-    nowTitle: "Université Rennes 2", nowWhere: "ATER, UFR Sciences sociales, 2026-2027",
-    pastTitle: "Université Clermont Auvergne", pastWhere: "ATER puis chargé d'enseignement, 2022-2026",
+    nowTitle: "Université Rennes 2", nowWhere: "UFR Sciences sociales, depuis 2026",
+    pastTitle: "Université Clermont Auvergne", pastWhere: "2022-2026",
     aboutTitle: "Parcours",
     about: [
-      "Je suis économiste, spécialiste des relations économiques internationales vues sous l'angle de la géopolitique. Ma thèse, soutenue au CERDI en juin 2025 sous la direction de Marie-Françoise Renard, mesure la distance géopolitique entre États et en estime les effets sur le commerce, l'aide publique au développement et les investissements directs étrangers chinois.",
-      "Pendant environ un an et demi, j'ai travaillé au Bureau de l'économiste en chef pour l'Afrique de la Banque mondiale, d'abord comme fellow puis comme consultant. J'ai contribué au rapport « Integrating Africa: From Threads to Hubs », notamment aux volets consacrés aux chaînes de valeur régionales et aux biens publics régionaux, ainsi qu'à des travaux sur la qualité de l'emploi dans les filiales de multinationales.",
-      "Je suis aujourd'hui ATER en sciences économiques à l'Université Rennes 2, où j'enseigne notamment l'économie des inégalités et l'économie de la protection sociale.",
+      "Je suis économiste. Ce qui m'intéresse, c'est la manière dont les rapports entre États se traduisent en flux économiques : avec qui l'on commerce, à qui l'on accorde l'aide, où l'on investit. Ma thèse, soutenue au CERDI en juin 2025 sous la direction de Marie-Françoise Renard, mesure la distance géopolitique entre États à partir de leurs votes à l'Assemblée générale des Nations unies, puis en estime les effets sur le commerce bilatéral, l'aide publique au développement et les investissements directs étrangers chinois.",
+      "Au Bureau de l'économiste en chef pour l'Afrique de la Banque mondiale, où j'ai été fellow puis consultant pendant environ un an et demi, j'ai travaillé sur l'intégration régionale africaine. J'ai contribué au rapport « Integrating Africa: From Threads to Hubs », en particulier aux volets consacrés aux chaînes de valeur régionales et aux biens publics régionaux, ainsi qu'à des travaux sur la qualité de l'emploi dans les filiales de multinationales, à partir des enquêtes de la Banque mondiale auprès des entreprises.",
+      "D'un sujet à l'autre, je suis la même démarche : partir des données, expliciter le mécanisme, séparer ce qui est établi de ce qui relève de l'interprétation. Les analyses publiées sur ce site appliquent cette démarche à l'actualité, du Sahel aux recompositions entre grandes puissances.",
     ],
     timeline: [
-      ["2026-2027", "ATER en sciences économiques", "Université Rennes 2"],
+      ["2026", "Enseignement des sciences économiques", "Université Rennes 2"],
       ["2025-2026", "Fellow puis consultant", "Banque mondiale, Bureau de l'économiste en chef pour l'Afrique"],
-      ["2025", "Doctorat en sciences économiques", "CERDI, Université Clermont Auvergne"],
+      ["2025", "Doctorat en sciences économiques", "CERDI, Université Clermont Auvergne", "Geopolitical Distance and International Economic Relations: An Analysis of Bilateral Trade, Development Aid, and Chinese FDI"],
       ["2022-2026", "Enseignement de l'économie", "Université Clermont Auvergne"],
     ],
     marksTitle: "Distinctions et qualifications",
     marks: ["Prix Jeune Chercheur 2026, Fondation UCA et Ville de Clermont-Ferrand", "Qualification aux fonctions de maître de conférences, CNU section 05 (sciences économiques)", "Communications : CSAE Oxford, INFER, CEID, séminaire Brown Bag Lunch de la Banque mondiale"],
     contactTitle: "Contact",
     contactSub: "Pour une collaboration de recherche, une invitation ou un échange sur un poste.",
-    contactPro: "Adresse universitaire", contactBase: "Lieu", contactBaseValue: "Rennes, France",
+    contactPro: "Adresse universitaire", contactBase: "Lieu", contactBaseValue: "France",
     back: "Retour au site", copy: "Copier le lien", copied: "Lien copié",
     by: "Par", toc: "Dans cette analyse", sources: "Sources",
     endNote: "Une remarque sur cette analyse ou une question ? Écrivez-moi à",
@@ -71,11 +79,19 @@ const T = {
     nav: { analyses: "Analyses", research: "Research", teaching: "Teaching", about: "Background", contact: "Contact" },
     menu: "Menu", close: "Close",
     lead: "Development economist. I study how geopolitics shapes trade, aid and investment in Africa, and how regional integration in West Africa is being reshaped.",
-    roles: [["Temporary lecturer and researcher (ATER) in economics", "Université Rennes 2, 2026-2027"], ["PhD in Economics", "CERDI, Université Clermont Auvergne"], ["Former fellow, then consultant", "Office of the Chief Economist for Africa, World Bank"]],
+    roles: [["PhD in Economics", "CERDI, Université Clermont Auvergne, Young Researcher Prize 2026"], ["Former fellow, then consultant", "Office of the Chief Economist for Africa, World Bank"], ["Teaches economics", "Université Rennes 2"]],
     ctaRead: "Read the latest analysis", ctaContact: "Get in touch",
     mapTitle: "West Africa: ECOWAS member states, AES states and main port corridors",
     keyEcowas: "ECOWAS (12 states)", keyAes: "AES: Mali, Burkina Faso, Niger", keyCorridor: "Corridors to the ports",
     mapNote: "Base map: Natural Earth. Corridor lines are schematic.",
+    tabWest: "West Africa", tabWorld: "Global poles",
+    worldTitle: "Major geopolitical poles and state membership of the main groupings",
+    layers: { overview: "Overview", g7: "G7 and European Union", nato: "NATO", brics: "BRICS", sco: "SCO" },
+    memb: { g7: "G7", eu: "European Union", nato: "NATO", brics: "BRICS member", bricsp: "BRICS partner country", sco: "Shanghai Cooperation Organisation", aes: "Confederation of Sahel States" },
+    keyAesW: "AES",
+    worldHint: "Hover over or tap a country to see its memberships.",
+    worldNote: "Membership as of 27 October 2026: NATO (32), EU (27), G7 (7), BRICS (11 members, 10 partners), SCO (10). Saudi Arabia is listed as a BRICS member but has not formalised its membership. Base map: Natural Earth.",
+    noGroup: "None of the groupings shown",
     mapLink: "Read the 27 October 2026 analysis",
     analysesTitle: "Analyses",
     analysesSub: "Analytical notes on African political economy. Each note starts from a current event, examines it through economic theory and lists its sources.",
@@ -87,25 +103,25 @@ const T = {
     themesTitle: "Research themes",
     teachingTitle: "Teaching",
     teachingSub: "I have taught economics since 2022, at undergraduate and master's level, from lectures to tutorials.",
-    nowTitle: "Université Rennes 2", nowWhere: "ATER, Faculty of Social Sciences, 2026-2027",
-    pastTitle: "Université Clermont Auvergne", pastWhere: "ATER, then lecturer, 2022-2026",
+    nowTitle: "Université Rennes 2", nowWhere: "Faculty of Social Sciences, since 2026",
+    pastTitle: "Université Clermont Auvergne", pastWhere: "2022-2026",
     aboutTitle: "Background",
     about: [
-      "I am an economist working on international economic relations through the lens of geopolitics. My PhD, defended at CERDI in June 2025 under the supervision of Marie-Françoise Renard, measures geopolitical distance between states and estimates its effects on trade, official development assistance and Chinese foreign direct investment.",
-      "For about a year and a half, I worked in the World Bank's Office of the Chief Economist for Africa, first as a fellow and then as a consultant. I contributed to the report “Integrating Africa: From Threads to Hubs”, in particular to the parts on regional value chains and regional public goods, and to research on job quality in multinational affiliates.",
-      "I am now a temporary lecturer and researcher (ATER) in economics at Université Rennes 2, where I teach, among other courses, the economics of inequality and the economics of social protection.",
+      "I am an economist. What interests me is how relations between states translate into economic flows: who trades with whom, who receives aid, where capital goes. My PhD, defended at CERDI in June 2025 under the supervision of Marie-Françoise Renard, measures geopolitical distance between states from their votes in the United Nations General Assembly, then estimates its effects on bilateral trade, official development assistance and Chinese foreign direct investment.",
+      "In the World Bank's Office of the Chief Economist for Africa, where I was a fellow and then a consultant for about a year and a half, I worked on African regional integration. I contributed to the report \u201cIntegrating Africa: From Threads to Hubs\u201d, in particular to the parts on regional value chains and regional public goods, and to research on job quality in multinational affiliates using World Bank Enterprise Surveys.",
+      "Whatever the topic, I follow the same approach: start from the data, make the mechanism explicit, and separate what is established from what is interpretation. The analyses on this site apply that approach to current events, from the Sahel to shifts among the major powers.",
     ],
     timeline: [
-      ["2026-2027", "ATER in economics", "Université Rennes 2"],
+      ["2026", "Teaching economics", "Université Rennes 2"],
       ["2025-2026", "Fellow, then consultant", "World Bank, Office of the Chief Economist for Africa"],
-      ["2025", "PhD in Economics", "CERDI, Université Clermont Auvergne"],
+      ["2025", "PhD in Economics", "CERDI, Université Clermont Auvergne", "Geopolitical Distance and International Economic Relations: An Analysis of Bilateral Trade, Development Aid, and Chinese FDI"],
       ["2022-2026", "Teaching economics", "Université Clermont Auvergne"],
     ],
     marksTitle: "Awards and qualifications",
     marks: ["Young Researcher Prize 2026, UCA Foundation and City of Clermont-Ferrand", "Qualified for associate professor positions, CNU section 05 (economics)", "Presentations: CSAE Oxford, INFER, CEID, World Bank Brown Bag Lunch seminar"],
     contactTitle: "Contact",
     contactSub: "For research collaboration, an invitation or a conversation about a position.",
-    contactPro: "University address", contactBase: "Based in", contactBaseValue: "Rennes, France",
+    contactPro: "University address", contactBase: "Based in", contactBaseValue: "France",
     back: "Back to the site", copy: "Copy link", copied: "Link copied",
     by: "By", toc: "In this analysis", sources: "Sources",
     endNote: "A comment on this analysis or a question? Write to me at",
@@ -129,8 +145,8 @@ const PAPERS = {
 };
 
 const THEMES = {
-  fr: ["Géopolitique et relations économiques", "Commerce bilatéral", "Investissements directs étrangers en Afrique", "Aide publique au développement", "Intégration économique régionale", "Chaînes de valeur mondiales et régionales", "Économie politique du Sahel"],
-  en: ["Geopolitics and economic relations", "Bilateral trade", "Foreign direct investment in Africa", "Official development assistance", "Regional economic integration", "Global and regional value chains", "Political economy of the Sahel"],
+  fr: ["Géopolitique et relations économiques", "Commerce bilatéral", "Investissements directs étrangers en Afrique", "Aide publique au développement", "Intégration économique régionale", "Chaînes de valeur mondiales et régionales", "Biens publics régionaux", "Économie politique du Sahel"],
+  en: ["Geopolitics and economic relations", "Bilateral trade", "Foreign direct investment in Africa", "Official development assistance", "Regional economic integration", "Global and regional value chains", "Regional public goods", "Political economy of the Sahel"],
 };
 
 const COURSES_NOW = {
@@ -205,6 +221,74 @@ function WestAfricaMap({ t, onOpenLatest }) {
         <span className="map-note">{t.mapNote} <a href="#" onClick={(e) => { e.preventDefault(); onOpenLatest(); }}>{t.mapLink}</a></span>
       </figcaption>
     </figure>
+  );
+}
+
+const LAYERS = {
+  overview: [["g7", "var(--indigo)"], ["eu", "#8C9CDD"], ["brics", "var(--amber)"], ["bricsp", "#E2B76A"], ["aes", "#C2410C"]],
+  g7: [["g7", "var(--indigo)"], ["eu", "#8C9CDD"]],
+  nato: [["nato", "var(--teal)"]],
+  brics: [["brics", "var(--amber)"], ["bricsp", "#E2B76A"]],
+  sco: [["sco", "var(--plum)"]],
+};
+
+function WorldMap({ t, lang }) {
+  const [data, setData] = useState(null);
+  const [layer, setLayer] = useState("overview");
+  const [hover, setHover] = useState(null);
+  const wrap = useRef(null);
+  useEffect(() => { import("./world-map.js").then(m => setData(m.WORLD)); }, []);
+  if (!data) return <div style={{ aspectRatio: "960 / 470" }} />;
+  const keys = LAYERS[layer].map(([k]) => k);
+  const cls = (c) => { const k = keys.find(k => c.m.includes(k)); return k ? `l-${k}` : ""; };
+  const onMove = (c) => (e) => {
+    const box = wrap.current.getBoundingClientRect();
+    const pt = e.touches ? e.touches[0] : e;
+    setHover({ c, x: pt.clientX - box.left, y: pt.clientY - box.top });
+  };
+  return (
+    <figure className="map-figure">
+      <div className="world-wrap" ref={wrap} onMouseLeave={() => setHover(null)}>
+        <svg className="world-svg" viewBox={`0 0 ${data.width} ${data.height}`} role="img" aria-label={t.worldTitle}>
+          <title>{t.worldTitle}</title>
+          {data.countries.map(c => (
+            <path key={c.id + c.en} d={c.d} className={`${cls(c)} ${hover && hover.c === c ? "is-hover" : ""}`} onMouseMove={onMove(c)} onTouchStart={onMove(c)} />
+          ))}
+          {data.poles.map(p => (
+            <g key={p.en} className="pole" pointerEvents="none">
+              <circle cx={p.xy[0]} cy={p.xy[1]} r="4.5" />
+              <text x={p.xy[0] + 8} y={p.xy[1] - 6}>{p[lang]}</text>
+            </g>
+          ))}
+        </svg>
+        {hover && (
+          <div className="tip" style={{ left: hover.x, top: hover.y }}>
+            <strong>{hover.c[lang]}</strong>
+            <span>{hover.c.m.length ? hover.c.m.map(k => t.memb[k]).join(", ") : t.noGroup}</span>
+          </div>
+        )}
+      </div>
+      <div className="layers" role="group">
+        {Object.entries(t.layers).map(([k, label]) => <button key={k} className="layer" aria-pressed={layer === k} onClick={() => setLayer(k)}><i style={{ background: LAYERS[k][0][1] }} />{label}</button>)}
+      </div>
+      <figcaption>
+        <div className="legend">{LAYERS[layer].map(([k, col]) => <span key={k} className="key"><span className="swatch" style={{ background: col }} />{k === "aes" ? t.keyAesW : t.memb[k]}</span>)}</div>
+        <p className="map-note" style={{ marginTop: 10 }}>{t.worldHint} {t.worldNote}</p>
+      </figcaption>
+    </figure>
+  );
+}
+
+function HeroMaps({ t, lang, onOpenLatest }) {
+  const [tab, setTab] = useState("west");
+  return (
+    <div>
+      <div className="map-tabs" role="tablist">
+        <button role="tab" aria-selected={tab === "west"} onClick={() => setTab("west")}>{t.tabWest}</button>
+        <button role="tab" aria-selected={tab === "world"} onClick={() => setTab("world")}>{t.tabWorld}</button>
+      </div>
+      {tab === "west" ? <WestAfricaMap t={t} onOpenLatest={onOpenLatest} /> : <WorldMap t={t} lang={lang} />}
+    </div>
   );
 }
 
@@ -390,7 +474,7 @@ export default function App() {
                 <a className="btn btn-ghost" href="#contact" onClick={go("contact")}>{t.ctaContact}</a>
               </div>
             </div>
-            <WestAfricaMap t={t} onOpenLatest={() => setOpenId(latest.id)} />
+            <HeroMaps t={t} lang={lang} onOpenLatest={() => setOpenId(latest.id)} />
           </div>
         </section>
 
@@ -437,7 +521,7 @@ export default function App() {
           </div>
         </section>
 
-        <section className="section" id="research">
+        <section className="section is-band" id="research">
           <div className="wrap">
             <div className="section-head"><h2>{t.researchTitle}</h2><p>{t.researchSub}</p></div>
             <div className="papers">
@@ -478,7 +562,7 @@ export default function App() {
           </div>
         </section>
 
-        <section className="section" id="about">
+        <section className="section is-band" id="about">
           <div className="wrap about">
             <div>
               <div className="section-head" style={{ display: "block" }}><h2>{t.aboutTitle}</h2></div>
@@ -487,7 +571,7 @@ export default function App() {
             <div>
               <div className="about-text">{t.about.map((p, i) => <p key={i}>{p}</p>)}</div>
               <ol className="timeline">
-                {t.timeline.map(([yr, what, org]) => <li key={yr + what}><span className="yr">{yr}</span><span><span className="what">{what}</span><br /><span className="org">{org}</span></span></li>)}
+                {t.timeline.map(([yr, what, org, thesis]) => <li key={yr + what}><span className="yr">{yr}</span><span><span className="what">{what}</span><br /><span className="org">{org}</span>{thesis && <span className="thesis" lang="en">{thesis}</span>}</span></li>)}
               </ol>
               <div className="marks">
                 <h3>{t.marksTitle}</h3>
