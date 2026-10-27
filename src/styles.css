@@ -90,14 +90,14 @@ a { color: inherit; }
 .btn-ghost:hover { background: var(--surface); }
 
 .map-figure { margin: 0; }
-.map-svg { width: 100%; height: auto; display: block; }
+.map-svg { width: 100%; height: auto; display: block; -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 12%), linear-gradient(to left, transparent 0, #000 8%); -webkit-mask-composite: source-in; mask-image: linear-gradient(to bottom, transparent 0, #000 12%), linear-gradient(to left, transparent 0, #000 8%); mask-composite: intersect; }
 .map-svg .c-other { fill: var(--land); stroke: var(--land-line); stroke-width: .6; }
 .map-svg .c-ecowas { fill: var(--indigo-soft); stroke: var(--land-line); stroke-width: .8; }
 .map-svg .c-aes { fill: var(--indigo); stroke: var(--land-line); stroke-width: .8; }
 .map-svg .corridor { fill: none; stroke: var(--ink); stroke-width: 1.4; stroke-linecap: round; stroke-dasharray: 2 4; opacity: .75; }
 .map-svg .port { fill: var(--surface); stroke: var(--ink); stroke-width: 1.6; }
 .map-svg .capital { fill: var(--ink); }
-.map-svg text { font-family: var(--sans); font-size: 11px; fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+.map-svg text { font-family: var(--sans); font-size: 12.5px; fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
 .map-svg text.on-aes { stroke: var(--indigo); fill: #fff; }
 @media (prefers-color-scheme: dark) { .map-svg text.on-aes { fill: var(--paper); } }
 .map-caption { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 14px; font-size: 13.5px; color: var(--ink-2); }
@@ -117,10 +117,11 @@ a { color: inherit; }
 .section-head p { color: var(--ink-2); max-width: 46em; }
 
 /* Analyses */
-.lead-analysis { display: grid; gap: 24px; padding: 32px; background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; text-decoration: none; }
+.lead-analysis { display: grid; gap: 20px; padding: 24px; background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; text-decoration: none; }
 @media (min-width: 980px) { .lead-analysis { grid-template-columns: 5fr 7fr; gap: 56px; padding: 44px; } }
 .lead-analysis:hover .lead-title { color: var(--indigo-ink); }
-.lead-meta { display: grid; gap: 4px; align-content: start; font-size: 14px; color: var(--ink-3); }
+.lead-meta { display: flex; flex-wrap: wrap; gap: 4px 16px; align-content: start; font-size: 14px; color: var(--ink-3); }
+@media (min-width: 980px) { .lead-meta { display: grid; gap: 4px; } }
 .lead-meta .when { font-size: 15px; color: var(--ink); font-weight: 600; }
 .lead-title { font-family: var(--serif); font-weight: 500; font-size: clamp(26px, 2.8vw, 36px); line-height: 1.15; letter-spacing: -0.01em; transition: color .15s; }
 .lead-excerpt { font-family: var(--serif); font-size: 18px; line-height: 1.55; color: var(--ink-2); margin-top: 14px; max-width: var(--measure); }

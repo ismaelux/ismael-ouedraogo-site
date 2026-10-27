@@ -19,6 +19,7 @@ const readingTime = (content) => {
   const words = content.filter(s => s.heading !== "Sources").reduce((n, s) => n + s.paragraphs.join(" ").split(/\s+/).length, 0);
   return Math.max(1, Math.round(words / 230));
 };
+const fr = (s, lang) => (lang === "fr" && typeof s === "string" ? s.replace(/ ([:;?!»])/g, "\u00A0$1").replace(/« /g, "«\u00A0") : s);
 const slugify = (s) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "").slice(0, 60);
 
 const T = {
@@ -266,22 +267,22 @@ function Reader({ b, lang, t, onClose }) {
       <div className="wrap">
         <header className="reader-head">
           <div className="reader-meta"><span className="cat">{b.category}</span><span>{fmtDate(b, lang)}</span><span>{readingTime(b.content)} {t.minutes}</span></div>
-          <h1 className="reader-title">{b.title}</h1>
-          <p className="reader-dek">{b.excerpt}</p>
+          <h1 className="reader-title">{fr(b.title, lang)}</h1>
+          <p className="reader-dek">{fr(b.excerpt, lang)}</p>
           <p className="reader-author">{t.by} <strong>Ismaël Ouédraogo</strong></p>
         </header>
         <div className="reader-body">
           <nav className="toc" aria-label={t.toc}>
             {headings.length > 0 && <>
               <p>{t.toc}</p>
-              <ol>{headings.map(h => <li key={h.id}><a href={`#${h.id}`} className={current === h.id ? "is-current" : ""} onClick={(e) => { e.preventDefault(); document.getElementById(h.id)?.scrollIntoView({ behavior: "smooth" }); }}>{h.label}</a></li>)}</ol>
+              <ol>{headings.map(h => <li key={h.id}><a href={`#${h.id}`} className={current === h.id ? "is-current" : ""} onClick={(e) => { e.preventDefault(); document.getElementById(h.id)?.scrollIntoView({ behavior: "smooth" }); }}>{fr(h.label, lang)}</a></li>)}</ol>
             </>}
           </nav>
           <article className="prose" lang={lang}>
             {body.map((s, i) => (
               <section key={i}>
-                {s.heading && <h2 id={slugify(s.heading)}>{s.heading}</h2>}
-                {s.paragraphs.map((p, j) => <p key={j}>{p}</p>)}
+                {s.heading && <h2 id={slugify(s.heading)}>{fr(s.heading, lang)}</h2>}
+                {s.paragraphs.map((p, j) => <p key={j}>{fr(p, lang)}</p>)}
               </section>
             ))}
             {sources.length > 0 && (
@@ -404,8 +405,8 @@ export default function App() {
                 <span>{readingTime(latest.content)} {t.minutes}</span>
               </div>
               <div>
-                <h3 className="lead-title">{latest.title}</h3>
-                <p className="lead-excerpt">{latest.excerpt}</p>
+                <h3 className="lead-title">{fr(latest.title, lang)}</h3>
+                <p className="lead-excerpt">{fr(latest.excerpt, lang)}</p>
                 <span className="lead-cta">{t.read}</span>
               </div>
             </a>
@@ -424,8 +425,8 @@ export default function App() {
                     <a href={`#analyse-${b.id}-${lang}`} onClick={openAnalysis(b.id)}>
                       <span className="date">{fmtDate(b, lang)}</span>
                       <span>
-                        <span className="title">{b.title}</span>
-                        <span className="excerpt">{b.excerpt}</span>
+                        <span className="title">{fr(b.title, lang)}</span>
+                        <span className="excerpt">{fr(b.excerpt, lang)}</span>
                       </span>
                       <span className="cat">{b.category}</span>
                     </a>
