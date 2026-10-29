@@ -324,10 +324,6 @@ a { color: inherit; }
 .app-info:hover { background: var(--indigo-soft); }
 .app-ready { margin-top: 12px; font-size: 15px; color: var(--teal); font-weight: 500; }
 .btn.is-ready { box-shadow: 0 0 0 4px var(--teal-soft); }
-.app-sheet.is-top { align-items: flex-start; padding-top: 12px; }
-.app-arrow { display: block; margin: 0 auto 6px; color: var(--indigo); animation: app-nudge 1.4s ease-in-out infinite; }
-@keyframes app-nudge { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
-@media (prefers-reduced-motion: reduce) { .app-arrow { animation: none; } }
 .app-sheet-text { font-size: 15.5px; line-height: 1.55; color: var(--ink-2); }
 .app-sheet-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
 .app-sheet-note { margin-top: 12px; font-size: 14px; line-height: 1.5; color: var(--ink-3); }
