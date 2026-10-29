@@ -2,14 +2,14 @@ import { useEffect, useState } from "react";
 
 // Installation du site comme application (PWA) sur téléphone et ordinateur.
 // Un seul bouton : il lance l'installation du navigateur quand c'est possible ;
-// sinon il rouvre le site dans Chrome (Android) ou propose Firefox / Edge (Windows).
+// sur Windows hors Edge, il rouvre le site dans Microsoft Edge ; ailleurs, il affiche la marche à suivre.
 const CHROME_DL = "https://www.google.com/chrome/";
 
 const TXT = {
   fr: {
     title: "Application",
     lead: "Installez ce site comme une application sur votre téléphone ou votre ordinateur (Android, iPhone, Windows, macOS). Il s'ouvre depuis l'écran d'accueil, la barre des tâches ou le menu Démarrer, les analyses déjà consultées restent lisibles hors ligne, et le contenu se met à jour automatiquement.",
-    via: "Sur Android, l'installation passe par Google Chrome ; sur PC Windows, par Microsoft Edge ; sur Mac, par Chrome, Edge ou Safari ; sur iPhone et iPad, par Safari.",
+    via: "Sur Android, l'installation se fait depuis Google Chrome ou Samsung Internet ; sur PC Windows, par Microsoft Edge ; sur Mac, par Chrome, Edge ou Safari ; sur iPhone et iPad, par Safari.",
     install: "Installer l'application",
     info: "Comment installer",
     installed: "L'application est installée sur cet appareil.",
@@ -17,7 +17,7 @@ const TXT = {
     close: "Fermer",
     sheetTitle: "Installer l'application",
     steps: [
-      ["Android", "Touchez « Installer l'application » : le site s'ouvre dans Google Chrome, qui lance l'installation. Si Chrome n'est pas installé, le bouton ouvre sa page sur le Play Store."],
+      ["Android", "Dans Google Chrome ou Samsung Internet, touchez « Installer l'application », puis confirmez. Si la fenêtre d'installation ne s'affiche pas : dans Chrome, menu ⋮ puis « Installer l'application » ; dans Samsung Internet, menu ≡ puis « Ajouter la page à » et « Écran d'accueil »."],
       ["Windows", "Cliquez sur « Installer l'application » : le site s'ouvre dans Microsoft Edge, présent sur Windows, qui lance l'installation. Edge propose ensuite d'épingler l'application à la barre des tâches et de créer une icône sur le Bureau."],
       ["Mac", "Dans Chrome ou Edge, cliquez sur « Installer l'application ». Dans Safari, menu Fichier, puis « Ajouter au Dock »."],
       ["iPhone et iPad", "Dans Safari, touchez le bouton Partager (le carré avec une flèche vers le haut), puis « Sur l'écran d'accueil » et « Ajouter »."],
@@ -35,7 +35,7 @@ const TXT = {
   en: {
     title: "App",
     lead: "Install this site as an app on your phone or computer (Android, iPhone, Windows, macOS). It opens from your home screen, taskbar or Start menu, analyses you have already read stay available offline, and content updates automatically.",
-    via: "On Android, installation goes through Google Chrome; on Windows PCs, through Microsoft Edge; on Mac, through Chrome, Edge or Safari; on iPhone and iPad, through Safari.",
+    via: "On Android, installation works from Google Chrome or Samsung Internet; on Windows PCs, through Microsoft Edge; on Mac, through Chrome, Edge or Safari; on iPhone and iPad, through Safari.",
     install: "Install the app",
     info: "How to install",
     installed: "The app is installed on this device.",
@@ -43,7 +43,7 @@ const TXT = {
     close: "Close",
     sheetTitle: "Install the app",
     steps: [
-      ["Android", "Tap “Install the app”: the site opens in Google Chrome, which starts the installation. If Chrome is not installed, the button opens its Play Store page."],
+      ["Android", "In Google Chrome or Samsung Internet, tap “Install the app” and confirm. If the install window does not appear: in Chrome, ⋮ menu then “Install app”; in Samsung Internet, ≡ menu then “Add page to” and “Home screen”."],
       ["Windows", "Click “Install the app”: the site opens in Microsoft Edge, which comes with Windows, and the installation starts. Edge then offers to pin the app to the taskbar and create a desktop icon."],
       ["Mac", "In Chrome or Edge, click “Install the app”. In Safari, use the File menu, then “Add to Dock”."],
       ["iPhone and iPad", "In Safari, tap the Share button (the square with an upward arrow), then “Add to Home Screen” and “Add”."],
@@ -61,7 +61,7 @@ const TXT = {
   zh: {
     title: "应用程序",
     lead: "可将本网站作为应用安装到手机或电脑上（Android、iPhone、Windows、macOS）。安装后可从主屏幕、任务栏或开始菜单直接打开，已阅读的分析文章可离线查看，内容自动更新。",
-    via: "在 Android 上通过 Google Chrome 安装；在 Windows 电脑上通过 Microsoft Edge 安装；在 Mac 上通过 Chrome、Edge 或 Safari 安装；在 iPhone 和 iPad 上通过 Safari 安装。",
+    via: "在 Android 上可通过 Google Chrome 或三星浏览器安装；在 Windows 电脑上通过 Microsoft Edge 安装；在 Mac 上通过 Chrome、Edge 或 Safari 安装；在 iPhone 和 iPad 上通过 Safari 安装。",
     install: "安装应用",
     info: "安装方法",
     installed: "本设备已安装该应用。",
@@ -69,7 +69,7 @@ const TXT = {
     close: "关闭",
     sheetTitle: "安装应用",
     steps: [
-      ["Android", "点击“安装应用”：本网站会在 Google Chrome 中打开并开始安装。如未安装 Chrome，该按钮会打开其 Play 商店页面。"],
+      ["Android", "在 Google Chrome 或三星浏览器中点击“安装应用”并确认。如未出现安装窗口：在 Chrome 中打开 ⋮ 菜单并选择“安装应用”；在三星浏览器中打开 ≡ 菜单，选择“添加页面到”，再选择“主屏幕”。"],
       ["Windows", "点击“安装应用”：本网站会在 Windows 自带的 Microsoft Edge 中打开并开始安装。Edge 随后会提供固定到任务栏和创建桌面图标的选项。"],
       ["Mac", "在 Chrome 或 Edge 中点击“安装应用”。在 Safari 中，打开“文件”菜单，选择“添加到程序坞”。"],
       ["iPhone 和 iPad", "在 Safari 中点击“分享”按钮（带向上箭头的方框），然后选择“添加到主屏幕”并点击“添加”。"],
@@ -93,8 +93,6 @@ const isIOS = /iphone|ipad|ipod/i.test(UA) || (typeof navigator !== "undefined" 
 const isFirefox = /Firefox\//i.test(UA);
 const isEdge = /Edg\//.test(UA);
 const isChromium = /Chrome\//.test(UA) && !isFirefox;
-// Chrome « authentique » sur Android (pas Samsung, Edge, Opera, Firefox, ni WebView).
-const isAndroidChrome = isAndroid && /Chrome\//.test(UA) && !/SamsungBrowser|EdgA|OPR|Firefox|; wv\)/i.test(UA);
 const isMacSafari = !isIOS && /Macintosh/.test(UA) && /Safari\//.test(UA) && !/Chrome\/|Firefox\//.test(UA);
 
 const isStandalone = () =>
@@ -107,11 +105,6 @@ const pageUrl = (param) => {
   u.searchParams.set(param, "1");
   u.hash = "app";
   return u;
-};
-// Rouvre la page dans Chrome sur Android ; si Chrome est absent, Android ouvre sa page sur le Play Store.
-const chromeIntent = () => {
-  const u = pageUrl("installer");
-  return `intent://${u.host}${u.pathname}${u.search}#Intent;scheme=https;package=com.android.chrome;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;end`;
 };
 // Rouvre la page dans Microsoft Edge sur Windows.
 const edgeUrl = () => `microsoft-edge:${pageUrl("installer").href}`;
@@ -136,7 +129,7 @@ export default function InstallApp({ lang }) {
   const params = typeof window !== "undefined" ? new URLSearchParams(window.location.search) : new URLSearchParams();
   const [canPrompt, setCanPrompt] = useState(!!deferred);
   const [installed, setInstalled] = useState(isStandalone);
-  // Arrivée depuis un autre navigateur (Edge sur Windows, Chrome sur Android) : fenêtre de confirmation.
+  // Arrivée depuis un autre navigateur (Edge sur Windows) : fenêtre de confirmation.
   const [panel, setPanel] = useState(() => (params.has("installer") && !isStandalone() ? "ready" : null));
   const [copied, setCopied] = useState(false);
   const [arrived] = useState(() => params.has("installer"));
@@ -160,8 +153,6 @@ export default function InstallApp({ lang }) {
   }, [panel]);
 
   const onInstall = async () => {
-    // Android hors Chrome : l'installation passe par Chrome.
-    if (isAndroid && !isAndroidChrome) { window.location.href = chromeIntent(); return; }
     if (isIOS) { setPanel("ios"); return; }
     // Windows : l'installation passe par Microsoft Edge.
     if (isWindows && !isEdge) { window.location.href = edgeUrl(); return; }
@@ -183,7 +174,7 @@ export default function InstallApp({ lang }) {
       return;
     }
     if (isMacSafari) { setPanel("safari"); return; }
-    if (isChromium) { setPanel("info"); return; }
+    if (isChromium || isAndroid) { setPanel("info"); return; }
     setPanel("unsupported");
   };
 
