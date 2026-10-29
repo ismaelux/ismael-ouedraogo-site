@@ -4,6 +4,8 @@ import { MAP } from "./west-africa-map.js";
 import "./styles.css";
 import { BULLETINS_ZH } from "./bulletins-zh.js";
 import InstallApp, { requestInstall } from "./InstallApp.jsx";
+import SiteSearch, { SEARCH_TXT, norm } from "./SiteSearch.jsx";
+import { Analytics } from "@vercel/analytics/react";
 import { T_ZH, PAPERS_ZH, THEMES_ZH, COURSES_NOW_ZH, COURSES_PAST_ZH, LEADERS_ZH, CITY_ZH, POLE_ZH, CAT_ZH, MONTH_NUM } from "./i18n-zh.js";
 
 const EMAIL = "ismaelouedraogo1004@gmail.com";
@@ -480,6 +482,7 @@ export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState("");
+  const [searchOpen, setSearchOpen] = useState(false);
 
   const t = T[lang];
   const bulletins = lang === "fr" ? BULLETINS_FR : lang === "zh" ? BULLETINS_ZH : BULLETINS_EN;
@@ -522,6 +525,30 @@ export default function App() {
   const openAnalysis = (id) => (e) => { if (e) e.preventDefault(); setOpenId(id); };
   const papers = PAPERS[lang].filter(p => showDrafts || !p.draft);
 
+  // Raccourci clavier « / » (ou Ctrl/Cmd + K) pour ouvrir la recherche dans le site.
+  useEffect(() => {
+    const onKey = (e) => {
+      const typing = /input|textarea|select/i.test(e.target.tagName) || e.target.isContentEditable;
+      if ((e.key === "/" && !typing) || ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k")) { e.preventDefault(); setSearchOpen(true); }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
+  const openFromSearch = (id, terms) => {
+    setOpenId(id);
+    setTimeout(() => {
+      const nodes = [...document.querySelectorAll(".reader h2, .reader h3, .reader p")];
+      const hit = nodes.find((n) => terms.every((w) => norm(n.textContent).includes(w))) || nodes.find((n) => terms.some((w) => norm(n.textContent).includes(w)));
+      if (hit) { hit.scrollIntoView({ block: "center" }); hit.classList.add("is-hit"); setTimeout(() => hit.classList.remove("is-hit"), 2600); }
+    }, 350);
+  };
+  const goFromSearch = (id, opts = {}) => {
+    if (opts.drafts) setShowDrafts(true);
+    setOpenId(null);
+    setTimeout(() => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" }), 60);
+  };
+
   return (
     <>
       <header className={`top ${scrolled ? "is-scrolled" : ""}`}>
@@ -536,6 +563,9 @@ export default function App() {
               <button aria-pressed={lang === "zh"} onClick={() => setLang("zh")} lang="zh-CN">中文</button>
             </div>
           </nav>
+          <button className="search-btn" onClick={() => { setMenuOpen(false); setSearchOpen(true); }} aria-label={SEARCH_TXT[lang].open} title={SEARCH_TXT[lang].open}>
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" strokeWidth="1.8" /><path d="m15.5 15.5 5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
+          </button>
         </div>
       </header>
 
@@ -684,6 +714,17 @@ export default function App() {
       </footer>
 
       {open && <Reader b={open} lang={lang} t={t} onClose={() => setOpenId(null)} />}
+
+      <SiteSearch
+        lang={lang} open={searchOpen} onClose={() => setSearchOpen(false)}
+        bulletins={sorted} papers={PAPERS[lang]} courses={[...COURSES_NOW[lang], ...COURSES_PAST[lang]]}
+        about={t.about} timeline={t.timeline} themes={THEMES[lang]}
+        fmtDate={fmtDate} catLabel={catLabel}
+        onOpenAnalysis={openFromSearch} onGo={goFromSearch}
+      />
+
+      {/* Mesure d'audience : chaque analyse ouverte compte comme une page distincte. */}
+      <Analytics route={open ? "/analyse/[id]" : "/"} path={open ? `/analyse/${open.id}` : "/"} />
     </>
   );
 }
