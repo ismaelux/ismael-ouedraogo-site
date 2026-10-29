@@ -1,0 +1,25 @@
+{
+  "id": "/",
+  "name": "Ismaël Ouédraogo, économiste",
+  "short_name": "I. Ouédraogo",
+  "description": "Analyses, recherche et enseignement d'Ismaël Ouédraogo, économiste du développement : géopolitique, commerce et intégration régionale en Afrique.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "/?source=app",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "any",
+  "background_color": "#EEF1F7",
+  "theme_color": "#EEF1F7",
+  "categories": ["education", "news", "books"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Analyses", "short_name": "Analyses", "url": "/?source=app#analyses", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Contact", "url": "/?source=app#contact", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

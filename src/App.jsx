@@ -3,6 +3,7 @@ import { BULLETINS_FR, BULLETINS_EN, CATEGORIES_FR, CATEGORIES_EN } from "./bull
 import { MAP } from "./west-africa-map.js";
 import "./styles.css";
 import { BULLETINS_ZH } from "./bulletins-zh.js";
+import InstallApp from "./InstallApp.jsx";
 import { T_ZH, PAPERS_ZH, THEMES_ZH, COURSES_NOW_ZH, COURSES_PAST_ZH, LEADERS_ZH, CITY_ZH, POLE_ZH, CAT_ZH, MONTH_NUM } from "./i18n-zh.js";
 
 const EMAIL = "ismaelouedraogo1004@gmail.com";
@@ -672,10 +673,14 @@ export default function App() {
             </div>
           </div>
         </section>
+
+        <section className="section is-band" id="app">
+          <div className="wrap"><InstallApp lang={lang} /></div>
+        </section>
       </main>
 
       <footer className="foot">
-        <div className="wrap"><span>Ismaël Ouédraogo</span><span>{new Date().getFullYear()}</span></div>
+        <div className="wrap"><span>Ismaël Ouédraogo</span><a className="foot-app" href="#app" onClick={go("app")}>{({ fr: "Installer l'application", en: "Install the app", zh: "安装应用" })[lang]}</a><span>{new Date().getFullYear()}</span></div>
       </footer>
 
       {open && <Reader b={open} lang={lang} t={t} onClose={() => setOpenId(null)} />}
