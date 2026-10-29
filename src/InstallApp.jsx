@@ -7,9 +7,14 @@ const CHROME_DL = "https://www.google.com/chrome/";
 
 const TXT = {
   fr: {
+    chooseTitle: "Choisir le navigateur",
+    chooseText: "Choisissez le navigateur avec lequel installer l'application. Google Chrome est recommandé.",
+    chooseChrome: "Google Chrome",
+    chooseHere: "Samsung Internet",
+    chooseHereOther: "Ce navigateur",
     title: "Application",
     lead: "Installez ce site comme une application sur votre téléphone ou votre ordinateur (Android, iPhone, Windows, macOS). Il s'ouvre depuis l'écran d'accueil, la barre des tâches ou le menu Démarrer, les analyses déjà consultées restent lisibles hors ligne, et le contenu se met à jour automatiquement.",
-    via: "Sur Android, l'installation se fait depuis Google Chrome ou Samsung Internet ; sur PC Windows, par Microsoft Edge ; sur Mac, par Chrome, Edge ou Safari ; sur iPhone et iPad, par Safari.",
+    via: "Sur Android, l'installation passe par Google Chrome, ou à défaut par Samsung Internet ; sur PC Windows, par Microsoft Edge ; sur Mac, par Chrome, Edge ou Safari ; sur iPhone et iPad, par Safari.",
     install: "Installer l'application",
     info: "Comment installer",
     installed: "L'application est installée sur cet appareil.",
@@ -17,7 +22,7 @@ const TXT = {
     close: "Fermer",
     sheetTitle: "Installer l'application",
     steps: [
-      ["Android", "Dans Google Chrome ou Samsung Internet, touchez « Installer l'application », puis confirmez. Si la fenêtre d'installation ne s'affiche pas : dans Chrome, menu ⋮ puis « Installer l'application » ; dans Samsung Internet, menu ≡ puis « Ajouter la page à » et « Écran d'accueil »."],
+      ["Android", "Touchez « Installer l'application » : le site s'ouvre dans Google Chrome, qui lance l'installation. Si Chrome ne s'ouvre pas, choisissez Google Chrome ou Samsung Internet dans la fenêtre qui s'affiche. En dernier recours : dans Chrome, menu ⋮ puis « Installer l'application » ; dans Samsung Internet, menu ≡ puis « Ajouter la page à » et « Écran d'accueil »."],
       ["Windows", "Cliquez sur « Installer l'application » : le site s'ouvre dans Microsoft Edge, présent sur Windows, qui lance l'installation. Edge propose ensuite d'épingler l'application à la barre des tâches et de créer une icône sur le Bureau."],
       ["Mac", "Dans Chrome ou Edge, cliquez sur « Installer l'application ». Dans Safari, menu Fichier, puis « Ajouter au Dock »."],
       ["iPhone et iPad", "Dans Safari, touchez le bouton Partager (le carré avec une flèche vers le haut), puis « Sur l'écran d'accueil » et « Ajouter »."],
@@ -33,9 +38,14 @@ const TXT = {
     ios: ["Ouvrez ce site dans Safari.", "Touchez le bouton Partager (le carré avec une flèche vers le haut).", "Choisissez « Sur l'écran d'accueil », puis « Ajouter »."],
   },
   en: {
+    chooseTitle: "Choose a browser",
+    chooseText: "Choose the browser to install the app with. Google Chrome is recommended.",
+    chooseChrome: "Google Chrome",
+    chooseHere: "Samsung Internet",
+    chooseHereOther: "This browser",
     title: "App",
     lead: "Install this site as an app on your phone or computer (Android, iPhone, Windows, macOS). It opens from your home screen, taskbar or Start menu, analyses you have already read stay available offline, and content updates automatically.",
-    via: "On Android, installation works from Google Chrome or Samsung Internet; on Windows PCs, through Microsoft Edge; on Mac, through Chrome, Edge or Safari; on iPhone and iPad, through Safari.",
+    via: "On Android, installation goes through Google Chrome, or Samsung Internet as an alternative; on Windows PCs, through Microsoft Edge; on Mac, through Chrome, Edge or Safari; on iPhone and iPad, through Safari.",
     install: "Install the app",
     info: "How to install",
     installed: "The app is installed on this device.",
@@ -43,7 +53,7 @@ const TXT = {
     close: "Close",
     sheetTitle: "Install the app",
     steps: [
-      ["Android", "In Google Chrome or Samsung Internet, tap “Install the app” and confirm. If the install window does not appear: in Chrome, ⋮ menu then “Install app”; in Samsung Internet, ≡ menu then “Add page to” and “Home screen”."],
+      ["Android", "Tap “Install the app”: the site opens in Google Chrome, which starts the installation. If Chrome does not open, choose Google Chrome or Samsung Internet in the window that appears. As a last resort: in Chrome, ⋮ menu then “Install app”; in Samsung Internet, ≡ menu then “Add page to” and “Home screen”."],
       ["Windows", "Click “Install the app”: the site opens in Microsoft Edge, which comes with Windows, and the installation starts. Edge then offers to pin the app to the taskbar and create a desktop icon."],
       ["Mac", "In Chrome or Edge, click “Install the app”. In Safari, use the File menu, then “Add to Dock”."],
       ["iPhone and iPad", "In Safari, tap the Share button (the square with an upward arrow), then “Add to Home Screen” and “Add”."],
@@ -59,9 +69,14 @@ const TXT = {
     ios: ["Open this site in Safari.", "Tap the Share button (the square with an upward arrow).", "Choose “Add to Home Screen”, then “Add”."],
   },
   zh: {
+    chooseTitle: "选择浏览器",
+    chooseText: "请选择用于安装应用的浏览器。推荐使用 Google Chrome。",
+    chooseChrome: "Google Chrome",
+    chooseHere: "三星浏览器",
+    chooseHereOther: "当前浏览器",
     title: "应用程序",
     lead: "可将本网站作为应用安装到手机或电脑上（Android、iPhone、Windows、macOS）。安装后可从主屏幕、任务栏或开始菜单直接打开，已阅读的分析文章可离线查看，内容自动更新。",
-    via: "在 Android 上可通过 Google Chrome 或三星浏览器安装；在 Windows 电脑上通过 Microsoft Edge 安装；在 Mac 上通过 Chrome、Edge 或 Safari 安装；在 iPhone 和 iPad 上通过 Safari 安装。",
+    via: "在 Android 上通过 Google Chrome 安装，也可使用三星浏览器；在 Windows 电脑上通过 Microsoft Edge 安装；在 Mac 上通过 Chrome、Edge 或 Safari 安装；在 iPhone 和 iPad 上通过 Safari 安装。",
     install: "安装应用",
     info: "安装方法",
     installed: "本设备已安装该应用。",
@@ -69,7 +84,7 @@ const TXT = {
     close: "关闭",
     sheetTitle: "安装应用",
     steps: [
-      ["Android", "在 Google Chrome 或三星浏览器中点击“安装应用”并确认。如未出现安装窗口：在 Chrome 中打开 ⋮ 菜单并选择“安装应用”；在三星浏览器中打开 ≡ 菜单，选择“添加页面到”，再选择“主屏幕”。"],
+      ["Android", "点击“安装应用”：本网站会在 Google Chrome 中打开并开始安装。如果 Chrome 没有打开，请在弹出的窗口中选择 Google Chrome 或三星浏览器。最后的办法：在 Chrome 中打开 ⋮ 菜单并选择“安装应用”；在三星浏览器中打开 ≡ 菜单，选择“添加页面到”，再选择“主屏幕”。"],
       ["Windows", "点击“安装应用”：本网站会在 Windows 自带的 Microsoft Edge 中打开并开始安装。Edge 随后会提供固定到任务栏和创建桌面图标的选项。"],
       ["Mac", "在 Chrome 或 Edge 中点击“安装应用”。在 Safari 中，打开“文件”菜单，选择“添加到程序坞”。"],
       ["iPhone 和 iPad", "在 Safari 中点击“分享”按钮（带向上箭头的方框），然后选择“添加到主屏幕”并点击“添加”。"],
@@ -93,6 +108,9 @@ const isIOS = /iphone|ipad|ipod/i.test(UA) || (typeof navigator !== "undefined" 
 const isFirefox = /Firefox\//i.test(UA);
 const isEdge = /Edg\//.test(UA);
 const isChromium = /Chrome\//.test(UA) && !isFirefox;
+const isSamsung = /SamsungBrowser/i.test(UA);
+// Chrome « authentique » sur Android (pas Samsung, Edge, Opera, Firefox, ni WebView).
+const isAndroidChrome = isAndroid && /Chrome\//.test(UA) && !/SamsungBrowser|EdgA|OPR|Firefox|; wv\)/i.test(UA);
 const isMacSafari = !isIOS && /Macintosh/.test(UA) && /Safari\//.test(UA) && !/Chrome\/|Firefox\//.test(UA);
 
 const isStandalone = () =>
@@ -105,6 +123,11 @@ const pageUrl = (param) => {
   u.searchParams.set(param, "1");
   u.hash = "app";
   return u;
+};
+// Rouvre la page dans Google Chrome sur Android.
+const chromeIntent = () => {
+  const u = pageUrl("installer");
+  return `intent://${u.host}${u.pathname}${u.search}#Intent;scheme=https;package=com.android.chrome;end`;
 };
 // Rouvre la page dans Microsoft Edge sur Windows.
 const edgeUrl = () => `microsoft-edge:${pageUrl("installer").href}`;
@@ -129,8 +152,12 @@ export default function InstallApp({ lang }) {
   const params = typeof window !== "undefined" ? new URLSearchParams(window.location.search) : new URLSearchParams();
   const [canPrompt, setCanPrompt] = useState(!!deferred);
   const [installed, setInstalled] = useState(isStandalone);
-  // Arrivée depuis un autre navigateur (Edge sur Windows) : fenêtre de confirmation.
-  const [panel, setPanel] = useState(() => (params.has("installer") && !isStandalone() ? "ready" : null));
+  // Arrivée depuis un autre navigateur : confirmation dans Edge ou Chrome ; sur un autre
+  // navigateur Android (retour après l'ouverture de Chrome), choix du navigateur.
+  const [panel, setPanel] = useState(() => {
+    if (!params.has("installer") || isStandalone()) return null;
+    return isAndroid && !isAndroidChrome ? "choose" : "ready";
+  });
   const [copied, setCopied] = useState(false);
   const [arrived] = useState(() => params.has("installer"));
 
@@ -152,8 +179,35 @@ export default function InstallApp({ lang }) {
     return () => window.removeEventListener("keydown", onKey);
   }, [panel]);
 
+  // Installation par le navigateur courant (fenêtre native si disponible).
+  const installHere = async () => {
+    if (!deferred && isChromium) {
+      await new Promise((resolve) => {
+        const f = () => { listeners.delete(f); resolve(); };
+        listeners.add(f);
+        setTimeout(f, 2000);
+      });
+    }
+    if (deferred) {
+      const e = deferred;
+      e.prompt();
+      try { await e.userChoice; } catch (err) { /* choix indisponible */ }
+      deferred = null;
+      setCanPrompt(false);
+      return;
+    }
+    setPanel("info");
+  };
+
   const onInstall = async () => {
     if (isIOS) { setPanel("ios"); return; }
+    // Android hors Chrome : on ouvre d'abord Chrome ; si la page reste affichée,
+    // on propose le choix entre Chrome et le navigateur courant.
+    if (isAndroid && !isAndroidChrome) {
+      window.location.href = chromeIntent();
+      setTimeout(() => { if (document.visibilityState === "visible") setPanel("choose"); }, 2500);
+      return;
+    }
     // Windows : l'installation passe par Microsoft Edge.
     if (isWindows && !isEdge) { window.location.href = edgeUrl(); return; }
     // Juste après l'ouverture de la page, le navigateur peut ne pas encore avoir signalé
@@ -188,7 +242,7 @@ export default function InstallApp({ lang }) {
     try { await navigator.clipboard.writeText(window.location.origin + "/"); setCopied(true); } catch (e) { /* presse-papiers indisponible */ }
   };
 
-  const titles = { ready: t.sheetTitle, info: t.sheetTitle, unsupported: t.niTitle, safari: t.safTitle, ios: t.iosTitle };
+  const titles = { choose: t.chooseTitle, ready: t.sheetTitle, info: t.sheetTitle, unsupported: t.niTitle, safari: t.safTitle, ios: t.iosTitle };
 
   return (
     <div className="app-install">
@@ -227,6 +281,15 @@ export default function InstallApp({ lang }) {
                     <img src="/icon-192.png" alt="" width="20" height="20" />
                     {t.install}
                   </button>
+                </div>
+              </>
+            )}
+            {panel === "choose" && (
+              <>
+                <p className="app-sheet-text">{t.chooseText}</p>
+                <div className="app-sheet-actions is-stack">
+                  <a className="btn btn-primary" href={chromeIntent()}>{t.chooseChrome}</a>
+                  <button className="btn btn-ghost" onClick={() => { setPanel(null); installHere(); }}>{isSamsung ? t.chooseHere : t.chooseHereOther}</button>
                 </div>
               </>
             )}

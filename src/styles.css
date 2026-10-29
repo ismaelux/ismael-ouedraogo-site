@@ -327,3 +327,5 @@ a { color: inherit; }
 .app-sheet-text { font-size: 15.5px; line-height: 1.55; color: var(--ink-2); }
 .app-sheet-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
 .app-sheet-note { margin-top: 12px; font-size: 14px; line-height: 1.5; color: var(--ink-3); }
+.app-sheet-actions.is-stack { flex-direction: column; align-items: stretch; }
+.app-sheet-actions.is-stack .btn { justify-content: center; }
