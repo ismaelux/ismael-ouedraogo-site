@@ -1,81 +1,86 @@
 import { useEffect, useState } from "react";
 
 // Installation du site comme application (PWA) sur téléphone et ordinateur.
+// Un seul bouton : il lance l'installation du navigateur quand c'est possible,
+// sinon il rouvre le site dans Chrome (Android) ou Edge (Windows) pour l'installer.
 const TXT = {
   fr: {
-    samsungNote: "Vous utilisez Samsung Internet. Sur les versions récentes d'Android, ce navigateur produit une application que Google Play Protect signale à tort comme conçue pour une ancienne version d'Android. Pour une installation sans avertissement, ouvrez le site dans Google Chrome puis touchez « Installer l'application ».",
-    openChrome: "Ouvrir dans Chrome",
-    anyway: "Installer avec Samsung Internet",
     title: "Application",
     lead: "Installez ce site comme une application sur votre téléphone ou votre ordinateur (Android, iPhone, Windows, macOS). Il s'ouvre depuis l'écran d'accueil ou le menu Démarrer, les analyses déjà consultées restent lisibles hors ligne, et le contenu se met à jour automatiquement.",
+    via: "L'installation passe par Google Chrome sur Android, par Chrome ou Microsoft Edge sur ordinateur, et par Safari sur iPhone et iPad.",
     install: "Installer l'application",
-    how: "Comment installer",
+    info: "Comment installer",
     installed: "L'application est installée sur cet appareil.",
+    ready: "Touchez « Installer l'application » pour confirmer l'installation.",
     close: "Fermer",
     sheetTitle: "Installer l'application",
-    ios: ["Ouvrez ce site dans Safari.", "Touchez le bouton Partager (le carré avec une flèche vers le haut).", "Choisissez « Sur l'écran d'accueil », puis « Ajouter »."],
-    other: [
-      ["Windows, macOS, Linux (Chrome ou Edge)", "Cliquez sur l'icône d'installation à droite de la barre d'adresse, ou ouvrez le menu ⋮ puis « Installer Ismaël Ouédraogo »."],
-      ["Android (Chrome)", "Ouvrez le menu ⋮ puis « Installer l'application » ou « Ajouter à l'écran d'accueil ». Si Google Play Protect affiche un avertissement, installez depuis Google Chrome plutôt que depuis un autre navigateur, ou choisissez « Ajouter à l'écran d'accueil » puis « Créer un raccourci »."],
-      ["iPhone et iPad (Safari)", "Bouton Partager, puis « Sur l'écran d'accueil »."],
-      ["Mac (Safari)", "Menu Fichier, puis « Ajouter au Dock »."],
+    steps: [
+      ["Android", "Ouvrez le site dans Google Chrome et touchez « Installer l'application ». Depuis un autre navigateur, le bouton ouvre automatiquement le site dans Chrome."],
+      ["Windows", "Ouvrez le site dans Microsoft Edge ou Google Chrome et cliquez sur « Installer l'application ». Depuis Firefox, le bouton ouvre automatiquement le site dans Edge, déjà présent sur Windows."],
+      ["Mac", "Dans Chrome ou Edge, cliquez sur « Installer l'application ». Dans Safari, menu Fichier, puis « Ajouter au Dock »."],
+      ["iPhone et iPad", "Dans Safari, touchez le bouton Partager (le carré avec une flèche vers le haut), puis « Sur l'écran d'accueil » et « Ajouter »."],
     ],
   },
   en: {
-    samsungNote: "You are using Samsung Internet. On recent versions of Android, this browser builds an app that Google Play Protect wrongly flags as designed for an older version of Android. To install without a warning, open the site in Google Chrome and tap “Install the app”.",
-    openChrome: "Open in Chrome",
-    anyway: "Install with Samsung Internet",
     title: "App",
     lead: "Install this site as an app on your phone or computer (Android, iPhone, Windows, macOS). It opens from your home screen or Start menu, analyses you have already read stay available offline, and content updates automatically.",
+    via: "Installation goes through Google Chrome on Android, Chrome or Microsoft Edge on computers, and Safari on iPhone and iPad.",
     install: "Install the app",
-    how: "How to install",
+    info: "How to install",
     installed: "The app is installed on this device.",
+    ready: "Tap “Install the app” to confirm the installation.",
     close: "Close",
     sheetTitle: "Install the app",
-    ios: ["Open this site in Safari.", "Tap the Share button (the square with an upward arrow).", "Choose “Add to Home Screen”, then “Add”."],
-    other: [
-      ["Windows, macOS, Linux (Chrome or Edge)", "Click the install icon at the right of the address bar, or open the ⋮ menu and choose “Install Ismaël Ouédraogo”."],
-      ["Android (Chrome)", "Open the ⋮ menu and choose “Install app” or “Add to Home screen”. If Google Play Protect shows a warning, install from Google Chrome rather than another browser, or choose “Add to Home screen” and then “Create shortcut”."],
-      ["iPhone and iPad (Safari)", "Share button, then “Add to Home Screen”."],
-      ["Mac (Safari)", "File menu, then “Add to Dock”."],
+    steps: [
+      ["Android", "Open the site in Google Chrome and tap “Install the app”. From any other browser, the button opens the site in Chrome for you."],
+      ["Windows", "Open the site in Microsoft Edge or Google Chrome and click “Install the app”. From Firefox, the button opens the site in Edge, which comes with Windows."],
+      ["Mac", "In Chrome or Edge, click “Install the app”. In Safari, use the File menu, then “Add to Dock”."],
+      ["iPhone and iPad", "In Safari, tap the Share button (the square with an upward arrow), then “Add to Home Screen” and “Add”."],
     ],
   },
   zh: {
-    samsungNote: "您正在使用三星浏览器（Samsung Internet）。在较新的 Android 版本上，该浏览器生成的应用会被 Google Play 保护机制误报为“为旧版 Android 设计”。如需无警告安装，请在 Google Chrome 中打开本网站，然后点击“安装应用”。",
-    openChrome: "在 Chrome 中打开",
-    anyway: "使用三星浏览器安装",
     title: "应用程序",
     lead: "可将本网站作为应用安装到手机或电脑上（Android、iPhone、Windows、macOS）。安装后可从主屏幕或开始菜单直接打开，已阅读的分析文章可离线查看，内容自动更新。",
+    via: "在 Android 上通过 Google Chrome 安装，在电脑上通过 Chrome 或 Microsoft Edge 安装，在 iPhone 和 iPad 上通过 Safari 安装。",
     install: "安装应用",
-    how: "安装方法",
+    info: "安装方法",
     installed: "本设备已安装该应用。",
+    ready: "点击“安装应用”以确认安装。",
     close: "关闭",
     sheetTitle: "安装应用",
-    ios: ["在 Safari 中打开本网站。", "点击“分享”按钮（带向上箭头的方框）。", "选择“添加到主屏幕”，然后点击“添加”。"],
-    other: [
-      ["Windows、macOS、Linux（Chrome 或 Edge）", "点击地址栏右侧的安装图标，或打开 ⋮ 菜单并选择“安装 Ismaël Ouédraogo”。"],
-      ["Android（Chrome）", "打开 ⋮ 菜单，选择“安装应用”或“添加到主屏幕”。如果 Google Play 保护机制显示警告，请改用 Google Chrome 安装，或选择“添加到主屏幕”后再选“创建快捷方式”。"],
-      ["iPhone 和 iPad（Safari）", "点击“分享”按钮，然后选择“添加到主屏幕”。"],
-      ["Mac（Safari）", "打开“文件”菜单，然后选择“添加到程序坞”。"],
+    steps: [
+      ["Android", "在 Google Chrome 中打开本网站，点击“安装应用”。如使用其他浏览器，该按钮会自动在 Chrome 中打开本网站。"],
+      ["Windows", "在 Microsoft Edge 或 Google Chrome 中打开本网站，点击“安装应用”。如使用 Firefox，该按钮会自动在 Windows 自带的 Edge 中打开本网站。"],
+      ["Mac", "在 Chrome 或 Edge 中点击“安装应用”。在 Safari 中，打开“文件”菜单，选择“添加到程序坞”。"],
+      ["iPhone 和 iPad", "在 Safari 中点击“分享”按钮（带向上箭头的方框），然后选择“添加到主屏幕”并点击“添加”。"],
     ],
   },
 };
+
+const UA = typeof navigator !== "undefined" ? navigator.userAgent : "";
+const isAndroid = /Android/i.test(UA);
+const isWindows = /Windows NT/i.test(UA);
+const isIOS = /iphone|ipad|ipod/i.test(UA) || (typeof navigator !== "undefined" && navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+const isSamsung = /SamsungBrowser/i.test(UA);
+// Chrome « authentique » sur Android (pas Samsung, Edge, Opera, Firefox, ni WebView).
+const isAndroidChrome = isAndroid && /Chrome\//.test(UA) && !/SamsungBrowser|EdgA|OPR|Firefox|; wv\)/i.test(UA);
+// Navigateur Windows capable d'installer (Chrome, Edge, Opera, Brave…), par opposition à Firefox.
+const isWindowsChromium = isWindows && /Chrome\//.test(UA) && !/Firefox/i.test(UA);
 
 const isStandalone = () =>
   typeof window !== "undefined" &&
   (window.matchMedia?.("(display-mode: standalone)").matches || window.matchMedia?.("(display-mode: window-controls-overlay)").matches || window.navigator.standalone === true);
 
-const isSamsung = () => typeof navigator !== "undefined" && /SamsungBrowser/i.test(navigator.userAgent);
-
-// Lien qui ouvre la page courante dans Google Chrome sur Android (ou la fiche Chrome si absent).
-const chromeIntent = () => {
-  const { host, pathname, search } = window.location;
-  return `intent://${host}${pathname}${search}#Intent;scheme=https;package=com.android.chrome;end`;
+const targetUrl = () => {
+  const u = new URL(window.location.href);
+  u.searchParams.set("installer", "1");
+  u.hash = "app";
+  return u;
 };
-
-const isIOS = () =>
-  typeof navigator !== "undefined" &&
-  (/iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1));
+// Rouvre la page dans Chrome sur Android (ou propose Chrome s'il est absent).
+const chromeIntent = () => { const u = targetUrl(); return `intent://${u.host}${u.pathname}${u.search}#Intent;scheme=https;package=com.android.chrome;end`; };
+// Rouvre la page dans Microsoft Edge sur Windows.
+const edgeUrl = () => `microsoft-edge:${targetUrl().href}`;
 
 // Capturé au plus tôt : l'événement peut arriver avant le montage du composant.
 let deferred = null;
@@ -85,17 +90,26 @@ if (typeof window !== "undefined") {
   window.addEventListener("appinstalled", () => { deferred = null; listeners.forEach((f) => f(true)); });
 }
 
+// Permet à d'autres liens du site (pied de page) de déclencher la même installation.
+export const requestInstall = () => window.dispatchEvent(new Event("install-app"));
+
 export default function InstallApp({ lang }) {
   const t = TXT[lang] || TXT.fr;
   const [canPrompt, setCanPrompt] = useState(!!deferred);
   const [installed, setInstalled] = useState(isStandalone);
   const [sheet, setSheet] = useState(false);
+  const [arrived] = useState(() => typeof window !== "undefined" && new URLSearchParams(window.location.search).has("installer"));
 
   useEffect(() => {
     const f = (done) => { if (done === true) setInstalled(true); setCanPrompt(!!deferred); };
     listeners.add(f);
     return () => listeners.delete(f);
   }, []);
+
+  // Arrivée depuis un autre navigateur : on amène directement à la section.
+  useEffect(() => {
+    if (arrived) setTimeout(() => document.getElementById("app")?.scrollIntoView({ block: "center" }), 300);
+  }, [arrived]);
 
   useEffect(() => {
     if (!sheet) return;
@@ -105,46 +119,55 @@ export default function InstallApp({ lang }) {
   }, [sheet]);
 
   const onInstall = async () => {
+    // Juste après l'ouverture de la page, le navigateur peut ne pas encore avoir signalé
+    // que l'installation est possible : on lui laisse un court délai.
+    if (!deferred && /Chrome\//.test(UA) && !isSamsung && !isIOS) {
+      await new Promise((resolve) => {
+        const f = () => { listeners.delete(f); resolve(); };
+        listeners.add(f);
+        setTimeout(f, 2000);
+      });
+    }
+    // Samsung Internet : l'installation passe par Chrome.
+    if (isSamsung || (isAndroid && !isAndroidChrome && !deferred)) { window.location.href = chromeIntent(); return; }
     if (deferred) {
-      deferred.prompt();
-      try { await deferred.userChoice; } catch (e) { /* choix indisponible */ }
+      const e = deferred;
+      e.prompt();
+      try { await e.userChoice; } catch (err) { /* choix indisponible */ }
       deferred = null;
       setCanPrompt(false);
-    } else {
-      setSheet(true);
+      return;
     }
+    // Firefox et autres navigateurs Windows sans installation : l'installation passe par Edge.
+    if (isWindows && !isWindowsChromium) { window.location.href = edgeUrl(); return; }
+    setSheet(true);
   };
 
-  const ios = isIOS();
-  const samsung = isSamsung();
+  useEffect(() => {
+    const f = () => { if (!isStandalone()) onInstall(); };
+    window.addEventListener("install-app", f);
+    return () => window.removeEventListener("install-app", f);
+  });
 
   return (
     <div className="app-install">
       <h3>{t.title}</h3>
-      <p>{t.lead}</p>
+      <p>{t.lead} {t.via}</p>
       {installed ? (
         <p className="app-installed">{t.installed}</p>
       ) : (
-        samsung ? (
         <>
-          <p className="app-note">{t.samsungNote}</p>
           <div className="app-actions">
-            <a className="btn btn-primary" href={chromeIntent()}>
+            <button className={`btn btn-primary ${arrived && canPrompt ? "is-ready" : ""}`} onClick={onInstall}>
               <img src="/icon-192.png" alt="" width="20" height="20" />
-              {t.openChrome}
-            </a>
-            {canPrompt && <button className="app-how" onClick={onInstall}>{t.anyway}</button>}
+              {t.install}
+            </button>
+            <button className="app-info" onClick={() => setSheet(true)} aria-label={t.info} title={t.info}>
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" strokeWidth="1.6" /><path d="M12 10.5v6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><circle cx="12" cy="7.4" r="1.15" fill="currentColor" /></svg>
+            </button>
           </div>
+          {arrived && canPrompt && <p className="app-ready">{t.ready}</p>}
         </>
-        ) : (
-        <div className="app-actions">
-          <button className="btn btn-primary" onClick={onInstall}>
-            <img src="/icon-192.png" alt="" width="20" height="20" />
-            {canPrompt || !ios ? t.install : t.how}
-          </button>
-          {canPrompt && <button className="app-how" onClick={() => setSheet(true)}>{t.how}</button>}
-        </div>
-        )
       )}
 
       {sheet && (
@@ -155,11 +178,7 @@ export default function InstallApp({ lang }) {
               <strong>{t.sheetTitle}</strong>
               <button onClick={() => setSheet(false)}>{t.close}</button>
             </div>
-            {ios ? (
-              <ol>{t.ios.map((s) => <li key={s}>{s}</li>)}</ol>
-            ) : (
-              <dl>{t.other.map(([k, v]) => <div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl>
-            )}
+            <dl>{(isIOS ? [...t.steps].reverse() : t.steps).map(([k, v]) => <div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl>
           </div>
         </div>
       )}
