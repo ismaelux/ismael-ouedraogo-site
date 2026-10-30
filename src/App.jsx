@@ -11,6 +11,24 @@ import { Analytics } from "@vercel/analytics/react";
 import { T_ZH, PAPERS_ZH, THEMES_ZH, COURSES_NOW_ZH, COURSES_PAST_ZH, LEADERS_ZH, CITY_ZH, POLE_ZH, CAT_ZH, MONTH_NUM } from "./i18n-zh.js";
 
 const EMAIL = "ismaelouedraogo1004@gmail.com";
+
+// Actualisation : récupère la dernière version publiée (y compris dans l'application installée).
+const REFRESH_LABEL = { fr: "Actualiser", en: "Refresh", zh: "刷新" };
+async function refreshSite() {
+  try {
+    const reg = await navigator.serviceWorker?.getRegistration();
+    await reg?.update();
+  } catch (e) { /* service worker indisponible */ }
+  window.location.reload();
+}
+function RefreshButton({ lang }) {
+  const [busy, setBusy] = useState(false);
+  return (
+    <button className={`refresh-btn ${busy ? "is-busy" : ""}`} onClick={() => { setBusy(true); refreshSite(); }} aria-label={REFRESH_LABEL[lang]} title={REFRESH_LABEL[lang]}>
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><path d="M20 4.5v4.2h-4.2" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>
+    </button>
+  );
+}
 const EMAIL_PRO = "ismael.ouedraogo@univ-rennes2.fr";
 
 const MONTHS = {
@@ -427,6 +445,7 @@ function Reader({ b, lang, t, onClose }) {
       <div className="reader-bar">
         <div className="wrap">
           <button className="reader-back" onClick={onClose}>{"←"} {t.back}</button>
+          <RefreshButton lang={lang} />
           <button className="reader-copy" onClick={copyLink}>{copied ? t.copied : t.copy}</button>
         </div>
         <div className="reader-progress" style={{ width: `${progress}%` }} />
@@ -570,6 +589,7 @@ export default function App() {
       <header className={`top ${scrolled ? "is-scrolled" : ""}`}>
         <div className="wrap top-inner">
           <a className="brand" href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}>Ismaël Ouédraogo<span className="brand-sub">{t.brandSub}</span></a>
+          <RefreshButton lang={lang} />
           <button className="menu-btn" aria-expanded={menuOpen} aria-controls="nav" onClick={() => setMenuOpen(o => !o)}>{menuOpen ? t.close : t.menu}</button>
           <nav id="nav" className={`nav ${menuOpen ? "is-open" : ""}`}>
             {Object.entries(t.nav).map(([id, label]) => <a key={id} href={`#${id}`} onClick={go(id)} className={active === id ? "is-active" : ""}>{label}</a>)}
@@ -692,7 +712,7 @@ export default function App() {
           <div className="wrap about">
             <div>
               <div className="section-head" style={{ display: "block" }}><h2>{t.aboutTitle}</h2></div>
-              <div className="portrait"><img src="/photo-ismael.jpg" alt="Ismaël Ouédraogo" loading="lazy" /></div>
+              <div className="portrait"><img src="/portrait-crayon.webp" alt="Ismaël Ouédraogo" loading="lazy" /></div>
             </div>
             <div>
               <div className="about-text">{t.about.map((p, i) => <p key={i}>{p}</p>)}</div>

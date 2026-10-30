@@ -400,3 +400,18 @@ a { color: inherit; }
 .mf-on:hover, .mf-off:hover { opacity: .8; }
 .mf-label { font-family: var(--sans); font-weight: 600; fill: var(--ink); paint-order: stroke; stroke: var(--surface); stroke-linejoin: round; }
 .mf-legend { margin-top: 10px; }
+
+/* Intertitres des analyses en bleu, bouton d'actualisation, portrait au crayon */
+.prose h2 { color: var(--indigo); font-weight: 600; }
+.refresh-btn { display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 999px; color: var(--ink-2); flex: 0 0 auto; transition: background .15s, color .15s; }
+.refresh-btn:hover { background: var(--indigo-soft); color: var(--indigo); }
+.refresh-btn.is-busy svg { animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.top-inner .refresh-btn { margin-left: -12px; }
+@media (max-width: 860px) { .top-inner .refresh-btn { margin-left: -16px; } }
+.portrait { background: none; aspect-ratio: 1 / 1; border-radius: 0; }
+.portrait img { object-fit: contain; }
+.lang { flex-shrink: 0; }
+.lang button { white-space: nowrap; }
+@media (min-width: 861px) and (max-width: 1320px) { .nav a { padding: 8px 7px; } .top-inner { gap: 16px; } }
+@media (min-width: 861px) and (max-width: 1140px) { .brand-sub { display: none; } }
