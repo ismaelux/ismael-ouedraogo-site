@@ -409,7 +409,7 @@ a { color: inherit; }
 @keyframes spin { to { transform: rotate(360deg); } }
 .top-inner .refresh-btn { margin-left: -12px; }
 @media (max-width: 860px) { .top-inner .refresh-btn { margin-left: -16px; } }
-.portrait { background: none; aspect-ratio: 1 / 1; border-radius: 0; }
+.portrait { background: none; aspect-ratio: auto; border-radius: 0; }
 .portrait img { object-fit: contain; }
 .lang { flex-shrink: 0; }
 .lang button { white-space: nowrap; }

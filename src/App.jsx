@@ -712,7 +712,7 @@ export default function App() {
           <div className="wrap about">
             <div>
               <div className="section-head" style={{ display: "block" }}><h2>{t.aboutTitle}</h2></div>
-              <div className="portrait"><img src="/portrait-crayon.webp?v=2" alt="Ismaël Ouédraogo" loading="lazy" /></div>
+              <div className="portrait"><img src="/portrait-crayon.webp?v=3" alt="Ismaël Ouédraogo" loading="lazy" /></div>
             </div>
             <div>
               <div className="about-text">{t.about.map((p, i) => <p key={i}>{p}</p>)}</div>
