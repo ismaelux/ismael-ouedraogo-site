@@ -394,3 +394,9 @@ a { color: inherit; }
 .sc-most { border-left-color: var(--indigo); } .sc-most .sc-level { color: var(--indigo); }
 .sc-less { border-left-color: var(--teal); } .sc-less .sc-level { color: var(--teal); }
 .sc-least { border-left-color: var(--amber); } .sc-least .sc-level { color: var(--amber); }
+.mapfig-wrap { position: relative; background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; }
+.mapfig svg { width: 100%; height: auto; display: block; }
+.mf-on { transition: opacity .15s; }
+.mf-on:hover, .mf-off:hover { opacity: .8; }
+.mf-label { font-family: var(--sans); font-weight: 600; fill: var(--ink); paint-order: stroke; stroke: var(--surface); stroke-linejoin: round; }
+.mf-legend { margin-top: 10px; }

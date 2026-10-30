@@ -5,6 +5,7 @@ import "./styles.css";
 import { BULLETINS_ZH } from "./bulletins-zh.js";
 import InstallApp, { requestInstall } from "./InstallApp.jsx";
 import { Nutshell, Factbox, Chart, Scenarios, Rich } from "./AnalysisBlocks.jsx";
+import MapFigure from "./MapFigure.jsx";
 import SiteSearch, { SEARCH_TXT, norm } from "./SiteSearch.jsx";
 import { Analytics } from "@vercel/analytics/react";
 import { T_ZH, PAPERS_ZH, THEMES_ZH, COURSES_NOW_ZH, COURSES_PAST_ZH, LEADERS_ZH, CITY_ZH, POLE_ZH, CAT_ZH, MONTH_NUM } from "./i18n-zh.js";
@@ -447,16 +448,18 @@ function Reader({ b, lang, t, onClose }) {
           <article className="prose" lang={lang === "zh" ? "zh-CN" : lang}>
             {b.nutshell && <Nutshell items={b.nutshell} lang={lang} fmt={fmtL} />}
             {body.map((s, i) => {
-              const at = s.figure ? (s.figure.after ?? 1) : -1;
-              const fig = s.figure && (s.figure.kind === "map-westafrica"
-                ? <div className="figure-map">{s.figure.title && <p className="chart-title">{fmtL(s.figure.title)}</p>}<WestAfricaMap t={t} lang={lang} onOpenLatest={null} /></div>
-                : <Chart fig={s.figure} lang={lang} fmt={fmtL} />);
+              const figs = [...(s.figure ? [s.figure] : []), ...(s.figures || [])];
+              const draw = (f, k) => f.kind === "map-westafrica"
+                ? <div className="figure-map" key={k}>{f.title && <p className="chart-title">{fmtL(f.title)}</p>}<WestAfricaMap t={t} lang={lang} onOpenLatest={null} /></div>
+                : f.kind === "map" ? <MapFigure key={k} fig={f} lang={lang} fmt={fmtL} />
+                : <Chart key={k} fig={f} lang={lang} fmt={fmtL} />;
+              const figAt = (n) => figs.map((f, k) => ((f.after ?? 1) === n ? draw(f, k) : null));
               return (
                 <section key={i}>
                   {s.heading && <h2 id={slugify(s.heading)}>{fr(s.heading, lang)}</h2>}
-                  {at === 0 && fig}
-                  {s.paragraphs.map((p, j) => <Fragment key={j}><p><Rich text={p} fmt={fmtL} /></p>{at === j + 1 && fig}</Fragment>)}
-                  {at > s.paragraphs.length && fig}
+                  {figAt(0)}
+                  {s.paragraphs.map((p, j) => <Fragment key={j}><p><Rich text={p} fmt={fmtL} /></p>{figAt(j + 1)}</Fragment>)}
+                  {figs.filter((f) => (f.after ?? 1) > s.paragraphs.length).map((f, k) => draw(f, "x" + k))}
                   {s.factbox && <Factbox box={s.factbox} lang={lang} fmt={fmtL} />}
                   {s.scenarios && <Scenarios items={s.scenarios} lang={lang} fmt={fmtL} />}
                 </section>
