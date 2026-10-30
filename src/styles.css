@@ -402,7 +402,7 @@ a { color: inherit; }
 .mf-legend { margin-top: 10px; }
 
 /* Intertitres des analyses en bleu, bouton d'actualisation, portrait au crayon */
-.prose h2 { color: var(--indigo); font-weight: 600; }
+.prose h2 { color: #1B2B66; font-weight: 600; }
 .refresh-btn { display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 999px; color: var(--ink-2); flex: 0 0 auto; transition: background .15s, color .15s; }
 .refresh-btn:hover { background: var(--indigo-soft); color: var(--indigo); }
 .refresh-btn.is-busy svg { animation: spin .8s linear infinite; }
