@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { stripLinks } from "./AnalysisBlocks.jsx";
 
 // Recherche dans le contenu du site (analyses, travaux, enseignement, parcours).
 // Distincte de la section « Recherche » (travaux de recherche) : icône loupe dans l'en-tête.
@@ -53,7 +54,7 @@ export default function SiteSearch({ lang, open, onClose, bulletins, papers, cou
     const hits = (s) => terms.some((w) => norm(s).includes(w));
 
     const analyses = bulletins.map((b) => {
-      const paras = b.content.flatMap((s) => [s.heading || "", ...s.paragraphs]);
+      const paras = [...(b.nutshell || []), ...b.content.flatMap((s) => [s.heading || "", ...s.paragraphs, ...(s.factbox ? s.factbox.items : []), ...(s.scenarios || []).flatMap((x) => [x.title, ...(Array.isArray(x.text) ? x.text : [x.text])])])].map(stripLinks);
       const all = [b.title, b.excerpt, b.category, catLabel(b.category, lang), (b.tags || []).join(" "), ...paras].join(" ");
       if (!has(all)) return null;
       let score = 0;

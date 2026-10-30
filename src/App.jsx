@@ -1,9 +1,10 @@
-import { useState, useEffect, useMemo, useRef } from "react";
+import { useState, useEffect, useMemo, useRef, Fragment } from "react";
 import { BULLETINS_FR, BULLETINS_EN, CATEGORIES_FR, CATEGORIES_EN } from "./bulletins-data.js";
 import { MAP } from "./west-africa-map.js";
 import "./styles.css";
 import { BULLETINS_ZH } from "./bulletins-zh.js";
 import InstallApp, { requestInstall } from "./InstallApp.jsx";
+import { Nutshell, Factbox, Chart, Scenarios, Rich } from "./AnalysisBlocks.jsx";
 import SiteSearch, { SEARCH_TXT, norm } from "./SiteSearch.jsx";
 import { Analytics } from "@vercel/analytics/react";
 import { T_ZH, PAPERS_ZH, THEMES_ZH, COURSES_NOW_ZH, COURSES_PAST_ZH, LEADERS_ZH, CITY_ZH, POLE_ZH, CAT_ZH, MONTH_NUM } from "./i18n-zh.js";
@@ -22,7 +23,7 @@ const fmtDate = (b, lang) => {
 };
 const readingTime = (content) => {
   if (!content) return 1;
-  const text = content.filter(s => s.heading !== "Sources").map(s => s.paragraphs.join(" ")).join(" ");
+  const text = content.filter(s => s.heading !== "Sources").map(s => [...s.paragraphs, ...(s.factbox ? s.factbox.items : []), ...(s.scenarios || []).map(x => `${x.title} ${x.text}`)].join(" ")).join(" ");
   const cjk = (text.match(/[\u4e00-\u9fff]/g) || []).length;
   const words = text.replace(/[\u4e00-\u9fff]/g, "").split(/\s+/).filter(Boolean).length;
   return Math.max(1, Math.round(words / 230 + cjk / 400));
@@ -296,7 +297,7 @@ function WestAfricaMap({ t, lang, onOpenLatest }) {
           <span className="key"><span className="swatch" style={{ background: "var(--teal)" }} />{t.keyUemoa}</span>
           <span className="key"><span className="swatch" style={{ background: "#C9D1E3" }} />{t.keyOutUemoa}</span>
         </>}
-        <span className="map-note">{t.westHint} {t.mapNote} <a href="#" onClick={(e) => { e.preventDefault(); onOpenLatest(); }}>{t.mapLink}</a></span>
+        <span className="map-note">{t.westHint} {t.mapNote} {onOpenLatest && <a href="#" onClick={(e) => { e.preventDefault(); onOpenLatest(); }}>{t.mapLink}</a>}</span>
       </figcaption>
     </figure>
   );
@@ -394,6 +395,7 @@ function Reader({ b, lang, t, onClose }) {
   const src = b.content.find(s => s.heading === "Sources");
   const sources = src ? src.paragraphs.join(" | ").split(/\s*\|\s*/).filter(Boolean) : [];
   const headings = body.filter(s => s.heading).map(s => ({ id: slugify(s.heading), label: s.heading }));
+  const fmtL = (x) => fr(x, lang);
 
   useEffect(() => {
     const el = ref.current;
@@ -443,16 +445,27 @@ function Reader({ b, lang, t, onClose }) {
             </>}
           </nav>
           <article className="prose" lang={lang === "zh" ? "zh-CN" : lang}>
-            {body.map((s, i) => (
-              <section key={i}>
-                {s.heading && <h2 id={slugify(s.heading)}>{fr(s.heading, lang)}</h2>}
-                {s.paragraphs.map((p, j) => <p key={j}>{fr(p, lang)}</p>)}
-              </section>
-            ))}
+            {b.nutshell && <Nutshell items={b.nutshell} lang={lang} fmt={fmtL} />}
+            {body.map((s, i) => {
+              const at = s.figure ? (s.figure.after ?? 1) : -1;
+              const fig = s.figure && (s.figure.kind === "map-westafrica"
+                ? <div className="figure-map">{s.figure.title && <p className="chart-title">{fmtL(s.figure.title)}</p>}<WestAfricaMap t={t} lang={lang} onOpenLatest={null} /></div>
+                : <Chart fig={s.figure} lang={lang} fmt={fmtL} />);
+              return (
+                <section key={i}>
+                  {s.heading && <h2 id={slugify(s.heading)}>{fr(s.heading, lang)}</h2>}
+                  {at === 0 && fig}
+                  {s.paragraphs.map((p, j) => <Fragment key={j}><p><Rich text={p} fmt={fmtL} /></p>{at === j + 1 && fig}</Fragment>)}
+                  {at > s.paragraphs.length && fig}
+                  {s.factbox && <Factbox box={s.factbox} lang={lang} fmt={fmtL} />}
+                  {s.scenarios && <Scenarios items={s.scenarios} lang={lang} fmt={fmtL} />}
+                </section>
+              );
+            })}
             {sources.length > 0 && (
               <section className="sources">
                 <h2>{t.sources}</h2>
-                <ol>{sources.map((s, i) => <li key={i}>{s}</li>)}</ol>
+                <ol>{sources.map((s, i) => <li key={i}><Rich text={s} /></li>)}</ol>
               </section>
             )}
             <p className="reader-end">{t.endNote} <a href={`mailto:${EMAIL}?subject=${encodeURIComponent(b.title)}`}>{EMAIL}</a>.</p>
