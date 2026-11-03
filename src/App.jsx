@@ -4,7 +4,7 @@ import { MAP } from "./west-africa-map.js";
 import "./styles.css";
 import { BULLETINS_ZH } from "./bulletins-zh.js";
 import InstallApp, { requestInstall } from "./InstallApp.jsx";
-import { Nutshell, Factbox, Chart, Scenarios, Rich } from "./AnalysisBlocks.jsx";
+import { Nutshell, Factbox, Chart, Scenarios, Rich, Notes } from "./AnalysisBlocks.jsx";
 import MapFigure from "./MapFigure.jsx";
 import SiteSearch, { SEARCH_TXT, norm } from "./SiteSearch.jsx";
 import { Analytics } from "@vercel/analytics/react";
@@ -484,6 +484,7 @@ function Reader({ b, lang, t, onClose }) {
                 </section>
               );
             })}
+            {b.notes?.length > 0 && <Notes items={b.notes} lang={lang} fmt={fmtL} />}
             {sources.length > 0 && (
               <section className="sources">
                 <h2>{t.sources}</h2>

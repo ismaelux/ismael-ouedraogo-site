@@ -415,3 +415,12 @@ a { color: inherit; }
 .lang button { white-space: nowrap; }
 @media (min-width: 861px) and (max-width: 1320px) { .nav a { padding: 8px 7px; } .top-inner { gap: 16px; } }
 @media (min-width: 861px) and (max-width: 1140px) { .brand-sub { display: none; } }
+
+/* Appels de note et notes de fin d analyse */
+.fnref { font-family: var(--sans); font-size: 0.68em; line-height: 0; margin-left: 1px; vertical-align: super; }
+.fnref a { color: var(--indigo); text-decoration: none; font-weight: 600; padding: 0 2px; border-radius: 3px; }
+.fnref a:hover, .fnref a:focus-visible { background: var(--indigo); color: #fff; }
+.notes + .sources { margin-top: 32px; }
+.notes li { scroll-margin-top: 90px; }
+.fnback { text-decoration: none; color: var(--indigo); font-size: 13px; margin-left: 2px; }
+.is-flash { background: rgba(196, 140, 40, 0.18); border-radius: 4px; transition: background .6s; }

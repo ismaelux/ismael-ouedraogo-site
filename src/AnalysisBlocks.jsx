@@ -2,26 +2,50 @@
 // Tous les champs sont facultatifs : les analyses plus anciennes s'affichent comme avant.
 
 export const LBL = {
-  fr: { nutshell: "En bref", facts: "Repères", most: "Le plus probable", less: "Moins probable", least: "Peu probable", source: "Source" },
-  en: { nutshell: "In a nutshell", facts: "Facts & figures", most: "Most likely", less: "Less likely", least: "Least likely", source: "Source" },
-  zh: { nutshell: "要点", facts: "数据速览", most: "最可能", less: "可能性较小", least: "可能性最小", source: "来源" },
+  fr: { nutshell: "En bref", facts: "Repères", most: "Le plus probable", less: "Moins probable", least: "Peu probable", source: "Source", notes: "Notes", back: "Retour au texte" },
+  en: { nutshell: "In a nutshell", facts: "Facts & figures", most: "Most likely", less: "Less likely", least: "Least likely", source: "Source", notes: "Notes", back: "Back to text" },
+  zh: { nutshell: "要点", facts: "数据速览", most: "最可能", less: "可能性较小", least: "可能性最小", source: "来源", notes: "注释", back: "返回正文" },
 };
 
-// Texte avec liens au format [texte](https://…).
+// Défilement vers une note (ou retour vers son appel) sans toucher à l'ancre de l'URL,
+// qui sert à ouvrir les analyses.
+export const jumpTo = (id) => (e) => {
+  e.preventDefault();
+  const el = document.getElementById(id);
+  if (el) { el.scrollIntoView({ behavior: "smooth", block: "center" }); el.classList.add("is-flash"); setTimeout(() => el.classList.remove("is-flash"), 1600); }
+};
+
+// Texte avec liens au format [texte](https://…) et appels de note au format [^1].
 export function Rich({ text, fmt = (s) => s }) {
   const out = [];
-  const re = /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g;
+  const re = /\[([^\]^][^\]]*)\]\((https?:\/\/[^)\s]+)\)|\[\^(\d+)\]/g;
   let last = 0, m, k = 0;
   while ((m = re.exec(text))) {
     if (m.index > last) out.push(fmt(text.slice(last, m.index)));
-    out.push(<a key={k++} href={m[2]} target="_blank" rel="noopener noreferrer">{fmt(m[1])}</a>);
+    if (m[3]) out.push(<sup key={k++} className="fnref" id={`fnref-${m[3]}`}><a href={`#note-${m[3]}`} onClick={jumpTo(`note-${m[3]}`)} aria-label={`Note ${m[3]}`}>{m[3]}</a></sup>);
+    else out.push(<a key={k++} href={m[2]} target="_blank" rel="noopener noreferrer">{fmt(m[1])}</a>);
     last = m.index + m[0].length;
   }
   if (last < text.length) out.push(fmt(text.slice(last)));
   return <>{out}</>;
 }
 
-export const stripLinks = (s) => String(s || "").replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, "$1");
+export const stripLinks = (s) => String(s || "").replace(/\[([^\]^][^\]]*)\]\((https?:\/\/[^)\s]+)\)/g, "$1").replace(/\[\^\d+\]/g, "");
+
+// Notes de bas d'analyse : qui sont les auteurs cités et où trouver leurs textes.
+export function Notes({ items, lang, fmt }) {
+  return (
+    <section className="sources notes">
+      <h2>{LBL[lang].notes}</h2>
+      <ol>{items.map((s, i) => (
+        <li key={i} id={`note-${i + 1}`}>
+          <Rich text={s} fmt={fmt} />{" "}
+          <a className="fnback" href={`#fnref-${i + 1}`} onClick={jumpTo(`fnref-${i + 1}`)} aria-label={LBL[lang].back}>↩</a>
+        </li>
+      ))}</ol>
+    </section>
+  );
+}
 
 export function Nutshell({ items, lang, fmt }) {
   return (
