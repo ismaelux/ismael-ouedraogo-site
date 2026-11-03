@@ -1,6 +1,299 @@
 // Traductions en chinois simplifié des analyses (catégories en anglais, traduites à l'affichage).
 export const BULLETINS_ZH = [
   {
+    "id": 9,
+    "day": "03",
+    "month": "NOV",
+    "year": "2026",
+    "title": "阿尔及利亚出兵尼日尔：不干涉主义的终结，抑或对新萨赫勒的适应",
+    "excerpt": "自1973年以来，阿尔及利亚人民军首次应尼亚美之请在境外部署，进入尼日尔。官方理由是保护能源利益，实质则是在萨赫勒重新站稳脚跟：在这一地区，阿尔及尔此前已在与摩洛哥、阿联酋和俄罗斯的角逐中失去主动权。",
+    "tags": [
+      "阿尔及利亚",
+      "尼日尔",
+      "萨赫勒国家联盟",
+      "萨赫勒",
+      "安全",
+      "能源",
+      "跨撒哈拉天然气管道"
+    ],
+    "category": "Sahel Geopolitics",
+    "nutshell": [
+      "阿尔及利亚议会于10月25日批准自1973年以来首次向境外派兵，以保护阿尔及利亚国家石油公司（Sonatrach）在尼日尔的项目",
+      "阿尔及尔意在夺回在萨赫勒失去的战略纵深，并在与摩洛哥竞争性管道项目的较量中确保跨撒哈拉天然气管道的安全",
+      "尼亚美由此获得一个近邻保护者和能源供应方，代价是本国领土上多了一个武装伙伴，萨赫勒国家联盟的凝聚力也因此面临考验"
+    ],
+    "content": [
+      {
+        "heading": null,
+        "paragraphs": [
+          "自1973年十月战争中阿尔及利亚部队与埃及并肩作战以来，人民军再未越出国境。这种收敛并非偶然，而是源于独立战争所塑造的一套理念：不干涉、拒绝外国基地、偏重调解。2015年马里北部和平协议正是在阿尔及尔谈成的；长期以来，阿尔及尔也一直自诩无需派出一兵一卒即可掌控萨赫勒局势的脉络。这一模式已经失灵。2026年10月25日，议会两院闭门联席会议批准向尼日尔派遣人民军部队；在民族院，[该决议在148名投票议员中获得148票赞成](https://ouest-tribune.dz/envoi-dunites-de-lanp-au-niger-les-membres-du-conseil-de-la-nation-et-de-lapn-approuvent-a-lunanimite-la-notification-adressee-par-le-president-de-la-republique/)，远超宪法规定的三分之二门槛。",
+          "次日，总统府宣布国家元首已[决定向尼日尔共和国派遣人民军部队](https://www.aps.dz/fr/presidence-news/mvpepe6e-le-president-de-la-republique-decide-d-envoyer-des-unites-de-l-anp-en-republique-du-niger)，以保护双方共同的能源和经济利益。据路透社报道，10月30日首支军事车队抵达铀矿城市阿尔利特（Arlit）；10月31日，约60辆由阿尔及利亚军队护送的油罐车抵达阿加德兹（Agadez）。可见，这次部署绝非臆测：它已经表决通过、作出决定并付诸实施。",
+          "由此引出两个问题，本文将依次讨论。阿尔及尔为何恰在此时、恰在尼日尔打破半个世纪的克制？尼亚美政权以主权之名驱逐法国军队并借此建立合法性，如今接纳邻国军队，又能得到什么？答案可归结为一点：这次部署与其说是理念上的断裂，不如说是一种调适。借此，阿尔及利亚将其军事实力（按军费计为非洲第一）转化为经济和政治影响力，而在这一地区，其竞争对手原本已抢占先机。"
+        ]
+      },
+      {
+        "heading": "阿尔及尔决定了什么，又选择不说什么",
+        "paragraphs": [
+          "法律框架是2020年宪法。其第91条允许总统在两院各以三分之二多数批准后向境外派遣军队；第31条则规定，阿尔及利亚可在遵循联合国、非洲联盟和阿拉伯国家联盟原则的前提下参与和平行动。该条款在2020年被描述为一项并无即时效力的现代化举措，如今首次得到运用。双边依据是一份军事合作议定书，据官方日报[《地平线报》（Horizons）](https://www.horizons.dz/language/en/2026/10/cementing-regional-security-algeria-and-niger-sign-military-agreement/)报道，该议定书于10月21日在阿尔及尔由总参谋长赛义德·沙奈格里哈（Saïd Chanegriha）将军与尼日尔国防部长萨利福·莫迪（Salifou Mody）将军签署，文本未予公开。",
+          "按照向议员们所作的说明，此次任务范围有限。外交部长艾哈迈德·阿塔夫称这是一项“和平”任务，应尼亚美请求执行，不承担作战任务，旨在保护Sonatrach国际勘探与生产公司（Sonatrach International Exploration and Production）的人员和项目；该子公司负责运营位于阿加德兹大区的卡夫拉（Kafra）石油区块。他还补充了一句比其余内容更能说明问题的话：“尼日尔的安全是阿尔及利亚安全的一部分。”阿尔及尔既未公布兵力规模、期限，也未公布驻扎地点，国防部亦未就首批部队抵达一事发布消息。",
+          "这次地面部署延续了自夏季开始的一系列行动。8月，阿尔及尔向尼亚美赠送了四架直升机，包括两架米-24和两架米-171。8月28日至29日尼亚美发生兵变，目标包括第101空军基地、机场和总统府；据[半岛电视台](https://www.aljazeera.com/news/2026/10/3/algeria-sent-fighter-jets-to-niger-to-thwart-coup-attempt-president-says)报道，事后阿尔及利亚国防部宣布应尼日尔当局请求派出苏-30战斗机和一架加油机，以支持尼日尔军队应对一场“破坏稳定的图谋”。阿卜杜勒-马吉德·特本总统随后在电视上为这一选择辩护：“无论发生什么，我们都会保护尼日尔”，并称阿尔及利亚与尼日尔“同在一条战壕，靠的是行动，而不是言辞”，同时强调国家的理念“没有改变”（[TSA](https://www.tsa-algerie.com/envoi-par-lalgerie-davions-su-30-au-niger-tebboune-devoile-ce-quil-sest-passe/)）。"
+        ],
+        "factbox": {
+          "title": "部署进程七个时间节点",
+          "items": [
+            "2026年8月9日：向尼日尔军队赠送两架米-24和两架米-171直升机",
+            "2026年8月28日至29日：尼亚美发生兵变；8月30日，阿尔及尔宣布派出苏-30战斗机和一架加油机",
+            "2026年10月3日：阿卜杜勒-马吉德·特本宣布阿尔及利亚“无论发生什么”都将保护尼日尔",
+            "2026年10月21日：沙奈格里哈将军与莫迪将军在阿尔及尔签署军事合作议定书",
+            "2026年10月25日：议会批准派遣人民军部队，系宪法第91条首次适用",
+            "2026年10月26日：总统作出决定；任务为保护双方共同的能源和经济利益",
+            "2026年10月30日至31日：首支军事车队抵达阿尔利特，受护送的燃料车队抵达阿加德兹"
+          ]
+        }
+      },
+      {
+        "heading": "理念在调适，而非被抛弃",
+        "paragraphs": [
+          "若将这次部署解读为对不干涉主义的彻底放弃，并不准确。阿尔及利亚并非针对某个政府进行干预，也没有在内战中选边站队，更不是未经邀请擅自行动；它是在一个主动提出请求的国家领土上保护自己所拥有的资产。尽管如此，法国国际关系与战略研究所（IRIS）的布拉希姆·乌芒苏尔（Brahim Oumansour）仍称之为一次[范式转变](https://www.iris-france.org/en/algeria-towards-a-paradigm-shift-in-foreign-policy/)，而且他至少在一点上是对的：工具变了。三十年来，阿尔及尔通过调解、情报和对边境的低调管控来施加其在萨赫勒的影响。如今它还要依靠实地存在，因为单靠调解已不足以做到这一点。",
+          "原因在于一连串的挫折。2024年1月，马里军政府以阿尔及利亚有“敌对行为”为由，废除了2015年的阿尔及尔协议。2025年3月31日夜间至4月1日，阿尔及利亚军队以侵犯领空为由，在廷扎瓦坦（Tinzaouaten）附近击落一架马里无人机；萨赫勒国家联盟三国随即召回大使，各方相互关闭领空，巴马科还将此事诉诸国际法院，而未经阿尔及尔同意，该法院无法作出裁决。与此同时，其他行为体纷纷填补空间：俄罗斯先后派出瓦格纳集团和非洲军团，土耳其提供无人机，阿拉伯联合酋长国输送资金和武器，摩洛哥则推出大西洋倡议，让萨赫勒内陆国家经由其港口获得出海通道。阿尔及尔发现自己身处一个被其视为战略纵深的地区的边缘，却对其毫无掌控。",
+          "斯蒂芬·沃尔特（Stephen Walt）指出，国家结盟所针对的与其说是实力本身，不如说是威胁，而威胁由能力、地理邻近性和被感知的意图共同构成。对阿尔及尔而言，萨赫勒的威胁是双重的：一是与尼日尔近千公里边界沿线的武装动荡，二是竞争对手在其周边落脚。2026年9月10日，阿尔及利亚以“敌对”行为为由与阿联酋断绝外交关系；围绕西撒哈拉的角力也在持续，在俄罗斯否决一份美国提出的决议草案后，西撒哈拉全民投票特派团（MINURSO）的任期于10月31日届满。这些都应放在上述框架中理解此次部署。尼日尔是阿尔及尔在萨赫勒国家联盟中唯一保持沟通渠道的国家，为其恢复存在提供了最便利的支点。"
+        ],
+        "figure": {
+          "after": 3,
+          "kind": "bars",
+          "labelWidth": 210,
+          "title": "2025年军费开支（十亿美元）",
+          "items": [
+            {
+              "label": "阿尔及利亚",
+              "value": 25.4,
+              "valueLabel": "254亿美元",
+              "hi": true
+            },
+            {
+              "label": "摩洛哥",
+              "value": 6.3,
+              "valueLabel": "63亿美元"
+            },
+            {
+              "label": "尼日利亚",
+              "value": 2.1,
+              "valueLabel": "21亿美元"
+            }
+          ],
+          "note": "资料来源：[斯德哥尔摩国际和平研究所（SIPRI），《2025年世界军费开支趋势》](https://www.sipri.org/sites/default/files/2026-04/2604_milex_2025.pdf)，2026年4月。阿尔及利亚将国内生产总值的8.8%和公共支出的四分之一用于国防。"
+        }
+      },
+      {
+        "heading": "管道先于边界",
+        "paragraphs": [
+          "官方任务点名的是Sonatrach，这并非托词。该公司自2005年起持有卡夫拉区块许可证，该区块面积近2.4万平方公里，位于伊费鲁安（Iférouane）与比尔马（Bilma）之间，靠近阿尔及利亚边境。2026年8月13日，在两国总理见证下，卡夫拉东南1号井开钻，尼亚美估计其储量[超过2.6亿桶](https://www.connaissancedesenergies.org/afp/niger-une-societe-algerienne-commence-le-forage-dun-puits-de-petrole-260813)。此外还有跨撒哈拉天然气管道：该管道将连接尼日利亚与哈西鲁迈勒（Hassi R'Mel），全长4128公里，其中841公里位于尼日尔境内，年输气能力300亿立方米。其最终可行性报告于2026年6月3日获得通过，次日阿尔及利亚段在阿德拉尔省开工；阿尔及尔表示，尼日尔段将由Sonatrach出资并承建。",
+          "奥利弗·威廉姆森（Oliver Williamson）指出，关系专用性投资（即一旦关系破裂便会丧失价值的投资）需要防范“敲竹杠”风险的保障。跨境天然气管道正是典型：一经铺设便无法移动，其价值取决于所经领土的安全。阿尔及利亚的部署可被视为这样一种保障，因为在这一地区，单凭尼日尔的法律不足以提供保障：武装团体袭击基础设施，且已有先例可循，由中方利益主体运营的阿加德姆-塞美（Agadem-Sèmè）输油管道曾遭叛乱分子袭击，又因与贝宁的争端而暂停运行。今天保护卡夫拉，就是为明天天然气管道尼日尔段的走向赋予可信度。",
+          "竞争使这一问题更显紧迫。2026年7月19日，西非国家经济共同体（西共体）国家元首在弗里敦批准了尼日利亚-摩洛哥天然气管道协议。这一大西洋沿线项目全长约6000公里，途经13个国家，最大输气能力同样为300亿立方米，但尚未作出最终投资决定。两个项目瞄准的是同样的尼日利亚天然气和同样的欧洲市场，谁先确保管道走向和合作伙伴，谁就将占据决定性优势。通过在阿加德兹-阿尔利特轴线上驻军，阿尔及利亚展示了摩洛哥所无法提供的东西：领土相邻，以及保护管道的能力。"
+        ],
+        "figure": {
+          "after": 1,
+          "kind": "map",
+          "region": [
+            -14,
+            3,
+            17,
+            38
+          ],
+          "title": "阿尔及利亚、尼日尔与跨撒哈拉天然气管道轴线",
+          "groups": [
+            {
+              "ids": [
+                "012"
+              ],
+              "label": "阿尔及利亚",
+              "tone": "a"
+            },
+            {
+              "ids": [
+                "562"
+              ],
+              "label": "尼日尔，部署接受国",
+              "tone": "c"
+            },
+            {
+              "ids": [
+                "466",
+                "854"
+              ],
+              "label": "马里和布基纳法索，尼日尔在萨赫勒国家联盟中的伙伴",
+              "tone": "d"
+            },
+            {
+              "ids": [
+                "566"
+              ],
+              "label": "尼日利亚，管道起点",
+              "tone": "b"
+            }
+          ],
+          "points": [
+            {
+              "name": "阿尔及尔",
+              "lon": 3.06,
+              "lat": 36.75
+            },
+            {
+              "name": "哈西鲁迈勒",
+              "lon": 3.27,
+              "lat": 32.93
+            },
+            {
+              "name": "廷扎瓦坦",
+              "lon": 2.97,
+              "lat": 19.95,
+              "anchor": "end"
+            },
+            {
+              "name": "阿尔利特",
+              "lon": 7.38,
+              "lat": 18.74
+            },
+            {
+              "name": "阿加德兹",
+              "lon": 7.99,
+              "lat": 16.97
+            },
+            {
+              "name": "尼亚美",
+              "lon": 2.11,
+              "lat": 13.51,
+              "anchor": "end"
+            },
+            {
+              "name": "巴马科",
+              "lon": -8,
+              "lat": 12.64,
+              "anchor": "end"
+            },
+            {
+              "name": "瓦里",
+              "lon": 5.75,
+              "lat": 5.52
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                5.75,
+                5.52
+              ],
+              "to": [
+                7.99,
+                16.97
+              ],
+              "tone": "c"
+            },
+            {
+              "from": [
+                7.99,
+                16.97
+              ],
+              "to": [
+                3.27,
+                32.93
+              ],
+              "tone": "c"
+            }
+          ],
+          "note": "跨撒哈拉天然气管道走向示意（瓦里、阿加德兹、哈西鲁迈勒）。资料来源：Pipeline Journal，2026年6月；阿尔及利亚通讯社；路透社和法国国际广播电台，2026年10月30日至31日（阿尔利特、阿加德兹）。"
+        }
+      },
+      {
+        "heading": "尼亚美的收益",
+        "paragraphs": [
+          "对阿卜杜拉赫曼·蒂亚尼将军而言，首要收益是生存。8月的兵变表明，政权面临的最直接威胁既来自圣战组织，也同样来自军事机器内部。史蒂文·戴维（Steven David）提出“全方位制衡”（omnibalancing）概念来描述这类情形：在许多国家，领导人选择对外结盟首先是为了防范内部威胁。一个能在数小时内派出战斗机、军队又驻扎在本国领土上的邻国，构成了防范再次政变的保险；更何况自2024年4月起驻扎尼亚美的俄罗斯非洲军团，在附近并不具备同等的空中力量。",
+          "第二项收益是经济性的。尼日尔70%以上的电力依赖尼日利亚，且燃料短缺问题频发；阿尔及利亚出资兴建了戈鲁班达（Gorou Banda）电站，这座40兆瓦的电站于2026年6月3日在尼亚美投入运行，而阿尔及利亚士兵护送至阿加德兹的，正是一支阿尔及利亚燃料车队。国际货币基金组织预计，受经贝宁出口的阿加德姆石油带动，尼日尔2026年经济将增长7%；但尼日尔政府已与中国合作伙伴展开角力，于10月13日限其在45天内将出口收入汇回国内。与一个相邻且有支付能力的伙伴实现能源支持多元化，可以降低尼亚美对其中任何一方的依赖。",
+          "剩下的是主权问题，它首先是政治问题，其次才是法律问题。该政权的合法性建立在法国军队于2023年、美国军队于2024年撤离的基础上。但接纳阿尔及利亚士兵在其自身叙事中并不构成矛盾：这种存在是应邀而来的、双边的、仅限于保护基础设施，而且出自一个对尼日尔并无殖民历史的非洲邻国。郭清水（Kuik Cheng-Chwee）将战略对冲描述为一种通过增加伙伴来避免依赖任何一方的艺术。尼亚美正是如此行事：俄罗斯负责政权保护和铀矿（2025年12月已与俄罗斯国家原子能公司签署相关议定书），土耳其提供无人机，中国负责石油，阿尔及利亚负责能源和北部边境。所宣称的主权并不排斥外国存在，其要义在于自主选择这些存在，并让它们相互竞争。"
+        ],
+        "factbox": {
+          "title": "尼日尔数据概览",
+          "items": [
+            "2026年预计增长率：7%，2025年为6.9%（国际货币基金组织，2026年6月）",
+            "阿加德姆石油产量：约每日9万桶，经输油管道向贝宁出口",
+            "2025年暴力事件致死人数：1939人，其中近1300人在蒂拉贝里大区（ACLED）",
+            "2026年全球恐怖主义指数排名：全球第3位",
+            "2024年与阿尔及利亚的登记贸易额：进口5370万美元，出口130万美元（联合国商品贸易统计数据库）",
+            "电力对尼日利亚的依赖度：70%以上（南非安全研究所）"
+          ]
+        }
+      },
+      {
+        "heading": "萨赫勒国家联盟面对重新在场的邻国",
+        "paragraphs": [
+          "阿尔及尔与尼亚美的接近先于其与巴马科的缓和，而且很可能为后者创造了条件。2026年2月12日，阿尔及尔与尼亚美互派大使返任；2月15日至16日，蒂亚尼将军率十余名部长访问阿尔及尔；3月，联合委员会在尼亚美签署了约20项协议。据[半岛电视台](https://www.aljazeera.com/news/2026/7/11/algeria-and-mali-restore-diplomatic-ties-following-yearlong-rift)报道，7月10日和11日，即廷扎瓦坦事件发生15个月后，阿尔及利亚与马里重新开放领空并恢复互派大使。布基纳法索则于2月获得阿尔及利亚一项500亿西非法郎的矿业和能源计划。阿尔及尔就这样逐国重建了此前整体失去的关系。",
+          "正如[南非安全研究所（ISS Africa）](https://issafrica.org/iss-today/algeria-s-return-to-the-sahel-an-opportunity-to-show-aes-cohesion)研究人员所指出的，这一局面对邦联而言是一次考验。萨赫勒国家联盟建立在共同抵御外部压力的团结之上，2025年4月三个成员国甚至为声援巴马科而一同召回大使。一个只在三国之一部署的伙伴，既可能通过保障其北翼来巩固邦联，也可能使其分化，如果各国首都最终各自为自己的安全保护讨价还价的话。迄今为止，巴马科和瓦加杜古均未就此次部署发表任何官方声明，而这种沉默本身就是一种信息：邦联不反对，但也不背书。",
+          "与摩洛哥的竞争同样在这一领域展开。2025年4月，正值萨赫勒国家联盟与阿尔及尔危机最烈之时，拉巴特接待了联盟各国外长，并将其大西洋倡议定位为内陆国家的出海通道，相关的达赫拉港预计于2028年建成。阿尔及利亚则提出另一种地理逻辑：公路、管道和共同边界。萨赫勒国家没有理由二选一：它们的利益在于让两种方案都保持开放，从中争取最有利的条件。这赋予了萨赫勒国家联盟一种谈判筹码，而在阿尔及利亚和摩洛哥对其视而不见之时，它并不具备这种筹码。"
+        ]
+      },
+      {
+        "heading": "首次出兵的风险",
+        "paragraphs": [
+          "第一重风险是安全风险。尼日尔北部并非该国暴力最严重的地区，最严重的仍是蒂拉贝里，但北部也未能幸免：据该大区区长称，10月20日，两辆大巴在阿尔利特-阿加德兹公路上距阿加德兹35公里处遇袭，12人遇难。伊斯兰国萨赫勒省和“支持伊斯兰与穆斯林团体”（JNIM）把外国军事存在当作招募的说辞。阿尔及利亚一旦出现首次人员伤亡，将面临前所未有的难题：半个世纪未经历对外用兵的公众舆论，以及一个被迫在撤军与升级之间作出抉择的政府。[苏凡中心（Soufan Center）](https://thesoufancenter.org/intelbrief-2026-november-3/)强调了这种深陷泥潭的风险，尤其是在如此广袤的空间内保护基础设施所需的资源，阿尔及利亚并未公布。",
+          "第二重风险是政治风险，与移民问题相关。据“撒哈拉警报电话”（Alarme Phone Sahara）组织统计，2025年阿尔及利亚向阿萨马卡（Assamaka）遣返了至少34236人，创历史纪录，2024年为31404人，2023年为26031人。这些遣返往往在沙漠中进行，曾于2024年4月引发两国相互召见大使。它们仍是尼日尔民众对阿尔及利亚不满情绪的主要来源；如果两国政府不解决遣返条件问题，一次高调的军事部署可能使这种不满集中爆发。",
+          "第三重风险在于多个伙伴的共处。俄罗斯非洲军团驻扎尼亚美，土耳其提供无人机，中国开采阿加德姆石油，而阿尔及利亚带来的军事装备以俄制为主：据斯德哥尔摩国际和平研究所统计，2021年至2025年间，阿尔及尔进口的武器中有39%来自俄罗斯。这种技术上的亲缘性便于与莫斯科共处，但同一政权的多个伙伴之间的影响力竞争，通常终究要付出代价：要么是实地摩擦，要么是竞相加码，东道国短期内从中获益，长期则失去掌控。"
+        ],
+        "figure": {
+          "after": 2,
+          "kind": "bars",
+          "labelWidth": 120,
+          "title": "从阿尔及利亚遣返至尼日尔（阿萨马卡）的人数",
+          "items": [
+            {
+              "label": "2023",
+              "value": 26031,
+              "valueLabel": "26031"
+            },
+            {
+              "label": "2024",
+              "value": 31404,
+              "valueLabel": "31404"
+            },
+            {
+              "label": "2025",
+              "value": 34236,
+              "valueLabel": "34236",
+              "hi": true
+            }
+          ],
+          "note": "资料来源：[撒哈拉警报电话（Alarme Phone Sahara）](https://alarmephonesahara.info/fr/news/assamaka-niger-more-than-34-000-people-deported-from-algeria-to-niger-in-2025)，对官方及非官方车队的统计，2025年12月；法新社，2025年1月（2023年和2024年数据）。"
+        }
+      },
+      {
+        "heading": "情景分析",
+        "paragraphs": [],
+        "scenarios": [
+          {
+            "level": "most",
+            "title": "围绕能源资产的有限而持久的存在",
+            "text": "人民军以适度兵力驻扎尼日尔北部，保护卡夫拉区块和车队，并配合天然气管道尼日尔段的开工建设。阿尔及尔避免交战，鲜少对外发布信息，并将其存在转化为经济杠杆：为Sonatrach和阿尔及利亚国家电力天然气公司（Sonelgaz）争取合同、发展边境市场、保障燃料供应。与巴马科和瓦加杜古的关系趋于正常化，但部署不扩展至两国领土。"
+          },
+          {
+            "level": "less",
+            "title": "迫于事态发展而扩大任务",
+            "text": "针对设施或阿尔及利亚士兵的袭击，或尼亚美的新一轮危机，促使阿尔及尔采取更强硬的姿态：武装巡逻、空中支援、与尼日尔部队共享情报。阿尔及利亚成为萨赫勒中部举足轻重的安全行为体，增强了其相对于摩洛哥的分量，但也使其承担起其理念恰恰力求避免的介入成本。"
+          },
+          {
+            "level": "least",
+            "title": "遭遇挫折或政治破裂后迅速撤出",
+            "text": "阿尔及利亚舆论难以接受的人员伤亡、移民危机或尼亚美政权更迭，导致部队被召回。跨撒哈拉天然气管道在与大西洋项目的竞争中失去主要筹码，阿尔及利亚重返萨赫勒的尝试也将与以往一样，以退回远程调解告终。"
+          }
+        ]
+      },
+      {
+        "heading": "Sources",
+        "paragraphs": [
+          "[APS, Le président de la République décide d'envoyer des unités de l'ANP en République du Niger, October 26, 2026](https://www.aps.dz/fr/presidence-news/mvpepe6e-le-president-de-la-republique-decide-d-envoyer-des-unites-de-l-anp-en-republique-du-niger) | [Ouest Tribune, parliamentary vote, October 25, 2026](https://ouest-tribune.dz/envoi-dunites-de-lanp-au-niger-les-membres-du-conseil-de-la-nation-et-de-lapn-approuvent-a-lunanimite-la-notification-adressee-par-le-president-de-la-republique/) | [AFP, via Connaissance des Énergies, October 25-26, 2026](https://www.connaissancedesenergies.org/afp/algerie-le-parlement-approuve-lenvoi-de-troupes-au-niger-premier-deploiement-a-letranger-depuis-1973-261025) | [Algérie360, Sonatrach protection mission, October 25, 2026](https://www.algerie360.com/anp-niger-sonatrach-sipex-detachement/) | [Al Jazeera, October 26, 2026](https://www.aljazeera.com/news/2026/10/26/algerias-military-deployment-to-niger-whats-behind-the-move) | [Horizons, military cooperation protocol, October 21, 2026](https://www.horizons.dz/language/en/2026/10/cementing-regional-security-algeria-and-niger-sign-military-agreement/) | [Reuters, via Arab News, October 31, 2026](https://www.arabnews.com/middle-east/first-algerian-troops-arrive-in-niger-where-insurgents-threaten-stability-3009067) | [RFI, fuel convoy in Agadez, via Shango Media, November 2, 2026](https://www.shango.media/rfi-niger-arrivee-dun-premier-convoi-de-militaires-algeriens-avec-des-camions-citernes-a-agadez-12009032) | [Al Jazeera, Su-30 fighters, October 3, 2026](https://www.aljazeera.com/news/2026/10/3/algeria-sent-fighter-jets-to-niger-to-thwart-coup-attempt-president-says) | [TSA, interview with Abdelmadjid Tebboune, October 4, 2026](https://www.tsa-algerie.com/envoi-par-lalgerie-davions-su-30-au-niger-tebboune-devoile-ce-quil-sest-passe/) | [Al Jazeera, break with the UAE, September 10, 2026](https://www.aljazeera.com/news/2026/9/10/algeria-cuts-diplomatic-ties-with-uae-what-we-know) | [Al Jazeera, Western Sahara, November 1, 2026](https://www.aljazeera.com/news/2026/11/1/why-is-morocco-celebrating-the-defeat-of-a-un-resolution-on-western-sahara) | [Al Jazeera, Algeria and Mali, July 11, 2026](https://www.aljazeera.com/news/2026/7/11/algeria-and-mali-restore-diplomatic-ties-following-yearlong-rift) | [RFI, via AllAfrica, return of ambassadors, February 13, 2026](https://fr.allafrica.com/stories/202602130398.html) | [RFI, via AllAfrica, Abdourahamane Tiani's visit to Algiers, February 16, 2026](https://fr.allafrica.com/stories/202602170351.html) | [Crisis Group, Algérie-Mali : désamorcer une dangereuse escalade, April 18, 2025](https://www.crisisgroup.org/africa/sahel/mali-algeria/algerie-mali-desamorcer-une-dangereuse-escalade) | [AFP, drilling on the Kafra block, August 13, 2026](https://www.connaissancedesenergies.org/afp/niger-une-societe-algerienne-commence-le-forage-dun-puits-de-petrole-260813) | [AFP, launch of the Trans-Saharan Gas Pipeline, June 4, 2026](https://www.connaissancedesenergies.org/afp/lancement-du-chantier-du-gazoduc-transsaharien-entre-algerie-nigeria-et-niger-260604) | [Pipeline Journal, June 18, 2026](https://pipeline-journal.net/news/analysis-trans-saharan-gas-pipeline-how-4128-km-new-steel-could-reshape-europes-energy-map) | [AFP, via Arab News, Nigeria-Morocco Gas Pipeline, July 2026](https://www.arabnews.com/node/2651545/world) | [Algérie-Eco, Gorou Banda power plant, June 3, 2026](https://algerie-eco.com/2026/06/03/niger-inauguration-dune-centrale-electrique-de-40-mw-financee-par-lalgerie/) | [IMF, Niger, 9th ECF review, June 12, 2026](https://www.imf.org/en/news/articles/2026/06/12/pr-26200-niger-imf-reaches-agreement-on-9th-rev-under-ecf) | [ACLED, via Africanews, March 13, 2026](https://www.africanews.com/2026/03/13/nearly-1300-killed-in-nigers-tillaberi-as-jihadist-attacks-surge/) | [Xinhua, attack on the Arlit-Agadez road, October 22, 2026](https://french.news.cn/20261022/971357433f7242658005177e0ebbecb8/c.html) | [Alarme Phone Sahara, December 2025](https://alarmephonesahara.info/fr/news/assamaka-niger-more-than-34-000-people-deported-from-algeria-to-niger-in-2025) | [SIPRI, military expenditure 2025, April 2026](https://www.sipri.org/sites/default/files/2026-04/2604_milex_2025.pdf) | [SIPRI, arms transfers 2025, March 2026](https://www.sipri.org/sites/default/files/2026-03/fs_2603_at_2025.pdf) | [B. Oumansour, IRIS, September 15, 2026](https://www.iris-france.org/en/algeria-towards-a-paradigm-shift-in-foreign-policy/) | [H. Badawi, African Arguments, September 7, 2026](https://africanarguments.org/2026/09/beyond-the-fighter-jets-what-algerias-deployment-to-niger-really-signals/) | [Soufan Center, IntelBrief, November 3, 2026](https://thesoufancenter.org/intelbrief-2026-november-3/) | [ISS Africa, H. Koné, D. Sow and R. L. Salia, March 16, 2026](https://issafrica.org/iss-today/algeria-s-return-to-the-sahel-an-opportunity-to-show-aes-cohesion) | [Y. H. Zoubir and A. Abderrahmane, ME Council, July 2025](https://mecouncil.org/publication/bordering-on-crisis-the-future-of-algeria-mali-relations/) | David S. (1991), Explaining Third World Alignment, World Politics, 43(2) | Kuik C.-C. (2008), The Essence of Hedging, Contemporary Southeast Asia, 30(2) | Walt S. (1987), The Origins of Alliances, Cornell University Press | Williamson O. E. (1983), Credible Commitments: Using Hostages to Support Exchange, American Economic Review, 73(4)"
+        ]
+      }
+    ]
+  },
+  {
     "id": 8,
     "day": "29",
     "month": "OCT",

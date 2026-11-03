@@ -1,6 +1,299 @@
 // Données des analyses (FR, EN). Champs facultatifs : nutshell, figure(s), factbox, scenarios.
 const BULLETINS_FR = [
   {
+    "id": 9,
+    "day": "03",
+    "month": "NOV",
+    "year": "2026",
+    "title": "L'Algérie au Niger : la fin du non-interventionnisme, ou son adaptation au nouveau Sahel",
+    "excerpt": "Pour la première fois depuis 1973, l'Armée nationale populaire algérienne se déploie hors de ses frontières, au Niger, à la demande de Niamey. Officiellement pour protéger des intérêts énergétiques. En réalité pour reprendre pied dans un Sahel où Alger avait perdu la main, face au Maroc, aux Émirats et à la Russie.",
+    "tags": [
+      "Algérie",
+      "Niger",
+      "AES",
+      "Sahel",
+      "Sécurité",
+      "Énergie",
+      "Gazoduc transsaharien"
+    ],
+    "category": "Géopolitique Sahel",
+    "nutshell": [
+      "Le Parlement algérien a autorisé le 25 octobre le premier envoi de troupes à l'étranger depuis 1973, pour protéger les projets de Sonatrach au Niger",
+      "Alger cherche à reconquérir une profondeur stratégique perdue au Sahel et à sécuriser le gazoduc transsaharien face au projet concurrent du Maroc",
+      "Niamey gagne un protecteur de proximité et un fournisseur d'énergie, au prix d'un nouveau partenaire armé sur son sol et d'un test pour la cohésion de l'AES"
+    ],
+    "content": [
+      {
+        "heading": null,
+        "paragraphs": [
+          "Depuis la guerre d'octobre 1973, où des unités algériennes avaient combattu aux côtés de l'Égypte, l'Armée nationale populaire n'avait plus franchi les frontières du pays. Ce retrait n'était pas un accident : il découlait d'une doctrine forgée par la guerre d'indépendance, faite de non-ingérence, de refus des bases étrangères et de préférence pour la médiation. C'est à Alger que se sont négociés les accords de paix du nord du Mali en 2015, et c'est depuis Alger que l'on a longtemps prétendu tenir les fils du Sahel sans y envoyer un soldat. Ce modèle a cessé de fonctionner. Le 25 octobre 2026, les deux chambres du Parlement, réunies à huis clos, ont approuvé l'envoi d'unités de l'ANP au Niger ; au Conseil de la nation, la [résolution a recueilli 148 voix sur 148 votants](https://ouest-tribune.dz/envoi-dunites-de-lanp-au-niger-les-membres-du-conseil-de-la-nation-et-de-lapn-approuvent-a-lunanimite-la-notification-adressee-par-le-president-de-la-republique/), bien au-delà des deux tiers exigés par la Constitution.",
+          "Le lendemain, la présidence annonçait que le chef de l'État avait [décidé d'envoyer des unités de l'ANP en République du Niger](https://www.aps.dz/fr/presidence-news/mvpepe6e-le-president-de-la-republique-decide-d-envoyer-des-unites-de-l-anp-en-republique-du-niger) pour protéger des intérêts énergétiques et économiques communs. Le 30 octobre, selon Reuters, un premier convoi militaire atteignait Arlit, la ville de l'uranium, et le 31 octobre une soixantaine de camions-citernes escortés par l'armée algérienne arrivaient à Agadez. Le déploiement n'a donc rien de supposé : il est voté, décidé et commencé.",
+          "Deux questions en découlent, que cette analyse traite successivement. Pourquoi Alger rompt-il avec un demi-siècle de retenue, précisément au Niger et maintenant ? Et que gagne Niamey, dont le régime a bâti sa légitimité sur l'expulsion des troupes françaises au nom de la souveraineté, à accueillir celles d'un voisin ? La réponse tient en une idée : le déploiement est moins une rupture doctrinale qu'une adaptation, par laquelle l'Algérie convertit sa puissance militaire, la première d'Afrique par la dépense, en influence économique et politique, dans une région où ses rivaux l'avaient devancée."
+        ]
+      },
+      {
+        "heading": "Ce qu'Alger a décidé, et ce qu'il a choisi de taire",
+        "paragraphs": [
+          "Le cadre juridique est celui de la Constitution de 2020. Son article 91 permet au président d'envoyer des unités de l'armée à l'étranger après approbation des deux tiers de chaque chambre ; son article 31 inscrit la participation algérienne à des opérations de paix dans le respect des principes des Nations unies, de l'Union africaine et de la Ligue arabe. La disposition avait été présentée en 2020 comme une modernisation sans portée immédiate. Elle sert pour la première fois. La base bilatérale est un protocole de coopération militaire signé à Alger le 21 octobre par le chef d'état-major, le général Saïd Chanegriha, et le ministre nigérien de la Défense, le général Salifou Mody, selon le quotidien d'État [Horizons](https://www.horizons.dz/language/en/2026/10/cementing-regional-security-algeria-and-niger-sign-military-agreement/). Son texte n'a pas été rendu public.",
+          "La mission, telle qu'exposée devant les parlementaires, est circonscrite. Le ministre des Affaires étrangères Ahmed Attaf a parlé d'une mission « pacifique », conduite à la demande de Niamey et sans tâche de combat, destinée à protéger les équipes et les projets de Sonatrach International Exploration and Production, la filiale qui opère le bloc pétrolier de Kafra, dans la région d'Agadez. Il a ajouté une phrase qui dit davantage que le reste : « la sécurité du Niger fait partie de la sécurité de l'Algérie ». Alger n'a publié ni les effectifs, ni la durée, ni le lieu de stationnement, et le ministère de la Défense n'a pas communiqué sur l'arrivée des premières unités.",
+          "Ce déploiement terrestre prolonge une séquence engagée à l'été. En août, Alger a offert à Niamey quatre hélicoptères, deux Mi-24 et deux Mi-171. Après la mutinerie des 28 et 29 août à Niamey, qui visait la base aérienne 101, l'aéroport et le palais présidentiel, le ministère de la Défense a annoncé l'envoi de chasseurs Su-30 et d'un ravitailleur, à la demande des autorités nigériennes, pour soutenir l'armée face à une « tentative de déstabilisation », selon [Al Jazeera](https://www.aljazeera.com/news/2026/10/3/algeria-sent-fighter-jets-to-niger-to-thwart-coup-attempt-president-says). Le président Abdelmadjid Tebboune a ensuite revendiqué ce choix à la télévision : « nous protégeons le Niger quoi qu'il arrive », a-t-il déclaré, en ajoutant que l'Algérie se tenait « dans la même tranchée, avec les actes, pas avec des paroles », tout en assurant que la doctrine du pays « n'a pas changé » ([TSA](https://www.tsa-algerie.com/envoi-par-lalgerie-davions-su-30-au-niger-tebboune-devoile-ce-quil-sest-passe/))."
+        ],
+        "factbox": {
+          "title": "Le déploiement en sept dates",
+          "items": [
+            "9 août 2026 : don de deux hélicoptères Mi-24 et deux Mi-171 à l'armée nigérienne",
+            "28-29 août 2026 : mutinerie à Niamey ; le 30 août, Alger annonce l'envoi de chasseurs Su-30 et d'un ravitailleur",
+            "3 octobre 2026 : Abdelmadjid Tebboune déclare que l'Algérie protégera le Niger « quoi qu'il arrive »",
+            "21 octobre 2026 : protocole de coopération militaire signé à Alger par les généraux Chanegriha et Mody",
+            "25 octobre 2026 : le Parlement approuve l'envoi d'unités de l'ANP, première application de l'article 91 de la Constitution",
+            "26 octobre 2026 : décision présidentielle ; mission de protection des intérêts énergétiques et économiques communs",
+            "30-31 octobre 2026 : premier convoi militaire à Arlit, convoi de carburant escorté jusqu'à Agadez"
+          ]
+        }
+      },
+      {
+        "heading": "Une doctrine qui s'adapte plutôt qu'elle ne se renie",
+        "paragraphs": [
+          "Lire ce déploiement comme un abandon pur et simple du non-interventionnisme serait inexact. L'Algérie n'intervient pas contre un gouvernement, ne prend pas parti dans une guerre civile et n'agit pas sans invitation ; elle protège des actifs qu'elle possède, sur le territoire d'un État qui le lui demande. Brahim Oumansour, à l'IRIS, parle néanmoins d'un [changement de paradigme](https://www.iris-france.org/en/algeria-towards-a-paradigm-shift-in-foreign-policy/), et il a raison sur un point : l'instrument a changé. Pendant trente ans, Alger a exercé son influence sahélienne par la médiation, le renseignement et la gestion discrète de ses frontières. Il l'exerce désormais aussi par une présence physique, ce que la médiation seule ne permettait plus.",
+          "La raison tient à une série de reculs. En janvier 2024, la junte malienne a dénoncé l'accord d'Alger de 2015 en accusant l'Algérie d'« actes d'hostilité ». Dans la nuit du 31 mars au 1er avril 2025, l'armée algérienne a abattu un drone malien près de Tinzaouaten, au motif d'une violation de son espace aérien ; les trois pays de l'AES ont rappelé leurs ambassadeurs, les espaces aériens ont été fermés et Bamako a saisi la Cour internationale de justice, qui ne peut statuer sans le consentement d'Alger. Pendant ce temps, d'autres acteurs occupaient l'espace : la Russie avec Wagner puis l'Africa Corps, la Turquie avec ses drones, les Émirats arabes unis par la finance et les armes, et le Maroc par son initiative atlantique, qui offre aux pays enclavés du Sahel un accès à l'océan par ses ports. Alger s'est retrouvé à la frontière d'une région qu'il considérait comme sa profondeur stratégique, sans prise sur elle.",
+          "Stephen Walt a montré que les États s'allient moins contre la puissance en soi que contre la menace, qui combine capacités, proximité et intentions perçues. Pour Alger, la menace sahélienne est double : l'instabilité armée le long de près de mille kilomètres de frontière avec le Niger, et l'installation de rivaux dans son voisinage. La rupture des relations diplomatiques avec les Émirats le 10 septembre 2026, que l'Algérie a justifiée par des actes « hostiles », et la bataille autour du Sahara occidental, où le mandat de la MINURSO a expiré le 31 octobre après un veto russe à un texte américain, situent le déploiement dans cette grille. Le Niger, seul pays de l'AES avec lequel Alger avait gardé un canal ouvert, offrait le point d'appui le plus accessible pour rétablir sa présence."
+        ],
+        "figure": {
+          "after": 3,
+          "kind": "bars",
+          "labelWidth": 210,
+          "title": "Dépenses militaires en 2025 (milliards de dollars)",
+          "items": [
+            {
+              "label": "Algérie",
+              "value": 25.4,
+              "valueLabel": "25,4 Md$",
+              "hi": true
+            },
+            {
+              "label": "Maroc",
+              "value": 6.3,
+              "valueLabel": "6,3 Md$"
+            },
+            {
+              "label": "Nigeria",
+              "value": 2.1,
+              "valueLabel": "2,1 Md$"
+            }
+          ],
+          "note": "Source : [SIPRI, Trends in World Military Expenditure 2025](https://www.sipri.org/sites/default/files/2026-04/2604_milex_2025.pdf), avril 2026. L'Algérie consacre 8,8 % de son PIB et un quart de ses dépenses publiques à la défense."
+        }
+      },
+      {
+        "heading": "Les gazoducs avant les frontières",
+        "paragraphs": [
+          "La mission officielle désigne Sonatrach, et ce n'est pas un prétexte. La compagnie détient depuis 2005 le permis de Kafra, un bloc de près de 24 000 kilomètres carrés situé entre Iférouane et Bilma, à proximité de la frontière algérienne. Le forage du puits Kafra Sud-Est 1 a commencé le 13 août 2026, en présence des Premiers ministres des deux pays, et Niamey estime les réserves à [plus de 260 millions de barils](https://www.connaissancedesenergies.org/afp/niger-une-societe-algerienne-commence-le-forage-dun-puits-de-petrole-260813). À cela s'ajoute le gazoduc transsaharien, qui doit relier le Nigeria à Hassi R'Mel sur 4 128 kilomètres, dont 841 au Niger, pour une capacité de 30 milliards de mètres cubes par an. Son rapport de faisabilité final a été adopté le 3 juin 2026 et le chantier du tronçon algérien a été lancé le lendemain dans la wilaya d'Adrar ; Alger a indiqué que Sonatrach financerait et construirait la section nigérienne.",
+          "Oliver Williamson a montré que les investissements spécifiques à une relation, ceux qui perdent leur valeur si la relation se rompt, appellent des garanties contre le risque de hold-up. Un gazoduc transfrontalier en est l'exemple parfait : une fois posé, il ne peut être déplacé, et sa valeur dépend de la sécurité du territoire qu'il traverse. Le déploiement algérien peut se lire comme cette garantie, que le droit nigérien ne suffisait pas à offrir dans une région où les groupes armés attaquent les infrastructures et où un précédent existe : l'oléoduc Agadem-Sèmè, opéré par des intérêts chinois, a été pris pour cible par des rebelles et suspendu par un différend avec le Bénin. Protéger Kafra aujourd'hui, c'est rendre crédible le tracé nigérien du gazoduc demain.",
+          "La concurrence rend l'enjeu pressant. Le 19 juillet 2026, les chefs d'État de la CEDEAO ont approuvé à Freetown l'accord sur le gazoduc Nigeria-Maroc, un projet atlantique d'environ 6 000 kilomètres qui traverse treize pays, avec la même capacité maximale de 30 milliards de mètres cubes, mais sans décision finale d'investissement. Les deux projets visent le même gaz nigérian et le même marché européen. Celui qui sécurise le premier son tracé et ses partenaires prend un avantage décisif. En installant ses troupes le long de l'axe Agadez-Arlit, l'Algérie fait valoir ce que le Maroc ne peut offrir : la contiguïté territoriale et la capacité de protéger le tuyau."
+        ],
+        "figure": {
+          "after": 1,
+          "kind": "map",
+          "region": [
+            -14,
+            3,
+            17,
+            38
+          ],
+          "title": "L'Algérie, le Niger et l'axe du gazoduc transsaharien",
+          "groups": [
+            {
+              "ids": [
+                "012"
+              ],
+              "label": "Algérie",
+              "tone": "a"
+            },
+            {
+              "ids": [
+                "562"
+              ],
+              "label": "Niger, pays d'accueil du déploiement",
+              "tone": "c"
+            },
+            {
+              "ids": [
+                "466",
+                "854"
+              ],
+              "label": "Mali et Burkina Faso, partenaires du Niger dans l'AES",
+              "tone": "d"
+            },
+            {
+              "ids": [
+                "566"
+              ],
+              "label": "Nigeria, point de départ du gazoduc",
+              "tone": "b"
+            }
+          ],
+          "points": [
+            {
+              "name": "Alger",
+              "lon": 3.06,
+              "lat": 36.75
+            },
+            {
+              "name": "Hassi R'Mel",
+              "lon": 3.27,
+              "lat": 32.93
+            },
+            {
+              "name": "Tinzaouaten",
+              "lon": 2.97,
+              "lat": 19.95,
+              "anchor": "end"
+            },
+            {
+              "name": "Arlit",
+              "lon": 7.38,
+              "lat": 18.74
+            },
+            {
+              "name": "Agadez",
+              "lon": 7.99,
+              "lat": 16.97
+            },
+            {
+              "name": "Niamey",
+              "lon": 2.11,
+              "lat": 13.51,
+              "anchor": "end"
+            },
+            {
+              "name": "Bamako",
+              "lon": -8,
+              "lat": 12.64,
+              "anchor": "end"
+            },
+            {
+              "name": "Warri",
+              "lon": 5.75,
+              "lat": 5.52
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                5.75,
+                5.52
+              ],
+              "to": [
+                7.99,
+                16.97
+              ],
+              "tone": "c"
+            },
+            {
+              "from": [
+                7.99,
+                16.97
+              ],
+              "to": [
+                3.27,
+                32.93
+              ],
+              "tone": "c"
+            }
+          ],
+          "note": "Tracé schématique du gazoduc transsaharien (Warri, Agadez, Hassi R'Mel). Sources : Pipeline Journal, juin 2026 ; APS ; Reuters et RFI, 30-31 octobre 2026 (Arlit, Agadez)."
+        }
+      },
+      {
+        "heading": "Ce que Niamey y gagne",
+        "paragraphs": [
+          "Pour le général Abdourahamane Tiani, le premier bénéfice est la survie. La mutinerie d'août a montré que la menace la plus immédiate pour le régime vient de l'intérieur de l'appareil militaire autant que des groupes djihadistes. Steven David a forgé la notion d'omnibalancing pour décrire ces situations : dans de nombreux États, les dirigeants choisissent leurs alliances extérieures d'abord pour se prémunir contre les menaces internes. Un voisin qui envoie des chasseurs en quelques heures et dont l'armée stationne sur le territoire constitue une assurance contre un nouveau coup de force, d'autant plus utile que l'Africa Corps russe, présent à Niamey depuis avril 2024, ne dispose pas des mêmes moyens aériens à proximité.",
+          "Le deuxième bénéfice est économique. Le Niger dépend du Nigeria pour plus de 70 % de son électricité et connaît des pénuries de carburant ; l'Algérie a financé la centrale de Gorou Banda, 40 mégawatts mis en service à Niamey le 3 juin 2026, et c'est un convoi de carburant algérien qu'escortaient ses soldats jusqu'à Agadez. Le Fonds monétaire international prévoit une croissance de 7 % en 2026, portée par le pétrole d'Agadem exporté par le Bénin, mais l'État nigérien a engagé un bras de fer avec ses partenaires chinois, auxquels il a donné le 13 octobre quarante-cinq jours pour rapatrier les recettes d'exportation. Diversifier ses appuis énergétiques avec un partenaire voisin et solvable réduit l'exposition de Niamey à chacun d'eux.",
+          "Reste la question de la souveraineté, qui est politique avant d'être juridique. Le régime a fondé sa légitimité sur le départ des forces françaises en 2023 et américaines en 2024. Accueillir des soldats algériens n'est pas pour autant une contradiction dans son propre récit : la présence est demandée, bilatérale, limitée à la protection d'infrastructures et le fait d'un voisin africain qui n'a pas de passé colonial au Niger. Kuik Cheng-Chwee a décrit la couverture stratégique comme l'art de multiplier les partenaires pour n'en dépendre d'aucun. Niamey l'applique : la Russie pour la protection du régime et l'uranium, avec lequel un protocole a été signé avec Rosatom en décembre 2025, la Turquie pour les drones, la Chine pour le pétrole, l'Algérie pour l'énergie et la frontière nord. La souveraineté revendiquée n'exclut pas les présences étrangères ; elle consiste à les choisir et à les mettre en concurrence."
+        ],
+        "factbox": {
+          "title": "Le Niger en quelques chiffres",
+          "items": [
+            "Croissance prévue en 2026 : 7 %, après 6,9 % en 2025 (FMI, juin 2026)",
+            "Production pétrolière d'Agadem : environ 90 000 barils par jour, exportés par l'oléoduc vers le Bénin",
+            "Morts liés aux violences en 2025 : 1 939, dont près de 1 300 dans la région de Tillabéri (ACLED)",
+            "Rang au Global Terrorism Index 2026 : 3e mondial",
+            "Commerce enregistré avec l'Algérie en 2024 : 53,7 millions de dollars d'importations, 1,3 million d'exportations (UN Comtrade)",
+            "Dépendance électrique envers le Nigeria : plus de 70 % (ISS Africa)"
+          ]
+        }
+      },
+      {
+        "heading": "L'AES face à un voisin redevenu présent",
+        "paragraphs": [
+          "Le rapprochement entre Alger et Niamey a précédé la détente avec Bamako, et l'a sans doute facilitée. Les ambassadeurs sont revenus entre Alger et Niamey le 12 février 2026 ; le général Tiani s'est rendu à Alger les 15 et 16 février avec une dizaine de ministres ; une commission mixte a signé une vingtaine d'accords à Niamey en mars. Le 10 et le 11 juillet, l'Algérie et le Mali ont rouvert leurs espaces aériens et rétabli leurs ambassadeurs, quinze mois après l'incident de Tinzaouaten, selon [Al Jazeera](https://www.aljazeera.com/news/2026/7/11/algeria-and-mali-restore-diplomatic-ties-following-yearlong-rift). Le Burkina Faso a obtenu en février un programme algérien de 50 milliards de francs CFA pour les mines et l'énergie. Alger a ainsi reconstruit, pays par pays, des relations qu'il avait perdues en bloc.",
+          "Pour la Confédération, la situation constitue un test, comme l'ont noté les chercheurs de l'[ISS Africa](https://issafrica.org/iss-today/algeria-s-return-to-the-sahel-an-opportunity-to-show-aes-cohesion). L'AES s'est construite sur la solidarité face aux pressions extérieures, au point que ses trois membres avaient rappelé ensemble leurs ambassadeurs en avril 2025 par solidarité avec Bamako. Un partenaire qui se déploie dans un seul des trois pays peut renforcer la Confédération, en sécurisant son flanc nord, ou la fragmenter, si les capitales en viennent à négocier chacune leur propre protection. Aucune déclaration officielle de Bamako ou de Ouagadougou sur le déploiement n'a été publiée à ce jour, et ce silence est en lui-même une information : la Confédération ne s'y oppose pas, sans l'endosser.",
+          "La compétition avec le Maroc se joue aussi sur ce terrain. Rabat avait reçu les ministres des Affaires étrangères de l'AES en avril 2025, au plus fort de leur crise avec Alger, et présente son initiative atlantique comme la voie d'accès des pays enclavés à la mer, avec le port de Dakhla dont l'achèvement est prévu pour 2028. L'Algérie oppose une autre géographie, celle des routes, des pipelines et de la frontière commune. Les pays sahéliens n'ont aucune raison de choisir : leur intérêt est de garder les deux offres ouvertes et d'en tirer les meilleures conditions, ce qui confère à l'AES un pouvoir de négociation qu'elle n'avait pas lorsque l'Algérie et le Maroc l'ignoraient."
+        ]
+      },
+      {
+        "heading": "Les risques d'un premier engagement",
+        "paragraphs": [
+          "Le premier risque est sécuritaire. Le nord du Niger n'est pas la région la plus violente du pays, qui reste celle de Tillabéri, mais il n'est pas épargné : le 20 octobre, deux bus ont été attaqués sur l'axe Arlit-Agadez, à trente-cinq kilomètres d'Agadez, et douze personnes ont été tuées, selon le gouverneur de la région. L'État islamique au Sahel et le JNIM ont fait de la présence étrangère un argument de recrutement. Une première perte algérienne poserait à Alger un problème inédit : celui d'une opinion qui n'a pas connu d'engagement extérieur depuis un demi-siècle, et d'un gouvernement contraint de choisir entre le retrait et l'escalade. Le [Soufan Center](https://thesoufancenter.org/intelbrief-2026-november-3/) met en avant ce risque d'enlisement, d'autant que la protection d'infrastructures dans un espace aussi vaste exige des moyens que l'Algérie n'a pas annoncés.",
+          "Le deuxième risque est politique et tient aux migrations. L'Algérie a expulsé au moins 34 236 personnes vers Assamaka en 2025, un record selon l'organisation Alarme Phone Sahara, après 31 404 en 2024 et 26 031 en 2023. Ces expulsions, souvent faites dans le désert, ont provoqué en avril 2024 une convocation croisée des ambassadeurs. Elles restent la principale source de ressentiment populaire au Niger envers l'Algérie, et un déploiement militaire visible peut cristalliser ce ressentiment si les deux gouvernements ne règlent pas la question des conditions de retour.",
+          "Le troisième risque tient à la cohabitation des partenaires. L'Africa Corps russe est présent à Niamey, la Turquie fournit des drones, la Chine exploite le pétrole d'Agadem, et l'Algérie arrive avec des moyens militaires d'origine majoritairement russe : la Russie a fourni 39 % des armements importés par Alger entre 2021 et 2025, selon le SIPRI. Cette proximité technique facilite la coexistence avec Moscou, mais la concurrence d'influence entre partenaires du même régime finit en général par se payer, soit par des frictions sur le terrain, soit par une surenchère dont l'État hôte tire profit à court terme et perd le contrôle à long terme."
+        ],
+        "figure": {
+          "after": 2,
+          "kind": "bars",
+          "labelWidth": 120,
+          "title": "Personnes expulsées d'Algérie vers le Niger (Assamaka)",
+          "items": [
+            {
+              "label": "2023",
+              "value": 26031,
+              "valueLabel": "26 031"
+            },
+            {
+              "label": "2024",
+              "value": 31404,
+              "valueLabel": "31 404"
+            },
+            {
+              "label": "2025",
+              "value": 34236,
+              "valueLabel": "34 236",
+              "hi": true
+            }
+          ],
+          "note": "Source : [Alarme Phone Sahara](https://alarmephonesahara.info/fr/news/assamaka-niger-more-than-34-000-people-deported-from-algeria-to-niger-in-2025), décompte des convois officiels et non officiels, décembre 2025 ; AFP, janvier 2025 (2023 et 2024)."
+        }
+      },
+      {
+        "heading": "Scénarios",
+        "paragraphs": [],
+        "scenarios": [
+          {
+            "level": "most",
+            "title": "Une présence limitée et durable autour des actifs énergétiques",
+            "text": "L'ANP s'installe dans le nord du Niger avec des effectifs modestes, protège Kafra et les convois, et accompagne le lancement des travaux du gazoduc sur le tronçon nigérien. Alger évite le combat, ne communique guère et transforme sa présence en levier économique : contrats pour Sonatrach et Sonelgaz, marchés frontaliers, approvisionnement en carburant. La relation avec Bamako et Ouagadougou se normalise sans que le dispositif s'étende à leurs territoires."
+          },
+          {
+            "level": "less",
+            "title": "Un élargissement de la mission sous la pression des événements",
+            "text": "Une attaque contre des installations ou des soldats algériens, ou une nouvelle crise à Niamey, conduit Alger à durcir sa posture : patrouilles armées, appui aérien, renseignement partagé avec les forces nigériennes. L'Algérie devient un acteur sécuritaire de premier plan du Sahel central, ce qui renforce son poids face au Maroc, mais l'expose aux coûts d'un engagement que sa doctrine cherchait précisément à éviter."
+          },
+          {
+            "level": "least",
+            "title": "Un retrait rapide après un revers ou une rupture politique",
+            "text": "Des pertes humaines mal acceptées par l'opinion algérienne, une crise migratoire ou un changement de régime à Niamey provoquent le rappel des unités. Le gazoduc transsaharien perd son principal argument face au projet atlantique, et la tentative de retour algérien au Sahel s'achève comme les précédentes, par un repli sur la médiation à distance."
+          }
+        ]
+      },
+      {
+        "heading": "Sources",
+        "paragraphs": [
+          "[APS, Le président de la République décide d'envoyer des unités de l'ANP en République du Niger, 26 octobre 2026](https://www.aps.dz/fr/presidence-news/mvpepe6e-le-president-de-la-republique-decide-d-envoyer-des-unites-de-l-anp-en-republique-du-niger) | [Ouest Tribune, vote du Parlement, 25 octobre 2026](https://ouest-tribune.dz/envoi-dunites-de-lanp-au-niger-les-membres-du-conseil-de-la-nation-et-de-lapn-approuvent-a-lunanimite-la-notification-adressee-par-le-president-de-la-republique/) | [AFP, via Connaissance des Énergies, 25-26 octobre 2026](https://www.connaissancedesenergies.org/afp/algerie-le-parlement-approuve-lenvoi-de-troupes-au-niger-premier-deploiement-a-letranger-depuis-1973-261025) | [Algérie360, mission de protection de Sonatrach, 25 octobre 2026](https://www.algerie360.com/anp-niger-sonatrach-sipex-detachement/) | [Al Jazeera, 26 octobre 2026](https://www.aljazeera.com/news/2026/10/26/algerias-military-deployment-to-niger-whats-behind-the-move) | [Horizons, protocole de coopération militaire, 21 octobre 2026](https://www.horizons.dz/language/en/2026/10/cementing-regional-security-algeria-and-niger-sign-military-agreement/) | [Reuters, via Arab News, 31 octobre 2026](https://www.arabnews.com/middle-east/first-algerian-troops-arrive-in-niger-where-insurgents-threaten-stability-3009067) | [RFI, convoi de carburant à Agadez, via Shango Media, 2 novembre 2026](https://www.shango.media/rfi-niger-arrivee-dun-premier-convoi-de-militaires-algeriens-avec-des-camions-citernes-a-agadez-12009032) | [Al Jazeera, chasseurs Su-30, 3 octobre 2026](https://www.aljazeera.com/news/2026/10/3/algeria-sent-fighter-jets-to-niger-to-thwart-coup-attempt-president-says) | [TSA, entretien d'Abdelmadjid Tebboune, 4 octobre 2026](https://www.tsa-algerie.com/envoi-par-lalgerie-davions-su-30-au-niger-tebboune-devoile-ce-quil-sest-passe/) | [Al Jazeera, rupture avec les Émirats, 10 septembre 2026](https://www.aljazeera.com/news/2026/9/10/algeria-cuts-diplomatic-ties-with-uae-what-we-know) | [Al Jazeera, Sahara occidental, 1er novembre 2026](https://www.aljazeera.com/news/2026/11/1/why-is-morocco-celebrating-the-defeat-of-a-un-resolution-on-western-sahara) | [Al Jazeera, Algérie et Mali, 11 juillet 2026](https://www.aljazeera.com/news/2026/7/11/algeria-and-mali-restore-diplomatic-ties-following-yearlong-rift) | [RFI, via AllAfrica, retour des ambassadeurs, 13 février 2026](https://fr.allafrica.com/stories/202602130398.html) | [RFI, via AllAfrica, visite d'Abdourahamane Tiani à Alger, 16 février 2026](https://fr.allafrica.com/stories/202602170351.html) | [Crisis Group, Algérie-Mali : désamorcer une dangereuse escalade, 18 avril 2025](https://www.crisisgroup.org/africa/sahel/mali-algeria/algerie-mali-desamorcer-une-dangereuse-escalade) | [AFP, forage du bloc de Kafra, 13 août 2026](https://www.connaissancedesenergies.org/afp/niger-une-societe-algerienne-commence-le-forage-dun-puits-de-petrole-260813) | [AFP, lancement du gazoduc transsaharien, 4 juin 2026](https://www.connaissancedesenergies.org/afp/lancement-du-chantier-du-gazoduc-transsaharien-entre-algerie-nigeria-et-niger-260604) | [Pipeline Journal, 18 juin 2026](https://pipeline-journal.net/news/analysis-trans-saharan-gas-pipeline-how-4128-km-new-steel-could-reshape-europes-energy-map) | [AFP, via Arab News, gazoduc Nigeria-Maroc, juillet 2026](https://www.arabnews.com/node/2651545/world) | [Algérie-Eco, centrale de Gorou Banda, 3 juin 2026](https://algerie-eco.com/2026/06/03/niger-inauguration-dune-centrale-electrique-de-40-mw-financee-par-lalgerie/) | [FMI, Niger, 9e revue de la FEC, 12 juin 2026](https://www.imf.org/en/news/articles/2026/06/12/pr-26200-niger-imf-reaches-agreement-on-9th-rev-under-ecf) | [ACLED, via Africanews, 13 mars 2026](https://www.africanews.com/2026/03/13/nearly-1300-killed-in-nigers-tillaberi-as-jihadist-attacks-surge/) | [Xinhua, attaque sur l'axe Arlit-Agadez, 22 octobre 2026](https://french.news.cn/20261022/971357433f7242658005177e0ebbecb8/c.html) | [Alarme Phone Sahara, décembre 2025](https://alarmephonesahara.info/fr/news/assamaka-niger-more-than-34-000-people-deported-from-algeria-to-niger-in-2025) | [SIPRI, dépenses militaires 2025, avril 2026](https://www.sipri.org/sites/default/files/2026-04/2604_milex_2025.pdf) | [SIPRI, transferts d'armes 2025, mars 2026](https://www.sipri.org/sites/default/files/2026-03/fs_2603_at_2025.pdf) | [B. Oumansour, IRIS, 15 septembre 2026](https://www.iris-france.org/en/algeria-towards-a-paradigm-shift-in-foreign-policy/) | [H. Badawi, African Arguments, 7 septembre 2026](https://africanarguments.org/2026/09/beyond-the-fighter-jets-what-algerias-deployment-to-niger-really-signals/) | [Soufan Center, IntelBrief, 3 novembre 2026](https://thesoufancenter.org/intelbrief-2026-november-3/) | [ISS Africa, H. Koné, D. Sow et R. L. Salia, 16 mars 2026](https://issafrica.org/iss-today/algeria-s-return-to-the-sahel-an-opportunity-to-show-aes-cohesion) | [Y. H. Zoubir et A. Abderrahmane, ME Council, juillet 2025](https://mecouncil.org/publication/bordering-on-crisis-the-future-of-algeria-mali-relations/) | David S. (1991), Explaining Third World Alignment, World Politics, 43(2) | Kuik C.-C. (2008), The Essence of Hedging, Contemporary Southeast Asia, 30(2) | Walt S. (1987), The Origins of Alliances, Cornell University Press | Williamson O. E. (1983), Credible Commitments: Using Hostages to Support Exchange, American Economic Review, 73(4)"
+        ]
+      }
+    ]
+  },
+  {
     "id": 8,
     "day": "29",
     "month": "OCT",
@@ -2377,6 +2670,299 @@ const BULLETINS_FR = [
 ];
 
 const BULLETINS_EN = [
+  {
+    "id": 9,
+    "day": "03",
+    "month": "NOV",
+    "year": "2026",
+    "title": "Algeria in Niger: the end of non-interventionism, or its adaptation to a new Sahel",
+    "excerpt": "For the first time since 1973, Algeria's People's National Army is deploying beyond the country's borders, to Niger, at Niamey's request. The official purpose is to protect energy interests. The real one is to regain a foothold in a Sahel where Algiers had been outmanoeuvred by Morocco, the United Arab Emirates and Russia.",
+    "tags": [
+      "Algeria",
+      "Niger",
+      "AES",
+      "Sahel",
+      "Security",
+      "Energy",
+      "Trans-Saharan gas pipeline"
+    ],
+    "category": "Sahel Geopolitics",
+    "nutshell": [
+      "On October 25, Algeria's parliament authorised the first deployment of troops abroad since 1973, to protect Sonatrach's projects in Niger",
+      "Algiers aims to recover the strategic depth it lost in the Sahel and to secure the Trans-Saharan Gas Pipeline against Morocco's rival project",
+      "Niamey gains a nearby protector and an energy supplier, at the price of yet another armed partner on its soil and a test of AES cohesion"
+    ],
+    "content": [
+      {
+        "heading": null,
+        "paragraphs": [
+          "Since the October 1973 war, when Algerian units fought alongside Egypt, the People's National Army (ANP) had not crossed the country's borders. This restraint was no accident. It flowed from a doctrine forged in the war of independence: non-interference, refusal of foreign bases and a preference for mediation. The 2015 peace accords for northern Mali were negotiated in Algiers, and for years Algiers claimed to hold the threads of the Sahel without sending a single soldier there. That model has stopped working. On October 25, 2026, both chambers of parliament, meeting behind closed doors, approved the dispatch of ANP units to Niger; in the Council of the Nation, the [resolution won 148 votes out of 148 cast](https://ouest-tribune.dz/envoi-dunites-de-lanp-au-niger-les-membres-du-conseil-de-la-nation-et-de-lapn-approuvent-a-lunanimite-la-notification-adressee-par-le-president-de-la-republique/), far above the two-thirds majority the Constitution requires.",
+          "The next day, the presidency announced that the head of state had [decided to send ANP units to the Republic of Niger](https://www.aps.dz/fr/presidence-news/mvpepe6e-le-president-de-la-republique-decide-d-envoyer-des-unites-de-l-anp-en-republique-du-niger) to protect shared energy and economic interests. On October 30, according to Reuters, a first military convoy reached Arlit, the uranium town, and on October 31 some sixty fuel tankers escorted by the Algerian army arrived in Agadez. There is nothing hypothetical about the deployment: it has been voted, decided and begun.",
+          "Two questions follow, and this analysis takes them in turn. Why is Algiers breaking with half a century of restraint, and why in Niger, and why now? And what does Niamey gain, a regime that built its legitimacy on expelling French troops in the name of sovereignty, by welcoming those of a neighbour? The answer comes down to one idea: the deployment is less a doctrinal rupture than an adaptation, through which Algeria converts its military power, the largest in Africa by spending, into economic and political influence in a region where its rivals had got there first."
+        ]
+      },
+      {
+        "heading": "What Algiers decided, and what it chose not to say",
+        "paragraphs": [
+          "The legal framework is the 2020 Constitution. Article 91 allows the president to send army units abroad after approval by two-thirds of each chamber; Article 31 provides for Algerian participation in peace operations in line with the principles of the United Nations, the African Union and the Arab League. In 2020 the provision was presented as a modernisation with no immediate consequence. It is now being used for the first time. The bilateral basis is a military cooperation protocol signed in Algiers on October 21 by the chief of staff, General Saïd Chanegriha, and Niger's defence minister, General Salifou Mody, according to the state daily [Horizons](https://www.horizons.dz/language/en/2026/10/cementing-regional-security-algeria-and-niger-sign-military-agreement/). Its text has not been made public.",
+          "The mission, as presented to parliamentarians, is narrowly defined. Foreign Minister Ahmed Attaf described it as “peaceful”, carried out at Niamey's request and with no combat role, designed to protect the staff and projects of Sonatrach International Exploration and Production, the subsidiary that operates the Kafra oil block in the Agadez region. He added a sentence that says more than the rest: “Niger's security is part of Algeria's security.” Algiers has disclosed neither troop numbers, nor duration, nor where the units are stationed, and the defence ministry has said nothing about the arrival of the first contingents.",
+          "This ground deployment extends a sequence that began in the summer. In August, Algiers gave Niamey four helicopters, two Mi-24s and two Mi-171s. After the August 28-29 mutiny in Niamey, which targeted Air Base 101, the airport and the presidential palace, the defence ministry announced that it had sent Su-30 fighters and a tanker aircraft, at the request of the Nigerien authorities, to support the army against an “attempt at destabilisation”, according to [Al Jazeera](https://www.aljazeera.com/news/2026/10/3/algeria-sent-fighter-jets-to-niger-to-thwart-coup-attempt-president-says). President Abdelmadjid Tebboune then defended the choice on television: “we will protect Niger whatever happens,” he said, adding that Algeria stood “in the same trench, with deeds, not words”, while insisting that the country's doctrine “has not changed” ([TSA](https://www.tsa-algerie.com/envoi-par-lalgerie-davions-su-30-au-niger-tebboune-devoile-ce-quil-sest-passe/))."
+        ],
+        "factbox": {
+          "title": "The deployment in seven dates",
+          "items": [
+            "August 9, 2026: two Mi-24 and two Mi-171 helicopters donated to Niger's army",
+            "August 28-29, 2026: mutiny in Niamey; on August 30, Algiers announces the dispatch of Su-30 fighters and a tanker aircraft",
+            "October 3, 2026: Abdelmadjid Tebboune declares that Algeria will protect Niger “whatever happens”",
+            "October 21, 2026: military cooperation protocol signed in Algiers by Generals Chanegriha and Mody",
+            "October 25, 2026: parliament approves the dispatch of ANP units, the first use of Article 91 of the Constitution",
+            "October 26, 2026: presidential decision; mission to protect shared energy and economic interests",
+            "October 30-31, 2026: first military convoy in Arlit, escorted fuel convoy to Agadez"
+          ]
+        }
+      },
+      {
+        "heading": "A doctrine that adapts rather than recants",
+        "paragraphs": [
+          "Reading this deployment as an outright abandonment of non-interventionism would be wrong. Algeria is not intervening against a government, is not taking sides in a civil war and is not acting uninvited; it is protecting assets it owns, on the territory of a state that has asked it to do so. Brahim Oumansour of IRIS nonetheless speaks of a [paradigm shift](https://www.iris-france.org/en/algeria-towards-a-paradigm-shift-in-foreign-policy/), and on one point he is right: the instrument has changed. For thirty years, Algiers exercised its influence in the Sahel through mediation, intelligence and quiet management of its borders. It now also exercises it through physical presence, which mediation alone could no longer deliver.",
+          "The reason lies in a series of setbacks. In January 2024, Mali's junta repudiated the 2015 Algiers accord, accusing Algeria of “hostile acts”. On the night of March 31 to April 1, 2025, the Algerian army shot down a Malian drone near Tinzaouaten, citing a violation of its airspace; the three AES countries recalled their ambassadors, airspace was closed and Bamako took the matter to the International Court of Justice, which cannot rule without Algiers' consent. Meanwhile, others moved into the space: Russia through Wagner and then the Africa Corps, Turkey with its drones, the United Arab Emirates through finance and arms, and Morocco through its Atlantic initiative, which offers the landlocked Sahel states access to the ocean through its ports. Algiers found itself on the border of a region it regarded as its strategic depth, with no grip on it.",
+          "Stephen Walt showed that states ally less against power as such than against threat, which combines capabilities, proximity and perceived intentions. For Algiers, the Sahelian threat is twofold: armed instability along nearly a thousand kilometres of border with Niger, and the entrenchment of rivals in its neighbourhood. The severing of diplomatic relations with the Emirates on September 10, 2026, which Algeria justified by “hostile” acts, and the battle over Western Sahara, where MINURSO's mandate expired on October 31 after a Russian veto of a US draft, place the deployment within this framework. Niger, the only AES country with which Algiers had kept a channel open, offered the most accessible foothold from which to re-establish its presence."
+        ],
+        "figure": {
+          "after": 3,
+          "kind": "bars",
+          "labelWidth": 210,
+          "title": "Military expenditure in 2025 (billions of dollars)",
+          "items": [
+            {
+              "label": "Algeria",
+              "value": 25.4,
+              "valueLabel": "$25.4bn",
+              "hi": true
+            },
+            {
+              "label": "Morocco",
+              "value": 6.3,
+              "valueLabel": "$6.3bn"
+            },
+            {
+              "label": "Nigeria",
+              "value": 2.1,
+              "valueLabel": "$2.1bn"
+            }
+          ],
+          "note": "Source: [SIPRI, Trends in World Military Expenditure 2025](https://www.sipri.org/sites/default/files/2026-04/2604_milex_2025.pdf), April 2026. Algeria devotes 8.8% of its GDP and a quarter of its public spending to defence."
+        }
+      },
+      {
+        "heading": "Pipelines before borders",
+        "paragraphs": [
+          "The official mission names Sonatrach, and this is no pretext. Since 2005 the company has held the Kafra permit, a block of nearly 24,000 square kilometres between Iférouane and Bilma, close to the Algerian border. Drilling of the Kafra Sud-Est 1 well began on August 13, 2026, in the presence of both countries' prime ministers, and Niamey puts reserves at [more than 260 million barrels](https://www.connaissancedesenergies.org/afp/niger-une-societe-algerienne-commence-le-forage-dun-puits-de-petrole-260813). On top of this comes the Trans-Saharan Gas Pipeline, designed to link Nigeria to Hassi R'Mel over 4,128 kilometres, 841 of them in Niger, with a capacity of 30 billion cubic metres a year. Its final feasibility report was adopted on June 3, 2026, and work on the Algerian section began the following day in the wilaya of Adrar; Algiers has said that Sonatrach will finance and build the Nigerien section.",
+          "Oliver Williamson showed that relationship-specific investments, those that lose their value if the relationship breaks down, call for safeguards against the risk of hold-up. A cross-border pipeline is the textbook case: once laid, it cannot be moved, and its value depends on the security of the territory it crosses. The Algerian deployment can be read as that safeguard, which Nigerien law alone could not provide in a region where armed groups attack infrastructure and where there is a precedent: the Agadem-Sèmè oil pipeline, operated by Chinese interests, has been targeted by rebels and halted by a dispute with Benin. Protecting Kafra today makes the Nigerien route of the gas pipeline credible tomorrow.",
+          "Competition makes the stakes pressing. On July 19, 2026, ECOWAS heads of state meeting in Freetown approved the agreement on the Nigeria-Morocco Gas Pipeline, an Atlantic project of some 6,000 kilometres crossing thirteen countries, with the same maximum capacity of 30 billion cubic metres, but with no final investment decision. Both projects target the same Nigerian gas and the same European market. Whoever first secures its route and its partners gains a decisive advantage. By stationing troops along the Agadez-Arlit axis, Algeria asserts what Morocco cannot offer: territorial contiguity and the capacity to protect the pipe."
+        ],
+        "figure": {
+          "after": 1,
+          "kind": "map",
+          "region": [
+            -14,
+            3,
+            17,
+            38
+          ],
+          "title": "Algeria, Niger and the route of the Trans-Saharan Gas Pipeline",
+          "groups": [
+            {
+              "ids": [
+                "012"
+              ],
+              "label": "Algeria",
+              "tone": "a"
+            },
+            {
+              "ids": [
+                "562"
+              ],
+              "label": "Niger, host country of the deployment",
+              "tone": "c"
+            },
+            {
+              "ids": [
+                "466",
+                "854"
+              ],
+              "label": "Mali and Burkina Faso, Niger's AES partners",
+              "tone": "d"
+            },
+            {
+              "ids": [
+                "566"
+              ],
+              "label": "Nigeria, starting point of the pipeline",
+              "tone": "b"
+            }
+          ],
+          "points": [
+            {
+              "name": "Algiers",
+              "lon": 3.06,
+              "lat": 36.75
+            },
+            {
+              "name": "Hassi R'Mel",
+              "lon": 3.27,
+              "lat": 32.93
+            },
+            {
+              "name": "Tinzaouaten",
+              "lon": 2.97,
+              "lat": 19.95,
+              "anchor": "end"
+            },
+            {
+              "name": "Arlit",
+              "lon": 7.38,
+              "lat": 18.74
+            },
+            {
+              "name": "Agadez",
+              "lon": 7.99,
+              "lat": 16.97
+            },
+            {
+              "name": "Niamey",
+              "lon": 2.11,
+              "lat": 13.51,
+              "anchor": "end"
+            },
+            {
+              "name": "Bamako",
+              "lon": -8,
+              "lat": 12.64,
+              "anchor": "end"
+            },
+            {
+              "name": "Warri",
+              "lon": 5.75,
+              "lat": 5.52
+            }
+          ],
+          "links": [
+            {
+              "from": [
+                5.75,
+                5.52
+              ],
+              "to": [
+                7.99,
+                16.97
+              ],
+              "tone": "c"
+            },
+            {
+              "from": [
+                7.99,
+                16.97
+              ],
+              "to": [
+                3.27,
+                32.93
+              ],
+              "tone": "c"
+            }
+          ],
+          "note": "Schematic route of the Trans-Saharan Gas Pipeline (Warri, Agadez, Hassi R'Mel). Sources: Pipeline Journal, June 2026; APS; Reuters and RFI, October 30-31, 2026 (Arlit, Agadez)."
+        }
+      },
+      {
+        "heading": "What Niamey gains",
+        "paragraphs": [
+          "For General Abdourahamane Tiani, the first benefit is survival. The August mutiny showed that the most immediate threat to the regime comes from within the military apparatus as much as from jihadist groups. Steven David coined the term omnibalancing to describe such situations: in many states, leaders choose their external alignments first and foremost to guard against internal threats. A neighbour that dispatches fighter jets within hours and whose army is stationed on national territory is insurance against another attempted coup, all the more valuable because Russia's Africa Corps, present in Niamey since April 2024, does not have comparable air assets close at hand.",
+          "The second benefit is economic. Niger depends on Nigeria for more than 70% of its electricity and suffers from fuel shortages; Algeria financed the Gorou Banda power plant, 40 megawatts commissioned in Niamey on June 3, 2026, and it was an Algerian fuel convoy that its soldiers escorted to Agadez. The International Monetary Fund forecasts growth of 7% in 2026, driven by Agadem oil exported through Benin, but the Nigerien state has entered a standoff with its Chinese partners, to whom it gave forty-five days on October 13 to repatriate export revenues. Diversifying its energy support with a neighbouring, solvent partner reduces Niamey's exposure to each of them.",
+          "That leaves sovereignty, which is a political question before it is a legal one. The regime founded its legitimacy on the departure of French forces in 2023 and American forces in 2024. Hosting Algerian soldiers is nonetheless no contradiction in its own narrative: the presence was requested, is bilateral, is limited to protecting infrastructure and comes from an African neighbour with no colonial past in Niger. Kuik Cheng-Chwee described strategic hedging as the art of multiplying partners so as to depend on none. Niamey practises it: Russia for regime protection and uranium, on which a protocol was signed with Rosatom in December 2025; Turkey for drones; China for oil; Algeria for energy and the northern border. The sovereignty it claims does not exclude foreign presences; it consists in choosing them and setting them against one another."
+        ],
+        "factbox": {
+          "title": "Niger in figures",
+          "items": [
+            "Projected growth in 2026: 7%, after 6.9% in 2025 (IMF, June 2026)",
+            "Agadem oil output: about 90,000 barrels a day, exported via the pipeline to Benin",
+            "Violence-related deaths in 2025: 1,939, including nearly 1,300 in the Tillabéri region (ACLED)",
+            "Global Terrorism Index 2026 ranking: 3rd in the world",
+            "Recorded trade with Algeria in 2024: $53.7 million in imports, $1.3 million in exports (UN Comtrade)",
+            "Electricity dependence on Nigeria: more than 70% (ISS Africa)"
+          ]
+        }
+      },
+      {
+        "heading": "The AES and a neighbour that is back",
+        "paragraphs": [
+          "The rapprochement between Algiers and Niamey preceded the thaw with Bamako, and probably eased it. Ambassadors returned to Algiers and Niamey on February 12, 2026; General Tiani visited Algiers on February 15-16 with around ten ministers; a joint commission signed some twenty agreements in Niamey in March. On July 10 and 11, Algeria and Mali reopened their airspace and restored their ambassadors, fifteen months after the Tinzaouaten incident, according to [Al Jazeera](https://www.aljazeera.com/news/2026/7/11/algeria-and-mali-restore-diplomatic-ties-following-yearlong-rift). In February, Burkina Faso secured an Algerian programme worth CFA 50 billion for mining and energy. Algiers has thus rebuilt, country by country, relationships it had lost all at once.",
+          "For the Confederation, the situation is a test, as researchers at [ISS Africa](https://issafrica.org/iss-today/algeria-s-return-to-the-sahel-an-opportunity-to-show-aes-cohesion) have noted. The AES was built on solidarity in the face of external pressure, to the point that its three members jointly recalled their ambassadors in April 2025 in solidarity with Bamako. A partner that deploys in only one of the three countries can strengthen the Confederation, by securing its northern flank, or fragment it, if the capitals each end up negotiating their own protection. No official statement from Bamako or Ouagadougou on the deployment has been published to date, and that silence is itself telling: the Confederation does not oppose it, but neither does it endorse it.",
+          "The competition with Morocco is also played out on this ground. Rabat hosted the AES foreign ministers in April 2025, at the height of their crisis with Algiers, and presents its Atlantic initiative as the landlocked countries' route to the sea, with the port of Dakhla due for completion in 2028. Algeria counters with another geography, that of roads, pipelines and a shared border. The Sahelian states have no reason to choose: their interest lies in keeping both offers open and extracting the best terms, which gives the AES a bargaining power it lacked when Algeria and Morocco ignored it."
+        ]
+      },
+      {
+        "heading": "The risks of a first commitment",
+        "paragraphs": [
+          "The first risk concerns security. Northern Niger is not the country's most violent region, which remains Tillabéri, but it is not spared: on October 20, two buses were attacked on the Arlit-Agadez road, thirty-five kilometres from Agadez, and twelve people were killed, according to the regional governor. Islamic State Sahel and JNIM have made foreign presence a recruiting argument. A first Algerian casualty would confront Algiers with an unprecedented problem: a public that has not experienced a foreign commitment in half a century, and a government forced to choose between withdrawal and escalation. The [Soufan Center](https://thesoufancenter.org/intelbrief-2026-november-3/) points to this risk of getting bogged down, especially since protecting infrastructure across such a vast area requires resources that Algeria has not announced.",
+          "The second risk is political and stems from migration. Algeria expelled at least 34,236 people to Assamaka in 2025, a record according to the organisation Alarme Phone Sahara, after 31,404 in 2024 and 26,031 in 2023. These expulsions, often carried out in the desert, led in April 2024 to each country summoning the other's ambassador. They remain the main source of popular resentment towards Algeria in Niger, and a visible military deployment could crystallise that resentment if the two governments do not settle the question of the conditions of return.",
+          "The third risk lies in the coexistence of partners. Russia's Africa Corps is present in Niamey, Turkey supplies drones, China operates the Agadem oil fields, and Algeria arrives with military equipment that is mostly of Russian origin: Russia supplied 39% of Algiers' arms imports between 2021 and 2025, according to SIPRI. This technical affinity eases coexistence with Moscow, but competition for influence among partners of the same regime generally exacts a price in the end, either through friction on the ground or through a bidding war from which the host state profits in the short term and loses control in the long term."
+        ],
+        "figure": {
+          "after": 2,
+          "kind": "bars",
+          "labelWidth": 120,
+          "title": "People expelled from Algeria to Niger (Assamaka)",
+          "items": [
+            {
+              "label": "2023",
+              "value": 26031,
+              "valueLabel": "26,031"
+            },
+            {
+              "label": "2024",
+              "value": 31404,
+              "valueLabel": "31,404"
+            },
+            {
+              "label": "2025",
+              "value": 34236,
+              "valueLabel": "34,236",
+              "hi": true
+            }
+          ],
+          "note": "Source: [Alarme Phone Sahara](https://alarmephonesahara.info/fr/news/assamaka-niger-more-than-34-000-people-deported-from-algeria-to-niger-in-2025), count of official and unofficial convoys, December 2025; AFP, January 2025 (2023 and 2024)."
+        }
+      },
+      {
+        "heading": "Scenarios",
+        "paragraphs": [],
+        "scenarios": [
+          {
+            "level": "most",
+            "title": "A limited, lasting presence around energy assets",
+            "text": "The ANP settles into northern Niger with modest numbers, protects Kafra and the convoys, and accompanies the start of pipeline construction on the Nigerien section. Algiers avoids combat, says little and turns its presence into economic leverage: contracts for Sonatrach and Sonelgaz, border markets, fuel supply. Relations with Bamako and Ouagadougou normalise without the deployment extending to their territory."
+          },
+          {
+            "level": "less",
+            "title": "Mission creep under the pressure of events",
+            "text": "An attack on Algerian installations or soldiers, or a new crisis in Niamey, leads Algiers to harden its posture: armed patrols, air support, intelligence shared with Nigerien forces. Algeria becomes a leading security actor in the central Sahel, which strengthens its hand against Morocco but exposes it to the costs of precisely the kind of commitment its doctrine sought to avoid."
+          },
+          {
+            "level": "least",
+            "title": "A rapid withdrawal after a setback or political rupture",
+            "text": "Casualties poorly accepted by Algerian public opinion, a migration crisis or a change of regime in Niamey trigger the recall of the units. The Trans-Saharan Gas Pipeline loses its main argument against the Atlantic project, and Algeria's attempted return to the Sahel ends like the previous ones, in a retreat to mediation from a distance."
+          }
+        ]
+      },
+      {
+        "heading": "Sources",
+        "paragraphs": [
+          "[APS, Le président de la République décide d'envoyer des unités de l'ANP en République du Niger, October 26, 2026](https://www.aps.dz/fr/presidence-news/mvpepe6e-le-president-de-la-republique-decide-d-envoyer-des-unites-de-l-anp-en-republique-du-niger) | [Ouest Tribune, parliamentary vote, October 25, 2026](https://ouest-tribune.dz/envoi-dunites-de-lanp-au-niger-les-membres-du-conseil-de-la-nation-et-de-lapn-approuvent-a-lunanimite-la-notification-adressee-par-le-president-de-la-republique/) | [AFP, via Connaissance des Énergies, October 25-26, 2026](https://www.connaissancedesenergies.org/afp/algerie-le-parlement-approuve-lenvoi-de-troupes-au-niger-premier-deploiement-a-letranger-depuis-1973-261025) | [Algérie360, Sonatrach protection mission, October 25, 2026](https://www.algerie360.com/anp-niger-sonatrach-sipex-detachement/) | [Al Jazeera, October 26, 2026](https://www.aljazeera.com/news/2026/10/26/algerias-military-deployment-to-niger-whats-behind-the-move) | [Horizons, military cooperation protocol, October 21, 2026](https://www.horizons.dz/language/en/2026/10/cementing-regional-security-algeria-and-niger-sign-military-agreement/) | [Reuters, via Arab News, October 31, 2026](https://www.arabnews.com/middle-east/first-algerian-troops-arrive-in-niger-where-insurgents-threaten-stability-3009067) | [RFI, fuel convoy in Agadez, via Shango Media, November 2, 2026](https://www.shango.media/rfi-niger-arrivee-dun-premier-convoi-de-militaires-algeriens-avec-des-camions-citernes-a-agadez-12009032) | [Al Jazeera, Su-30 fighters, October 3, 2026](https://www.aljazeera.com/news/2026/10/3/algeria-sent-fighter-jets-to-niger-to-thwart-coup-attempt-president-says) | [TSA, interview with Abdelmadjid Tebboune, October 4, 2026](https://www.tsa-algerie.com/envoi-par-lalgerie-davions-su-30-au-niger-tebboune-devoile-ce-quil-sest-passe/) | [Al Jazeera, break with the UAE, September 10, 2026](https://www.aljazeera.com/news/2026/9/10/algeria-cuts-diplomatic-ties-with-uae-what-we-know) | [Al Jazeera, Western Sahara, November 1, 2026](https://www.aljazeera.com/news/2026/11/1/why-is-morocco-celebrating-the-defeat-of-a-un-resolution-on-western-sahara) | [Al Jazeera, Algeria and Mali, July 11, 2026](https://www.aljazeera.com/news/2026/7/11/algeria-and-mali-restore-diplomatic-ties-following-yearlong-rift) | [RFI, via AllAfrica, return of ambassadors, February 13, 2026](https://fr.allafrica.com/stories/202602130398.html) | [RFI, via AllAfrica, Abdourahamane Tiani's visit to Algiers, February 16, 2026](https://fr.allafrica.com/stories/202602170351.html) | [Crisis Group, Algérie-Mali : désamorcer une dangereuse escalade, April 18, 2025](https://www.crisisgroup.org/africa/sahel/mali-algeria/algerie-mali-desamorcer-une-dangereuse-escalade) | [AFP, drilling on the Kafra block, August 13, 2026](https://www.connaissancedesenergies.org/afp/niger-une-societe-algerienne-commence-le-forage-dun-puits-de-petrole-260813) | [AFP, launch of the Trans-Saharan Gas Pipeline, June 4, 2026](https://www.connaissancedesenergies.org/afp/lancement-du-chantier-du-gazoduc-transsaharien-entre-algerie-nigeria-et-niger-260604) | [Pipeline Journal, June 18, 2026](https://pipeline-journal.net/news/analysis-trans-saharan-gas-pipeline-how-4128-km-new-steel-could-reshape-europes-energy-map) | [AFP, via Arab News, Nigeria-Morocco Gas Pipeline, July 2026](https://www.arabnews.com/node/2651545/world) | [Algérie-Eco, Gorou Banda power plant, June 3, 2026](https://algerie-eco.com/2026/06/03/niger-inauguration-dune-centrale-electrique-de-40-mw-financee-par-lalgerie/) | [IMF, Niger, 9th ECF review, June 12, 2026](https://www.imf.org/en/news/articles/2026/06/12/pr-26200-niger-imf-reaches-agreement-on-9th-rev-under-ecf) | [ACLED, via Africanews, March 13, 2026](https://www.africanews.com/2026/03/13/nearly-1300-killed-in-nigers-tillaberi-as-jihadist-attacks-surge/) | [Xinhua, attack on the Arlit-Agadez road, October 22, 2026](https://french.news.cn/20261022/971357433f7242658005177e0ebbecb8/c.html) | [Alarme Phone Sahara, December 2025](https://alarmephonesahara.info/fr/news/assamaka-niger-more-than-34-000-people-deported-from-algeria-to-niger-in-2025) | [SIPRI, military expenditure 2025, April 2026](https://www.sipri.org/sites/default/files/2026-04/2604_milex_2025.pdf) | [SIPRI, arms transfers 2025, March 2026](https://www.sipri.org/sites/default/files/2026-03/fs_2603_at_2025.pdf) | [B. Oumansour, IRIS, September 15, 2026](https://www.iris-france.org/en/algeria-towards-a-paradigm-shift-in-foreign-policy/) | [H. Badawi, African Arguments, September 7, 2026](https://africanarguments.org/2026/09/beyond-the-fighter-jets-what-algerias-deployment-to-niger-really-signals/) | [Soufan Center, IntelBrief, November 3, 2026](https://thesoufancenter.org/intelbrief-2026-november-3/) | [ISS Africa, H. Koné, D. Sow and R. L. Salia, March 16, 2026](https://issafrica.org/iss-today/algeria-s-return-to-the-sahel-an-opportunity-to-show-aes-cohesion) | [Y. H. Zoubir and A. Abderrahmane, ME Council, July 2025](https://mecouncil.org/publication/bordering-on-crisis-the-future-of-algeria-mali-relations/) | David S. (1991), Explaining Third World Alignment, World Politics, 43(2) | Kuik C.-C. (2008), The Essence of Hedging, Contemporary Southeast Asia, 30(2) | Walt S. (1987), The Origins of Alliances, Cornell University Press | Williamson O. E. (1983), Credible Commitments: Using Hostages to Support Exchange, American Economic Review, 73(4)"
+        ]
+      }
+    ]
+  },
   {
     "id": 8,
     "day": "29",
