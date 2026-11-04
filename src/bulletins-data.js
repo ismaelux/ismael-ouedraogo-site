@@ -1,5 +1,282 @@
 // Données des analyses (FR, EN). Champs facultatifs : nutshell, figure(s), factbox, scenarios, notes.
 const BULLETINS_FR = [
+{
+  "id": 10,
+  "day": "05",
+  "month": "NOV",
+  "year": "2026",
+  "title": "Intégration financière africaine : les infrastructures avancent plus vite que leurs utilisateurs",
+  "excerpt": "Le système panafricain de paiement revendique des volumes multipliés par onze, onze bourses sont interconnectées et l'Union africaine vient de lancer sa propre agence de notation. Le baromètre AFIS-Deloitte publié le 3 novembre à Luanda montre pourtant que 11 % seulement des institutions financières sont raccordées à PAPSS. Pourquoi des outils moins coûteux restent peu utilisés, et ce qui pourrait faire basculer les usages.",
+  "tags": [
+    "PAPSS",
+    "AfCRA",
+    "AELP",
+    "ZLECAf",
+    "Intégration financière",
+    "BCEAO"
+  ],
+  "category": "Intégration économique africaine",
+  "nutshell": [
+    "Seules 11 % des institutions financières africaines sont raccordées au système panafricain de paiement PAPSS et 45 % n'ont aucun projet de connexion, selon le baromètre AFIS-Deloitte publié le 3 novembre 2026",
+    "Le frein est moins technique que collectif : un réseau de paiement ou une bourse n'a de valeur que si les autres l'utilisent, et chaque institution attend que les autres franchissent le pas",
+    "L'agence de notation africaine lancée le 7 octobre à Maurice devra d'abord bâtir sa crédibilité ; son effet sur le coût de la dette dépendra de l'usage qu'en feront les investisseurs et les régulateurs africains"
+  ],
+  "content": [
+    {
+      "heading": null,
+      "paragraphs": [
+        "Le 3 novembre 2026, à Luanda, l'Africa Financial Summit (AFIS) a présenté la sixième édition de son baromètre du secteur financier africain, réalisé avec le cabinet Deloitte. Les dirigeants de banques, d'assurances, de fintechs et de sociétés de marché qui y répondent restent confiants : leur note moyenne sur les perspectives à trois ans demeure à 8 sur 10. Leur jugement sur l'intégration régionale est beaucoup plus sévère. Seuls 7 % d'entre eux constatent des progrès tangibles de la Zone de libre-échange continentale africaine (ZLECAf), 69 % la jugent trop lente et 24 % la considèrent à l'arrêt. Seules 11 % des institutions interrogées sont raccordées au Système panafricain de paiement et de règlement (PAPSS), et 45 % n'ont aucun projet de connexion (Sikafinance, 4 novembre 2026).",
+        "Ces chiffres arrivent au moment où les infrastructures de l'intégration financière africaine n'ont jamais été aussi développées. PAPSS annonce, entre des périodes comparables de 2025 et de 2026, des volumes de transactions en hausse d'environ 1 000 % et des montants en hausse d'environ 120 %, avec plus de 30 pays, 24 banques centrales et plus de 200 banques commerciales et prestataires de paiement connectés (Techeconomy, 17 septembre 2026). Le projet d'interconnexion des bourses africaines (AELP) relie désormais onze places. L'Union africaine a lancé le 7 octobre, à Maurice, sa propre agence de notation, l'Africa Credit Rating Agency (AfCRA).",
+        "L'écart entre l'offre d'infrastructures et leur usage n'a rien d'une contradiction. C'est le comportement attendu d'un réseau jeune : sa valeur dépend du nombre de ceux qui l'utilisent déjà, si bien que chacun a intérêt à attendre les autres. Ce mécanisme permet de distinguer ce qui relève du temps, ce qui relève de la coordination entre institutions et ce qui relève des choix des banques centrales, des régulateurs et des investisseurs africains."
+      ]
+    },
+    {
+      "heading": "Trois chantiers, un même objectif",
+      "factbox": {
+        "title": "Le calendrier de l'intégration financière",
+        "items": [
+          "13 janvier 2022 : lancement commercial de PAPSS à Accra",
+          "7 décembre 2022 : lancement à Abidjan de la plateforme AELP, qui relie sept bourses couvrant quatorze pays",
+          "30 septembre 2025 : la BCEAO lance PI-SPI, son système de paiement instantané interopérable pour l'UEMOA",
+          "1er juillet 2026 : deuxième phase de l'AELP à Dar es Salaam, onze bourses interconnectées",
+          "9 juillet 2026 : la Banque des États de l'Afrique centrale (BEAC) devient membre de PAPSS",
+          "21 juillet 2026 : la BCEAO annonce un pilote PAPSS de six mois avec plus de 80 banques de l'UEMOA, dans un rôle d'observatrice",
+          "7 octobre 2026 : lancement de l'AfCRA à Balaclava (Maurice)",
+          "3 novembre 2026 : publication du baromètre AFIS-Deloitte à Luanda"
+        ]
+      },
+      "paragraphs": [
+        "PAPSS est le plus ancien des trois chantiers. Conçu par Afreximbank avec le Secrétariat de la ZLECAf, il a été lancé commercialement le 13 janvier 2022 à Accra. Son principe est simple : une banque de Lagos qui paie pour le compte d'un importateur un fournisseur de Nairobi règle en nairas, le fournisseur reçoit des shillings, et la compensation se fait entre banques africaines, Afreximbank jouant le rôle d'agent de règlement et apportant garanties et facilités de découvert aux participants. Au lancement, plus de 80 % des paiements transfrontaliers émis par des banques africaines devaient passer par des banques correspondantes situées hors du continent pour être compensés en dollars ou en euros, et les promoteurs du système estimaient que PAPSS pourrait faire économiser plus de 5 milliards de dollars par an de coûts de transaction (Engineering News, 14 janvier 2022).",
+        "L'interconnexion des bourses suit la même logique, appliquée à l'épargne. Portée par la Banque africaine de développement et l'Association des bourses africaines (ASEA), financée par un don du fonds fiduciaire de coopération économique Corée-Afrique (KOAFEC), la plateforme AELP a été lancée le 7 décembre 2022 à Abidjan. Elle reliait alors sept bourses couvrant quatorze pays, environ 2 000 sociétés cotées et quelque 1 500 milliards de dollars de capitalisation (Agence Ecofin, décembre 2022). La deuxième phase, lancée le 1er juillet 2026 à Dar es Salaam, a ajouté les bourses du Botswana, du Ghana, de l'Ouganda et de l'Eswatini, portant le réseau à onze bourses et à plus de cinquante sociétés de bourse (Ghana Stock Exchange, juillet 2026).",
+        "L'agence de notation est la plus récente. Approuvée par l'Union africaine dès 2017 et préparée par le Mécanisme africain d'évaluation par les pairs (MAEP), elle a été inaugurée le 7 octobre 2026 à Balaclava, près de Port-Louis, en présence du président de la Commission de l'Union africaine, Mahmoud Ali Youssouf. Son directeur général par intérim est le Sud-Africain Sifiso Falala, cofondateur du cabinet Plus 94 Research, qui détient 1 000 des 3 000 actions prévues ; les 2 000 autres sont ouvertes à des investisseurs privés, les États étant exclus du capital, et l'agence cherche à lever 15 millions de dollars (Nairametrics, 9 octobre 2026). Les trois chantiers ont le même objet : faire circuler les paiements, l'épargne et l'information sur le risque à l'intérieur du continent plutôt que par des intermédiaires situés hors d'Afrique."
+      ]
+    },
+    {
+      "heading": "PAPSS : un réseau qui grandit vite à partir d'une base étroite",
+      "figure": {
+        "after": 1,
+        "kind": "bars",
+        "labelWidth": 250,
+        "unit": "%",
+        "title": "Les institutions financières africaines face aux outils de l'intégration (% des répondants)",
+        "items": [
+          {
+            "label": "Raccordées à PAPSS",
+            "value": 11,
+            "valueLabel": "11 %",
+            "hi": true
+          },
+          {
+            "label": "Sans projet de connexion à PAPSS",
+            "value": 45,
+            "valueLabel": "45 %"
+          },
+          {
+            "label": "Jugent l'AELP à l'arrêt",
+            "value": 43,
+            "valueLabel": "43 %"
+          },
+          {
+            "label": "Aucun bénéfice concret de la ZLECAf ou de PAPSS",
+            "value": 41,
+            "valueLabel": "41 %"
+          },
+          {
+            "label": "Aucun bénéfice concret de l'AELP",
+            "value": 56,
+            "valueLabel": "56 %"
+          }
+        ],
+        "note": "Source : baromètre AFIS-Deloitte 2026, présenté à Luanda le 3 novembre 2026, d'après [Sikafinance](https://www.sikafinance.com/marches/afis-2026-le-6e-barometre-du-secteur-financier-africain-dresse-un-bilan-contraste-des-avancees-de-lintegration-regionale_65496), 4 novembre 2026. Répondants : dirigeants de banques, d'assurances, de fintechs et de sociétés de marché."
+      },
+      "paragraphs": [
+        "La croissance des volumes et la faible proportion d'institutions raccordées vont de pair. Une hausse de 1 000 % mesurée à partir d'une base très faible ne dit rien de la part de PAPSS dans les paiements intra-africains, que ni le système ni les banques centrales ne publient. Elle signale plutôt un réseau au tout début de sa courbe d'adoption. Les économistes Michael Katz et Carl Shapiro, professeurs à l'université de Californie à Berkeley, ont montré qu'un tel réseau obéit à des externalités de réseau : l'utilité qu'un participant en tire croît avec le nombre des autres participants[^1]. Pour une banque d'Abidjan, se raccorder à PAPSS n'a d'intérêt que si ses clients ont des partenaires commerciaux dont les banques y sont aussi. Tant que la plupart des contreparties restent à l'extérieur, la banque continue de passer par son correspondant à Paris ou à New York, ce qui maintient à son tour les autres banques à l'extérieur.",
+        "Joseph Farrell et Garth Saloner, économistes à Berkeley et à Stanford, ont donné un nom à cet équilibre : l'inertie excessive[^2]. Lorsque chacun attend que les autres adoptent un nouveau standard, une technologie plus efficace peut rester inutilisée longtemps sans qu'aucun acteur ne commette d'erreur. Le moyen classique d'en sortir est l'intervention d'un acteur capable de faire basculer d'un coup un grand nombre d'utilisateurs. En Afrique, ce rôle revient aux banques centrales. La BEAC l'a joué en devenant membre de PAPSS le 9 juillet 2026, avec l'objectif de raccorder d'ici la fin de l'année les institutions des six pays de la CEMAC, qui comptent plus de 72 millions d'habitants (Launch Base Africa, 9 juillet 2026). La BCEAO a choisi une voie plus prudente : elle observera un pilote de six mois avec plus de 80 banques de l'UEMOA afin de vérifier la conformité de PAPSS à la réglementation de l'Union avant tout engagement formel (Agence Ecofin, 21 juillet 2026).",
+        "La prudence de la BCEAO a une logique économique. Les huit pays de l'UEMOA partagent déjà une monnaie, et l'institut d'émission déploie son propre système de paiement instantané, PI-SPI, lancé le 30 septembre 2025, auquel 80 institutions étaient connectées en juin 2026 (Agence Ecofin, juillet 2026). Pour les échanges internes à l'Union, PAPSS n'apporte rien que le franc CFA n'assure déjà ; son intérêt porte sur les paiements avec le Nigeria, le Ghana ou le Maroc, qui exigent une conversion de devises. Cette réserve a pourtant un coût pour les autres membres du réseau. L'UEMOA compte parmi les pôles du commerce intra-africain, la Côte d'Ivoire représentant à elle seule 4,8 % de ces échanges en 2025 (Afreximbank, juin 2026). Tant que ses banques restent à la porte, la valeur de PAPSS pour un exportateur nigérian ou ghanéen qui vend à Abidjan, Dakar ou Bamako reste plafonnée."
+      ]
+    },
+    {
+      "heading": "Bourses : relier des marchés étroits ne crée pas encore la liquidité",
+      "figure": {
+        "after": 0,
+        "kind": "map",
+        "region": [
+          -20,
+          -36,
+          60,
+          38
+        ],
+        "title": "Les bourses reliées par la plateforme AELP",
+        "groups": [
+          {
+            "ids": [
+              "504",
+              "818",
+              "566",
+              "404",
+              "480",
+              "710",
+              "204",
+              "854",
+              "384",
+              "624",
+              "466",
+              "562",
+              "686",
+              "768"
+            ],
+            "label": "Première phase (2022) : sept bourses, dont la BRVM pour les huit pays de l'UEMOA",
+            "tone": "a"
+          },
+          {
+            "ids": [
+              "072",
+              "288",
+              "800",
+              "748"
+            ],
+            "label": "Deuxième phase (2026) : Botswana, Ghana, Ouganda, Eswatini",
+            "tone": "b"
+          }
+        ],
+        "points": [
+          {
+            "name": "Casablanca",
+            "lon": -7.59,
+            "lat": 33.57
+          },
+          {
+            "name": "Le Caire",
+            "lon": 31.24,
+            "lat": 30.04
+          },
+          {
+            "name": "Abidjan (BRVM)",
+            "lon": -4.01,
+            "lat": 5.32,
+            "anchor": "end"
+          },
+          {
+            "name": "Lagos",
+            "lon": 3.39,
+            "lat": 6.45
+          },
+          {
+            "name": "Nairobi",
+            "lon": 36.82,
+            "lat": -1.29
+          },
+          {
+            "name": "Johannesburg",
+            "lon": 28.05,
+            "lat": -26.2
+          },
+          {
+            "name": "Port-Louis",
+            "lon": 57.5,
+            "lat": -20.16,
+            "anchor": "end"
+          }
+        ],
+        "note": "Sources : Agence Ecofin, décembre 2022 (première phase) ; Ghana Stock Exchange, 1er juillet 2026 (deuxième phase). Maurice, siège de la bourse de Port-Louis et de la nouvelle AfCRA, est trop petite pour apparaître à cette échelle."
+      },
+      "paragraphs": [
+        "L'AELP bute sur un mécanisme voisin, appliqué à la liquidité. Selon le baromètre AFIS, 43 % des institutions financières considèrent le projet comme à l'arrêt et 56 % n'en perçoivent aucun bénéfice concret. L'économiste italien Marco Pagano, professeur à l'université de Naples Frédéric-II, a montré que la liquidité d'un marché s'auto-entretient : plus les investisseurs y sont nombreux, plus l'écart entre prix d'achat et prix de vente se resserre, ce qui attire de nouveaux investisseurs[^3]. Le raisonnement vaut aussi dans l'autre sens. Une plateforme qui relie des bourses peu liquides ne crée pas mécaniquement de la profondeur ; elle offre un accès, que les investisseurs n'utilisent que si les titres proposés se négocient assez pour entrer et sortir sans coût excessif.",
+        "La deuxième phase illustre cette tension. Elle a étendu le réseau à onze bourses et à plus de cinquante sociétés de bourse, dix-sept nouvelles sociétés ayant été raccordées à cette occasion (Ghana Stock Exchange, 1er juillet 2026). Le nombre de points d'accès augmente donc régulièrement, alors que le volume des ordres transfrontaliers passés par la plateforme n'est pas publié. L'architecture retenue explique une partie de la lenteur : l'AELP route des ordres entre des bourses qui conservent chacune leurs règles de cotation, de règlement-livraison et de change. Un investisseur de Nairobi qui achète un titre coté à la BRVM doit encore passer par un dépositaire, une devise et un régime fiscal différents des siens, et ces coûts fixes pèsent d'autant plus que les montants échangés sont faibles.",
+        "Le gisement d'épargne existe pourtant. Les fonds de pension et les assureurs africains gèrent environ 775 milliards de dollars d'actifs, selon l'OCDE (2025), chiffre repris par le baromètre AFIS. Une grande partie de cette épargne est encadrée par des règles nationales qui plafonnent la part des placements réalisés hors du pays d'origine, sans distinguer un titre coté à Accra d'un titre coté à Londres. Tant que ces règles ne traitent pas les titres des bourses partenaires comme une catégorie à part, la plateforme relie des marchés que leurs principaux investisseurs institutionnels ne peuvent utiliser qu'à la marge. Le chantier boursier relève donc autant des régulateurs de l'épargne que des bourses elles-mêmes."
+      ]
+    },
+    {
+      "heading": "AfCRA : une agence qui devra d'abord gagner sa propre crédibilité",
+      "factbox": {
+        "title": "L'AfCRA en quelques chiffres",
+        "items": [
+          "Projet approuvé par l'Union africaine en 2017, inauguré le 7 octobre 2026 à Balaclava (Maurice)",
+          "Siège prévu à Maurice, avec des filiales régionales",
+          "Capital : 3 000 actions prévues, dont 1 000 (33,3 %) détenues par Plus 94 Research ; les États sont exclus de l'actionnariat",
+          "Objectif de levée de fonds : 15 millions de dollars",
+          "Directeur général par intérim : Sifiso Falala, cofondateur de Plus 94 Research et fondateur de Sovereign Africa Ratings",
+          "23 des 55 États membres de l'Union africaine ne sont notés par aucune des trois grandes agences"
+        ]
+      },
+      "figure": {
+        "after": 0,
+        "kind": "bars",
+        "labelWidth": 120,
+        "title": "Service annuel de la dette extérieure de l'Afrique (milliards de dollars)",
+        "items": [
+          {
+            "label": "2010",
+            "value": 61,
+            "valueLabel": "61 Md$"
+          },
+          {
+            "label": "2024",
+            "value": 163,
+            "valueLabel": "163 Md$",
+            "hi": true
+          }
+        ],
+        "note": "Source : Union africaine, chiffres cités lors du lancement de l'AfCRA, d'après [TimesLive](https://www.timeslive.co.za/news/south-africa/2026-10-08-africas-new-ratings-agency-a-challenge-to-moodys-and-fitch/), 8 octobre 2026."
+      },
+      "paragraphs": [
+        "La difficulté de l'agence de notation est d'une autre nature. Elle tient moins à un effet de réseau qu'à l'information. Les gouvernements africains reprochent depuis des années aux trois grandes agences, S&P Global Ratings, Moody's et Fitch Ratings, d'ajouter une « prime de préjugé » au coût de leur dette ; les agences récusent tout biais et affirment appliquer les mêmes méthodes partout (TimesLive, 8 octobre 2026). Le Programme des Nations unies pour le développement a estimé en 2023 que des notations fondées sur des appréciations moins subjectives pourraient faire économiser jusqu'à 74,5 milliards de dollars aux pays africains (PNUD, 17 avril 2023). La question budgétaire s'est aggravée depuis : selon l'Union africaine, le service annuel de la dette extérieure du continent est passé de 61 milliards de dollars en 2010 à 163 milliards en 2024, et 23 de ses 55 États membres ne sont notés par aucune des trois grandes agences (TimesLive, 8 octobre 2026).",
+        "Une note n'a de valeur que si ceux qui prêtent la croient. George Akerlof, prix Nobel d'économie en 2001, a montré qu'un marché où l'acheteur ne peut pas juger la qualité de ce qu'on lui vend tend à se contracter, faute de signal crédible[^4]. Une agence de notation vend précisément un signal, et sa crédibilité se construit sur des années de notes confrontées aux défauts effectivement observés. L'AfCRA part donc avec un handicap que sa création ne peut pas lever : elle n'a pas d'historique. Le président de la Commission de l'Union africaine l'a reconnu lors du lancement, en prévenant qu'une agence de notation « ne réduira certainement pas de manière significative le coût du capital dans un avenir proche » et que des réformes plus larges des marchés mondiaux restaient nécessaires (TimesLive, 8 octobre 2026).",
+        "Le grief africain trouve néanmoins un appui dans la recherche. Giovanni Ferri, Li-Gang Liu et Joseph Stiglitz, ce dernier prix Nobel d'économie en 2001, ont montré à partir de la crise asiatique de 1997 que les grandes agences avaient dégradé les pays touchés plus fortement que ne le justifiaient leurs fondamentaux, accentuant la sortie des capitaux au lieu de l'anticiper[^5]. Une notation procyclique pénalise surtout les pays dont les marchés sont étroits et dont l'accès au financement dépend du franchissement d'un seuil, celui de la catégorie d'investissement. L'apport de l'AfCRA se jouera donc moins sur sa capacité à contredire les grandes agences que sur sa capacité à couvrir les 23 pays qu'elles ne notent pas et à fournir aux investisseurs africains une information dont ils ne disposent pas aujourd'hui. Son actionnariat privé, fermé aux États, va dans ce sens : il limite le soupçon de complaisance envers les gouvernements notés."
+      ]
+    },
+    {
+      "heading": "Ce que les institutions disent, et ce qu'elles font",
+      "paragraphs": [
+        "Le baromètre AFIS permet de passer des infrastructures aux stratégies. Interrogées sur leur développement à venir, les institutions placent en tête la consolidation sur leurs marchés actuels (49 %), devant les partenariats (42 %), la croissance organique (37 %) et les acquisitions (32 %) ; un quart n'envisage aucune expansion régionale et 7 % songent à quitter un marché (Sikafinance, 4 novembre 2026). Ces réponses décrivent une industrie qui se concentre sur ses bases au moment où l'intégration lui propose de nouveaux débouchés. La contradiction n'est qu'apparente : l'expansion régionale d'une banque suppose de pouvoir déplacer du capital, de la liquidité et des données entre pays, ce que les infrastructures en construction ne permettent pas encore à grande échelle.",
+        "La hausse des risques perçus accentue ce repli. 48 % des dirigeants citent la géopolitique parmi leurs principales préoccupations, six points de plus qu'un an plus tôt, et la proportion atteint 63 % dans les groupes présents dans plusieurs pays, contre 41 % en 2025 ; le risque de liquidité est cité par 29 % des répondants, onze points de plus (Sikafinance, 4 novembre 2026). Pour un groupe bancaire implanté à la fois en Côte d'Ivoire, au Mali et au Nigeria, la sortie des trois pays de l'AES de la CEDEAO, les tensions entre Abuja et Ouagadougou et les blocus routiers imposés par les groupes armés au Sahel pèsent sur la valeur de ses filiales. Les nouvelles infrastructures réduisent le coût des transactions entre pays ; elles ne réduisent pas l'incertitude politique qui entoure ces pays.",
+        "Le baromètre révèle aussi un décalage entre les priorités réglementaires des institutions et les conditions de l'intégration. Les dirigeants jugent importantes la régulation de l'identité numérique et de la cybersécurité (97 % chacune) et la lutte contre les flux financiers illicites (92 %), tandis que 19 % seulement jugent l'harmonisation prudentielle critique (Sikafinance, 4 novembre 2026). C'est pourtant l'harmonisation des règles prudentielles, de change et de lutte contre le blanchiment qui détermine le coût, pour une banque, d'opérer dans plusieurs juridictions à la fois. Une institution qui ne la place pas parmi ses priorités ne s'attend pas, en pratique, à ce qu'elle progresse, et construit sa stratégie sur des marchés nationaux séparés."
+      ]
+    },
+    {
+      "heading": "Ce qui ferait basculer les usages",
+      "paragraphs": [
+        "Si le frein principal est la coordination, la réponse relève moins de l'investissement que de la règle. Le précédent le plus proche se trouve dans l'UEMOA : la BCEAO a fixé aux banques, aux établissements de monnaie électronique et aux prestataires de paiement une date limite de raccordement à PI-SPI au 30 septembre 2026, et aux institutions de microfinance une échéance au 30 juin 2027 (Agence Ecofin, juillet 2026). Une banque centrale qui rend la connexion obligatoire supprime l'attente mutuelle décrite par Farrell et Saloner. Transposée à PAPSS, cette méthode consisterait à exiger que les banques proposent le canal panafricain pour les paiements commerciaux intra-africains, ou à conditionner certaines lignes de refinancement à son usage, sans interdire les circuits existants.",
+        "Le financement du commerce offre un second levier. Afreximbank est à la fois l'agent de règlement de PAPSS et l'un des principaux financeurs d'un commerce intra-africain qui a atteint 213,8 milliards de dollars en 2025, en hausse de 5,5 % (Afreximbank, juin 2026). Adosser ses crédits documentaires et ses garanties au règlement par PAPSS ferait entrer dans le réseau les banques des importateurs et des exportateurs qu'elle finance, et donnerait au système une part de la masse critique qui lui manque. Le même raisonnement vaut pour les achats publics transfrontaliers et pour les projets d'infrastructure régionaux financés par la Banque africaine de développement, dont les paiements entre pays africains pourraient transiter par le système continental.",
+        "Pour l'AfCRA, les premiers utilisateurs viendront des investisseurs plus que des émetteurs. Une note n'influence le coût de la dette que si des prêteurs s'en servent pour décider. Les régulateurs africains des fonds de pension et des assurances, qui encadrent environ 775 milliards de dollars d'actifs, peuvent reconnaître les notes de l'agence dans leurs règles de placement, comme les régulateurs européens et américains reconnaissent les agences qu'ils ont enregistrées. Cette reconnaissance donnerait à l'AfCRA un usage avant même qu'elle dispose d'un long historique, à condition que ses méthodes soient publiées et que ses notes soient régulièrement confrontées aux défauts observés. Faute de cette transparence, le soupçon de complaisance que l'agence veut dissiper se reporterait sur elle."
+      ]
+    },
+    {
+      "heading": "Scénarios",
+      "paragraphs": [],
+      "scenarios": [
+        {
+          "level": "most",
+          "title": "Une adoption lente, portée par l'Afrique centrale et les grands corridors",
+          "text": "PAPSS progresse là où une banque centrale impose ou accompagne le raccordement : la CEMAC raccorde ses institutions en 2027, le Nigeria et le Ghana restent les principaux utilisateurs. Le pilote de la BCEAO conclut à la compatibilité technique, mais l'UEMOA limite l'usage de PAPSS aux paiements en devises. Les volumes continuent de croître rapidement à partir d'une base faible, sans que la part du système dans les paiements intra-africains soit publiée. L'AELP reste surtout un droit d'accès, peu utilisé. L'AfCRA publie ses premières notes, d'abord sur des pays que les grandes agences ne couvrent pas, et les investisseurs s'en servent comme d'une information complémentaire. Les enquêtes de perception, comme le baromètre AFIS, s'améliorent lentement."
+        },
+        {
+          "level": "less",
+          "title": "Un basculement provoqué par la règle",
+          "text": "Après son pilote, la BCEAO raccorde les banques de l'UEMOA à PAPSS pour les paiements avec les pays hors de l'Union ; Afreximbank adosse une partie de ses financements du commerce au règlement par le système ; quelques régulateurs de fonds de pension reconnaissent les notes de l'AfCRA et assouplissent les plafonds de placement dans les bourses partenaires. Le réseau franchit un seuil d'adoption au-delà duquel le raccordement devient la norme plutôt que l'exception, et le coût des paiements intra-africains baisse de façon visible pour les entreprises."
+        },
+        {
+          "level": "least",
+          "title": "L'enlisement dans des systèmes concurrents",
+          "text": "La fragmentation politique de l'Afrique de l'Ouest, entre l'AES, l'UEMOA et le projet de monnaie unique de la CEDEAO, conduit à la multiplication de systèmes régionaux non interopérables. La BCEAO reste à l'écart de PAPSS, qui demeure un réseau de niche ; l'AELP n'attire pas d'ordres transfrontaliers significatifs ; l'AfCRA peine à lever son capital ou voit sa crédibilité entamée par une note démentie par un défaut. Les institutions financières poursuivent leur repli sur les marchés nationaux et l'intégration financière reste une architecture sans usages."
+        }
+      ]
+    },
+    {
+      "heading": "Sources",
+      "paragraphs": [
+        "[Sikafinance, AFIS 2026 : le 6e Baromètre du secteur financier africain dresse un bilan contrasté des avancées de l'intégration régionale, 4 novembre 2026](https://www.sikafinance.com/marches/afis-2026-le-6e-barometre-du-secteur-financier-africain-dresse-un-bilan-contraste-des-avancees-de-lintegration-regionale_65496) | [Financial Afrik, AFIS 2026 : à Luanda, la finance africaine appelée à transformer sa puissance en croissance, 3 novembre 2026](https://www.financialafrik.com/2026/11/03/afis-2026-a-luanda-la-finance-africaine-appelee-a-transformer-sa-puissance-en-croissance/) | [Techeconomy, PAPSS targets accelerated adoption and transaction growth as network expands across Africa, 17 septembre 2026](https://techeconomy.ng/papss-targets-accelerated-adoption-transaction-growth-as-network-expands-across-africa) | [Engineering News, Pan-African Payment and Settlement System to save $5bn a year in transaction costs, 14 janvier 2022](https://www.engineeringnews.co.za/article/pan-african-payment-and-settlement-system-to-save-5bn-a-year-in-transaction-costs-2022-01-14) | [Launch Base Africa, PAPSS inches closer to continent-wide coverage as Central African central bank joins, 9 juillet 2026](https://launchbaseafrica.com/2026/07/09/papss-inches-closer-to-continent-wide-coverage-as-central-african-central-bank-joins/) | [Agence Ecofin, BCEAO prepares PAPSS pilot with more than 80 West African banks, 21 juillet 2026](https://www.ecofinagency.com/news-finances/2107-57583-bceao-prepares-papss-pilot-with-more-than-80-west-african-banks) | [Agence Ecofin, African Development Bank, ASEA launch AELP e-platform linking seven African capital markets, décembre 2022](https://www.ecofinagency.com/finance/0912-44105-african-development-bank-asea-launch-aelp-e-platform-linking-seven-african-capital-markets-with-1-5-trillion-market-capitalization) | [Ghana Stock Exchange, AELP Phase 2 Launch Announcement, juillet 2026](https://gse.com.gh/wp-content/uploads/2026/07/AELP-Phase-2-Launch-Announcement.pdf) | [TimesLive, Africa's new ratings agency a challenge to Moody's and Fitch, 8 octobre 2026](https://www.timeslive.co.za/news/south-africa/2026-10-08-africas-new-ratings-agency-a-challenge-to-moodys-and-fitch/) | [Nairametrics, Sifiso Falala named AfCRA interim CEO, 9 octobre 2026](https://nairametrics.com/2026/10/09/au-meet-south-african-researcher-sifiso-falala-named-afcra-interim-ceo/) | [AllAfrica, Île Maurice : une nouvelle agence africaine pour changer la perception du risque, 9 octobre 2026](https://fr.allafrica.com/stories/202610090523.html) | [PNUD, Des notations de crédit plus objectives pourraient faire économiser des milliards pour le développement en Afrique, 17 avril 2023](https://www.undp.org/fr/communiques/des-notations-de-credit-plus-objectives-pourraient-faire-economiser-des-milliards-pour-le-developpement-en-afrique) | [Nairametrics, Afreximbank : le commerce intra-africain progresse de 5,5 % à 213,8 milliards de dollars, 25 juin 2026](https://nairametrics.com/2026/06/25/afreximbank-intra-african-trade-rises-5-5-to-213-8-billion/)"
+      ]
+    }
+  ],
+  "notes": [
+    "Michael L. Katz et Carl Shapiro, professeurs à la Haas School of Business de l'université de Californie à Berkeley ; Carl Shapiro a été membre du Conseil des conseillers économiques de la Maison-Blanche. « Network Externalities, Competition, and Compatibility », American Economic Review, vol. 75, n° 3, 1985, p. 424-440.",
+    "Joseph Farrell, professeur d'économie à l'université de Californie à Berkeley, et Garth Saloner, professeur à la Graduate School of Business de l'université Stanford, dont il a été le doyen. « Standardization, Compatibility, and Innovation », RAND Journal of Economics, vol. 16, n° 1, 1985, p. 70-83.",
+    "Marco Pagano, professeur d'économie à l'université de Naples Frédéric-II, spécialiste de la microstructure des marchés financiers. « Trading Volume and Asset Liquidity », Quarterly Journal of Economics, vol. 104, n° 2, 1989, p. 255-274.",
+    "George A. Akerlof, économiste américain, professeur à l'université de Californie à Berkeley, prix Nobel d'économie en 2001 pour ses travaux sur les marchés en information asymétrique. « The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism », Quarterly Journal of Economics, vol. 84, n° 3, 1970, p. 488-500.",
+    "Giovanni Ferri, économiste italien, Li-Gang Liu, alors économiste à la Banque mondiale, et Joseph E. Stiglitz, professeur à l'université Columbia, prix Nobel d'économie en 2001. « The Procyclical Role of Rating Agencies: Evidence from the East Asian Crisis », Economic Notes, vol. 28, n° 3, 1999, p. 335-355."
+  ]
+},
   {
     "id": 9,
     "day": "03",
@@ -2728,6 +3005,283 @@ const BULLETINS_FR = [
 ];
 
 const BULLETINS_EN = [
+{
+  "id": 10,
+  "day": "05",
+  "month": "NOV",
+  "year": "2026",
+  "title": "African financial integration: the infrastructure is moving faster than its users",
+  "excerpt": "The pan-African payment system reports volumes up elevenfold, eleven stock exchanges are now linked, and the African Union has just launched its own credit rating agency. Yet the AFIS-Deloitte barometer released in Luanda on 3 November shows that only 11% of financial institutions are connected to PAPSS. Why cheaper tools remain little used, and what could tip the balance.",
+  "tags": [
+    "PAPSS",
+    "AfCRA",
+    "AELP",
+    "AfCFTA",
+    "Financial integration",
+    "BCEAO"
+  ],
+  "category": "African Economic Integration",
+  "nutshell": [
+    "Only 11% of African financial institutions are connected to the PAPSS pan-African payment system and 45% have no plans to connect, according to the AFIS-Deloitte barometer released on 3 November 2026",
+    "The obstacle is collective rather than technical: a payment network or a stock exchange link is only worth joining if others use it, so each institution waits for the others to move first",
+    "The African rating agency launched in Mauritius on 7 October must first earn credibility; its effect on borrowing costs will depend on whether African investors and regulators actually use its ratings"
+  ],
+  "content": [
+    {
+      "heading": null,
+      "paragraphs": [
+        "On 3 November 2026 in Luanda, the Africa Financial Summit (AFIS) presented the sixth edition of its barometer of the African financial sector, produced with Deloitte. The executives of banks, insurers, fintechs and capital-market firms who answer it remain upbeat: their average score for the three-year outlook stays at 8 out of 10. Their verdict on regional integration is far harsher. Only 7% see tangible progress in the African Continental Free Trade Area (AfCFTA), 69% find it too slow and 24% consider it stalled. Only 11% of the institutions surveyed are connected to the Pan-African Payment and Settlement System (PAPSS), and 45% have no plans to connect (Sikafinance, 4 November 2026).",
+        "These figures come at a time when the infrastructure of African financial integration has never been more developed. PAPSS reports that, between comparable periods of 2025 and 2026, transaction volumes rose by about 1,000% and values by about 120%, with more than 30 countries, 24 central banks and over 200 commercial banks and payment providers connected (Techeconomy, 17 September 2026). The African Exchanges Linkage Project (AELP) now connects eleven stock exchanges. And on 7 October, in Mauritius, the African Union launched its own rating agency, the Africa Credit Rating Agency (AfCRA).",
+        "The gap between the supply of infrastructure and its use is not a paradox. It is how a young network is expected to behave: its value depends on how many people already use it, so everyone has an incentive to wait for the others. Understanding that mechanism helps separate what is a matter of time, what is a matter of coordination between institutions, and what depends on choices by African central banks, regulators and investors."
+      ]
+    },
+    {
+      "heading": "Three projects, one purpose",
+      "factbox": {
+        "title": "A timeline of financial integration",
+        "items": [
+          "13 January 2022: commercial launch of PAPSS in Accra",
+          "7 December 2022: launch in Abidjan of the AELP platform, linking seven exchanges covering fourteen countries",
+          "30 September 2025: the BCEAO launches PI-SPI, its interoperable instant payment system for WAEMU",
+          "1 July 2026: second phase of the AELP in Dar es Salaam, with eleven exchanges linked",
+          "9 July 2026: the Bank of Central African States (BEAC) becomes a member of PAPSS",
+          "21 July 2026: the BCEAO announces a six-month PAPSS pilot with more than 80 WAEMU banks, acting as an observer",
+          "7 October 2026: launch of the AfCRA in Balaclava, Mauritius",
+          "3 November 2026: release of the AFIS-Deloitte barometer in Luanda"
+        ]
+      },
+      "paragraphs": [
+        "PAPSS is the oldest of the three. Designed by Afreximbank together with the AfCFTA Secretariat, it was commercially launched in Accra on 13 January 2022. The idea is simple: a Lagos bank paying a Nairobi supplier on behalf of an importer settles in naira, the supplier receives shillings, and clearing takes place between African banks, with Afreximbank acting as settlement agent and providing guarantees and overdraft facilities to participants. At launch, more than 80% of cross-border payments originating from African banks had to be routed through correspondent banks outside the continent and cleared in dollars or euros, and the system's promoters estimated that PAPSS could save more than $5 billion a year in transaction costs (Engineering News, 14 January 2022).",
+        "The stock exchange link applies the same logic to savings. Led by the African Development Bank and the African Securities Exchanges Association (ASEA), and funded by a grant from the Korea-Africa Economic Cooperation Trust Fund (KOAFEC), the AELP platform was launched in Abidjan on 7 December 2022. It then linked seven exchanges covering fourteen countries, about 2,000 listed companies and some $1.5 trillion in market capitalisation (Ecofin Agency, December 2022). Its second phase, launched in Dar es Salaam on 1 July 2026, added the exchanges of Botswana, Ghana, Uganda and Eswatini, bringing the network to eleven exchanges and more than fifty brokerage firms (Ghana Stock Exchange, July 2026).",
+        "The rating agency is the newest. Approved by the African Union as early as 2017 and prepared by the African Peer Review Mechanism (APRM), it was inaugurated on 7 October 2026 in Balaclava, near Port Louis, in the presence of African Union Commission Chairperson Mahmoud Ali Youssouf. Its interim chief executive is South African Sifiso Falala, co-founder of the firm Plus 94 Research, which holds 1,000 of the 3,000 planned shares; the other 2,000 are open to private investors, governments being excluded from the capital, and the agency is seeking to raise $15 million (Nairametrics, 9 October 2026). All three projects share one purpose: to move payments, savings and information about risk within the continent rather than through intermediaries based outside Africa."
+      ]
+    },
+    {
+      "heading": "PAPSS: a fast-growing network built on a narrow base",
+      "figure": {
+        "after": 1,
+        "kind": "bars",
+        "labelWidth": 250,
+        "unit": "%",
+        "title": "African financial institutions and the tools of integration (% of respondents)",
+        "items": [
+          {
+            "label": "Connected to PAPSS",
+            "value": 11,
+            "valueLabel": "11%",
+            "hi": true
+          },
+          {
+            "label": "No plans to connect to PAPSS",
+            "value": 45,
+            "valueLabel": "45%"
+          },
+          {
+            "label": "See the AELP as stalled",
+            "value": 43,
+            "valueLabel": "43%"
+          },
+          {
+            "label": "No concrete benefit from AfCFTA or PAPSS",
+            "value": 41,
+            "valueLabel": "41%"
+          },
+          {
+            "label": "No concrete benefit from the AELP",
+            "value": 56,
+            "valueLabel": "56%"
+          }
+        ],
+        "note": "Source: AFIS-Deloitte 2026 barometer, presented in Luanda on 3 November 2026, as reported by [Sikafinance](https://www.sikafinance.com/marches/afis-2026-le-6e-barometre-du-secteur-financier-africain-dresse-un-bilan-contraste-des-avancees-de-lintegration-regionale_65496), 4 November 2026. Respondents: executives of banks, insurers, fintechs and capital-market firms."
+      },
+      "paragraphs": [
+        "Rapid volume growth and a small share of connected institutions go hand in hand. A 1,000% rise measured from a very low base says nothing about PAPSS's share of intra-African payments, which neither the system nor the central banks publish. It points instead to a network at the very start of its adoption curve. The economists Michael Katz and Carl Shapiro, professors at the University of California, Berkeley, showed that such a network is subject to network externalities: the benefit each participant derives from it rises with the number of other participants[^1]. For a bank in Abidjan, joining PAPSS only makes sense if its clients trade with partners whose banks are also connected. As long as most counterparties stay outside, the bank keeps using its correspondent in Paris or New York, which in turn keeps the other banks outside.",
+        "Joseph Farrell and Garth Saloner, economists at Berkeley and Stanford, gave this equilibrium a name: excess inertia[^2]. When everyone waits for others to adopt a new standard, a more efficient technology can go unused for a long time without anyone making a mistake. The classic way out is for an actor able to bring a large group of users on board at once to step in. In Africa, that role falls to central banks. The BEAC played it by joining PAPSS on 9 July 2026, aiming to connect institutions in the six CEMAC countries, home to more than 72 million people, by the end of the year (Launch Base Africa, 9 July 2026). The BCEAO chose a more cautious path: it will observe a six-month pilot with more than 80 WAEMU banks to check that PAPSS complies with the Union's regulations before making any formal commitment (Ecofin Agency, 21 July 2026).",
+        "The BCEAO's caution has an economic rationale. The eight WAEMU countries already share a currency, and the central bank is rolling out its own instant payment system, PI-SPI, launched on 30 September 2025, to which 80 institutions were connected in June 2026 (Ecofin Agency, July 2026). For trade within the Union, PAPSS adds nothing the CFA franc does not already provide; its value lies in payments with Nigeria, Ghana or Morocco, which require a currency conversion. That reluctance nonetheless carries a cost for the network's other members. WAEMU is one of the hubs of intra-African trade, with Côte d'Ivoire alone accounting for 4.8% of that trade in 2025 (Afreximbank, June 2026). As long as its banks stay out, the value of PAPSS for a Nigerian or Ghanaian exporter selling to Abidjan, Dakar or Bamako remains capped."
+      ]
+    },
+    {
+      "heading": "Stock exchanges: linking thin markets does not yet create liquidity",
+      "figure": {
+        "after": 0,
+        "kind": "map",
+        "region": [
+          -20,
+          -36,
+          60,
+          38
+        ],
+        "title": "Stock exchanges linked by the AELP platform",
+        "groups": [
+          {
+            "ids": [
+              "504",
+              "818",
+              "566",
+              "404",
+              "480",
+              "710",
+              "204",
+              "854",
+              "384",
+              "624",
+              "466",
+              "562",
+              "686",
+              "768"
+            ],
+            "label": "First phase (2022): seven exchanges, including the BRVM for the eight WAEMU countries",
+            "tone": "a"
+          },
+          {
+            "ids": [
+              "072",
+              "288",
+              "800",
+              "748"
+            ],
+            "label": "Second phase (2026): Botswana, Ghana, Uganda, Eswatini",
+            "tone": "b"
+          }
+        ],
+        "points": [
+          {
+            "name": "Casablanca",
+            "lon": -7.59,
+            "lat": 33.57
+          },
+          {
+            "name": "Cairo",
+            "lon": 31.24,
+            "lat": 30.04
+          },
+          {
+            "name": "Abidjan (BRVM)",
+            "lon": -4.01,
+            "lat": 5.32,
+            "anchor": "end"
+          },
+          {
+            "name": "Lagos",
+            "lon": 3.39,
+            "lat": 6.45
+          },
+          {
+            "name": "Nairobi",
+            "lon": 36.82,
+            "lat": -1.29
+          },
+          {
+            "name": "Johannesburg",
+            "lon": 28.05,
+            "lat": -26.2
+          },
+          {
+            "name": "Port Louis",
+            "lon": 57.5,
+            "lat": -20.16,
+            "anchor": "end"
+          }
+        ],
+        "note": "Sources: Ecofin Agency, December 2022 (first phase); Ghana Stock Exchange, 1 July 2026 (second phase). Mauritius, home to the Port Louis exchange and to the new AfCRA, is too small to show at this scale."
+      },
+      "paragraphs": [
+        "The AELP runs into a similar mechanism, this time applied to liquidity. According to the AFIS barometer, 43% of financial institutions regard the project as stalled and 56% see no concrete benefit from it. The Italian economist Marco Pagano, a professor at the University of Naples Federico II, showed that market liquidity is self-reinforcing: the more investors trade in a market, the narrower the gap between bid and ask prices, which draws in more investors[^3]. The reasoning also works in reverse. A platform that links illiquid exchanges does not automatically create depth; it offers access, which investors use only if the securities on offer trade often enough to get in and out without excessive cost.",
+        "The second phase illustrates that tension. It extended the network to eleven exchanges and more than fifty brokerage firms, seventeen of them newly connected (Ghana Stock Exchange, 1 July 2026). The number of access points is therefore rising steadily, while the volume of cross-border orders routed through the platform is not published. The chosen design explains part of the slow pace: the AELP routes orders between exchanges that each keep their own listing, settlement and currency rules. An investor in Nairobi buying a share listed on the BRVM must still deal with a custodian, a currency and a tax regime different from his own, and those fixed costs weigh all the more heavily when the amounts traded are small.",
+        "The pool of savings exists all the same. African pension funds and insurers manage about $775 billion in assets, according to the OECD (2025), a figure cited in the AFIS barometer. Much of that money is governed by national rules that cap the share of investments held outside the home country, without distinguishing a share listed in Accra from one listed in London. Until those rules treat securities on partner exchanges as a separate category, the platform links markets that their main institutional investors can use only at the margin. The stock exchange project is therefore as much a matter for savings regulators as for the exchanges themselves."
+      ]
+    },
+    {
+      "heading": "AfCRA: an agency that must first earn its own credibility",
+      "factbox": {
+        "title": "AfCRA at a glance",
+        "items": [
+          "Project approved by the African Union in 2017, inaugurated on 7 October 2026 in Balaclava, Mauritius",
+          "Headquarters planned in Mauritius, with regional subsidiaries",
+          "Capital: 3,000 planned shares, of which 1,000 (33.3%) are held by Plus 94 Research; governments are excluded from the shareholding",
+          "Fundraising target: $15 million",
+          "Interim chief executive: Sifiso Falala, co-founder of Plus 94 Research and founder of Sovereign Africa Ratings",
+          "23 of the African Union's 55 member states are not rated by any of the three major agencies"
+        ]
+      },
+      "figure": {
+        "after": 0,
+        "kind": "bars",
+        "labelWidth": 120,
+        "title": "Africa's annual external debt service (billions of dollars)",
+        "items": [
+          {
+            "label": "2010",
+            "value": 61,
+            "valueLabel": "$61bn"
+          },
+          {
+            "label": "2024",
+            "value": 163,
+            "valueLabel": "$163bn",
+            "hi": true
+          }
+        ],
+        "note": "Source: African Union figures cited at the AfCRA launch, as reported by [TimesLive](https://www.timeslive.co.za/news/south-africa/2026-10-08-africas-new-ratings-agency-a-challenge-to-moodys-and-fitch/), 8 October 2026."
+      },
+      "paragraphs": [
+        "The rating agency faces a different kind of problem. It has less to do with network effects than with information. African governments have long accused the three major agencies, S&P Global Ratings, Moody's and Fitch Ratings, of adding a “prejudice premium” to the cost of their debt; the agencies reject any bias and say they apply the same methods everywhere (TimesLive, 8 October 2026). In 2023 the United Nations Development Programme estimated that ratings based on less subjective assessments could save African countries up to $74.5 billion (UNDP, 17 April 2023). The fiscal stakes have grown since: according to the African Union, the continent's annual external debt service rose from $61 billion in 2010 to $163 billion in 2024, and 23 of its 55 member states are not rated by any of the three major agencies (TimesLive, 8 October 2026).",
+        "A rating is only worth something if lenders believe it. George Akerlof, winner of the 2001 Nobel prize in economics, showed that a market in which buyers cannot judge the quality of what they are sold tends to shrink for lack of a credible signal[^4]. A rating agency sells precisely such a signal, and its credibility is built over years of ratings tested against the defaults that actually occur. The AfCRA therefore starts with a handicap that its creation cannot remove: it has no track record. The African Union Commission chairperson acknowledged as much at the launch, warning that “a rating agency will certainly not significantly reduce the cost of capital in the near future” and that broader reforms of global markets were still needed (TimesLive, 8 October 2026).",
+        "The African grievance nonetheless finds support in research. Giovanni Ferri, Li-Gang Liu and Joseph Stiglitz, the last a 2001 Nobel laureate in economics, showed from the 1997 Asian crisis that the major agencies downgraded the affected countries more than their fundamentals warranted, amplifying capital flight instead of anticipating it[^5]. Procyclical ratings hurt most the countries whose markets are thin and whose access to finance hinges on crossing a threshold, that of investment grade. The AfCRA's contribution will therefore depend less on its ability to contradict the major agencies than on its ability to cover the 23 countries they do not rate and to give African investors information they do not have today. Its private shareholding, closed to governments, points in that direction: it limits suspicion of leniency towards the governments it rates."
+      ]
+    },
+    {
+      "heading": "What institutions say, and what they do",
+      "paragraphs": [
+        "The AFIS barometer makes it possible to move from infrastructure to strategy. Asked about their future growth, institutions put consolidation in their existing markets first (49%), ahead of partnerships (42%), organic growth (37%) and acquisitions (32%); a quarter plan no regional expansion at all and 7% are considering leaving a market (Sikafinance, 4 November 2026). These answers describe an industry focusing on its home base just as integration offers it new outlets. The contradiction is only apparent: a bank's regional expansion requires the ability to move capital, liquidity and data across borders, which the infrastructure under construction does not yet allow at scale.",
+        "Rising perceived risks reinforce that retreat. 48% of executives list geopolitics among their main concerns, six points more than a year earlier, and the share reaches 63% in groups operating in several countries, against 41% in 2025; liquidity risk is cited by 29% of respondents, eleven points more (Sikafinance, 4 November 2026). For a banking group present in Côte d'Ivoire, Mali and Nigeria at once, the exit of the three AES countries from ECOWAS, tensions between Abuja and Ouagadougou and road blockades imposed by armed groups in the Sahel weigh on the value of its subsidiaries. The new infrastructure lowers the cost of transactions between countries; it does not lower the political uncertainty surrounding those countries.",
+        "The barometer also reveals a gap between institutions' regulatory priorities and the conditions for integration. Executives consider the regulation of digital identity and cybersecurity important (97% each), as well as the fight against illicit financial flows (92%), while only 19% regard prudential harmonisation as critical (Sikafinance, 4 November 2026). Yet it is the harmonisation of prudential, foreign exchange and anti-money-laundering rules that determines how costly it is for a bank to operate in several jurisdictions at once. An institution that does not rank it among its priorities does not, in practice, expect it to advance, and builds its strategy around separate national markets."
+      ]
+    },
+    {
+      "heading": "What would tip usage",
+      "paragraphs": [
+        "If the main obstacle is coordination, the answer lies less in investment than in rules. The closest precedent is within WAEMU itself: the BCEAO set banks, electronic money institutions and payment providers a deadline of 30 September 2026 to connect to PI-SPI, and microfinance institutions a deadline of 30 June 2027 (Ecofin Agency, July 2026). A central bank that makes connection mandatory removes the mutual waiting described by Farrell and Saloner. Applied to PAPSS, the same method would mean requiring banks to offer the pan-African channel for intra-African commercial payments, or tying certain refinancing lines to its use, without banning existing channels.",
+        "Trade finance offers a second lever. Afreximbank is both the settlement agent of PAPSS and one of the main financiers of intra-African trade, which reached $213.8 billion in 2025, up 5.5% (Afreximbank, June 2026). Linking its letters of credit and guarantees to settlement through PAPSS would bring into the network the banks of the importers and exporters it finances, and give the system part of the critical mass it lacks. The same reasoning applies to cross-border public procurement and to regional infrastructure projects financed by the African Development Bank, whose payments between African countries could flow through the continental system.",
+        "For the AfCRA, the first users will be investors rather than issuers. A rating affects borrowing costs only if lenders rely on it to make decisions. African regulators of pension funds and insurers, who oversee some $775 billion in assets, could recognise the agency's ratings in their investment rules, as European and American regulators recognise the agencies they have registered. Such recognition would give the AfCRA a use before it has a long track record, provided its methods are published and its ratings regularly tested against observed defaults. Without that transparency, the suspicion of leniency the agency seeks to dispel would shift onto the agency itself."
+      ]
+    },
+    {
+      "heading": "Scenarios",
+      "paragraphs": [],
+      "scenarios": [
+        {
+          "level": "most",
+          "title": "Slow adoption, led by Central Africa and the main corridors",
+          "text": "PAPSS grows where a central bank mandates or supports connection: CEMAC connects its institutions in 2027, and Nigeria and Ghana remain the main users. The BCEAO pilot concludes that the system is technically compatible, but WAEMU limits the use of PAPSS to payments requiring currency conversion. Volumes keep rising quickly from a low base, while the system's share of intra-African payments remains unpublished. The AELP remains mostly a right of access, little used. The AfCRA issues its first ratings, starting with countries the major agencies do not cover, and investors treat them as supplementary information. Perception surveys such as the AFIS barometer improve slowly."
+        },
+        {
+          "level": "less",
+          "title": "A shift triggered by regulation",
+          "text": "After its pilot, the BCEAO connects WAEMU banks to PAPSS for payments with countries outside the Union; Afreximbank ties part of its trade finance to settlement through the system; a few pension regulators recognise AfCRA ratings and ease investment caps on partner exchanges. The network crosses an adoption threshold beyond which connecting becomes the norm rather than the exception, and the cost of intra-African payments falls visibly for businesses."
+        },
+        {
+          "level": "least",
+          "title": "Stalemate among competing systems",
+          "text": "West Africa's political fragmentation, between the AES, WAEMU and the ECOWAS single currency project, leads to a proliferation of non-interoperable regional systems. The BCEAO stays out of PAPSS, which remains a niche network; the AELP attracts no significant cross-border orders; the AfCRA struggles to raise capital or sees its credibility damaged by a rating contradicted by a default. Financial institutions keep retreating to national markets, and financial integration remains an architecture without users."
+        }
+      ]
+    },
+    {
+      "heading": "Sources",
+      "paragraphs": [
+        "[Sikafinance, AFIS 2026: the 6th African financial sector barometer gives a mixed assessment of progress in regional integration, 4 November 2026](https://www.sikafinance.com/marches/afis-2026-le-6e-barometre-du-secteur-financier-africain-dresse-un-bilan-contraste-des-avancees-de-lintegration-regionale_65496) | [Financial Afrik, AFIS 2026 in Luanda: African finance called to transform its power into growth, 3 November 2026](https://www.financialafrik.com/en/2026/11/03/afis-2026-in-luanda-african-finance-called-to-transform-its-power-into-growth/) | [Techeconomy, PAPSS targets accelerated adoption and transaction growth as network expands across Africa, 17 September 2026](https://techeconomy.ng/papss-targets-accelerated-adoption-transaction-growth-as-network-expands-across-africa) | [Engineering News, Pan-African Payment and Settlement System to save $5bn a year in transaction costs, 14 January 2022](https://www.engineeringnews.co.za/article/pan-african-payment-and-settlement-system-to-save-5bn-a-year-in-transaction-costs-2022-01-14) | [Launch Base Africa, PAPSS inches closer to continent-wide coverage as Central African central bank joins, 9 July 2026](https://launchbaseafrica.com/2026/07/09/papss-inches-closer-to-continent-wide-coverage-as-central-african-central-bank-joins/) | [Ecofin Agency, BCEAO prepares PAPSS pilot with more than 80 West African banks, 21 July 2026](https://www.ecofinagency.com/news-finances/2107-57583-bceao-prepares-papss-pilot-with-more-than-80-west-african-banks) | [Ecofin Agency, African Development Bank, ASEA launch AELP e-platform linking seven African capital markets, December 2022](https://www.ecofinagency.com/finance/0912-44105-african-development-bank-asea-launch-aelp-e-platform-linking-seven-african-capital-markets-with-1-5-trillion-market-capitalization) | [Ghana Stock Exchange, AELP Phase 2 Launch Announcement, July 2026](https://gse.com.gh/wp-content/uploads/2026/07/AELP-Phase-2-Launch-Announcement.pdf) | [TimesLive, Africa's new ratings agency a challenge to Moody's and Fitch, 8 October 2026](https://www.timeslive.co.za/news/south-africa/2026-10-08-africas-new-ratings-agency-a-challenge-to-moodys-and-fitch/) | [Nairametrics, Sifiso Falala named AfCRA interim CEO, 9 October 2026](https://nairametrics.com/2026/10/09/au-meet-south-african-researcher-sifiso-falala-named-afcra-interim-ceo/) | [AllAfrica, Mauritius: a new African agency to change the perception of risk, 9 October 2026](https://fr.allafrica.com/stories/202610090523.html) | [UNDP, More objective credit ratings could save billions for African countries' development, April 2023](https://www.undp.org/press-releases/more-objective-credit-ratings-could-save-billions-african-countries-development) | [Nairametrics, Afreximbank: intra-African trade rises 5.5% to $213.8 billion, 25 June 2026](https://nairametrics.com/2026/06/25/afreximbank-intra-african-trade-rises-5-5-to-213-8-billion/)"
+      ]
+    }
+  ],
+  "notes": [
+    "Michael L. Katz and Carl Shapiro, professors at the Haas School of Business, University of California, Berkeley; Carl Shapiro served on the White House Council of Economic Advisers. “Network Externalities, Competition, and Compatibility”, American Economic Review, vol. 75, no. 3, 1985, pp. 424-440.",
+    "Joseph Farrell, professor of economics at the University of California, Berkeley, and Garth Saloner, professor at the Stanford Graduate School of Business, of which he was dean. “Standardization, Compatibility, and Innovation”, RAND Journal of Economics, vol. 16, no. 1, 1985, pp. 70-83.",
+    "Marco Pagano, professor of economics at the University of Naples Federico II and a specialist in financial market microstructure. “Trading Volume and Asset Liquidity”, Quarterly Journal of Economics, vol. 104, no. 2, 1989, pp. 255-274.",
+    "George A. Akerlof, American economist, professor at the University of California, Berkeley, winner of the 2001 Nobel prize in economics for his work on markets with asymmetric information. “The Market for 'Lemons': Quality Uncertainty and the Market Mechanism”, Quarterly Journal of Economics, vol. 84, no. 3, 1970, pp. 488-500.",
+    "Giovanni Ferri, Italian economist, Li-Gang Liu, then an economist at the World Bank, and Joseph E. Stiglitz, professor at Columbia University and winner of the 2001 Nobel prize in economics. “The Procyclical Role of Rating Agencies: Evidence from the East Asian Crisis”, Economic Notes, vol. 28, no. 3, 1999, pp. 335-355."
+  ]
+},
   {
     "id": 9,
     "day": "03",

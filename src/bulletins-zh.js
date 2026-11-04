@@ -1,5 +1,282 @@
 // Traductions en chinois simplifié des analyses (catégories en anglais, traduites à l'affichage).
 export const BULLETINS_ZH = [
+{
+  "id": 10,
+  "day": "05",
+  "month": "NOV",
+  "year": "2026",
+  "title": "非洲金融一体化：基础设施的推进快于其使用者",
+  "excerpt": "泛非支付系统称交易量增长至原来的十一倍，十一家证券交易所已实现互联，非洲联盟也刚刚成立了自己的信用评级机构。然而，11月3日在罗安达发布的AFIS与德勤联合晴雨表显示，仅有11%的金融机构接入了泛非支付结算系统（PAPSS）。为何成本更低的工具仍少有人用，又有哪些因素可能扭转局面？",
+  "tags": [
+    "泛非支付结算系统",
+    "非洲信用评级机构",
+    "非洲交易所互联项目",
+    "非洲大陆自由贸易区",
+    "金融一体化",
+    "西非国家中央银行"
+  ],
+  "category": "African Economic Integration",
+  "nutshell": [
+    "根据2026年11月3日发布的AFIS与德勤联合晴雨表，仅有11%的非洲金融机构接入了泛非支付结算系统（PAPSS），45%的机构没有任何接入计划",
+    "障碍更多是集体性的而非技术性的：支付网络或交易所互联只有在他人也使用时才有价值，因此每家机构都在等待其他机构先行一步",
+    "10月7日在毛里求斯成立的非洲评级机构首先必须建立公信力；它对债务成本的影响，取决于非洲投资者和监管机构是否真正使用其评级"
+  ],
+  "content": [
+    {
+      "heading": null,
+      "paragraphs": [
+        "2026年11月3日，非洲金融峰会（AFIS）在罗安达发布了与德勤会计师事务所联合编制的第六期非洲金融业晴雨表。参与调查的银行、保险公司、金融科技企业和资本市场机构的高管依然保持乐观：他们对未来三年前景的平均评分维持在10分制的8分。然而，他们对区域一体化的评价要严厉得多。只有7%的受访者认为非洲大陆自由贸易区（AfCFTA）取得了切实进展，69%认为进展过慢，24%认为已陷入停滞。只有11%的受访机构接入了泛非支付结算系统（PAPSS），45%没有任何接入计划（Sikafinance，2026年11月4日）。",
+        "这些数据发布之时，非洲金融一体化的基础设施恰恰处于有史以来最发达的阶段。PAPSS表示，在2025年与2026年的可比期间内，交易笔数增长约1000%，交易金额增长约120%，已有30多个国家、24家中央银行以及200多家商业银行和支付服务商接入（Techeconomy，2026年9月17日）。非洲交易所互联项目（AELP）目前已连接十一家交易所。10月7日，非洲联盟在毛里求斯成立了自己的评级机构，即非洲信用评级机构（AfCRA）。",
+        "基础设施的供给与其使用之间的差距并不矛盾。这正是一个年轻网络的预期表现：网络的价值取决于已有用户的数量，因此每个参与者都有等待他人的动机。理解这一机制，有助于区分哪些问题需要时间解决，哪些取决于机构之间的协调，哪些又取决于非洲各国中央银行、监管机构和投资者的选择。"
+      ]
+    },
+    {
+      "heading": "三项工程，同一目标",
+      "factbox": {
+        "title": "金融一体化大事记",
+        "items": [
+          "2022年1月13日：PAPSS在阿克拉正式商业启动",
+          "2022年12月7日：AELP平台在阿比让启动，连接覆盖十四个国家的七家交易所",
+          "2025年9月30日：西非国家中央银行（BCEAO）为西非经济货币联盟推出互操作即时支付系统PI-SPI",
+          "2026年7月1日：AELP第二阶段在达累斯萨拉姆启动，互联交易所增至十一家",
+          "2026年7月9日：中部非洲国家银行（BEAC）成为PAPSS成员",
+          "2026年7月21日：BCEAO宣布与西非经货联盟80多家银行开展为期六个月的PAPSS试点，BCEAO仅以观察员身份参与",
+          "2026年10月7日：AfCRA在毛里求斯巴拉克拉瓦成立",
+          "2026年11月3日：AFIS与德勤联合晴雨表在罗安达发布"
+        ]
+      },
+      "paragraphs": [
+        "PAPSS是三项工程中最早的一项。它由非洲进出口银行与非洲大陆自由贸易区秘书处共同设计，于2022年1月13日在阿克拉正式商业启动。其原理很简单：拉各斯的一家银行代表进口商向内罗毕的供应商付款，以奈拉结算，供应商收到的是先令，清算在非洲银行之间完成，非洲进出口银行担任结算代理，并向参与方提供担保和透支便利。启动之时，非洲银行发起的跨境支付中有80%以上须经由非洲大陆以外的代理银行转递，并以美元或欧元清算；该系统的推动者当时估计，PAPSS每年可节省逾50亿美元的交易成本（Engineering News，2022年1月14日）。",
+        "交易所互联将同样的逻辑应用于储蓄领域。AELP平台由非洲开发银行和非洲证券交易所协会（ASEA）牵头，由韩非经济合作信托基金（KOAFEC）赠款资助，于2022年12月7日在阿比让启动。当时它连接了覆盖十四个国家的七家交易所，约2000家上市公司，总市值约1.5万亿美元（Ecofin，2022年12月）。2026年7月1日在达累斯萨拉姆启动的第二阶段，新增了博茨瓦纳、加纳、乌干达和埃斯瓦蒂尼的交易所，使网络扩大到十一家交易所和五十多家证券经纪公司（加纳证券交易所，2026年7月）。",
+        "评级机构是最新的一项。该项目早在2017年即获非洲联盟批准，由非洲同行审议机制（APRM）负责筹备，于2026年10月7日在路易港附近的巴拉克拉瓦成立，非洲联盟委员会主席马哈茂德·阿里·优素福出席了成立仪式。其临时首席执行官是南非人西菲索·法拉拉（Sifiso Falala），他是Plus 94 Research公司的联合创始人；该公司持有计划发行的3000股中的1000股，其余2000股向私人投资者开放，各国政府不得持股，该机构计划募集1500万美元（Nairametrics，2026年10月9日）。三项工程的目的相同：让支付、储蓄和风险信息在非洲大陆内部流动，而不是经由非洲以外的中介机构。"
+      ]
+    },
+    {
+      "heading": "PAPSS：在狭窄基础上快速增长的网络",
+      "figure": {
+        "after": 1,
+        "kind": "bars",
+        "labelWidth": 250,
+        "unit": "%",
+        "title": "非洲金融机构对一体化工具的态度（受访者占比）",
+        "items": [
+          {
+            "label": "已接入PAPSS",
+            "value": 11,
+            "valueLabel": "11%",
+            "hi": true
+          },
+          {
+            "label": "无接入PAPSS计划",
+            "value": 45,
+            "valueLabel": "45%"
+          },
+          {
+            "label": "认为AELP已停滞",
+            "value": 43,
+            "valueLabel": "43%"
+          },
+          {
+            "label": "未从自贸区或PAPSS获得实际收益",
+            "value": 41,
+            "valueLabel": "41%"
+          },
+          {
+            "label": "未从AELP获得实际收益",
+            "value": 56,
+            "valueLabel": "56%"
+          }
+        ],
+        "note": "来源：2026年AFIS与德勤联合晴雨表，2026年11月3日于罗安达发布，据[Sikafinance](https://www.sikafinance.com/marches/afis-2026-le-6e-barometre-du-secteur-financier-africain-dresse-un-bilan-contraste-des-avancees-de-lintegration-regionale_65496)2026年11月4日报道。受访者为银行、保险公司、金融科技企业和资本市场机构的高管。"
+      },
+      "paragraphs": [
+        "交易量的快速增长与接入机构比例偏低是相伴而生的。从极低基数测算出的1000%增幅，并不能说明PAPSS在非洲内部支付中所占的份额，而这一份额无论是该系统还是各国中央银行都未公布。它更多表明，这一网络正处于采用曲线的最初阶段。加州大学伯克利分校的经济学家迈克尔·卡茨（Michael Katz）和卡尔·夏皮罗（Carl Shapiro）指出，此类网络具有网络外部性：每个参与者从中获得的效用，随其他参与者数量的增加而上升[^1]。对阿比让的一家银行来说，只有当其客户的贸易伙伴所在银行也已接入时，接入PAPSS才有意义。只要大多数交易对手仍在网络之外，这家银行就会继续使用其在巴黎或纽约的代理行，而这又反过来使其他银行继续留在网络之外。",
+        "伯克利和斯坦福的经济学家约瑟夫·法雷尔（Joseph Farrell）和加思·萨洛纳（Garth Saloner）为这种均衡命名：过度惰性[^2]。当每个人都在等待他人采用新标准时，一项效率更高的技术可能长期闲置，而没有任何一方犯错。摆脱这种局面的经典办法，是由一个能够一次性带动大批用户的主体出面干预。在非洲，这一角色属于中央银行。中部非洲国家银行于2026年7月9日加入PAPSS，计划在年底前将中部非洲经济与货币共同体六国的金融机构接入系统，这六国共有7200多万人口（Launch Base Africa，2026年7月9日）。西非国家中央银行则选择了更为审慎的做法：它将以观察员身份参与与西非经货联盟80多家银行开展的为期六个月的试点，在作出任何正式承诺之前，核实PAPSS是否符合联盟的监管规定（Ecofin，2026年7月21日）。",
+        "西非国家中央银行的审慎有其经济逻辑。西非经货联盟八国已共用一种货币，该行还在推广自己的即时支付系统PI-SPI，该系统于2025年9月30日启动，至2026年6月已有80家机构接入（Ecofin，2026年7月）。对于联盟内部的贸易，PAPSS并不能提供非洲法郎尚未提供的东西；它的价值在于与尼日利亚、加纳或摩洛哥之间需要货币兑换的支付。不过，这种保留态度会给网络的其他成员带来代价。西非经货联盟是非洲内部贸易的枢纽之一，仅科特迪瓦一国就占2025年非洲内部贸易的4.8%（非洲进出口银行，2026年6月）。只要联盟的银行仍在门外，PAPSS对向阿比让、达喀尔或巴马科出口的尼日利亚或加纳出口商的价值就会受到限制。"
+      ]
+    },
+    {
+      "heading": "交易所：连接流动性不足的市场尚不能创造流动性",
+      "figure": {
+        "after": 0,
+        "kind": "map",
+        "region": [
+          -20,
+          -36,
+          60,
+          38
+        ],
+        "title": "通过AELP平台互联的证券交易所",
+        "groups": [
+          {
+            "ids": [
+              "504",
+              "818",
+              "566",
+              "404",
+              "480",
+              "710",
+              "204",
+              "854",
+              "384",
+              "624",
+              "466",
+              "562",
+              "686",
+              "768"
+            ],
+            "label": "第一阶段（2022年）：七家交易所，其中包括服务西非经货联盟八国的西非地区证券交易所（BRVM）",
+            "tone": "a"
+          },
+          {
+            "ids": [
+              "072",
+              "288",
+              "800",
+              "748"
+            ],
+            "label": "第二阶段（2026年）：博茨瓦纳、加纳、乌干达、埃斯瓦蒂尼",
+            "tone": "b"
+          }
+        ],
+        "points": [
+          {
+            "name": "卡萨布兰卡",
+            "lon": -7.59,
+            "lat": 33.57
+          },
+          {
+            "name": "开罗",
+            "lon": 31.24,
+            "lat": 30.04
+          },
+          {
+            "name": "阿比让（BRVM）",
+            "lon": -4.01,
+            "lat": 5.32,
+            "anchor": "end"
+          },
+          {
+            "name": "拉各斯",
+            "lon": 3.39,
+            "lat": 6.45
+          },
+          {
+            "name": "内罗毕",
+            "lon": 36.82,
+            "lat": -1.29
+          },
+          {
+            "name": "约翰内斯堡",
+            "lon": 28.05,
+            "lat": -26.2
+          },
+          {
+            "name": "路易港",
+            "lon": 57.5,
+            "lat": -20.16,
+            "anchor": "end"
+          }
+        ],
+        "note": "来源：Ecofin，2022年12月（第一阶段）；加纳证券交易所，2026年7月1日（第二阶段）。毛里求斯是路易港证券交易所和新成立的AfCRA所在地，因面积过小无法在此比例尺下显示。"
+      },
+      "paragraphs": [
+        "AELP遇到的是一个类似的机制，只是作用于流动性。根据AFIS晴雨表，43%的金融机构认为该项目已陷入停滞，56%认为没有从中获得任何实际收益。意大利经济学家、那不勒斯费德里科二世大学教授马可·帕加诺（Marco Pagano）指出，市场流动性具有自我强化的特点：市场中的投资者越多，买卖价差就越窄，从而吸引更多投资者[^3]。这一推理反过来同样成立。连接流动性不足的交易所的平台，并不会自动创造市场深度；它只是提供了一个通道，而投资者只有在所提供的证券交易足够活跃、能以合理成本进出时才会使用它。",
+        "第二阶段体现了这种矛盾。它将网络扩大到十一家交易所和五十多家证券经纪公司，其中十七家是此次新接入的（加纳证券交易所，2026年7月1日）。接入点的数量因此稳步增加，而通过该平台传递的跨境订单量却未公布。平台的设计在一定程度上解释了进展缓慢的原因：AELP是在各自保留上市、结算交收和外汇规则的交易所之间传递订单。内罗毕的投资者购买在BRVM上市的股票，仍须面对与本国不同的托管机构、货币和税收制度，而交易金额越小，这些固定成本的负担就越重。",
+        "然而，储蓄资源是存在的。据经合组织（2025年）统计，非洲养老基金和保险公司管理的资产约为7750亿美元，AFIS晴雨表也引用了这一数字。这些资金中有很大一部分受国内规则约束，这些规则限制了在本国以外投资的比例，却不区分在阿克拉上市的股票与在伦敦上市的股票。只要这些规则不把伙伴交易所的证券作为单独类别对待，该平台所连接的市场，其主要机构投资者就只能有限地使用。因此，交易所互联工程既是交易所自身的事情，也是储蓄监管机构的事情。"
+      ]
+    },
+    {
+      "heading": "AfCRA：一家首先必须赢得自身公信力的机构",
+      "factbox": {
+        "title": "AfCRA概览",
+        "items": [
+          "项目于2017年获非洲联盟批准，2026年10月7日在毛里求斯巴拉克拉瓦成立",
+          "总部计划设在毛里求斯，并设立区域子公司",
+          "资本：计划发行3000股，其中1000股（33.3%）由Plus 94 Research持有；各国政府不得持股",
+          "募资目标：1500万美元",
+          "临时首席执行官：西菲索·法拉拉，Plus 94 Research联合创始人、Sovereign Africa Ratings创始人",
+          "非洲联盟55个成员国中有23个未获得三大评级机构中任何一家的评级"
+        ]
+      },
+      "figure": {
+        "after": 0,
+        "kind": "bars",
+        "labelWidth": 120,
+        "title": "非洲每年外债偿付额（十亿美元）",
+        "items": [
+          {
+            "label": "2010",
+            "value": 61,
+            "valueLabel": "610亿美元"
+          },
+          {
+            "label": "2024",
+            "value": 163,
+            "valueLabel": "1630亿美元",
+            "hi": true
+          }
+        ],
+        "note": "来源：非洲联盟在AfCRA成立仪式上引用的数据，据[TimesLive](https://www.timeslive.co.za/news/south-africa/2026-10-08-africas-new-ratings-agency-a-challenge-to-moodys-and-fitch/)2026年10月8日报道。"
+      },
+      "paragraphs": [
+        "评级机构面临的是另一类问题。它与网络效应关系不大，而与信息有关。非洲各国政府多年来一直指责三大评级机构，即标普全球评级、穆迪和惠誉，在其债务成本上附加了“偏见溢价”；这些机构否认存在任何偏见，并表示在全球范围内采用相同的方法（TimesLive，2026年10月8日）。联合国开发计划署2023年估计，如果评级基于更少主观性的评估，非洲国家可节省多达745亿美元（联合国开发计划署，2023年4月17日）。此后财政压力进一步加大：据非洲联盟统计，非洲大陆每年的外债偿付额从2010年的610亿美元增至2024年的1630亿美元，55个成员国中有23个未获得三大评级机构中任何一家的评级（TimesLive，2026年10月8日）。",
+        "评级只有在贷款人相信它时才有价值。2001年诺贝尔经济学奖得主乔治·阿克洛夫（George Akerlof）指出，在买方无法判断所购商品质量的市场中，由于缺乏可信的信号，市场往往会萎缩[^4]。评级机构出售的恰恰是这样一种信号，其公信力要靠多年来评级与实际发生的违约相互印证才能建立。因此，AfCRA一开始就面临一个无法靠成立本身消除的劣势：它没有历史记录。非洲联盟委员会主席在成立仪式上也承认了这一点，他提醒说，一家评级机构“在近期内肯定不会显著降低资本成本”，全球市场仍需要更广泛的改革（TimesLive，2026年10月8日）。",
+        "不过，非洲方面的不满在研究中找到了依据。乔瓦尼·费里（Giovanni Ferri）、刘利刚和2001年诺贝尔经济学奖得主约瑟夫·斯蒂格利茨（Joseph Stiglitz）基于1997年亚洲金融危机的研究表明，三大评级机构对受危机冲击国家的降级幅度超过了其基本面所能解释的程度，加剧了资本外逃，而不是对其作出预判[^5]。顺周期的评级对市场规模小、融资渠道取决于能否跨越投资级门槛的国家伤害最大。因此，AfCRA的贡献与其说在于能否推翻三大机构的评级，不如说在于能否覆盖三大机构未评级的23个国家，并为非洲投资者提供他们目前所缺乏的信息。其私人持股、排除政府参股的结构正符合这一方向：它减少了外界对其偏袒受评国政府的怀疑。"
+      ]
+    },
+    {
+      "heading": "机构的表态与实际行动",
+      "paragraphs": [
+        "AFIS晴雨表使我们得以从基础设施转向战略层面。在被问及未来发展时，各机构将在现有市场巩固地位列为首选（49%），其次是合作（42%）、内生增长（37%）和并购（32%）；四分之一的机构不考虑任何区域扩张，7%考虑退出某个市场（Sikafinance，2026年11月4日）。这些回答描绘出一个在一体化提供新市场之际却专注于本土基础的行业。这种矛盾只是表面上的：银行的区域扩张需要能够在国家之间调动资本、流动性和数据，而正在建设中的基础设施尚无法大规模做到这一点。",
+        "风险感知的上升加剧了这种收缩。48%的高管将地缘政治列为主要担忧之一，比一年前高出6个百分点，在跨国经营的集团中这一比例达到63%，而2025年为41%；29%的受访者提到流动性风险，上升了11个百分点（Sikafinance，2026年11月4日）。对于一家同时在科特迪瓦、马里和尼日利亚经营的银行集团而言，萨赫勒国家联盟三国退出西共体、阿布贾与瓦加杜古之间的紧张关系以及武装团体在萨赫勒地区实施的公路封锁，都会影响其子公司的价值。新的基础设施降低了国家之间的交易成本，却没有降低围绕这些国家的政治不确定性。",
+        "晴雨表还揭示了机构的监管优先事项与一体化条件之间的落差。高管们认为数字身份和网络安全监管很重要（均为97%），打击非法资金流动也很重要（92%），而只有19%的人认为审慎监管的统一至关重要（Sikafinance，2026年11月4日）。然而，正是审慎规则、外汇规则和反洗钱规则的统一，决定了一家银行同时在多个司法管辖区经营的成本。一家不将其列为优先事项的机构，实际上并不指望其取得进展，因而会围绕彼此分割的国内市场来制定战略。"
+      ]
+    },
+    {
+      "heading": "什么能够推动使用",
+      "paragraphs": [
+        "如果主要障碍在于协调，那么解决办法与其说在于投资，不如说在于规则。最接近的先例就在西非经货联盟内部：西非国家中央银行规定，银行、电子货币机构和支付服务商须在2026年9月30日前接入PI-SPI，小额信贷机构的期限为2027年6月30日（Ecofin，2026年7月）。中央银行将接入定为强制性要求，就消除了法雷尔和萨洛纳所描述的相互等待。将这一方法用于PAPSS，就意味着要求银行为非洲内部的商业支付提供泛非渠道，或将某些再融资额度与其使用挂钩，同时不禁止现有渠道。",
+        "贸易融资提供了第二个杠杆。非洲进出口银行既是PAPSS的结算代理，也是非洲内部贸易的主要融资方之一，而非洲内部贸易在2025年达到2138亿美元，增长5.5%（非洲进出口银行，2026年6月）。若将其信用证和担保与通过PAPSS结算挂钩，就能把它所融资的进口商和出口商的开户银行带入网络，为该系统提供其所欠缺的部分临界规模。同样的逻辑也适用于跨境公共采购，以及由非洲开发银行资助的区域基础设施项目，这些项目在非洲国家之间的支付可以通过这一大陆系统进行。",
+        "对AfCRA而言，首批用户将来自投资者而非发行人。评级只有在贷款人据此作出决策时，才会影响债务成本。非洲养老基金和保险业的监管机构监管着约7750亿美元的资产，它们可以在投资规则中认可该机构的评级，正如欧洲和美国的监管机构认可在其处注册的评级机构一样。这种认可可以让AfCRA在拥有长期记录之前就获得实际用途，前提是其方法公开，其评级定期接受实际违约情况的检验。如果缺乏这种透明度，该机构希望消除的偏袒嫌疑就会转移到它自己身上。"
+      ]
+    },
+    {
+      "heading": "情景分析",
+      "paragraphs": [],
+      "scenarios": [
+        {
+          "level": "most",
+          "title": "由中部非洲和主要贸易走廊带动的缓慢采用",
+          "text": "PAPSS在中央银行强制或支持接入的地区取得进展：中部非洲经济与货币共同体于2027年完成机构接入，尼日利亚和加纳仍是主要用户。西非国家中央银行的试点得出技术上兼容的结论，但西非经货联盟将PAPSS的使用限于需要货币兑换的支付。交易量继续从低基数快速增长，而该系统在非洲内部支付中所占份额仍未公布。AELP主要仍是一种少有人用的准入权。AfCRA发布首批评级，先从三大机构未覆盖的国家开始，投资者将其作为补充信息。AFIS晴雨表等认知调查缓慢改善。"
+        },
+        {
+          "level": "less",
+          "title": "由规则引发的转折",
+          "text": "试点结束后，西非国家中央银行将西非经货联盟的银行接入PAPSS，用于与联盟以外国家之间的支付；非洲进出口银行将部分贸易融资与通过该系统结算挂钩；部分养老基金监管机构认可AfCRA的评级，并放宽对伙伴交易所投资的上限。网络跨越采用门槛，接入成为常态而非例外，企业的非洲内部支付成本明显下降。"
+        },
+        {
+          "level": "least",
+          "title": "在相互竞争的系统中陷入僵局",
+          "text": "西非在萨赫勒国家联盟、西非经货联盟和西共体单一货币计划之间的政治分裂，导致互不兼容的区域系统不断增加。西非国家中央银行仍置身PAPSS之外，后者始终是一个小众网络；AELP未能吸引大量跨境订单；AfCRA难以募集资本，或因某项评级被违约事件证伪而公信力受损。金融机构继续收缩至国内市场，金融一体化依然是一个没有使用者的架构。"
+        }
+      ]
+    },
+    {
+      "heading": "Sources",
+      "paragraphs": [
+        "[Sikafinance, AFIS 2026: the 6th African financial sector barometer gives a mixed assessment of progress in regional integration, 4 November 2026](https://www.sikafinance.com/marches/afis-2026-le-6e-barometre-du-secteur-financier-africain-dresse-un-bilan-contraste-des-avancees-de-lintegration-regionale_65496) | [Financial Afrik, AFIS 2026 in Luanda: African finance called to transform its power into growth, 3 November 2026](https://www.financialafrik.com/en/2026/11/03/afis-2026-in-luanda-african-finance-called-to-transform-its-power-into-growth/) | [Techeconomy, PAPSS targets accelerated adoption and transaction growth as network expands across Africa, 17 September 2026](https://techeconomy.ng/papss-targets-accelerated-adoption-transaction-growth-as-network-expands-across-africa) | [Engineering News, Pan-African Payment and Settlement System to save $5bn a year in transaction costs, 14 January 2022](https://www.engineeringnews.co.za/article/pan-african-payment-and-settlement-system-to-save-5bn-a-year-in-transaction-costs-2022-01-14) | [Launch Base Africa, PAPSS inches closer to continent-wide coverage as Central African central bank joins, 9 July 2026](https://launchbaseafrica.com/2026/07/09/papss-inches-closer-to-continent-wide-coverage-as-central-african-central-bank-joins/) | [Ecofin Agency, BCEAO prepares PAPSS pilot with more than 80 West African banks, 21 July 2026](https://www.ecofinagency.com/news-finances/2107-57583-bceao-prepares-papss-pilot-with-more-than-80-west-african-banks) | [Ecofin Agency, African Development Bank, ASEA launch AELP e-platform linking seven African capital markets, December 2022](https://www.ecofinagency.com/finance/0912-44105-african-development-bank-asea-launch-aelp-e-platform-linking-seven-african-capital-markets-with-1-5-trillion-market-capitalization) | [Ghana Stock Exchange, AELP Phase 2 Launch Announcement, July 2026](https://gse.com.gh/wp-content/uploads/2026/07/AELP-Phase-2-Launch-Announcement.pdf) | [TimesLive, Africa's new ratings agency a challenge to Moody's and Fitch, 8 October 2026](https://www.timeslive.co.za/news/south-africa/2026-10-08-africas-new-ratings-agency-a-challenge-to-moodys-and-fitch/) | [Nairametrics, Sifiso Falala named AfCRA interim CEO, 9 October 2026](https://nairametrics.com/2026/10/09/au-meet-south-african-researcher-sifiso-falala-named-afcra-interim-ceo/) | [AllAfrica, Mauritius: a new African agency to change the perception of risk, 9 October 2026](https://fr.allafrica.com/stories/202610090523.html) | [UNDP, More objective credit ratings could save billions for African countries' development, April 2023](https://www.undp.org/press-releases/more-objective-credit-ratings-could-save-billions-african-countries-development) | [Nairametrics, Afreximbank: intra-African trade rises 5.5% to $213.8 billion, 25 June 2026](https://nairametrics.com/2026/06/25/afreximbank-intra-african-trade-rises-5-5-to-213-8-billion/)"
+      ]
+    }
+  ],
+  "notes": [
+    "迈克尔·卡茨（Michael L. Katz）和卡尔·夏皮罗（Carl Shapiro），加州大学伯克利分校哈斯商学院教授；卡尔·夏皮罗曾任美国白宫经济顾问委员会成员。《Network Externalities, Competition, and Compatibility》，American Economic Review，第75卷第3期，1985年，第424-440页。",
+    "约瑟夫·法雷尔（Joseph Farrell），加州大学伯克利分校经济学教授；加思·萨洛纳（Garth Saloner），斯坦福大学商学研究生院教授，曾任该院院长。《Standardization, Compatibility, and Innovation》，RAND Journal of Economics，第16卷第1期，1985年，第70-83页。",
+    "马可·帕加诺（Marco Pagano），那不勒斯费德里科二世大学经济学教授，金融市场微观结构专家。《Trading Volume and Asset Liquidity》，Quarterly Journal of Economics，第104卷第2期，1989年，第255-274页。",
+    "乔治·阿克洛夫（George A. Akerlof），美国经济学家，加州大学伯克利分校教授，因对信息不对称市场的研究获2001年诺贝尔经济学奖。《The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism》，Quarterly Journal of Economics，第84卷第3期，1970年，第488-500页。",
+    "乔瓦尼·费里（Giovanni Ferri），意大利经济学家；刘利刚，时任世界银行经济学家；约瑟夫·斯蒂格利茨（Joseph E. Stiglitz），哥伦比亚大学教授，2001年诺贝尔经济学奖得主。《The Procyclical Role of Rating Agencies: Evidence from the East Asian Crisis》，Economic Notes，第28卷第3期，1999年，第335-355页。"
+  ]
+},
   {
     "id": 9,
     "day": "03",
