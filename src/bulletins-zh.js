@@ -640,7 +640,7 @@ export const BULLETINS_ZH = [
         "heading": "管道先于边界",
         "paragraphs": [
           "官方任务点名的是Sonatrach，这并非托词。该公司自2005年起持有卡夫拉区块许可证，该区块面积近2.4万平方公里，位于伊费鲁安（Iférouane）与比尔马（Bilma）之间，靠近阿尔及利亚边境。2026年8月13日，在两国总理见证下，卡夫拉东南1号井开钻，尼亚美估计其储量[超过2.6亿桶](https://www.connaissancedesenergies.org/afp/niger-une-societe-algerienne-commence-le-forage-dun-puits-de-petrole-260813)。此外还有跨撒哈拉天然气管道：该管道将连接尼日利亚与哈西鲁迈勒（Hassi R'Mel），全长4128公里，其中841公里位于尼日尔境内，年输气能力300亿立方米。其最终可行性报告于2026年6月3日获得通过，次日阿尔及利亚段在阿德拉尔省开工；阿尔及尔表示，尼日尔段将由Sonatrach出资并承建。",
-          "美国经济学家、2009年诺贝尔经济学奖得主奥利弗·威廉姆森（Oliver Williamson）研究过他所称的“专用性投资”：这类设施只服务于某一特定关系，一旦这一关系中断，便会失去大部分价值。出资方因此受制于合作伙伴，后者可以在工程建成后要求重新谈判条件，所以出资方会在投资之前设法取得保障[^2]。跨境天然气管道正是典型：一经铺设便无法移动，其价值取决于所经领土的安全。阿尔及利亚的部署可被视为此类保障：在武装团体袭击基础设施的地区，与尼亚美签署的协议不足以保护这项工程。先例已经存在：由中方利益主体运营的阿加德姆-塞美（Agadem-Sèmè）输油管道曾遭叛乱分子袭击，又因与贝宁的争端而暂停运行。今天保护卡夫拉，就是为明天天然气管道尼日尔段的走向赋予可信度。",
+          "美国经济学家本杰明·克莱因（Benjamin Klein）、罗伯特·克劳福德（Robert Crawford）和阿门·阿尔钦（Armen Alchian）于1978年指出，专用性投资，即只服务于某一特定关系、一旦该关系中断便会大幅贬值的设施，会使出资方面临机会主义行为：工程一旦建成，合作伙伴便可要求重新谈判以攫取其部分价值，因此投资者会在投入之前设法取得保障[^2]。跨境天然气管道正是典型：一经铺设便无法移动，其价值取决于所经领土的安全。阿尔及利亚的部署可被视为此类保障：在武装团体袭击基础设施的地区，与尼亚美签署的协议不足以保护这项工程。先例已经存在：由中方利益主体运营的阿加德姆-塞美（Agadem-Sèmè）输油管道曾遭叛乱分子袭击，又因与贝宁的争端而暂停运行。今天保护卡夫拉，就是为明天天然气管道尼日尔段的走向赋予可信度。",
           "竞争使这一问题更显紧迫。2026年7月19日，西非国家经济共同体（西共体）国家元首在弗里敦批准了尼日利亚-摩洛哥天然气管道协议。这一大西洋沿线项目全长约6000公里，途经13个国家，最大输气能力同样为300亿立方米，但尚未作出最终投资决定。两个项目瞄准的是同样的尼日利亚天然气和同样的欧洲市场，谁先确保管道走向和合作伙伴，谁就将占据决定性优势。通过在阿加德兹-阿尔利特轴线上驻军，阿尔及利亚展示了摩洛哥所无法提供的东西：领土相邻，以及保护管道的能力。"
         ],
         "figure": {
@@ -759,9 +759,9 @@ export const BULLETINS_ZH = [
       {
         "heading": "尼亚美的收益",
         "paragraphs": [
-          "对阿卜杜拉赫曼·蒂亚尼将军而言，首要收益是生存。8月的兵变表明，政权面临的最直接威胁既来自圣战组织，也同样来自军事机器内部。美国政治学家史蒂文·戴维（Steven David）在1991年一篇讨论发展中国家结盟问题的论文中提出“全方位制衡”（omnibalancing）概念，用以描述这类情形[^3]：在许多国家，领导人选择对外结盟首先是为了防范内部威胁。一个能在数小时内派出战斗机、军队又驻扎在本国领土上的邻国，构成了防范再次政变的保险；更何况自2024年4月起驻扎尼亚美的俄罗斯非洲军团，在附近并不具备同等的空中力量。",
+          "对阿卜杜拉赫曼·蒂亚尼将军而言，首要收益是生存。8月的兵变表明，政权面临的最直接威胁既来自圣战组织，也同样来自军事机器内部。英国政治学家克里斯托弗·克拉彭（Christopher Clapham）在《Africa and the International System》（1996年）中指出，非洲国家的外交政策首先应被理解为政权的生存策略：统治者到外部寻求军事或财政手段，以防范国内对手[^3]。一个能在数小时内派出战斗机、军队又驻扎在本国领土上的邻国，构成了防范再次政变的保险；更何况自2024年4月起驻扎尼亚美的俄罗斯非洲军团，在附近并不具备同等的空中力量。",
           "第二项收益是经济性的。尼日尔70%以上的电力依赖尼日利亚，且燃料短缺问题频发；阿尔及利亚出资兴建了戈鲁班达（Gorou Banda）电站，这座40兆瓦的电站于2026年6月3日在尼亚美投入运行，而阿尔及利亚士兵护送至阿加德兹的，正是一支阿尔及利亚燃料车队。国际货币基金组织预计，受经贝宁出口的阿加德姆石油带动，尼日尔2026年经济将增长7%；但尼日尔政府已与中国合作伙伴展开角力，于10月13日限其在45天内将出口收入汇回国内。与一个相邻且有支付能力的伙伴实现能源支持多元化，可以降低尼亚美对其中任何一方的依赖。",
-          "剩下的是主权问题，它首先是政治问题，其次才是法律问题。该政权的合法性建立在法国军队于2023年、美国军队于2024年撤离的基础上。但接纳阿尔及利亚士兵在其自身叙事中并不构成矛盾：这种存在是应邀而来的、双边的、仅限于保护基础设施，而且出自一个对尼日尔并无殖民历史的非洲邻国。马来西亚政治学家郭清水（Kuik Cheng-Chwee）长期研究东南亚国家如何应对中国，他将战略对冲描述为一种通过增加伙伴来避免依赖任何一方的艺术[^4]。尼亚美正是如此行事：俄罗斯负责政权保护和铀矿（2025年12月已与俄罗斯国家原子能公司签署相关议定书），土耳其提供无人机，中国负责石油，阿尔及利亚负责能源和北部边境。所宣称的主权并不排斥外国存在，其要义在于自主选择这些存在，并让它们相互竞争。"
+          "剩下的是主权问题，它首先是政治问题，其次才是法律问题。该政权的合法性建立在法国军队于2023年、美国军队于2024年撤离的基础上。但接纳阿尔及利亚士兵在其自身叙事中并不构成矛盾：这种存在是应邀而来的、双边的、仅限于保护基础设施，而且出自一个对尼日尔并无殖民历史的非洲邻国。斯坦福大学的美国政治学家斯蒂芬·克拉斯纳（Stephen Krasner）在《Sovereignty: Organized Hypocrisy》（1999年）中指出，各国经常偏离将外国行为体排除在本国领土之外的原则，而且其中许多偏离是自愿的：一国政府可以通过合同或条约邀请外国存在，而不因此放弃其主权主张[^4]。尼亚美正是一个例证：俄罗斯负责政权保护和铀矿（2025年12月已与俄罗斯国家原子能公司签署相关议定书），土耳其提供无人机，中国负责石油，阿尔及利亚负责能源和北部边境。所宣称的主权并不排斥外国存在，其要义在于自主选择这些存在，并让它们相互竞争。"
         ],
         "factbox": {
           "title": "尼日尔数据概览",
@@ -846,9 +846,9 @@ export const BULLETINS_ZH = [
     ],
     "notes": [
       "斯蒂芬·M·沃尔特（Stephen M. Walt），哈佛大学肯尼迪政府学院国际关系教授，现实主义学派代表人物之一。其“威胁平衡”理论见 The Origins of Alliances, Ithaca, Cornell University Press, 1987。",
-      "奥利弗·E·威廉姆森（Oliver E. Williamson，1932-2020），美国经济学家，加州大学伯克利分校教授，因经济治理研究获2009年诺贝尔经济学奖。“Credible Commitments: Using Hostages to Support Exchange”, American Economic Review, vol. 73, no. 4, 1983, pp. 519-540。",
-      "史蒂文·R·戴维（Steven R. David），约翰斯·霍普金斯大学政治学教授。“Explaining Third World Alignment”, World Politics, vol. 43, no. 2, 1991, pp. 233-256。",
-      "郭清水（Kuik Cheng-Chwee），马来西亚国民大学（Universiti Kebangsaan Malaysia）国际关系教授。“The Essence of Hedging: Malaysia and Singapore's Response to a Rising China”, Contemporary Southeast Asia, vol. 30, no. 2, 2008, pp. 159-185。"
+      "本杰明·克莱因（Benjamin Klein），加州大学洛杉矶分校经济学教授；罗伯特·克劳福德（Robert G. Crawford），经济学家；阿门·阿尔钦（Armen A. Alchian，1914-2013），加州大学洛杉矶分校教授，产权经济学奠基人之一。《Vertical Integration, Appropriable Rents, and the Competitive Contracting Process》，Journal of Law and Economics，第21卷第2期，1978年，第297-326页。",
+      "克里斯托弗·克拉彭（Christopher Clapham），英国政治学家，曾任兰卡斯特大学政治与国际关系教授，后任职于剑桥大学非洲研究中心。《Africa and the International System: The Politics of State Survival》，剑桥大学出版社，剑桥，1996年。",
+      "斯蒂芬·克拉斯纳（Stephen D. Krasner），美国政治学家，斯坦福大学国际关系教授，曾任美国国务院政策规划司司长（2005-2007年）。《Sovereignty: Organized Hypocrisy》，普林斯顿大学出版社，普林斯顿，1999年。"
     ]
   },
   {
@@ -982,7 +982,7 @@ export const BULLETINS_ZH = [
       {
         "heading": "狭窄而集中的贸易关系",
         "paragraphs": [
-          "出生于柏林、后定居美国的经济学家阿尔伯特·赫希曼（Albert Hirschman）在1945年出版的《National Power and the Structure of Foreign Trade》中指出，一国对另一国的影响力与其说来自贸易规模，不如说来自贸易的不对称性及其中断的成本：当双边贸易对伙伴国很重要、对本国却无足轻重，而伙伴国又难以找到替代者时，本国便掌握了影响力[^3]。对大多数非洲国家而言，俄罗斯并非主导性贸易伙伴：其出口约为进口的五倍，据谢尔盖·拉夫罗夫称，七至八个国家集中了70%的贸易，埃及居首。因此，俄罗斯的总体经济杠杆较弱。但它在特定领域变得强大：对埃及而言是小麦，上一产季埃及进口了1,000万吨俄罗斯小麦；对多国军队而言是军备；对与俄罗斯国家原子能公司合作的国家而言是核能。俄罗斯的影响力是部门性的；它存在于中断会给买方带来高昂代价的地方。",
+          "耶鲁大学、斯坦福大学和哥伦比亚大学的经济学家克里斯托弗·克莱顿（Christopher Clayton）、马泰奥·马焦里（Matteo Maggiori）和杰西·施雷格（Jesse Schreger）于2023年提出了一个地缘经济学分析框架：一个大国的影响力来自其威胁撤回伙伴生产所需且难以替代的商品、信贷或服务的能力，而这种影响力集中在替代成本最高的部门[^3]。对大多数非洲国家而言，俄罗斯并非主导性贸易伙伴：其出口约为进口的五倍，据谢尔盖·拉夫罗夫称，七至八个国家集中了70%的贸易，埃及居首。因此，俄罗斯的总体经济杠杆较弱。但它在特定领域变得强大：对埃及而言是小麦，上一产季埃及进口了1,000万吨俄罗斯小麦；对多国军队而言是军备；对与俄罗斯国家原子能公司合作的国家而言是核能。俄罗斯的影响力是部门性的；它存在于中断会给买方带来高昂代价的地方。",
           "峰会还讨论了支付问题。据普京称，卢布在俄非贸易结算中的占比高达85%，《莫斯科宣言》计划扩大本币结算并连接支付系统。对于外汇短缺的国家，这确有吸引力。风险同样真实：任何接入俄罗斯金融信息传递系统的非洲银行都将面临美国和欧洲的二级制裁。这是每家中央银行都需逐案权衡的取舍。此外还有一项账面约束：贸易如此失衡，非洲进口商需要购入的卢布远多于其赚取的卢布，而收到卢布的非洲出口商在俄罗斯市场之外几乎无处使用。拟议中的去美元化只是转移了外汇约束，并未消除它。",
           "这种失衡揭示了这一关系所欠缺的东西。一个卖出量为买入量五倍的伙伴，对其客户的出口收入贡献甚微；而直接投资的薄弱，又使非洲国家失去了贸易通常借以带来技术转移、本地就业和出口多元化的渠道。俄罗斯首先仍是初级产品和安全服务的供应者，这使其在小麦和化肥领域面临直接竞争，因为那里存在其他出口国；只有在难以被替代的领域它才受到保护：已列装的苏制和俄制武器，以及合同一旦签订后的核能产业链。"
         ]
@@ -998,7 +998,7 @@ export const BULLETINS_ZH = [
       {
         "heading": "非洲各国首都为何依然前往",
         "paragraphs": [
-          "答案与其说在于结盟，不如说在于战略对冲。马来西亚政治学家郭清水（Kuik Cheng-Chwee）在2008年研究了马来西亚和新加坡如何应对中国崛起，他将对冲描述为中等国家的一种策略：与多个大国建立联系，以免依赖其中任何一方，并在某一大国构成威胁时保有退路[^4]。非洲民意同样倾向于此：在[非洲晴雨表](https://www.afrobarometer.org/feature/african-insights-2026-beyond-borders-citizen-perspectives-on-a-shifting-global-order/)调查的38个国家中，了解乌克兰战争的受访者有72%希望本国保持中立，仅36%的受访者认为俄罗斯的影响是正面的，而对中国的这一比例为62%。对冲意味着不关闭任何一扇门：一个前往莫斯科的政府，可以在同一年出席东京非洲发展国际会议、与国际货币基金组织谈判贷款计划并迎接海湾投资者。出席峰会是一份成本低廉的保险，而非选边站队。",
+          "答案与其说在于结盟，不如说在于法国政治学家、法国国家科学研究中心研究主任让-弗朗索瓦·巴亚尔（Jean-François Bayart）所称的“外向性”：他在2000年的一篇论文中指出，非洲统治者往往从与外部世界的关系中获取部分资源和权威，轮流争取可资利用的大国，而不是长期站在其中某一方身后[^4]。非洲民意同样倾向于这种等距立场：在[非洲晴雨表](https://www.afrobarometer.org/feature/african-insights-2026-beyond-borders-citizen-perspectives-on-a-shifting-global-order/)调查的38个国家中，了解乌克兰战争的受访者有72%希望本国保持中立，仅36%的受访者认为俄罗斯的影响是正面的，而对中国的这一比例为62%。这一策略意味着不关闭任何一扇门：一个前往莫斯科的政府，可以在同一年出席东京非洲发展国际会议、与国际货币基金组织谈判贷款计划并迎接海湾投资者。出席峰会是一份成本低廉的保险，而非选边站队。",
           "美国政治学家亚历山大·库利（Alexander Cooley）和丹尼尔·内克森（Daniel Nexon）在《Exit from Hegemony》（2020年）中解释了为何即使带来的资源有限，多一个选项仍有价值：一个能够转向其他保护者的政府，不必再接受传统伙伴提出的全部条件，因此替代庇护者的存在改变了与所有其他伙伴的谈判关系[^5]。一个遭西共体制裁或受布鲁塞尔批评的政府有了退路，而莫斯科让这一退路清晰可见。这种地位租金首先惠及执政者。它对发展的影响取决于实际资助和建设的内容，而作为俄罗斯首要供给的安全，会强化中央政府，却未必能扩大其经济基础。当政权的安全保护以矿业特许权或资源优先获取权来支付时，它甚至可能缩小这一基础，从而将国家租金转移给外部伙伴。",
           "这种关系也有代价，峰会使其显露无遗。俄罗斯军队招募非洲人已成为一个政治议题：国际特赦组织呼吁各国领导人予以谴责，肯尼亚总统威廉·鲁托要求遣返本国公民（[EUobserver](https://euobserver.com/245499/putin-faces-african-anger-in-moscow-on-coercive-recruits-to-russian-army-in-ukraine/)）。对各国政府而言，这一问题既关乎其形象，也关乎对本国公民的保护。它还暴露了这一关系的不对称性：一个以非政府组织所称的欺骗和胁迫手段招募友好国家公民投入遥远战争的伙伴，是把该国当作资源库，而非合作伙伴。"
         ],
@@ -1077,8 +1077,8 @@ export const BULLETINS_ZH = [
     "notes": [
       "史蒂文·R·戴维（Steven R. David），约翰斯·霍普金斯大学（巴尔的摩）政治学教授。“Explaining Third World Alignment”, World Politics, vol. 43, no. 2, 1991, pp. 233-256。",
       "詹姆斯·D·费伦（James D. Fearon），斯坦福大学政治学教授，研究冲突问题及博弈论在国际关系中的应用。“Signaling Foreign Policy Interests: Tying Hands versus Sinking Costs”, Journal of Conflict Resolution, vol. 41, no. 1, 1997, pp. 68-90。",
-      "阿尔伯特·O·赫希曼（Albert O. Hirschman，1915-2012），生于柏林，后入籍美国的经济学家，普林斯顿高等研究院教授。National Power and the Structure of Foreign Trade, Berkeley, University of California Press, 1945。",
-      "郭清水（Kuik Cheng-Chwee），马来西亚国民大学（Universiti Kebangsaan Malaysia）国际关系教授。“The Essence of Hedging: Malaysia and Singapore's Response to a Rising China”, Contemporary Southeast Asia, vol. 30, no. 2, 2008, pp. 159-185。",
+      "克里斯托弗·克莱顿（Christopher Clayton），耶鲁大学金融学研究者；马泰奥·马焦里（Matteo Maggiori），斯坦福大学商学研究生院金融学教授；杰西·施雷格（Jesse Schreger），哥伦比亚大学商学院教授。《A Framework for Geoeconomics》，NBER Working Paper第31852号，美国国家经济研究局，马萨诸塞州剑桥，2023年。",
+      "让-弗朗索瓦·巴亚尔（Jean-François Bayart），法国政治学家，法国国家科学研究中心研究主任（巴黎政治学院国际研究中心），后任日内瓦国际与发展研究院教授。《Africa in the World: A History of Extraversion》，African Affairs，第99卷第395期，2000年，第217-267页。",
       "亚历山大·库利（Alexander Cooley），哥伦比亚大学巴纳德学院（纽约）政治学教授；丹尼尔·H·内克森（Daniel H. Nexon），乔治城大学（华盛顿）教授。Exit from Hegemony: The Unraveling of the American Global Order, New York, Oxford University Press, 2020。"
     ]
   },
@@ -1168,7 +1168,7 @@ export const BULLETINS_ZH = [
         "heading": "就地加工须以留住可可豆为前提",
         "paragraphs": [
           "这一差距触及科特迪瓦希望发展的价值链环节。据农业部长介绍，该国2024-2025年在本地研磨了39%的产量，目标是2030年达到50%；截至2026年9月，其装机产能达116万吨（[Futura](https://www.futura-sciences.com/planete/actualites/agriculture-campagne-cacao-2026-2027-cote-ivoire-veut-transformer-davantage-feves-son-territoire-137942/)）。第三季度，GEPEX成员研磨企业加工157,446吨，同比增长40.3%，增速快于亚洲，更远超欧洲。这一势头建立在一个简单的算计之上：设在产区附近的工厂可以节省生豆运费，并获取可可脂、可可粉和可可液块等中间产品的部分利润，前提是原料供应稳定。",
-          "国内低价原则上是这些工厂的成本优势。但前提是可可豆留在国内且能够提供证明文件。美国社会学家加里·杰里菲（Gary Gereffi）与合著者约翰·汉弗莱（John Humphrey）、蒂莫西·斯特金（Timothy Sturgeon）在2005年的论文《全球价值链的治理》（The Governance of Global Value Chains）中指出，价值链的治理，即买方组织和管控供应商的方式，取决于买方能否准确描述产品属性（如质量、原产地或生产方式）并加以核实[^4]。随着欧盟零毁林法规出台，原产地和零毁林已成为这类属性，该法规将于2026年12月底起适用于大中型经营者。为此，咖啡可可委员会本产季强制推行生产者智能卡。非法越境的可可豆会失去这一登记记录；它只有以不实的原产地申报为代价，才能重新进入出口渠道。因此，价格差成为两国共同的合规风险，而不仅是其中一国的收入风险。",
+          "国内低价原则上是这些工厂的成本优势。但前提是可可豆留在国内且能够提供证明文件。鲁汶大学的比利时经济学家米特·马尔滕斯（Miet Maertens）和约翰·斯温宁（Johan Swinnen）于2009年以塞内加尔园艺出口链为例指出，欧盟质量与可追溯性标准的收紧重组了这条价值链：出口商以自有农场的一体化生产取代了部分向小农的采购，因为在自有农场中他们能够控制并记录生产操作[^4]。随着欧盟零毁林法规出台，原产地和零毁林已成为此类要求，该法规将于2026年12月底起适用于大中型经营者。为此，咖啡可可委员会本产季强制推行生产者智能卡。非法越境的可可豆会失去这一登记记录；它只有以不实的原产地申报为代价，才能重新进入出口渠道。因此，价格差成为两国共同的合规风险，而不仅是其中一国的收入风险。",
           "时间安排加剧了紧张态势。监管机构和出口商8月预计，10月至12月期间到港量约为900,000吨，上年同期为110万吨，且出货集中在12月，恰好在该法规生效之前（[路透社](https://www.cnbcafrica.com/2026/ivory-coasts-delayed-cocoa-crop-could-mean-congested-ports-ahead-of-eu-rules-sources-say)）。同样的逻辑也适用于尼日利亚，那里一座年产能70,000吨的工厂将于2027年在萨加穆（Sagamu）投产：本地加工战略首先需要一个能够留住原材料的国内价格。尼日利亚的情况也说明了原料短缺的代价：根据7月阿布贾峰会上公布的数据，该国年产量超过300,000吨，研磨产能超过120,000吨，但实际利用的仅有50,000吨。",
           "科特迪瓦的生产者卡说明了价格与可追溯性之间的联系。该卡自9月1日起强制使用，为记录每笔交易的国家可追溯系统提供数据；据[Afrique Confidentielle](https://afriqueconfidentielle.com/articles/cote-d-ivoire-a-1-200-francs-cfa-le-kilo-le-cacao-regarde-vers-le-ghana)报道，截至9月中旬，约有38,000名生产者使用电子卡进行了销售。这样的系统只有在种植者有动力加入时才有价值。在每公斤1,200非洲法郎的价格下，登记销售的收益远不及在边境另一侧获得更高报酬的非正规销售，而每一颗被转移的可可豆都会削弱科特迪瓦出口商向欧盟提交尽职调查声明所依据的数据库。在加纳一侧，大量来历不明的可可豆涌入则带来相反的问题：它使国家系统须追溯至已识别地块的数量膨胀，可能损害布鲁塞尔对该系统的认可。"
         ],
@@ -1331,7 +1331,7 @@ export const BULLETINS_ZH = [
       "罗伯特·H·贝茨（Robert H. Bates），美国政治学家，哈佛大学政治学教授，非洲政治经济学专家。Markets and States in Tropical Africa: The Political Basis of Agricultural Policies, Berkeley, University of California Press, 1981。",
       "戴维·M·G·纽伯里（David M. G. Newbery），英国经济学家，剑桥大学教授；约瑟夫·E·斯蒂格利茨（Joseph E. Stiglitz），美国经济学家，哥伦比亚大学教授，2001年诺贝尔经济学奖得主。The Theory of Commodity Price Stabilization: A Study in the Economics of Risk, Oxford, Clarendon Press (Oxford University Press), 1981。",
       "贾格迪什·N·巴格瓦蒂（Jagdish N. Bhagwati），生于印度的经济学家，国际贸易专家，曾任教于麻省理工学院，后任哥伦比亚大学教授；本特·汉森（Bent Hansen），丹麦经济学家，加州大学伯克利分校教授。“A Theoretical Analysis of Smuggling”, Quarterly Journal of Economics, vol. 87, no. 2, 1973, pp. 172-187。",
-      "加里·杰里菲（Gary Gereffi），杜克大学社会学教授；约翰·汉弗莱（John Humphrey），英国萨塞克斯大学发展研究所（Institute of Development Studies）研究员；蒂莫西·J·斯特金（Timothy J. Sturgeon），麻省理工学院研究员。“The Governance of Global Value Chains”, Review of International Political Economy, vol. 12, no. 1, 2005, pp. 78-104。",
+      "米特·马尔滕斯（Miet Maertens），鲁汶大学农业经济学教授；约翰·斯温宁（Johan F. M. Swinnen），鲁汶大学经济学教授，后任国际食物政策研究所（IFPRI）所长。《Trade, Standards, and Poverty: Evidence from Senegal》，World Development，第37卷第1期，2009年，第161-178页。",
       "乔治·J·施蒂格勒（George J. Stigler，1911-1991），美国经济学家，芝加哥大学教授，因对产业结构、市场运行及政府管制效果的研究获1982年诺贝尔经济学奖。“A Theory of Oligopoly”, Journal of Political Economy, vol. 72, no. 1, 1964, pp. 44-61。"
     ]
   },
@@ -1360,7 +1360,7 @@ export const BULLETINS_ZH = [
       {
         "heading": null,
         "paragraphs": [
-          "出生于柏林、后入籍美国的经济学家阿尔伯特·赫希曼（Albert Hirschman）在《退出、呼吁与忠诚》（Exit, Voice, and Loyalty，1970年）中区分了应对令人失望的组织的两种方式：离开它，即“退出”（exit）；或留在其中表达意见、促其改变，即“发声”（voice）[^1]。2025年1月，马里、布基纳法索和尼日尔选择了前者。21个月后，达喀尔开启的进程显示了这一选择的局限：只要卡车、港口、畜群和家庭仍在流动，制度上的退出就无法消除对谈判关系的需求。赫希曼还指出，如果退出的成员仍依赖该组织所提供的公共产品，退出的代价就越高。对于三个内陆国而言，其进口商品、燃料和部分出口牲畜都要经由沿海港口和市场，西非经济空间正是这样一种产品，政治决裂并不能找到替代。",
+          "哈佛大学的阿尔贝托·阿莱西纳（Alberto Alesina）与塔夫茨大学的恩里科·斯波劳雷（Enrico Spolaore）于1997年在《On the Number and Size of Nations》中提出，政治单位的规模是一种权衡的结果：大的政治单位能以更低的人均成本提供公共产品，并拥有更大的市场，但它迫使偏好不同的人群遵循同一套规则；当这些差异显得过于沉重时，分离就变得具有吸引力[^1]。2025年1月，马里、布基纳法索和尼日尔通过退出西共体对这一权衡作出了抉择。21个月后，达喀尔开启的进程显示了这一选择的局限：只要卡车、港口、畜群和家庭仍在流动，制度上的退出就无法消除对谈判关系的需求。他们的推理还意味着，一个小国只有在通往邻国市场的渠道保持畅通时，才能承受其规模较小的代价。对于三个内陆国而言，其进口商品、燃料和部分出口牲畜都要经由沿海港口和市场，西非经济空间正是这样的渠道，政治决裂并不能找到替代。",
           "2026年10月17日，西共体部长理事会主席、塞内加尔外交部长谢赫·尼昂（Cheikh Niang）与萨赫勒国家联盟部长级委员会主席、布基纳法索外交部长卡拉莫科·让-玛丽·特拉奥雷（Karamoko Jean-Marie Traoré）共同主持了三国正式退出以来两个组织之间的首次部长级会议。西共体于10月18日发布的联合公报仅包含一项决定：设立专题工作组，负责筹备框架协议。会议前一天，特拉奥雷排除了重返西共体的任何可能，阿布贾则表示期待在12月峰会上看到协议草案。"
         ]
       },
@@ -1541,7 +1541,7 @@ export const BULLETINS_ZH = [
       }
     ],
     "notes": [
-      "阿尔伯特·O·赫希曼（Albert O. Hirschman，1915-2012），出生于柏林、后入籍美国的经济学家，曾任哈佛大学教授，后任职于普林斯顿高等研究院。Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States, Cambridge (Mass.), Harvard University Press, 1970。",
+      "阿尔贝托·阿莱西纳（Alberto Alesina，1957-2020），意大利经济学家，哈佛大学教授；恩里科·斯波劳雷（Enrico Spolaore），塔夫茨大学经济学教授。《On the Number and Size of Nations》，Quarterly Journal of Economics，第112卷第4期，1997年，第1027-1056页。",
       "奥利弗·E·威廉姆森（Oliver E. Williamson，1932-2020），美国经济学家，加州大学伯克利分校教授，因经济治理研究获2009年诺贝尔经济学奖。“Credible Commitments: Using Hostages to Support Exchange”, American Economic Review, vol. 73, no. 4, 1983, pp. 519-540。",
       "罗伯特·O·基欧汉（Robert O. Keohane），美国政治学家，普林斯顿大学国际关系荣休教授；约瑟夫·S·奈（Joseph S. Nye），美国政治学家，哈佛大学教授，曾任肯尼迪政府学院院长，以“软实力”概念闻名。Power and Interdependence: World Politics in Transition, Boston, Little, Brown, 1977。",
       "罗伯特·D·托利森（Robert D. Tollison），美国经济学家，公共选择学派代表人物之一；托马斯·D·威利特（Thomas D. Willett），美国克莱蒙特研究生大学（Claremont Graduate University）经济学教授。“An Economic Theory of Mutually Advantageous Issue Linkages in International Negotiations”, International Organization, vol. 33, no. 4, 1979, pp. 425-449。"
@@ -1642,7 +1642,7 @@ export const BULLETINS_ZH = [
           "华盛顿为何在将关税推高至100%以上之后接受休战？政治学家亨利·法雷尔（Henry Farrell，现任职于约翰斯·霍普金斯大学）与亚伯拉罕·纽曼（Abraham Newman，乔治城大学）于2019年在论文《Weaponized Interdependence》中提出“武器化的相互依存”概念：在围绕少数节点组织起来的全球经济网络中（所谓节点，是指支付系统或难以替代的供应商这类必经的关口），控制某一节点的国家可以监控流动，并切断对手的接入[^1]。美国长期借助美元、半导体和软件行使这种权力。2025年的贸易战表明，中国如今也拥有了自己的节点，位于产业链上游。",
           "这个节点就是稀土。据[国际能源署](https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality)，2024年中国约占磁体用稀土开采量的60%、分离和精炼的约91%，以及烧结永磁体产量的约94%，而这类永磁体是电动机、风力涡轮机和武器系统不可或缺的部件。2025年10月9日，北京仿照美国对芯片适用的域外管辖规则，将出口管制扩大至在中国境外生产、但含有中国材料或技术的产品。三周后在釜山，中国将这些措施暂停一年，以换取美国将“芬太尼”关税下调10个百分点。这件武器达到了目的：它为降级定下了价码。",
           "北京峰会延续了这种筹码交换。中国关于钇、钪、钕和铟的承诺被表述为应对“短缺”，而非取消许可制度：北京仍掌握着阀门，只是同意将其打开。美国方面则于5月14日发放许可，允许阿里巴巴、腾讯和字节跳动等企业购买英伟达H200芯片，但据[路透社](https://www.khaleejtimes.com/business/tech/us-clears-nvidias-h200-chip-sales-to-10-china-firms)报道，由于北京要求中国企业暂缓，尚无任何交付。双方由此都保留了暂停自身让步的能力。",
-          "出生于柏林、后定居美国的经济学家阿尔伯特·赫希曼（Albert Hirschman）在1945年出版的《National Power and the Structure of Foreign Trade》中指出，一国的贸易权力取决于交换中断时其伙伴所承受的代价，而这一代价又取决于寻找其他供应商或销路的难易程度：伙伴国越难替代这部分贸易，就越容易受到施压[^2]。贸易战降低了美国对中国商品的依赖：据[彼得森国际经济研究所的查德·鲍恩](https://www.piie.com/blogs/realtime-economics/2026/trump-china-trade-wars-five-takeaways-us-imports-2025)，2025年底中国在美国商品进口中的份额仅约为9%，而2017年为22%，空出的份额由越南、台湾、墨西哥和印度填补。据[美联社](https://wtop.com/business-finance/2026/02/u-s-trade-deficit-slipped-to-901-billion-last-year-amid-trump-tariffs/)援引的美国商务部数据，2025年美国对华逆差下降近32%，至约2020亿美元。但这些“非中国”进口中有一部分含有中国零部件。依赖并未消失，而是转移到了上游，即中国掌握节点的环节。这正是两国如今宁愿休战而不愿决裂的原因。"
+          "加州大学洛杉矶分校的帕布罗·法伊格尔鲍姆（Pablo Fajgelbaum）、耶鲁大学的皮内洛皮·戈德堡（Pinelopi Goldberg，曾任世界银行首席经济学家）及其合著者于2024年指出，中美贸易战并未像人们担心的那样使全球贸易萎缩，而是使其改道：许多第三国通过替代被加征关税的中国商品扩大了对美销售，而且往往也增加了对世界其他地区的出口[^2]。贸易战降低了美国对中国商品的依赖：据[彼得森国际经济研究所的查德·鲍恩](https://www.piie.com/blogs/realtime-economics/2026/trump-china-trade-wars-five-takeaways-us-imports-2025)，2025年底中国在美国商品进口中的份额仅约为9%，而2017年为22%，空出的份额由越南、台湾、墨西哥和印度填补。据[美联社](https://wtop.com/business-finance/2026/02/u-s-trade-deficit-slipped-to-901-billion-last-year-amid-trump-tariffs/)援引的美国商务部数据，2025年美国对华逆差下降近32%，至约2020亿美元。但这些“非中国”进口中有一部分含有中国零部件。依赖并未消失，而是转移到了上游，即中国掌握节点的环节。这正是两国如今宁愿休战而不愿决裂的原因。"
         ]
       },
       {
@@ -1660,7 +1660,7 @@ export const BULLETINS_ZH = [
           "中美对抗对非洲的第一重影响是贸易层面的，而且早于峰会。失去部分美国市场的中国企业调整了销售方向。据[南洋理工大学非洲研究中心](https://www.ntu.edu.sg/cas/news-events/news/detail/china-africa-trade-hits-record-us-348bn-as-deficit-balloons)整理的中国海关数据，2025年中非贸易额达3480亿美元，增长17.7%。中国对非出口增长25.8%，至2250亿美元，而中国自非进口仅增长5.4%，至1230亿美元。非洲的逆差猛增64.5%，至1020亿美元。[法国巴黎银行](https://economic-research.bnpparibas.com/html/en-US/Africa-reconfiguration-global-trade-benefiting-China-10/1/2025,51890)指出，2025年4月至7月间，非洲自中国进口的车辆几乎翻了一番，服装进口则增长一倍以上。",
           "这股涌入具有两面性。对于消费者以及进口资本品、太阳能电池板或车辆的企业而言，它压低了价格。对于纺织、轻型金属加工或组装等新兴产业而言，它加剧了竞争，而此时非洲大陆自由贸易区本应为它们提供更大的市场。中国的回应是自2026年5月1日起，对与其建交的53个非洲国家的进口商品实行零关税，这是习近平于2月在非洲联盟峰会上宣布的。该措施的作用有限：正如[China Global South](https://chinaglobalsouth.com/analysis/china-zero-tariff-africa-trade-impact/)所指出的，大多数非洲产品此前已免税进入中国，逆差更多源于贸易结构而非关税。非洲主要出口石油、矿产和初级农产品，其价格和数量几乎不受中国关税的影响。",
           "美国方面发出的信号则恰恰相反。据[南非安全研究所](https://allafrica.com/stories/202603130385.html)，《非洲增长与机遇法案》（AGOA）于2025年9月30日到期，直到2026年2月才得以恢复，期限一年，至2026年12月31日。据南部非洲贸易法中心（tralac），截至2025年11月的十二个月内，AGOA项下出口下降32%。2025年南非对美汽车出口下降近75%，而其汽车出口总额借助其他市场创下纪录。尽管如此，据[美国人口普查局](https://www.census.gov/foreign-trade/balance/c0013.html)，美非贸易总额仍有所增长，从2024年的721亿美元增至2025年的833亿美元，主要得益于美国出口以及黄金、石油等少数产品。但这一数字仍不及中非贸易额的四分之一。",
-          "赫希曼在此提供了第二个启示。当一个伙伴吸收了一国很大一部分贸易、且难以替代时，该国便会对其形成依赖。据欧盟统计局，欧盟仍是非洲最大的贸易伙伴，2025年贸易额约为3560亿欧元，但增长来自中国。非洲各国政府面临的问题不是削减这种为其提供廉价商品的贸易，而是避免在能源转型所依赖的商品上集中依赖单一供应商，在原材料上集中依赖单一买家。一个向中国出售未加工矿产、又从中国购买制成品的非洲，将重现贸易依赖理论所描述的最脆弱的结构。"
+          "同样的逻辑也适用于非洲，只是方向相反。当一个伙伴吸收了一国很大一部分贸易、且难以替代时，该国便会对其形成依赖。据欧盟统计局，欧盟仍是非洲最大的贸易伙伴，2025年贸易额约为3560亿欧元，但增长来自中国。非洲各国政府面临的问题不是削减这种为其提供廉价商品的贸易，而是避免在能源转型所依赖的商品上集中依赖单一供应商，在原材料上集中依赖单一买家。一个向中国出售未加工矿产、又从中国购买制成品的非洲，将重现贸易依赖理论所描述的最脆弱的结构。"
         ],
         "figures": [
           {
@@ -1876,7 +1876,7 @@ export const BULLETINS_ZH = [
     ],
     "notes": [
       "亨利·法雷尔（Henry Farrell），约翰斯·霍普金斯大学高级国际研究学院（华盛顿）国际事务教授；亚伯拉罕·L·纽曼（Abraham L. Newman），乔治城大学埃德蒙·沃尔什外交学院（华盛顿）教授。“Weaponized Interdependence: How Global Economic Networks Shape State Coercion”, International Security, vol. 44, no. 1, 2019, pp. 42-79。",
-      "阿尔伯特·O·赫希曼（Albert O. Hirschman，1915-2012），生于柏林，后入籍美国的经济学家，普林斯顿高等研究院教授。National Power and the Structure of Foreign Trade, Berkeley, University of California Press, 1945。",
+      "帕布罗·法伊格尔鲍姆（Pablo D. Fajgelbaum），加州大学洛杉矶分校经济学教授；皮内洛皮·戈德堡（Pinelopi K. Goldberg），耶鲁大学经济学教授，曾任世界银行首席经济学家；以及帕特里克·肯尼迪（Patrick J. Kennedy）、阿米特·坎德尔瓦尔（Amit K. Khandelwal）和达里娅·塔廖尼（Daria Taglioni）。《The US-China Trade War and Global Reallocations》，American Economic Review: Insights，第6卷第2期，2024年。",
       "格雷厄姆·T·艾利森（Graham T. Allison），美国政治学家，哈佛大学肯尼迪政府学院（马萨诸塞州剑桥）政治学教授，1977年至1989年任该院院长。Destined for War: Can America and China Escape Thucydides's Trap?, Boston, Houghton Mifflin Harcourt, 2017。",
       "郭清水（Kuik Cheng-Chwee），马来西亚国民大学（Universiti Kebangsaan Malaysia）国际关系教授。“The Essence of Hedging: Malaysia and Singapore's Response to a Rising China”, Contemporary Southeast Asia, vol. 30, no. 2, 2008, pp. 159-185。"
     ]
