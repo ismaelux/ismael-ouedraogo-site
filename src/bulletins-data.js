@@ -102,32 +102,40 @@ const BULLETINS_FR = [
       "heading": "Siguiri : l'or artisanal, pièce maîtresse du dispositif",
       "figure": {
         "after": 0,
-        "kind": "bars",
-        "unit": "t",
-        "labelWidth": 230,
-        "title": "Exportations d'or de la Guinée selon l'origine (tonnes)",
+        "kind": "stacked",
+        "percent": true,
+        "labelWidth": 150,
+        "title": "L'or artisanal fournit plus des deux tiers des exportations d'or guinéennes (tonnes et part du total)",
+        "legend": [
+          "Or artisanal",
+          "Or industriel"
+        ],
+        "tones": [
+          "c",
+          "a"
+        ],
         "items": [
           {
-            "label": "2025, or artisanal",
-            "value": 49.6,
-            "valueLabel": "49,6 t",
-            "hi": true
+            "label": "2025",
+            "values": [
+              49.6,
+              22.52
+            ],
+            "labels": [
+              "49,6 t (69 %)",
+              "22,5 t (31 %)"
+            ]
           },
           {
-            "label": "2025, or industriel",
-            "value": 22.52,
-            "valueLabel": "22,5 t"
-          },
-          {
-            "label": "1er semestre 2026, or artisanal",
-            "value": 29.23,
-            "valueLabel": "29,2 t",
-            "hi": true
-          },
-          {
-            "label": "1er semestre 2026, or industriel",
-            "value": 11.05,
-            "valueLabel": "11,1 t"
+            "label": "1er semestre 2026",
+            "values": [
+              29.23,
+              11.05
+            ],
+            "labels": [
+              "29,2 t (73 %)",
+              "11,1 t (27 %)"
+            ]
           }
         ],
         "note": "Source : ministère guinéen des Mines et de la Géologie, d'après [Le360 Afrique](https://afrique.le360.ma/economie/guinee-lexportation-de-lor-raffine-soumise-a-de-nouvelles-regles_FJZTIOECJJETZK6VWRRG2LIADI/) (avec la MAP), 3 octobre 2026. Or industriel calculé par différence entre le total (72,12 t en 2025, 40,28 t au premier semestre 2026) et l'or artisanal."
@@ -474,26 +482,6 @@ const BULLETINS_FR = [
           "23 des 55 États membres de l'Union africaine ne sont notés par aucune des trois grandes agences"
         ]
       },
-      "figure": {
-        "after": 0,
-        "kind": "bars",
-        "labelWidth": 120,
-        "title": "Service annuel de la dette extérieure de l'Afrique (milliards de dollars)",
-        "items": [
-          {
-            "label": "2010",
-            "value": 61,
-            "valueLabel": "61 Md$"
-          },
-          {
-            "label": "2024",
-            "value": 163,
-            "valueLabel": "163 Md$",
-            "hi": true
-          }
-        ],
-        "note": "Source : Union africaine, chiffres cités lors du lancement de l'AfCRA, d'après [TimesLive](https://www.timeslive.co.za/news/south-africa/2026-10-08-africas-new-ratings-agency-a-challenge-to-moodys-and-fitch/), 8 octobre 2026."
-      },
       "paragraphs": [
         "La difficulté de l'agence de notation tient moins à un effet de réseau qu'à l'information, sur laquelle porte un grief ancien : les gouvernements africains reprochent depuis des années aux trois grandes agences, S&P Global Ratings, Moody's et Fitch Ratings, d'ajouter une « prime de préjugé » au coût de leur dette ; les agences récusent tout biais et affirment appliquer les mêmes méthodes partout, comme le rappelait le quotidien sud-africain [TimesLive](https://www.timeslive.co.za/news/south-africa/2026-10-08-africas-new-ratings-agency-a-challenge-to-moodys-and-fitch/) au lendemain du lancement de l'AfCRA. Le [Programme des Nations unies pour le développement](https://www.undp.org/fr/communiques/des-notations-de-credit-plus-objectives-pourraient-faire-economiser-des-milliards-pour-le-developpement-en-afrique) a estimé en avril 2023 que des notations fondées sur des appréciations moins subjectives pourraient faire économiser jusqu'à 74,5 milliards de dollars aux pays africains. La question budgétaire s'est aggravée depuis : selon l'Union africaine, le service annuel de la dette extérieure du continent est passé de 61 milliards de dollars en 2010 à 163 milliards en 2024, et 23 de ses 55 États membres ne sont notés par aucune des trois grandes agences.",
         "Pour valoir quelque chose, une note doit être crue par ceux qui prêtent, et l'économiste américain George Akerlof, prix Nobel d'économie en 2001, a montré dès 1970, dans un article consacré au marché des voitures d'occasion, qu'un marché où l'acheteur ne peut pas juger la qualité de ce qu'on lui vend tend à se contracter, faute de signal crédible[^4]. Une agence de notation vend précisément un signal, et sa crédibilité se construit sur des années de notes confrontées aux défauts effectivement observés. L'AfCRA part donc avec un handicap que sa création ne peut pas lever : elle n'a pas d'historique. Le président de la Commission de l'Union africaine l'a reconnu lors du lancement, en prévenant qu'une agence de notation « ne réduira certainement pas de manière significative le coût du capital dans un avenir proche » et que des réformes plus larges des marchés mondiaux restaient nécessaires.",
@@ -792,25 +780,24 @@ const BULLETINS_FR = [
         ],
         "figure": {
           "after": 2,
-          "kind": "bars",
-          "labelWidth": 120,
-          "title": "Personnes expulsées d'Algérie vers le Niger (Assamaka)",
-          "items": [
+          "kind": "line",
+          "yMin": 0,
+          "labelAll": true,
+          "title": "Les expulsions d'Algérie vers le Niger augmentent chaque année (personnes refoulées à Assamaka)",
+          "x": [
+            2023,
+            2024,
+            2025
+          ],
+          "series": [
             {
-              "label": "2023",
-              "value": 26031,
-              "valueLabel": "26 031"
-            },
-            {
-              "label": "2024",
-              "value": 31404,
-              "valueLabel": "31 404"
-            },
-            {
-              "label": "2025",
-              "value": 34236,
-              "valueLabel": "34 236",
-              "hi": true
+              "name": "Personnes expulsées",
+              "values": [
+                26031,
+                31404,
+                34236
+              ],
+              "tone": "a"
             }
           ],
           "note": "Source : [Alarme Phone Sahara](https://alarmephonesahara.info/fr/news/assamaka-niger-more-than-34-000-people-deported-from-algeria-to-niger-in-2025), décompte des convois officiels et non officiels, décembre 2025 ; AFP, janvier 2025 (2023 et 2024)."
@@ -890,21 +877,26 @@ const BULLETINS_FR = [
         ],
         "figure": {
           "after": 3,
-          "kind": "bars",
+          "kind": "dots",
+          "min": 0,
+          "max": 55,
           "labelWidth": 230,
-          "title": "Chefs d'État ou de gouvernement africains présents aux principaux sommets « Afrique + 1 »",
+          "title": "Moscou 2026 a réuni moins de chefs d'État qu'à Sotchi ou au FOCAC (chefs d'État ou de gouvernement africains présents)",
           "items": [
             {
               "label": "FOCAC, Pékin, 2024",
-              "value": 51
+              "value": 51,
+              "hi": false
             },
             {
               "label": "Russie-Afrique, Sotchi, 2019",
-              "value": 43
+              "value": 43,
+              "hi": false
             },
             {
               "label": "TICAD 9, Yokohama, 2025",
-              "value": 33
+              "value": 33,
+              "hi": false
             },
             {
               "label": "Russie-Afrique, Moscou, 2026",
@@ -913,7 +905,8 @@ const BULLETINS_FR = [
             },
             {
               "label": "Russie-Afrique, Saint-Pétersbourg, 2023",
-              "value": 17
+              "value": 17,
+              "hi": false
             }
           ],
           "note": "Sources : APRI (FOCAC 2024) ; Brookings (Sotchi 2019) ; ministère japonais des Affaires étrangères (TICAD 9) ; Kremlin (Moscou 2026) ; Chatham House (Saint-Pétersbourg 2023)."
@@ -1401,10 +1394,10 @@ const BULLETINS_FR = [
         ],
         "figure": {
           "after": 1,
-          "kind": "pairs",
+          "kind": "slope",
           "unit": "Md$",
-          "labelWidth": 170,
-          "title": "Commerce des pays de l'AES avec le bloc ouest-africain (milliards de dollars)",
+          "labelWidth": 130,
+          "title": "Après la sortie de la CEDEAO, les échanges des pays de l'AES avec le bloc ont augmenté (milliards de dollars)",
           "legend": [
             "2024",
             "2025"
@@ -1447,27 +1440,6 @@ const BULLETINS_FR = [
             "after": 0,
             "kind": "map-westafrica",
             "title": "CEDEAO, AES et corridors vers les ports (carte interactive)"
-          },
-          {
-            "after": 3,
-            "kind": "bars",
-            "unit": "Md FCFA",
-            "labelWidth": 200,
-            "title": "Recettes pétrolières directes de l'État nigérien",
-            "items": [
-              {
-                "label": "2024",
-                "value": 224,
-                "valueLabel": "224 Md FCFA"
-              },
-              {
-                "label": "2025",
-                "value": 453.8,
-                "valueLabel": "453,8 Md FCFA",
-                "hi": true
-              }
-            ],
-            "note": "Source : Hamadou Tini, ministre nigérien du Pétrole, entretien à la RTN du 11 juin 2026, repris par [Sika Finance](https://www.sikafinance.com/marches/niger-les-recettes-petrolieres-ont-plus-que-double-atteignant-plus-de-453-milliards-fcfa-en-2025_62255), 13 juin 2026. 2024 est la première année d'exploitation de l'oléoduc d'exportation."
           }
         ]
       },
@@ -1688,34 +1660,6 @@ const BULLETINS_FR = [
               }
             ],
             "note": "Sources : Eurostat, données 2025, converties au taux moyen d'environ 1,13 dollar par euro ; douanes chinoises, via [NTU Centre for African Studies, 30 janvier 2026](https://www.ntu.edu.sg/cas/news-events/news/detail/china-africa-trade-hits-record-us-348bn-as-deficit-balloons) ; [US Census Bureau](https://www.census.gov/foreign-trade/balance/c0013.html)."
-          },
-          {
-            "after": 1,
-            "kind": "pairs",
-            "unit": "Md$",
-            "labelWidth": 230,
-            "title": "Commerce sino-africain : exportations chinoises et importations chinoises d'Afrique (milliards de dollars)",
-            "legend": [
-              "2024",
-              "2025"
-            ],
-            "items": [
-              {
-                "label": "Exportations chinoises vers l'Afrique",
-                "a": 178.9,
-                "b": 225,
-                "aLabel": "178,9",
-                "bLabel": "225,0"
-              },
-              {
-                "label": "Importations chinoises d'Afrique",
-                "a": 116.7,
-                "b": 123,
-                "aLabel": "116,7",
-                "bLabel": "123,0"
-              }
-            ],
-            "note": "Source : douanes chinoises, via [NTU Centre for African Studies, 30 janvier 2026](https://www.ntu.edu.sg/cas/news-events/news/detail/china-africa-trade-hits-record-us-348bn-as-deficit-balloons). Valeurs 2024 déduites des taux de croissance publiés (+25,8 % et +5,4 %)."
           }
         ],
         "factbox": {
@@ -2452,25 +2396,30 @@ const BULLETINS_FR = [
         ],
         "figure": {
           "after": 1,
-          "kind": "bars",
+          "kind": "dots",
           "unit": "%",
-          "labelWidth": 200,
-          "title": "Part des exportations de marchandises restant dans la région d'origine, 2022",
+          "min": 0,
+          "max": 80,
+          "labelWidth": 150,
+          "title": "L'Afrique commerce quatre à cinq fois moins avec elle-même que l'Europe ou l'Asie (part des exportations restant dans la région, 2022, %)",
           "items": [
             {
               "label": "Europe",
               "value": 68.9,
-              "valueLabel": "68,9 %"
+              "valueLabel": "68,9 %",
+              "hi": false
             },
             {
               "label": "Asie",
               "value": 56.1,
-              "valueLabel": "56,1 %"
+              "valueLabel": "56,1 %",
+              "hi": false
             },
             {
               "label": "Amérique du Nord",
               "value": 30.6,
-              "valueLabel": "30,6 %"
+              "valueLabel": "30,6 %",
+              "hi": false
             },
             {
               "label": "Afrique",
@@ -2616,31 +2565,60 @@ const BULLETINS_FR = [
         ],
         "figure": {
           "after": 1,
-          "kind": "bars",
+          "kind": "stacked",
           "unit": "%",
-          "labelWidth": 230,
-          "title": "Part du principal produit dans les exportations de biens",
+          "percent": true,
+          "labelWidth": 150,
+          "title": "Un seul produit domine les exportations de chacun des trois pays de l'AES (% des exportations de biens)",
+          "legend": [
+            "Or (Mali, Burkina Faso) ou pétrole brut (Niger)",
+            "Uranium",
+            "Autres biens"
+          ],
+          "tones": [
+            "a",
+            "e",
+            "d"
+          ],
           "items": [
             {
-              "label": "Mali : or (2023)",
-              "value": 85.5,
-              "valueLabel": "85,5 %",
-              "hi": true
+              "label": "Mali (2023)",
+              "values": [
+                85.5,
+                0,
+                14.5
+              ],
+              "labels": [
+                "85,5 %",
+                "",
+                "14,5 %"
+              ]
             },
             {
-              "label": "Burkina Faso : or (2024)",
-              "value": 78.5,
-              "valueLabel": "78,5 %"
+              "label": "Burkina Faso (2024)",
+              "values": [
+                78.5,
+                0,
+                21.5
+              ],
+              "labels": [
+                "78,5 %",
+                "",
+                "21,5 %"
+              ]
             },
             {
-              "label": "Niger : pétrole brut (2024)",
-              "value": 56.9,
-              "valueLabel": "56,9 %"
-            },
-            {
-              "label": "Niger : uranium (2024)",
-              "value": 3.5,
-              "valueLabel": "3,5 %"
+              "label": "Niger (2024)",
+              "values": [
+                56.9,
+                3.5,
+                39.6
+              ],
+              "labels": [
+                "56,9 %",
+                "3,5 %",
+                "39,6 %"
+              ]
             }
           ],
           "note": "Source : Banque de France, rapports annuels de la zone franc, fiches pays UEMOA [Burkina Faso 2024](https://www.banque-france.fr/system/files/2025-11/CMAF_UEMOA_Burkina2024.pdf), [Niger 2024](https://www.banque-france.fr/system/files/2025-11/CMAF_UEMOA_Niger2024.pdf) et [Mali 2023](https://www.banque-france.fr/system/files/2024-11/CMAF_UEMOA_Mali_2023.pdf) ; parts calculées à partir des balances des paiements."
@@ -2832,10 +2810,10 @@ const BULLETINS_FR = [
         ],
         "figure": {
           "after": 3,
-          "kind": "pairs",
+          "kind": "slope",
           "unit": "%",
-          "labelWidth": 170,
-          "title": "Croissance du PIB réel (%)",
+          "labelWidth": 130,
+          "title": "Croissance du PIB réel : estimation 2025 et projection 2026 du FMI (%)",
           "legend": [
             "2025 (estimation)",
             "2026 (projection)"
@@ -2956,10 +2934,10 @@ const BULLETINS_FR = [
         "figures": [
           {
             "after": 1,
-            "kind": "pairs",
+            "kind": "slope",
             "unit": "Md$",
-            "labelWidth": 230,
-            "title": "Commerce de marchandises entre la Chine et l'Afrique (milliards de dollars)",
+            "labelWidth": 210,
+            "title": "Les exportations chinoises vers l'Afrique bondissent et le déficit africain s'élargit (milliards de dollars)",
             "legend": [
               "2024",
               "2025"
@@ -2970,57 +2948,69 @@ const BULLETINS_FR = [
                 "a": 178.9,
                 "b": 225,
                 "aLabel": "178,9",
-                "bLabel": "225,0"
+                "bLabel": "225,0",
+                "hi": false
               },
               {
                 "label": "Importations chinoises depuis l'Afrique",
                 "a": 116.7,
                 "b": 123,
                 "aLabel": "116,7",
-                "bLabel": "123,0"
+                "bLabel": "123,0",
+                "hi": false
               },
               {
                 "label": "Déficit africain",
                 "a": 62,
                 "b": 102,
                 "aLabel": "62,0",
-                "bLabel": "102,0"
+                "bLabel": "102,0",
+                "hi": true
               }
             ],
             "note": "Source : administration générale des douanes de Chine, données publiées le 21 janvier 2026, reprises par [Ecofin](https://www.ecofinagency.com/news/2301-52198-africa-s-trade-gap-with-china-hits-record-102b-even-as-beijing-expands-duty-free-access) ; valeurs 2024 déduites des taux de croissance publiés."
           },
           {
             "after": 2,
-            "kind": "bars",
+            "kind": "stacked",
             "unit": "%",
-            "labelWidth": 250,
-            "title": "Composition des exportations africaines vers la Chine, 2019-2023 (part du total)",
+            "labelWidth": 110,
+            "title": "Combustibles et minerais représentent 60 % des exportations africaines vers la Chine (2019-2023, % du total)",
+            "legend": [
+              "Combustibles minéraux et pétrole",
+              "Minerais, scories et cendres",
+              "Pierres et métaux précieux",
+              "Cuivre et ouvrages en cuivre",
+              "Autres métaux communs (dont cobalt)",
+              "Autres produits"
+            ],
+            "tones": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e",
+              "f"
+            ],
             "items": [
               {
-                "label": "Combustibles minéraux et pétrole",
-                "value": 39,
-                "valueLabel": "39,0 %"
-              },
-              {
-                "label": "Minerais, scories et cendres",
-                "value": 21.2,
-                "valueLabel": "21,2 %",
-                "hi": true
-              },
-              {
-                "label": "Pierres et métaux précieux",
-                "value": 13.6,
-                "valueLabel": "13,6 %"
-              },
-              {
-                "label": "Cuivre et ouvrages en cuivre",
-                "value": 11.2,
-                "valueLabel": "11,2 %"
-              },
-              {
-                "label": "Autres métaux communs (dont cobalt)",
-                "value": 3.4,
-                "valueLabel": "3,4 %"
+                "label": "2019-2023",
+                "values": [
+                  39,
+                  21.2,
+                  13.6,
+                  11.2,
+                  3.4,
+                  11.6
+                ],
+                "labels": [
+                  "39 %",
+                  "21,2 %",
+                  "13,6 %",
+                  "11,2 %",
+                  "3,4 %",
+                  "11,6 %"
+                ]
               }
             ],
             "note": "Source : [Development Reimagined, Africa-China Cooperation on Critical Minerals, novembre 2024](https://developmentreimagined.com/wp-content/uploads/2024/11/Africa-China-Cooperation-on-Critical-Minerals-15Nov-FINAL.pdf), d'après UN Comtrade (chapitres du Système harmonisé)."
@@ -3382,32 +3372,40 @@ const BULLETINS_EN = [
       "heading": "Siguiri: artisanal gold, the linchpin of the scheme",
       "figure": {
         "after": 0,
-        "kind": "bars",
-        "unit": "t",
-        "labelWidth": 230,
-        "title": "Guinea's gold exports by origin (tonnes)",
+        "kind": "stacked",
+        "percent": true,
+        "labelWidth": 150,
+        "title": "Artisanal gold supplies more than two-thirds of Guinea's gold exports (tonnes and share of total)",
+        "legend": [
+          "Artisanal gold",
+          "Industrial gold"
+        ],
+        "tones": [
+          "c",
+          "a"
+        ],
         "items": [
           {
-            "label": "2025, artisanal gold",
-            "value": 49.6,
-            "valueLabel": "49.6 t",
-            "hi": true
+            "label": "2025",
+            "values": [
+              49.6,
+              22.52
+            ],
+            "labels": [
+              "49.6 t (69%)",
+              "22.5 t (31%)"
+            ]
           },
           {
-            "label": "2025, industrial gold",
-            "value": 22.52,
-            "valueLabel": "22.5 t"
-          },
-          {
-            "label": "H1 2026, artisanal gold",
-            "value": 29.23,
-            "valueLabel": "29.2 t",
-            "hi": true
-          },
-          {
-            "label": "H1 2026, industrial gold",
-            "value": 11.05,
-            "valueLabel": "11.1 t"
+            "label": "H1 2026",
+            "values": [
+              29.23,
+              11.05
+            ],
+            "labels": [
+              "29.2 t (73%)",
+              "11.1 t (27%)"
+            ]
           }
         ],
         "note": "Source: Guinean Ministry of Mines and Geology, via [Le360 Afrique](https://afrique.le360.ma/economie/guinee-lexportation-de-lor-raffine-soumise-a-de-nouvelles-regles_FJZTIOECJJETZK6VWRRG2LIADI/) (with MAP), 3 October 2026. Industrial gold calculated as the difference between the total (72.12 t in 2025, 40.28 t in H1 2026) and artisanal gold."
@@ -3754,26 +3752,6 @@ const BULLETINS_EN = [
           "23 of the African Union's 55 member states are not rated by any of the three major agencies"
         ]
       },
-      "figure": {
-        "after": 0,
-        "kind": "bars",
-        "labelWidth": 120,
-        "title": "Africa's annual external debt service (billions of dollars)",
-        "items": [
-          {
-            "label": "2010",
-            "value": 61,
-            "valueLabel": "$61bn"
-          },
-          {
-            "label": "2024",
-            "value": 163,
-            "valueLabel": "$163bn",
-            "hi": true
-          }
-        ],
-        "note": "Source: African Union figures cited at the AfCRA launch, as reported by [TimesLive](https://www.timeslive.co.za/news/south-africa/2026-10-08-africas-new-ratings-agency-a-challenge-to-moodys-and-fitch/), 8 October 2026."
-      },
       "paragraphs": [
         "The rating agency's problem has less to do with network effects than with information, the subject of a long-standing grievance: African governments have long accused the three major agencies, S&P Global Ratings, Moody's and Fitch Ratings, of adding a “prejudice premium” to the cost of their debt; the agencies reject any bias and say they apply the same methods everywhere, as the South African daily [TimesLive](https://www.timeslive.co.za/news/south-africa/2026-10-08-africas-new-ratings-agency-a-challenge-to-moodys-and-fitch/) noted the day after AfCRA's launch. In April 2023 the [United Nations Development Programme](https://www.undp.org/fr/communiques/des-notations-de-credit-plus-objectives-pourraient-faire-economiser-des-milliards-pour-le-developpement-en-afrique) estimated that ratings based on less subjective assessments could save African countries up to $74.5 billion. The fiscal stakes have grown since: according to the African Union, the continent's annual external debt service rose from $61 billion in 2010 to $163 billion in 2024, and 23 of its 55 member states are not rated by any of the three major agencies.",
         "A rating is worth something only if lenders believe it, and the American economist George Akerlof, winner of the 2001 Nobel prize in economics, showed as early as 1970, in an article on the used-car market, that a market in which buyers cannot judge the quality of what they are sold tends to shrink for lack of a credible signal[^4]. A rating agency sells precisely such a signal, and its credibility is built over years of ratings tested against the defaults that actually occur. The AfCRA therefore starts with a handicap that its creation cannot remove: it has no track record. The African Union Commission chairperson acknowledged as much at the launch, warning that “a rating agency will certainly not significantly reduce the cost of capital in the near future” and that broader reforms of global markets were still needed.",
@@ -4072,25 +4050,24 @@ const BULLETINS_EN = [
         ],
         "figure": {
           "after": 2,
-          "kind": "bars",
-          "labelWidth": 120,
-          "title": "People expelled from Algeria to Niger (Assamaka)",
-          "items": [
+          "kind": "line",
+          "yMin": 0,
+          "labelAll": true,
+          "title": "Expulsions from Algeria to Niger rise every year (people sent back to Assamaka)",
+          "x": [
+            2023,
+            2024,
+            2025
+          ],
+          "series": [
             {
-              "label": "2023",
-              "value": 26031,
-              "valueLabel": "26,031"
-            },
-            {
-              "label": "2024",
-              "value": 31404,
-              "valueLabel": "31,404"
-            },
-            {
-              "label": "2025",
-              "value": 34236,
-              "valueLabel": "34,236",
-              "hi": true
+              "name": "People expelled",
+              "values": [
+                26031,
+                31404,
+                34236
+              ],
+              "tone": "a"
             }
           ],
           "note": "Source: [Alarme Phone Sahara](https://alarmephonesahara.info/fr/news/assamaka-niger-more-than-34-000-people-deported-from-algeria-to-niger-in-2025), count of official and unofficial convoys, December 2025; AFP, January 2025 (2023 and 2024)."
@@ -4170,21 +4147,26 @@ const BULLETINS_EN = [
         ],
         "figure": {
           "after": 3,
-          "kind": "bars",
+          "kind": "dots",
+          "min": 0,
+          "max": 55,
           "labelWidth": 230,
-          "title": "African heads of state or government attending the main “Africa+1” summits",
+          "title": "Moscow 2026 drew fewer leaders than Sochi or FOCAC (African heads of state or government attending)",
           "items": [
             {
               "label": "FOCAC, Beijing, 2024",
-              "value": 51
+              "value": 51,
+              "hi": false
             },
             {
               "label": "Russia-Africa, Sochi, 2019",
-              "value": 43
+              "value": 43,
+              "hi": false
             },
             {
               "label": "TICAD 9, Yokohama, 2025",
-              "value": 33
+              "value": 33,
+              "hi": false
             },
             {
               "label": "Russia-Africa, Moscow, 2026",
@@ -4193,7 +4175,8 @@ const BULLETINS_EN = [
             },
             {
               "label": "Russia-Africa, St Petersburg, 2023",
-              "value": 17
+              "value": 17,
+              "hi": false
             }
           ],
           "note": "Sources: APRI (FOCAC 2024); Brookings (Sochi 2019); Japanese Ministry of Foreign Affairs (TICAD 9); Kremlin (Moscow 2026); Chatham House (St Petersburg 2023)."
@@ -4681,10 +4664,10 @@ const BULLETINS_EN = [
         ],
         "figure": {
           "after": 1,
-          "kind": "pairs",
+          "kind": "slope",
           "unit": "Md$",
-          "labelWidth": 170,
-          "title": "Trade of AES countries with the West African bloc ($ billion)",
+          "labelWidth": 130,
+          "title": "After leaving ECOWAS, AES countries' trade with the bloc rose ($ billion)",
           "legend": [
             "2024",
             "2025"
@@ -4727,27 +4710,6 @@ const BULLETINS_EN = [
             "after": 0,
             "kind": "map-westafrica",
             "title": "ECOWAS, the AES and the corridors to the ports (interactive map)"
-          },
-          {
-            "after": 3,
-            "kind": "bars",
-            "unit": "Md FCFA",
-            "labelWidth": 200,
-            "title": "Direct oil revenue of the Nigerien state",
-            "items": [
-              {
-                "label": "2024",
-                "value": 224,
-                "valueLabel": "CFAF 224 billion"
-              },
-              {
-                "label": "2025",
-                "value": 453.8,
-                "valueLabel": "CFAF 453.8 billion",
-                "hi": true
-              }
-            ],
-            "note": "Source: Hamadou Tini, Niger's petroleum minister, interview with RTN on June 11, 2026, reported by [Sika Finance](https://www.sikafinance.com/marches/niger-les-recettes-petrolieres-ont-plus-que-double-atteignant-plus-de-453-milliards-fcfa-en-2025_62255), June 13, 2026. 2024 was the first year of operation of the export pipeline."
           }
         ]
       },
@@ -4968,34 +4930,6 @@ const BULLETINS_EN = [
               }
             ],
             "note": "Sources: Eurostat, 2025 data, converted at an average rate of about $1.13 per euro; Chinese customs, via [NTU Centre for African Studies, January 30, 2026](https://www.ntu.edu.sg/cas/news-events/news/detail/china-africa-trade-hits-record-us-348bn-as-deficit-balloons); [US Census Bureau](https://www.census.gov/foreign-trade/balance/c0013.html)."
-          },
-          {
-            "after": 1,
-            "kind": "pairs",
-            "unit": "$bn",
-            "labelWidth": 230,
-            "title": "China-Africa trade: Chinese exports and Chinese imports from Africa (billions of dollars)",
-            "legend": [
-              "2024",
-              "2025"
-            ],
-            "items": [
-              {
-                "label": "Chinese exports to Africa",
-                "a": 178.9,
-                "b": 225,
-                "aLabel": "178.9",
-                "bLabel": "225.0"
-              },
-              {
-                "label": "Chinese imports from Africa",
-                "a": 116.7,
-                "b": 123,
-                "aLabel": "116.7",
-                "bLabel": "123.0"
-              }
-            ],
-            "note": "Source: Chinese customs, via [NTU Centre for African Studies, January 30, 2026](https://www.ntu.edu.sg/cas/news-events/news/detail/china-africa-trade-hits-record-us-348bn-as-deficit-balloons). 2024 values derived from the published growth rates (+25.8% and +5.4%)."
           }
         ],
         "factbox": {
@@ -5732,25 +5666,30 @@ const BULLETINS_EN = [
         ],
         "figure": {
           "after": 1,
-          "kind": "bars",
+          "kind": "dots",
           "unit": "%",
-          "labelWidth": 200,
-          "title": "Share of merchandise exports remaining within the region of origin, 2022",
+          "min": 0,
+          "max": 80,
+          "labelWidth": 150,
+          "title": "Africa trades four to five times less with itself than Europe or Asia do (share of exports staying in the region, 2022, %)",
           "items": [
             {
               "label": "Europe",
               "value": 68.9,
-              "valueLabel": "68.9%"
+              "valueLabel": "68.9%",
+              "hi": false
             },
             {
               "label": "Asia",
               "value": 56.1,
-              "valueLabel": "56.1%"
+              "valueLabel": "56.1%",
+              "hi": false
             },
             {
               "label": "North America",
               "value": 30.6,
-              "valueLabel": "30.6%"
+              "valueLabel": "30.6%",
+              "hi": false
             },
             {
               "label": "Africa",
@@ -5896,31 +5835,60 @@ const BULLETINS_EN = [
         ],
         "figure": {
           "after": 1,
-          "kind": "bars",
+          "kind": "stacked",
           "unit": "%",
-          "labelWidth": 230,
-          "title": "Share of the leading commodity in goods exports",
+          "percent": true,
+          "labelWidth": 150,
+          "title": "A single commodity dominates the exports of each of the three AES countries (% of goods exports)",
+          "legend": [
+            "Gold (Mali, Burkina Faso) or crude oil (Niger)",
+            "Uranium",
+            "Other goods"
+          ],
+          "tones": [
+            "a",
+            "e",
+            "d"
+          ],
           "items": [
             {
-              "label": "Mali: gold (2023)",
-              "value": 85.5,
-              "valueLabel": "85.5%",
-              "hi": true
+              "label": "Mali (2023)",
+              "values": [
+                85.5,
+                0,
+                14.5
+              ],
+              "labels": [
+                "85.5%",
+                "",
+                "14.5%"
+              ]
             },
             {
-              "label": "Burkina Faso: gold (2024)",
-              "value": 78.5,
-              "valueLabel": "78.5%"
+              "label": "Burkina Faso (2024)",
+              "values": [
+                78.5,
+                0,
+                21.5
+              ],
+              "labels": [
+                "78.5%",
+                "",
+                "21.5%"
+              ]
             },
             {
-              "label": "Niger: crude oil (2024)",
-              "value": 56.9,
-              "valueLabel": "56.9%"
-            },
-            {
-              "label": "Niger: uranium (2024)",
-              "value": 3.5,
-              "valueLabel": "3.5%"
+              "label": "Niger (2024)",
+              "values": [
+                56.9,
+                3.5,
+                39.6
+              ],
+              "labels": [
+                "56.9%",
+                "3.5%",
+                "39.6%"
+              ]
             }
           ],
           "note": "Source: Banque de France, annual reports on the franc zone, WAEMU country profiles [Burkina Faso 2024](https://www.banque-france.fr/system/files/2025-11/CMAF_UEMOA_Burkina2024.pdf), [Niger 2024](https://www.banque-france.fr/system/files/2025-11/CMAF_UEMOA_Niger2024.pdf) and [Mali 2023](https://www.banque-france.fr/system/files/2024-11/CMAF_UEMOA_Mali_2023.pdf); shares calculated from balance-of-payments data."
@@ -6112,10 +6080,10 @@ const BULLETINS_EN = [
         ],
         "figure": {
           "after": 3,
-          "kind": "pairs",
+          "kind": "slope",
           "unit": "%",
-          "labelWidth": 170,
-          "title": "Real GDP growth (%)",
+          "labelWidth": 130,
+          "title": "Real GDP growth: IMF 2025 estimate and 2026 projection (%)",
           "legend": [
             "2025 (estimate)",
             "2026 (projection)"
@@ -6236,10 +6204,10 @@ const BULLETINS_EN = [
         "figures": [
           {
             "after": 1,
-            "kind": "pairs",
+            "kind": "slope",
             "unit": "Md$",
-            "labelWidth": 230,
-            "title": "Merchandise trade between China and Africa ($ billion)",
+            "labelWidth": 210,
+            "title": "Chinese exports to Africa surge and Africa's deficit widens ($ billion)",
             "legend": [
               "2024",
               "2025"
@@ -6250,57 +6218,69 @@ const BULLETINS_EN = [
                 "a": 178.9,
                 "b": 225,
                 "aLabel": "178.9",
-                "bLabel": "225.0"
+                "bLabel": "225.0",
+                "hi": false
               },
               {
                 "label": "Chinese imports from Africa",
                 "a": 116.7,
                 "b": 123,
                 "aLabel": "116.7",
-                "bLabel": "123.0"
+                "bLabel": "123.0",
+                "hi": false
               },
               {
                 "label": "African deficit",
                 "a": 62,
                 "b": 102,
                 "aLabel": "62.0",
-                "bLabel": "102.0"
+                "bLabel": "102.0",
+                "hi": true
               }
             ],
             "note": "Source: General Administration of Customs of China, data released on January 21, 2026, as reported by [Ecofin](https://www.ecofinagency.com/news/2301-52198-africa-s-trade-gap-with-china-hits-record-102b-even-as-beijing-expands-duty-free-access); 2024 values derived from the published growth rates."
           },
           {
             "after": 2,
-            "kind": "bars",
+            "kind": "stacked",
             "unit": "%",
-            "labelWidth": 250,
-            "title": "Composition of African exports to China, 2019-2023 (share of total)",
+            "labelWidth": 110,
+            "title": "Fuels and ores make up 60% of African exports to China (2019-2023, % of total)",
+            "legend": [
+              "Mineral fuels and oil",
+              "Ores, slag and ash",
+              "Precious stones and metals",
+              "Copper and articles thereof",
+              "Other base metals (incl. cobalt)",
+              "Other products"
+            ],
+            "tones": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e",
+              "f"
+            ],
             "items": [
               {
-                "label": "Mineral fuels and oil",
-                "value": 39,
-                "valueLabel": "39.0%"
-              },
-              {
-                "label": "Ores, slag and ash",
-                "value": 21.2,
-                "valueLabel": "21.2%",
-                "hi": true
-              },
-              {
-                "label": "Precious stones and metals",
-                "value": 13.6,
-                "valueLabel": "13.6%"
-              },
-              {
-                "label": "Copper and articles thereof",
-                "value": 11.2,
-                "valueLabel": "11.2%"
-              },
-              {
-                "label": "Other base metals (incl. cobalt)",
-                "value": 3.4,
-                "valueLabel": "3.4%"
+                "label": "2019-2023",
+                "values": [
+                  39,
+                  21.2,
+                  13.6,
+                  11.2,
+                  3.4,
+                  11.6
+                ],
+                "labels": [
+                  "39%",
+                  "21.2%",
+                  "13.6%",
+                  "11.2%",
+                  "3.4%",
+                  "11.6%"
+                ]
               }
             ],
             "note": "Source: [Development Reimagined, Africa-China Cooperation on Critical Minerals, November 2024](https://developmentreimagined.com/wp-content/uploads/2024/11/Africa-China-Cooperation-on-Critical-Minerals-15Nov-FINAL.pdf), based on UN Comtrade (Harmonized System chapters)."

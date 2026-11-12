@@ -102,32 +102,40 @@ export const BULLETINS_ZH = [
       "heading": "锡吉里：手工黄金是整个机制的关键",
       "figure": {
         "after": 0,
-        "kind": "bars",
-        "unit": "t",
-        "labelWidth": 230,
-        "title": "几内亚黄金出口按来源划分（吨）",
+        "kind": "stacked",
+        "percent": true,
+        "labelWidth": 150,
+        "title": "手工黄金占几内亚黄金出口的三分之二以上（吨及占比）",
+        "legend": [
+          "手工黄金",
+          "工业黄金"
+        ],
+        "tones": [
+          "c",
+          "a"
+        ],
         "items": [
           {
-            "label": "2025年，手工黄金",
-            "value": 49.6,
-            "valueLabel": "49.6吨",
-            "hi": true
+            "label": "2025年",
+            "values": [
+              49.6,
+              22.52
+            ],
+            "labels": [
+              "49.6 吨 (69%)",
+              "22.5 吨 (31%)"
+            ]
           },
           {
-            "label": "2025年，工业黄金",
-            "value": 22.52,
-            "valueLabel": "22.5吨"
-          },
-          {
-            "label": "2026年上半年，手工黄金",
-            "value": 29.23,
-            "valueLabel": "29.2吨",
-            "hi": true
-          },
-          {
-            "label": "2026年上半年，工业黄金",
-            "value": 11.05,
-            "valueLabel": "11.1吨"
+            "label": "2026年上半年",
+            "values": [
+              29.23,
+              11.05
+            ],
+            "labels": [
+              "29.2 吨 (73%)",
+              "11.1 吨 (27%)"
+            ]
           }
         ],
         "note": "来源：几内亚矿业和地质部，据[Le360 Afrique](https://afrique.le360.ma/economie/guinee-lexportation-de-lor-raffine-soumise-a-de-nouvelles-regles_FJZTIOECJJETZK6VWRRG2LIADI/)（与摩洛哥通讯社合作），2026年10月3日。工业黄金为总量（2025年72.12吨，2026年上半年40.28吨）减去手工黄金后的差额。"
@@ -474,26 +482,6 @@ export const BULLETINS_ZH = [
           "非洲联盟55个成员国中有23个未获得三大评级机构中任何一家的评级"
         ]
       },
-      "figure": {
-        "after": 0,
-        "kind": "bars",
-        "labelWidth": 120,
-        "title": "非洲每年外债偿付额（十亿美元）",
-        "items": [
-          {
-            "label": "2010",
-            "value": 61,
-            "valueLabel": "610亿美元"
-          },
-          {
-            "label": "2024",
-            "value": 163,
-            "valueLabel": "1630亿美元",
-            "hi": true
-          }
-        ],
-        "note": "来源：非洲联盟在AfCRA成立仪式上引用的数据，据[TimesLive](https://www.timeslive.co.za/news/south-africa/2026-10-08-africas-new-ratings-agency-a-challenge-to-moodys-and-fitch/)2026年10月8日报道。"
-      },
       "paragraphs": [
         "评级机构面临的问题与网络效应关系不大，而与信息有关，这也是一项由来已久的不满所在：非洲各国政府多年来一直指责三大评级机构，即标普全球评级、穆迪和惠誉，在其债务成本上附加了“偏见溢价”；这些机构否认存在任何偏见，并表示在全球范围内采用相同的方法，南非日报[TimesLive](https://www.timeslive.co.za/news/south-africa/2026-10-08-africas-new-ratings-agency-a-challenge-to-moodys-and-fitch/)在AfCRA成立次日也提到了这一点。[联合国开发计划署](https://www.undp.org/fr/communiques/des-notations-de-credit-plus-objectives-pourraient-faire-economiser-des-milliards-pour-le-developpement-en-afrique)2023年4月估计，如果评级基于更少主观性的评估，非洲国家可节省多达745亿美元。此后财政压力进一步加大：据非洲联盟统计，非洲大陆每年的外债偿付额从2010年的610亿美元增至2024年的1630亿美元，55个成员国中有23个未获得三大评级机构中任何一家的评级。",
         "评级只有在贷款人相信时才有价值，美国经济学家、2001年诺贝尔经济学奖得主乔治·阿克洛夫（George Akerlof）早在1970年一篇关于二手车市场的文章中就指出，在买方无法判断所购商品质量的市场中，由于缺乏可信的信号，市场往往会萎缩[^4]。评级机构出售的恰恰是这样一种信号，其公信力要靠多年来评级与实际发生的违约相互印证才能建立。因此，AfCRA一开始就面临一个无法靠成立本身消除的劣势：它没有历史记录。非洲联盟委员会主席在成立仪式上也承认了这一点，他提醒说，一家评级机构“在近期内肯定不会显著降低资本成本”，全球市场仍需要更广泛的改革。",
@@ -792,25 +780,24 @@ export const BULLETINS_ZH = [
         ],
         "figure": {
           "after": 2,
-          "kind": "bars",
-          "labelWidth": 120,
-          "title": "从阿尔及利亚遣返至尼日尔（阿萨马卡）的人数",
-          "items": [
+          "kind": "line",
+          "yMin": 0,
+          "labelAll": true,
+          "title": "从阿尔及利亚遣返至尼日尔的人数逐年上升（遣返至阿萨马卡的人数）",
+          "x": [
+            2023,
+            2024,
+            2025
+          ],
+          "series": [
             {
-              "label": "2023",
-              "value": 26031,
-              "valueLabel": "26031"
-            },
-            {
-              "label": "2024",
-              "value": 31404,
-              "valueLabel": "31404"
-            },
-            {
-              "label": "2025",
-              "value": 34236,
-              "valueLabel": "34236",
-              "hi": true
+              "name": "被遣返人数",
+              "values": [
+                26031,
+                31404,
+                34236
+              ],
+              "tone": "a"
             }
           ],
           "note": "资料来源：[撒哈拉警报电话（Alarme Phone Sahara）](https://alarmephonesahara.info/fr/news/assamaka-niger-more-than-34-000-people-deported-from-algeria-to-niger-in-2025)，对官方及非官方车队的统计，2025年12月；法新社，2025年1月（2023年和2024年数据）。"
@@ -890,21 +877,26 @@ export const BULLETINS_ZH = [
         ],
         "figure": {
           "after": 3,
-          "kind": "bars",
-          "labelWidth": 230,
-          "title": "主要“非洲+1”峰会出席的非洲国家元首或政府首脑人数",
+          "kind": "dots",
+          "min": 0,
+          "max": 55,
+          "labelWidth": 250,
+          "title": "2026年莫斯科峰会出席的元首少于索契峰会和中非合作论坛（出席的非洲国家元首或政府首脑人数）",
           "items": [
             {
               "label": "中非合作论坛，北京，2024年",
-              "value": 51
+              "value": 51,
+              "hi": false
             },
             {
               "label": "俄非峰会，索契，2019年",
-              "value": 43
+              "value": 43,
+              "hi": false
             },
             {
               "label": "第九届东京非洲发展国际会议，横滨，2025年",
-              "value": 33
+              "value": 33,
+              "hi": false
             },
             {
               "label": "俄非峰会，莫斯科，2026年",
@@ -913,7 +905,8 @@ export const BULLETINS_ZH = [
             },
             {
               "label": "俄非峰会，圣彼得堡，2023年",
-              "value": 17
+              "value": 17,
+              "hi": false
             }
           ],
           "note": "资料来源：非洲政策研究所（中非合作论坛2024）；布鲁金斯学会（索契2019）；日本外务省（TICAD 9）；克里姆林宫（莫斯科2026）；查塔姆研究所（圣彼得堡2023）。"
@@ -1401,10 +1394,10 @@ export const BULLETINS_ZH = [
         ],
         "figure": {
           "after": 1,
-          "kind": "pairs",
+          "kind": "slope",
           "unit": "十亿美元",
-          "labelWidth": 170,
-          "title": "萨赫勒国家联盟国家与西非区域集团的贸易额（十亿美元）",
+          "labelWidth": 130,
+          "title": "退出西共体后，萨赫勒国家联盟各国与该区域集团的贸易反而增长（十亿美元）",
           "legend": [
             "2024",
             "2025"
@@ -1447,27 +1440,6 @@ export const BULLETINS_ZH = [
             "after": 0,
             "kind": "map-westafrica",
             "title": "西共体、萨赫勒国家联盟及通往港口的走廊（交互式地图）"
-          },
-          {
-            "after": 3,
-            "kind": "bars",
-            "unit": "十亿非洲法郎",
-            "labelWidth": 200,
-            "title": "尼日尔国家直接石油收入",
-            "items": [
-              {
-                "label": "2024",
-                "value": 224,
-                "valueLabel": "2,240亿非洲法郎"
-              },
-              {
-                "label": "2025",
-                "value": 453.8,
-                "valueLabel": "4,538亿非洲法郎",
-                "hi": true
-              }
-            ],
-            "note": "资料来源：尼日尔石油部长阿马杜·蒂尼2026年6月11日接受尼日尔国家广播电视台（RTN）采访，[Sika Finance](https://www.sikafinance.com/marches/niger-les-recettes-petrolieres-ont-plus-que-double-atteignant-plus-de-453-milliards-fcfa-en-2025_62255)于2026年6月13日转载。2024年为出口输油管道运营的第一年。"
           }
         ]
       },
@@ -1688,34 +1660,6 @@ export const BULLETINS_ZH = [
               }
             ],
             "note": "资料来源：欧盟统计局2025年数据，按约1.13美元兑1欧元的平均汇率换算；中国海关，转引自[南洋理工大学非洲研究中心，2026年1月30日](https://www.ntu.edu.sg/cas/news-events/news/detail/china-africa-trade-hits-record-us-348bn-as-deficit-balloons)；[美国人口普查局](https://www.census.gov/foreign-trade/balance/c0013.html)。"
-          },
-          {
-            "after": 1,
-            "kind": "pairs",
-            "unit": "十亿美元",
-            "labelWidth": 230,
-            "title": "中非贸易：中国对非出口与中国自非进口（十亿美元）",
-            "legend": [
-              "2024",
-              "2025"
-            ],
-            "items": [
-              {
-                "label": "中国对非出口",
-                "a": 178.9,
-                "b": 225,
-                "aLabel": "178.9",
-                "bLabel": "225.0"
-              },
-              {
-                "label": "中国自非进口",
-                "a": 116.7,
-                "b": 123,
-                "aLabel": "116.7",
-                "bLabel": "123.0"
-              }
-            ],
-            "note": "资料来源：中国海关，转引自[南洋理工大学非洲研究中心，2026年1月30日](https://www.ntu.edu.sg/cas/news-events/news/detail/china-africa-trade-hits-record-us-348bn-as-deficit-balloons)。2024年数值根据公布的增长率（+25.8%和+5.4%）推算。"
           }
         ],
         "factbox": {
@@ -2452,25 +2396,30 @@ export const BULLETINS_ZH = [
         ],
         "figure": {
           "after": 1,
-          "kind": "bars",
+          "kind": "dots",
           "unit": "%",
-          "labelWidth": 200,
-          "title": "2022年留在本区域内的商品出口占比",
+          "min": 0,
+          "max": 80,
+          "labelWidth": 150,
+          "title": "非洲区域内贸易比重仅为欧洲或亚洲的四分之一到五分之一（2022年留在本区域内的出口占比，%）",
           "items": [
             {
               "label": "欧洲",
               "value": 68.9,
-              "valueLabel": "68.9%"
+              "valueLabel": "68.9%",
+              "hi": false
             },
             {
               "label": "亚洲",
               "value": 56.1,
-              "valueLabel": "56.1%"
+              "valueLabel": "56.1%",
+              "hi": false
             },
             {
               "label": "北美",
               "value": 30.6,
-              "valueLabel": "30.6%"
+              "valueLabel": "30.6%",
+              "hi": false
             },
             {
               "label": "非洲",
@@ -2616,31 +2565,60 @@ export const BULLETINS_ZH = [
         ],
         "figure": {
           "after": 1,
-          "kind": "bars",
+          "kind": "stacked",
           "unit": "%",
-          "labelWidth": 230,
-          "title": "主要商品占货物出口的比重",
+          "percent": true,
+          "labelWidth": 150,
+          "title": "萨赫勒国家联盟三国的出口均由单一商品主导（占货物出口的百分比）",
+          "legend": [
+            "黄金（马里、布基纳法索）或原油（尼日尔）",
+            "铀",
+            "其他商品"
+          ],
+          "tones": [
+            "a",
+            "e",
+            "d"
+          ],
           "items": [
             {
-              "label": "马里：黄金（2023年）",
-              "value": 85.5,
-              "valueLabel": "85.5%",
-              "hi": true
+              "label": "马里（2023年）",
+              "values": [
+                85.5,
+                0,
+                14.5
+              ],
+              "labels": [
+                "85.5%",
+                "",
+                "14.5%"
+              ]
             },
             {
-              "label": "布基纳法索：黄金（2024年）",
-              "value": 78.5,
-              "valueLabel": "78.5%"
+              "label": "布基纳法索（2024年）",
+              "values": [
+                78.5,
+                0,
+                21.5
+              ],
+              "labels": [
+                "78.5%",
+                "",
+                "21.5%"
+              ]
             },
             {
-              "label": "尼日尔：原油（2024年）",
-              "value": 56.9,
-              "valueLabel": "56.9%"
-            },
-            {
-              "label": "尼日尔：铀（2024年）",
-              "value": 3.5,
-              "valueLabel": "3.5%"
+              "label": "尼日尔（2024年）",
+              "values": [
+                56.9,
+                3.5,
+                39.6
+              ],
+              "labels": [
+                "56.9%",
+                "3.5%",
+                "39.6%"
+              ]
             }
           ],
           "note": "资料来源：法兰西银行法郎区年度报告，西非经货联盟国别概况[布基纳法索2024年](https://www.banque-france.fr/system/files/2025-11/CMAF_UEMOA_Burkina2024.pdf)、[尼日尔2024年](https://www.banque-france.fr/system/files/2025-11/CMAF_UEMOA_Niger2024.pdf)和[马里2023年](https://www.banque-france.fr/system/files/2024-11/CMAF_UEMOA_Mali_2023.pdf)；比重根据国际收支数据计算。"
@@ -2832,10 +2810,10 @@ export const BULLETINS_ZH = [
         ],
         "figure": {
           "after": 3,
-          "kind": "pairs",
+          "kind": "slope",
           "unit": "%",
-          "labelWidth": 170,
-          "title": "实际国内生产总值增长率（%）",
+          "labelWidth": 130,
+          "title": "实际国内生产总值增长率：国际货币基金组织2025年估计与2026年预测（%）",
           "legend": [
             "2025年（估计）",
             "2026年（预测）"
@@ -2956,10 +2934,10 @@ export const BULLETINS_ZH = [
         "figures": [
           {
             "after": 1,
-            "kind": "pairs",
+            "kind": "slope",
             "unit": "Md$",
-            "labelWidth": 230,
-            "title": "中非货物贸易（十亿美元）",
+            "labelWidth": 210,
+            "title": "中国对非出口大幅增长，非洲逆差扩大（十亿美元）",
             "legend": [
               "2024",
               "2025"
@@ -2970,57 +2948,69 @@ export const BULLETINS_ZH = [
                 "a": 178.9,
                 "b": 225,
                 "aLabel": "178.9",
-                "bLabel": "225.0"
+                "bLabel": "225.0",
+                "hi": false
               },
               {
                 "label": "中国自非进口",
                 "a": 116.7,
                 "b": 123,
                 "aLabel": "116.7",
-                "bLabel": "123.0"
+                "bLabel": "123.0",
+                "hi": false
               },
               {
                 "label": "非洲逆差",
                 "a": 62,
                 "b": 102,
                 "aLabel": "62.0",
-                "bLabel": "102.0"
+                "bLabel": "102.0",
+                "hi": true
               }
             ],
             "note": "资料来源：中国海关总署，2026年1月21日发布的数据，[Ecofin](https://www.ecofinagency.com/news/2301-52198-africa-s-trade-gap-with-china-hits-record-102b-even-as-beijing-expands-duty-free-access)援引；2024年数值根据公布的增长率推算。"
           },
           {
             "after": 2,
-            "kind": "bars",
+            "kind": "stacked",
             "unit": "%",
-            "labelWidth": 250,
-            "title": "2019至2023年非洲对华出口构成（占总额比重）",
+            "labelWidth": 110,
+            "title": "燃料和矿砂占非洲对华出口的60%（2019至2023年，占总额比重）",
+            "legend": [
+              "矿物燃料和石油",
+              "矿砂、矿渣及矿灰",
+              "宝石和贵金属",
+              "铜及其制品",
+              "其他贱金属（含钴）",
+              "其他产品"
+            ],
+            "tones": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e",
+              "f"
+            ],
             "items": [
               {
-                "label": "矿物燃料和石油",
-                "value": 39,
-                "valueLabel": "39.0%"
-              },
-              {
-                "label": "矿砂、矿渣及矿灰",
-                "value": 21.2,
-                "valueLabel": "21.2%",
-                "hi": true
-              },
-              {
-                "label": "宝石和贵金属",
-                "value": 13.6,
-                "valueLabel": "13.6%"
-              },
-              {
-                "label": "铜及其制品",
-                "value": 11.2,
-                "valueLabel": "11.2%"
-              },
-              {
-                "label": "其他贱金属（含钴）",
-                "value": 3.4,
-                "valueLabel": "3.4%"
+                "label": "2019-2023",
+                "values": [
+                  39,
+                  21.2,
+                  13.6,
+                  11.2,
+                  3.4,
+                  11.6
+                ],
+                "labels": [
+                  "39%",
+                  "21.2%",
+                  "13.6%",
+                  "11.2%",
+                  "3.4%",
+                  "11.6%"
+                ]
               }
             ],
             "note": "资料来源：[Development Reimagined，《中非关键矿产合作》，2024年11月](https://developmentreimagined.com/wp-content/uploads/2024/11/Africa-China-Cooperation-on-Critical-Minerals-15Nov-FINAL.pdf)，依据联合国商品贸易统计数据库（协调制度章节）。"

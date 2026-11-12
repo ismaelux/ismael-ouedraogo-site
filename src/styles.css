@@ -424,3 +424,39 @@ a { color: inherit; }
 .notes li { scroll-margin-top: 90px; }
 .fnback { text-decoration: none; color: var(--indigo); font-size: 13px; margin-left: 2px; }
 .is-flash { background: rgba(196, 140, 40, 0.18); border-radius: 4px; transition: background .6s; }
+
+/* Visualisations complémentaires (courbe, pente, empilé, points, nuage, tableau). */
+.chart2 { --label-w: 170px; }
+.c2-svg { display: block; overflow: visible; font-family: var(--sans); }
+.c2-grid { stroke: var(--rule); stroke-width: 1; }
+.c2-axis { font-size: 12.5px; fill: var(--ink-3); }
+.c2-axis-t { font-size: 12.5px; fill: var(--ink-2); font-weight: 600; }
+.c2-head { font-size: 13px; fill: var(--ink-2); font-weight: 600; }
+.c2-val { font-size: 13.5px; font-weight: 700; }
+.c2-val-s { font-size: 11.5px; fill: var(--ink-2); }
+.c2-val-i { font-weight: 700; }
+.c2-lab { font-size: 13px; fill: var(--ink-2); }
+.c2-lab-s { font-size: 12px; fill: var(--ink-2); }
+.c2-event { stroke: var(--amber); stroke-width: 1.2; stroke-dasharray: 4 3; }
+.c2-event-l { font-size: 11.5px; fill: var(--amber); font-weight: 600; }
+.c2-stack { display: flex; height: 26px; border-radius: 3px; overflow: hidden; background: var(--band); }
+.c2-seg { display: flex; align-items: center; justify-content: center; color: #fff; font-size: 12.5px; font-weight: 600; white-space: nowrap; overflow: hidden; }
+.c2-track { position: relative; height: 22px; margin-right: 64px; }
+.c2-track::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; border-top: 1px solid var(--rule); }
+.c2-stem { position: absolute; left: 0; top: 50%; border-top: 2px solid var(--indigo-soft); }
+.c2-dot { position: absolute; top: 50%; width: 12px; height: 12px; margin: -6px 0 0 -6px; border-radius: 50%; background: var(--indigo); }
+.c2-dot.is-hi { background: var(--amber); }
+.c2-dot-v { position: absolute; top: 50%; transform: translate(10px, -50%); font-size: 13px; font-weight: 600; color: var(--ink); white-space: nowrap; }
+.c2-ref { position: absolute; top: -4px; bottom: -4px; border-left: 2px dashed var(--teal); }
+.c2-ref-l { font-size: 13px !important; color: var(--ink-2); margin-top: 6px !important; }
+.c2-ref-l i { display: inline-block; width: 0; height: 12px; border-left: 2px dashed var(--teal); margin-right: 8px; vertical-align: -1px; }
+.c2-table-wrap { overflow-x: auto; }
+.c2-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.c2-table th { text-align: left; font-weight: 600; color: var(--ink-2); border-bottom: 2px solid var(--indigo); padding: 6px 10px 6px 0; }
+.c2-table td { border-bottom: 1px solid var(--rule); padding: 7px 10px 7px 0; color: var(--ink); vertical-align: top; }
+.c2-table tr.is-hi td { background: var(--amber-soft); }
+@media (max-width: 640px) { .c2-track { margin-right: 56px; } }
+.c2-slope { position: relative; }
+.c2-slope-l { position: absolute; left: 0; transform: translateY(-50%); text-align: right; font-size: 13px; line-height: 1.25; color: var(--ink-2); }
+.reader-body > * { min-width: 0; }
+.chart2 { max-width: 100%; min-width: 0; }

@@ -6,6 +6,7 @@ import { BULLETINS_ZH } from "./bulletins-zh.js";
 import InstallApp, { requestInstall } from "./InstallApp.jsx";
 import { Nutshell, Factbox, Chart, Scenarios, Rich, Notes } from "./AnalysisBlocks.jsx";
 import MapFigure from "./MapFigure.jsx";
+import { FIG2 } from "./Charts2.jsx";
 import SiteSearch, { SEARCH_TXT, norm } from "./SiteSearch.jsx";
 import { Analytics } from "@vercel/analytics/react";
 import { T_ZH, PAPERS_ZH, THEMES_ZH, COURSES_NOW_ZH, COURSES_PAST_ZH, LEADERS_ZH, CITY_ZH, POLE_ZH, CAT_ZH, MONTH_NUM } from "./i18n-zh.js";
@@ -471,6 +472,7 @@ function Reader({ b, lang, t, onClose }) {
               const draw = (f, k) => f.kind === "map-westafrica"
                 ? <div className="figure-map" key={k}>{f.title && <p className="chart-title">{fmtL(f.title)}</p>}<WestAfricaMap t={t} lang={lang} onOpenLatest={null} /></div>
                 : f.kind === "map" ? <MapFigure key={k} fig={f} lang={lang} fmt={fmtL} />
+                : FIG2[f.kind] ? (() => { const C = FIG2[f.kind]; return <C key={k} fig={f} lang={lang} fmt={fmtL} />; })()
                 : <Chart key={k} fig={f} lang={lang} fmt={fmtL} />;
               const figAt = (n) => figs.map((f, k) => ((f.after ?? 1) === n ? draw(f, k) : null));
               return (
