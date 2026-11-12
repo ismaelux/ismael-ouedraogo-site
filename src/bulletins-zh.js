@@ -1,6 +1,280 @@
 // Traductions en chinois simplifié des analyses (catégories en anglais, traduites à l'affichage).
 export const BULLETINS_ZH = [
 {
+  "id": 11,
+  "day": "12",
+  "month": "NOV",
+  "year": "2026",
+  "title": "西非黄金：在本土精炼，以关闭手工金矿为代价",
+  "excerpt": "9月28日布基纳法索、11月1日几内亚：五周之内，两座国家黄金精炼厂相继投产；与此同时，马里正在建设自己的精炼厂，加纳则要求手工开采的合金金锭必须在本国精炼。科纳克里精炼厂落成次日，几内亚禁止在锡吉里地区从事手工采金，数以万计的萨赫勒采金者随即回流马里。向精炼环节攀升究竟能带来什么收益，为何必须以控制手工黄金为前提？",
+  "tags": [
+    "黄金",
+    "精炼",
+    "几内亚",
+    "布基纳法索",
+    "马里",
+    "加纳",
+    "手工采金",
+    "萨赫勒国家联盟"
+  ],
+  "category": "Regional Value Chains",
+  "nutshell": [
+    "几内亚宁巴黄金精炼厂（Nimba Gold Refinery）于2026年11月1日落成，宣称年产能733吨，约为几内亚2025年黄金出口量（72吨）的十倍；布基纳法索精炼厂于9月28日投产，目标产能为515吨",
+    "精炼环节为黄金增加的价值很少：其对国家的吸引力在于可追溯性、税收和外汇储备，而这要求掌控手工黄金，后者约占几内亚黄金出口的70%",
+    "11月2日锡吉里禁止手工采金后，大批劳动者回流马里，马里称已接收约16万人；产能过剩的精炼厂之间的竞争，更可能助长走私，而非推动工业发展"
+  ],
+  "content": [
+    {
+      "heading": null,
+      "paragraphs": [
+        "黄金是少数几种价值几乎与加工无关的商品之一。一根纯度99.5%的金条，其价值仅略高于炼制它的合金金锭（doré），即在矿区浇铸的粗合金：黄金出土之时，其价格几乎已全部体现在金属本身。然而，西非多个国家恰恰选择在精炼这一环节宣示经济主权。几十年来，该地区的黄金以合金金锭形式运往迪拜、瑞士或印度，在那里精炼、认证并转售。各国政府将此视为停留在价值链第一环节的食利经济的标志，并把本国精炼视为摆脱这一处境的途径。",
+        "五周之内，两座精炼厂相继投产。2026年9月28日，布基纳法索总统易卜拉欣·特拉奥雷在瓦加杜古为年产能164吨的Raffinor-BF精炼厂揭幕。11月1日，几内亚总统马马迪·敦布亚在科纳克里为宁巴黄金精炼厂揭幕，其投资方宣布年产能为733吨。马里自2025年6月起在巴马科附近建设本国精炼厂；加纳自2026年9月1日起要求为出口而收购的手工合金金锭必须在本地精炼。11月2日，即科纳克里精炼厂落成次日，几内亚五个部委禁止在该国最大的产金区锡吉里从事手工采金，数以万计的劳动者（其中多为布基纳法索人和马里人）随即回流马里。",
+        "几内亚的这两项决定属于同一政策。它们引出三个问题：向精炼环节攀升究竟能为产金国带来什么；为何必须以控制手工黄金为前提；以及这一战略给那些依靠这些矿床谋生的萨赫勒邻国劳动者带来了什么代价。答案与其说在于精炼技术，不如说在于黄金如何在边境松散的国家之间流动，而这些国家的精炼厂产能普遍过剩，必将争夺同一批合金金锭。"
+      ]
+    },
+    {
+      "heading": "同一理念，十五个月内付诸实施",
+      "factbox": {
+        "title": "要点：精炼厂浪潮",
+        "items": [
+          "2025年6月16日：巴马科附近塞努精炼厂（年产能200吨）开工建设，合作方为俄罗斯Yadran集团",
+          "2026年6月19日：马马迪·敦布亚宣布终止几内亚原金出口",
+          "2026年7月8日：几内亚颁布法令，规定黄金须先在获批精炼厂精炼方可出口，过渡期90天",
+          "2026年9月1日：加纳禁止收购商出口未经精炼的手工合金金锭",
+          "2026年9月28日：Raffinor-BF在瓦加杜古投产（年产能164吨，目标515吨）",
+          "2026年10月2日：几内亚颁布法令，规定精炼黄金的出口程序",
+          "2026年10月9日：宁巴黄金精炼厂完成几内亚本土精炼黄金的首次出口",
+          "2026年11月1日：宁巴黄金精炼厂在科纳克里落成（宣布年产能733吨）",
+          "2026年11月2日：锡吉里地区禁止手工采金"
+        ]
+      },
+      "paragraphs": [
+        "马里率先行动。2025年6月16日，阿西米·戈伊塔将军在巴马科郊区的塞努启动一座年产能200吨的精炼厂建设，该厂由国家控股，与俄罗斯Yadran集团及一家瑞士投资公司合作建设。据[路透社](https://www.kitco.com/news/off-the-wire/2025-06-17/mali-starts-construction-russia-backed-gold-refinery)报道，设计产能接近马里年产量的四倍。这位军政府领导人概括了其理念：自1980年以来，马里黄金一直被运往国外精炼和销售，使国家失去了收入。Yadran集团总裁伊列克·萨利霍夫当时已将该厂描述为未来处理马里及邻国（包括布基纳法索）黄金的区域中心。",
+        "布基纳法索行动更快。据[美联社](https://www.bnnbloomberg.ca/markets/gold/2026/09/29/burkina-faso-opens-its-first-gold-refinery-in-a-push-for-economic-sovereignty/)报道，Raffinor-BF占地五公顷，位于瓦加杜古，耗资逾110亿非洲法郎（约1900万美元），由国家（主要通过国家贵金属公司SONASP）和私人投资者出资。其初始产能为164吨，计划提高到515吨，而据当局数据，该国2025年黄金产量为94吨。特拉奥雷上尉在揭幕时表示：“从今以后，布基纳法索的黄金不仅要在布基纳法索开采，还必须在这里加工。”不属于萨赫勒国家联盟（AES）的加纳也在走类似道路：据[路透社](https://www.businessday.co.za/world/africa/2026-08-25-ghana-bars-unrefined-artisanal-gold-dore-exports-from-september-1/)报道，其黄金委员会GoldBod自9月1日起要求，收购商购买的手工合金金锭须先在国内精炼方可出口。",
+        "几内亚选择了约束力最强的方案。据[Ecofin通讯社](https://clubofmozambique.com/news/guinea-bans-raw-gold-exports-mandates-local-refining-before-shipment/)报道，2026年6月19日，马马迪·敦布亚在工业、半工业和手工采矿经营者面前宣布，几内亚黄金今后须在几内亚熔炼、认证和加工后方可出口。据[Guinéenews](https://guineenews.org/2026/07/08/exportation-de-lor-le-president-doumbouya-impose-le-raffinage-local-obligatoire-prealable/)报道，7月8日的法令规定，经过90天过渡期后，凡未在国家批准的精炼厂精炼的黄金一律禁止出口。据[几内亚新闻社](https://agpguinee.com/guinee-un-decret-encadre-lexportation-de-lor-raffine-et-des-metaux-associes/)详述，10月2日宣读的第二项法令将出口管控交由几内亚黄金鉴定局（OGE）负责：黄金须在海关、反欺诈大队和几内亚共和国中央银行（BCRG）在场的情况下于精炼厂称重和加封，税款按伦敦定盘价计算。首批精炼黄金于10月9日出口。"
+      ]
+    },
+    {
+      "heading": "产能与可供黄金严重脱节",
+      "figure": {
+        "after": 1,
+        "kind": "pairs",
+        "unit": "t",
+        "labelWidth": 150,
+        "title": "精炼厂宣布产能与可供黄金（吨/年）",
+        "legend": [
+          "宣布的精炼产能",
+          "2025年黄金出口量（几内亚）或产量（布基纳法索）"
+        ],
+        "items": [
+          {
+            "label": "几内亚",
+            "a": 733,
+            "b": 72.1,
+            "aLabel": "733",
+            "bLabel": "72"
+          },
+          {
+            "label": "布基纳法索",
+            "a": 164,
+            "b": 94,
+            "aLabel": "164（目标515）",
+            "bLabel": "94"
+          }
+        ],
+        "note": "来源：宁巴黄金精炼厂，据[Mediaguinee](https://mediaguinee.com/2026/11/conakry-doumbouya-inaugure-nimba-gold-refinery-une-raffinerie-dor-de-733-tonnes-par-an)，2026年11月1日；几内亚矿业部，据[Le360 Afrique](https://afrique.le360.ma/economie/guinee-lexportation-de-lor-raffine-soumise-a-de-nouvelles-regles_FJZTIOECJJETZK6VWRRG2LIADI/)，2026年10月3日；布基纳法索总统府及当局，据美联社，2026年9月29日。马里塞努精炼厂（年产能200吨）未列入，因同一来源未公布马里产量的参考数据。"
+      },
+      "paragraphs": [
+        "各国宣布的产能远远超过本国所能供应的黄金。据[Le360 Afrique](https://afrique.le360.ma/economie/guinee-lexportation-de-lor-raffine-soumise-a-de-nouvelles-regles_FJZTIOECJJETZK6VWRRG2LIADI/)公布的几内亚矿业部数据，几内亚2025年出口黄金72.12吨，2026年上半年出口40.28吨。据[Mediaguinee](https://mediaguinee.com/2026/11/conakry-doumbouya-inaugure-nimba-gold-refinery-une-raffinerie-dor-de-733-tonnes-par-an)报道，宁巴黄金精炼厂代表穆萨·马加苏巴在落成仪式上介绍了733吨的产能，这意味着该厂可处理约为全国产量十倍的黄金。布基纳法索以94吨的产量瞄准515吨产能；马里塞努精炼厂的设计产能接近本国产量的四倍。这些产能加总起来，远超整个西非的黄金产量。",
+        "这种产能过剩并非规划失误。精炼厂的固定成本（设备、化验实验室和安保）很高，可变成本很低，其收益取决于处理量。一座按本国产量数倍设计的工厂，只有吸引外来黄金才能实现盈利。Yadran集团总裁2025年提到布基纳法索黄金时就已直言不讳。因此，每个项目都隐含着一个假设，即自己将成为区域中心，而这不可能对所有项目同时成立。三座精炼厂彼此相距不到一千公里，问题就变成了：哪一家将吸纳其他国家的合金金锭，又将通过何种手段。",
+        "出生于德国、后来成为美国发展经济学代表人物的经济学家阿尔伯特·赫希曼，在《The Strategy of Economic Development》（1958年）中提出，应以投资的关联效应来评判投资，即它在上游（供应商）和下游（客户）带动的活动[^1]。他观察到，采掘业产生的关联效应很少，因为矿石未经加工便离开本国，而矿山的设备依赖进口。黄金精炼确实增加了一个下游环节，但这一环节很短：该地区几乎没有能在当地使用金条的珠宝、电子或金融产业。因此，预期的带动效应与其说来自产业，不如说来自国家，因为国家把精炼厂视为全部黄金的必经关卡。"
+      ]
+    },
+    {
+      "heading": "精炼带来什么，又不带来什么",
+      "paragraphs": [
+        "精炼商的利润很薄，因为加工只涉及质量的一小部分：合金金锭本身已含有大部分黄金，精炼主要是去除银和杂质。精炼商收取的是服务费，每盎司几美元，而不是金属的价值，后者仍与伦敦金价挂钩。几内亚的法令也据此作出规定：据[Guinee360](https://www.guinee360.com/04/07/2026/filiere-aurifere-mamadi-doumbouya-interdit-lexportation-de-lor-brut-et-impose-le-raffinage-en-guinee/)报道，收购价格与伦敦金银市场协会（LBMA）价格挂钩，矿业公司保留黄金所有权，精炼厂仅作为服务提供方。因此，几内亚经济的直接收益仅限于精炼费、投资方承诺的技术岗位以及少量配套服务。",
+        "关键在于信息和税收。一座所有黄金都必须经过的国家精炼厂，成为国家在黄金离境前对其称重、化验和登记的场所。几内亚10月出台的框架正是围绕这种可见性设计的：精炼报告须报送OGE、BCRG、海关和国家地质实验室。矿业部长布纳·西拉在落成仪式上补充说，国家计划收购最多30%的工业和半工业黄金产量，以几内亚法郎支付，以充实中央银行的外汇储备。由此，精炼厂实现了在国外精炼时无法实现的三个目标：掌握数量、征收税款和积累黄金储备。",
+        "剩下的是市场准入问题。杜克大学的加里·杰里菲、萨塞克斯大学发展研究所的约翰·汉弗莱和麻省理工学院的蒂莫西·斯特金于2005年指出，一个国家在价值链中的地位取决于价值链的治理方式：当买方设定复杂且难以认证的标准时，新供应商的进入始终由制定标准者掌控[^2]。在黄金领域，这一角色由LBMA承担，其“合格交割”名单决定哪些金条无需重新精炼即可在伦敦市场被接受。据史汀生中心研究员哈菲德·古维尔2026年10月在[《阿拉伯新闻》](https://www.arabnews.com/opinion/why-west-africas-gold-refineries-will-not-deliver-sovereignty-3007847)发表的评论，南非兰特精炼厂仍是唯一列入该名单的非洲精炼厂。在宁巴、Raffinor-BF和塞努进入名单之前，它们的金条只能卖给愿意重新精炼或折价收购的买家。"
+      ]
+    },
+    {
+      "heading": "锡吉里：手工黄金是整个机制的关键",
+      "figure": {
+        "after": 0,
+        "kind": "bars",
+        "unit": "t",
+        "labelWidth": 230,
+        "title": "几内亚黄金出口按来源划分（吨）",
+        "items": [
+          {
+            "label": "2025年，手工黄金",
+            "value": 49.6,
+            "valueLabel": "49.6吨",
+            "hi": true
+          },
+          {
+            "label": "2025年，工业黄金",
+            "value": 22.52,
+            "valueLabel": "22.5吨"
+          },
+          {
+            "label": "2026年上半年，手工黄金",
+            "value": 29.23,
+            "valueLabel": "29.2吨",
+            "hi": true
+          },
+          {
+            "label": "2026年上半年，工业黄金",
+            "value": 11.05,
+            "valueLabel": "11.1吨"
+          }
+        ],
+        "note": "来源：几内亚矿业和地质部，据[Le360 Afrique](https://afrique.le360.ma/economie/guinee-lexportation-de-lor-raffine-soumise-a-de-nouvelles-regles_FJZTIOECJJETZK6VWRRG2LIADI/)（与摩洛哥通讯社合作），2026年10月3日。工业黄金为总量（2025年72.12吨，2026年上半年40.28吨）减去手工黄金后的差额。"
+      },
+      "paragraphs": [
+        "几内亚与邻国的区别在于其产量结构。据矿业部数据，2025年出口的72.12吨黄金中有49.60吨来自手工开采，约占69%；2026年上半年出口的40.28吨中有29.23吨，约占73%。这些黄金由手工采金者开采，经收购商和贸易商行收购，再以合金金锭形式出口，其来源往往不受任何核查。要让国家精炼厂吸纳黄金，仅靠大型矿业公司的黄金远远不够：占总量三分之二以上的手工黄金必须经过精炼厂。因此，精炼政策迫使国家重新掌控此前一直被默许的手工采金行业。",
+        "上几内亚的锡吉里是其最大的矿床。10月29日，该地区代理州长法因巴·马拉上校暂停了当地一切手工采金活动。据[法国国际广播电台](https://fr.allafrica.com/stories/202611060227.html)报道，11月2日，五个部委（矿业、领土管理、国防、环境和司法）发表联合公报，以环境恶化以及尼日尔河及其支流污染为由，禁止在该地区手工采金。军队、宪兵、警察、海关和林业人员组成的监控部队随即部署，矿区人员接受身份和居留检查。据[Africanews](https://www.africanews.com/2026/11/11/gold-miners-expelled-by-guinea-start-leaving-assembly-site-in-mali/)援引国防部和安全部11月7日的公报，共有来自七个国家的1263人被捕。",
+        "打击行动也指向行政部门。据[Guinee114](https://www.guinee114.com/2026/11/08/guinee-siguiri-linterdiction-de-lorpaillage-artisanal-clandestin-ne-cible-pas-une-nationalite/)发布的核查报道，包括代理州长在内的22名文职和军方地方行政官员因纵容非法采金被法令除名；其中7人于11月4日被经济和金融犯罪惩治法院收押，领土管理部长杰娜布·杜雷还撤销了479名区长和街区长的职务。这些处分揭示出一种经济形态：非正式的开采许可在地方层面讨价还价，其租金流向中间人而非国库。同一报道指出，此前在2024年、2025年7月和2026年3月已多次宣布禁令。此次的不同之处在于，一座精炼厂正在等待黄金。"
+      ]
+    },
+    {
+      "heading": "一国决策的地区代价",
+      "figure": {
+        "after": 1,
+        "kind": "map",
+        "region": "westafrica",
+        "title": "精炼厂浪潮与锡吉里采金者的回流",
+        "groups": [
+          {
+            "ids": [
+              "324"
+            ],
+            "label": "几内亚：宁巴精炼厂（宣布年产能733吨）及锡吉里手工采金禁令",
+            "tone": "c"
+          },
+          {
+            "ids": [
+              "854",
+              "466"
+            ],
+            "label": "已投产或在建的国家精炼厂（布基纳法索、马里）",
+            "tone": "a"
+          },
+          {
+            "ids": [
+              "288"
+            ],
+            "label": "加纳：自2026年9月1日起手工合金金锭须在本地精炼",
+            "tone": "b"
+          }
+        ],
+        "points": [
+          {
+            "name": "科纳克里",
+            "lon": -13.68,
+            "lat": 9.64,
+            "anchor": "end"
+          },
+          {
+            "name": "锡吉里",
+            "lon": -9.17,
+            "lat": 11.42,
+            "anchor": "end",
+            "dy": 12
+          },
+          {
+            "name": "巴马科（塞努）",
+            "lon": -8,
+            "lat": 12.64
+          },
+          {
+            "name": "瓦加杜古",
+            "lon": -1.53,
+            "lat": 12.37
+          },
+          {
+            "name": "阿克拉",
+            "lon": -0.19,
+            "lat": 5.6
+          }
+        ],
+        "links": [
+          {
+            "from": [
+              -9.17,
+              11.42
+            ],
+            "to": [
+              -8,
+              12.64
+            ],
+            "tone": "c"
+          },
+          {
+            "from": [
+              -8,
+              12.64
+            ],
+            "to": [
+              -1.53,
+              12.37
+            ],
+            "tone": "c"
+          }
+        ],
+        "note": "虚线表示锡吉里采金者流向巴马科，以及布基纳法索人乘大巴被遣返。来源：法国国际广播电台、Africanews（法新社）、路透社、美联社，2026年11月。"
+      },
+      "paragraphs": [
+        "锡吉里的矿床养活的人远不止几内亚人。据[法新社](https://www.africanews.com/2026/11/11/gold-miners-expelled-by-guinea-start-leaving-assembly-site-in-mali/)报道，11月7日，马里当局表示自行动开始以来已接收约16万名来自几内亚的人员，报告6人死亡，并称出现“人道主义紧急状况”。马里危机委员会早在11月3日就注意到，大批来自不同国家的人员涌向巴马科。前往巴马科组织遣返的布基纳法索安全部长马哈马杜·萨纳称这一行动“极其令人遗憾”，并谴责其遭受了“残忍、不人道和有辱人格的”对待。几内亚外交部长莫里桑达·库亚特在外交使团面前回应称，环境保护不能以非洲兄弟情谊的名义被牺牲，并表示已有409名布基纳法索人和606名马里人被移交给各自使馆。",
+        "这一事件暴露了国家精炼政策所忽视的一个维度：西非手工黄金的价值链在劳动力层面是区域性的。采金者根据新发现的矿床和季节，在马里、几内亚、布基纳法索和科特迪瓦的矿区之间流动，其收入支撑着向家乡村庄的汇款。对布基纳法索和马里这两个农村地区饱受不安全困扰的萨赫勒国家联盟成员国而言，锡吉里的骤然关闭使大批年轻且缺乏技能的人口失去了出路；布基纳法索日报《Le Pays》指出，相关青年大多不满二十岁。几内亚正规化的部分代价，就这样由未被征询意见的邻国承担。",
+        "萨里大学教授、非洲手工采矿问题专家加文·希尔森指出，手工采矿首先是一种生计活动，由农村贫困和缺乏其他收入来源所驱动；不提供合法许可途径的禁令，只会把采矿者推向地下，而不会使他们消失[^3]。几内亚的方案目前只包括关闭矿区和居留检查。人数远多于外国人的几内亚本国采金者仍留在当地，外国劳动者则可能转往马里南部或科特迪瓦的邻近矿区。他们开采的黄金无论从哪个国家出口，都将绕过几内亚的精炼厂。"
+      ]
+    },
+    {
+      "heading": "走私：以法令宣示主权的边界",
+      "paragraphs": [
+        "精炼义务在国家报价与平行市场所能支付的价格之间制造了差距。通过官方渠道出售黄金的采金者或收购商，需要承担可追溯性要求、税收和精炼费；如果国家行使收购权，还要按官方汇率接受几内亚法郎付款。哥伦比亚大学经济学家贾格迪什·巴格瓦蒂与加州大学伯克利分校经济学家本特·汉森于1973年指出，两国之间的任何此类差距都会产生走私激励，而走私不仅重新分配租金，还可能降低国民福利，因为它耗费资源去规避规则[^4]。差距越大，黄金越会流向边境。",
+        "地理因素加剧了这一风险。锡吉里距马里边境仅几十公里，而马里和布基纳法索很快都将拥有盈利依赖进口黄金的精炼厂。如果塞努或Raffinor-BF提供的条件优于几内亚官方渠道，上几内亚的手工黄金就会以合金金锭形式越境，在当地精炼后作为马里或布基纳法索黄金出口。三国追求的是同一目标，即让黄金经过本国设施，而所用的工具却使它们相互竞争。在西非国家经济共同体或萨赫勒国家联盟层面缺乏黄金原产地和可追溯性共同规则的情况下，每家精炼厂都有动机接受其他精炼厂拒收的来源不明的黄金。",
+        "加纳表明另一种做法是可行的，其代价在于价格上的努力而非镇压。自2025年起，GoldBod成为手工黄金的唯一收购商和出口商；据[MyJoyOnline](https://www.myjoyonline.com/ghanas-small-scale-gold-exports-overtake-large-scale-for-the-first-time-goldbod-ceo/)援引其首席执行官萨米·贾姆菲的话，2025年春季手工黄金出口首次超过大型矿山，据[路透社](https://www.businessday.co.za/world/africa/2026-08-25-ghana-bars-unrefined-artisanal-gold-dore-exports-from-september-1/)报道，全年出口达到104吨。该委员会取得这一成果，靠的是支付接近市场的价格，并承认手工采金者是合法的经济主体。本地精炼义务是在黄金被纳入正规渠道之后才推出的。几内亚颠倒了顺序，先强制精炼、再关闭矿区，这使其精炼厂面临缺少本应由其引导的黄金的风险。"
+      ]
+    },
+    {
+      "heading": "情景分析",
+      "paragraphs": [],
+      "scenarios": [
+        {
+          "level": "most",
+          "title": "精炼厂开工不足，走私转移",
+          "text": "几内亚和布基纳法索的精炼厂远低于宣布产能运行，原料主要来自矿业公司被迫送交的工业黄金。锡吉里的手工采金以更隐蔽的形式恢复，或转移到边境地区，部分几内亚手工黄金经马里中转。由于未列入LBMA“合格交割”名单，金条只能折价卖给海湾或亚洲买家。遣返结束后，科纳克里、巴马科和瓦加杜古之间的关系恢复正常，但未就采金者的流动达成任何协议。"
+        },
+        {
+          "level": "less",
+          "title": "效仿加纳模式成功实现正规化",
+          "text": "镇压阶段结束后，几内亚在锡吉里开辟合法手工采金区，向本国采金者发放许可证，并由国家或获批贸易商行以接近伦敦金价的价格收购手工黄金。申报量上升，BCRG积累黄金储备，宁巴黄金精炼厂启动国际认证程序。西非国家经济共同体和萨赫勒国家联盟通过一套最低限度的黄金原产地追溯框架，限制了精炼厂之间的竞争。"
+        },
+        {
+          "level": "least",
+          "title": "邻国之间的黄金战争",
+          "text": "产能过剩促使各精炼厂竞相抬价争夺手工合金金锭，各自接受来源不明的黄金。其中一家因缺乏可追溯性而遭到金融制裁或被国际买家拒绝。锡吉里引发的移民紧张演变为几内亚与萨赫勒国家联盟之间持久的政治争端，双方在贸易和人员流动方面采取报复措施，损害连接科纳克里与巴马科的贸易走廊。"
+        }
+      ]
+    },
+    {
+      "heading": "Sources",
+      "paragraphs": [
+        "[RFI (via AllAfrica), Guinea: \"anarchic\" artisanal mining banned in the north-east, Ouagadougou denounces expulsion of Burkinabè, 6 November 2026](https://fr.allafrica.com/stories/202611060227.html) | [Africanews with AFP, Gold miners expelled by Guinea start leaving assembly site in Mali, 11 November 2026](https://www.africanews.com/2026/11/11/gold-miners-expelled-by-guinea-start-leaving-assembly-site-in-mali/) | [Guinee114 (GuineeCheck), Siguiri: the ban on illegal artisanal mining does not target any nationality, 8 November 2026](https://www.guinee114.com/2026/11/08/guinee-siguiri-linterdiction-de-lorpaillage-artisanal-clandestin-ne-cible-pas-une-nationalite/) | [Guinee360, Bamako and Ouagadougou react: the artisanal mining ban in Siguiri takes on a regional dimension, 4 November 2026](https://www.guinee360.com/04/11/2026/guinee-bamako-et-ouagadougou-reagissent-linterdiction-de-lorpaillage-artisanal-a-siguiri-prend-une-dimension-regionale) | [Le Pays (via AllAfrica), Expulsion of Burkinabè gold miners from Guinea: lessons to be drawn, 9 November 2026](https://fr.allafrica.com/stories/202611090128.html) | [Mediaguinee, Doumbouya inaugurates Nimba Gold Refinery, a 733-tonne-a-year gold refinery, 1 November 2026](https://mediaguinee.com/2026/11/conakry-doumbouya-inaugure-nimba-gold-refinery-une-raffinerie-dor-de-733-tonnes-par-an) | [Eco Finance Guinée, Guinea exports its first gold bars refined on its territory, 10 October 2026](https://www.ecofinanceguinee.com/la-guinee-exporte-ses-premiers-lingots-dor-raffines-sur-son-territoire/) | [Guinean Press Agency, A decree regulates the export of refined gold and associated metals, 3 October 2026](https://agpguinee.com/guinee-un-decret-encadre-lexportation-de-lor-raffine-et-des-metaux-associes/) | [Le360 Afrique, Guinea: export of refined gold subject to new rules, 3 October 2026](https://afrique.le360.ma/economie/guinee-lexportation-de-lor-raffine-soumise-a-de-nouvelles-regles_FJZTIOECJJETZK6VWRRG2LIADI/) | [Guinéenews, Gold exports: President Doumbouya makes prior local refining mandatory, 8 July 2026](https://guineenews.org/2026/07/08/exportation-de-lor-le-president-doumbouya-impose-le-raffinage-local-obligatoire-prealable/) | [Guinee360, Gold sector: Mamadi Doumbouya bans raw gold exports and requires refining in Guinea, 4 July 2026](https://www.guinee360.com/04/07/2026/filiere-aurifere-mamadi-doumbouya-interdit-lexportation-de-lor-brut-et-impose-le-raffinage-en-guinee/) | [Agence Ecofin (via Club of Mozambique), Guinea bans raw gold exports, mandates local refining before shipment, 23 June 2026](https://clubofmozambique.com/news/guinea-bans-raw-gold-exports-mandates-local-refining-before-shipment/) | [Associated Press (via BNN Bloomberg), Burkina Faso opens its first gold refinery in a push for economic sovereignty, 29 September 2026](https://www.bnnbloomberg.ca/markets/gold/2026/09/29/burkina-faso-opens-its-first-gold-refinery-in-a-push-for-economic-sovereignty/) | [Reuters (via Kitco), Mali starts construction of Russia-backed gold refinery, 17 June 2025](https://www.kitco.com/news/off-the-wire/2025-06-17/mali-starts-construction-russia-backed-gold-refinery) | [Reuters (via Business Day), Ghana bars unrefined artisanal gold dore exports from September 1, 25 August 2026](https://www.businessday.co.za/world/africa/2026-08-25-ghana-bars-unrefined-artisanal-gold-dore-exports-from-september-1/) | [MyJoyOnline, Ghana's small-scale gold exports overtake large-scale for the first time, 3 June 2025](https://www.myjoyonline.com/ghanas-small-scale-gold-exports-overtake-large-scale-for-the-first-time-goldbod-ceo/) | [Arab News, Hafed Al-Ghwell, Why West Africa's gold refineries will not deliver sovereignty, 24 October 2026](https://www.arabnews.com/opinion/why-west-africas-gold-refineries-will-not-deliver-sovereignty-3007847)"
+      ]
+    }
+  ],
+  "notes": [
+    "阿尔伯特·赫希曼（Albert O. Hirschman，1915-2012），生于柏林的经济学家，曾任耶鲁大学、哥伦比亚大学和哈佛大学教授，后任普林斯顿高等研究院教授。《The Strategy of Economic Development》，耶鲁大学出版社，纽黑文，1958年。",
+    "加里·杰里菲（Gary Gereffi），杜克大学社会学教授；约翰·汉弗莱（John Humphrey），萨塞克斯大学发展研究所研究员；蒂莫西·斯特金（Timothy Sturgeon），麻省理工学院研究员。《The Governance of Global Value Chains》，Review of International Political Economy，第12卷第1期，2005年，第78-104页。",
+    "加文·希尔森（Gavin Hilson），萨里大学教授，撒哈拉以南非洲手工和小规模采矿问题专家。《Small-scale mining, poverty and economic development in sub-Saharan Africa: An overview》，Resources Policy，第34卷第1-2期，2009年，第1-5页。",
+    "贾格迪什·巴格瓦蒂（Jagdish Bhagwati），印度裔美国经济学家，哥伦比亚大学教授；本特·汉森（Bent Hansen），丹麦经济学家，加州大学伯克利分校教授。《A Theoretical Analysis of Smuggling》，Quarterly Journal of Economics，第87卷第2期，1973年，第172-187页。"
+  ]
+},
+{
   "id": 10,
   "day": "05",
   "month": "NOV",

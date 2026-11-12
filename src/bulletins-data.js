@@ -1,6 +1,280 @@
 // Données des analyses (FR, EN). Champs facultatifs : nutshell, figure(s), factbox, scenarios, notes.
 const BULLETINS_FR = [
 {
+  "id": 11,
+  "day": "12",
+  "month": "NOV",
+  "year": "2026",
+  "title": "L'or ouest-africain : raffiner chez soi, au prix d'une fermeture des mines artisanales",
+  "excerpt": "Burkina Faso le 28 septembre, Guinée le 1er novembre : deux raffineries d'or nationales ont ouvert en cinq semaines, tandis que le Mali construit la sienne et que le Ghana impose le raffinage local du doré artisanal. Le lendemain de l'inauguration de Conakry, la Guinée a interdit l'orpaillage dans la région de Siguiri, d'où des dizaines de milliers d'orpailleurs sahéliens ont reflué vers le Mali. Ce que la remontée vers le raffinage rapporte réellement, et pourquoi elle passe par le contrôle de l'or artisanal.",
+  "tags": [
+    "Or",
+    "Raffinage",
+    "Guinée",
+    "Burkina Faso",
+    "Mali",
+    "Ghana",
+    "Orpaillage",
+    "AES"
+  ],
+  "category": "Chaînes de valeur régionales",
+  "nutshell": [
+    "La raffinerie guinéenne Nimba Gold Refinery, inaugurée le 1er novembre 2026, revendique une capacité de 733 tonnes par an, environ dix fois les 72 tonnes d'or exportées par la Guinée en 2025 ; celle du Burkina Faso, ouverte le 28 septembre, en vise 515",
+    "Le raffinage ajoute peu de valeur au métal : son intérêt pour les États tient à la traçabilité, à la fiscalité et aux réserves de change, ce qui suppose de capter l'or artisanal, qui représente environ 70 % des exportations guinéennes",
+    "L'interdiction de l'orpaillage à Siguiri, le 2 novembre, a provoqué un reflux de travailleurs vers le Mali, qui dit en avoir accueilli environ 160 000 ; la concurrence entre raffineries surdimensionnées risque d'alimenter la contrebande plutôt que l'industrie"
+  ],
+  "content": [
+    {
+      "heading": null,
+      "paragraphs": [
+        "L'or est l'un des rares produits dont la valeur ne doit presque rien à sa transformation. Un lingot pur à 99,5 % vaut à peine plus que le doré, alliage brut coulé sur le site minier, dont il est tiré : la quasi-totalité du prix tient déjà au métal au moment où il sort de terre. C'est pourtant sur ce segment, le raffinage, que plusieurs États d'Afrique de l'Ouest ont choisi d'affirmer leur souveraineté économique. Depuis des décennies, l'or de la région part en doré vers Dubaï, la Suisse ou l'Inde, où il est affiné, certifié et revendu. Les gouvernements y voient la marque d'une économie de rente restée au premier maillon de la chaîne de valeur, et le raffinage national comme le moyen d'en sortir.",
+        "En cinq semaines, deux raffineries ont ouvert. Le 28 septembre 2026, le président burkinabè Ibrahim Traoré a inauguré à Ouagadougou la raffinerie Raffinor-BF, d'une capacité de 164 tonnes par an. Le 1er novembre, le président guinéen Mamadi Doumbouya a inauguré à Conakry la Nimba Gold Refinery, dont les promoteurs annoncent 733 tonnes par an. Le Mali construit la sienne près de Bamako depuis juin 2025 et le Ghana impose depuis le 1er septembre 2026 le raffinage local du doré artisanal acheté pour l'exportation. Le 2 novembre, au lendemain de l'inauguration de Conakry, cinq ministères guinéens ont interdit l'orpaillage dans la région de Siguiri, premier district aurifère du pays, et des dizaines de milliers de travailleurs, en grande partie burkinabè et maliens, ont reflué vers le Mali.",
+        "Les deux décisions guinéennes relèvent d'une même politique. Elles posent la question de ce que la remontée vers le raffinage rapporte réellement à des pays producteurs d'or, de la raison pour laquelle elle passe par le contrôle de l'or artisanal, et du coût que cette stratégie fait peser sur les voisins sahéliens dont les travailleurs vivaient de ces gisements. La réponse tient moins à la technique du raffinage qu'à la circulation du métal entre des pays dont les frontières sont poreuses et dont les raffineries, toutes surdimensionnées, se disputeront le même doré."
+      ]
+    },
+    {
+      "heading": "Une même doctrine, appliquée en quinze mois",
+      "factbox": {
+        "title": "Repères : la vague des raffineries",
+        "items": [
+          "16 juin 2025 : début de la construction de la raffinerie de Sénou, près de Bamako (200 t/an), avec le groupe russe Yadran",
+          "19 juin 2026 : Mamadi Doumbouya annonce la fin des exportations d'or brut guinéen",
+          "8 juillet 2026 : décret guinéen imposant le raffinage préalable dans une raffinerie agréée, après 90 jours de transition",
+          "1er septembre 2026 : le Ghana interdit l'exportation de doré artisanal non raffiné par les agrégateurs",
+          "28 septembre 2026 : ouverture de Raffinor-BF à Ouagadougou (164 t/an, objectif 515 t)",
+          "2 octobre 2026 : décret guinéen fixant la procédure d'exportation de l'or raffiné",
+          "9 octobre 2026 : premier export d'or raffiné en Guinée par la Nimba Gold Refinery",
+          "1er novembre 2026 : inauguration de la Nimba Gold Refinery à Conakry (733 t/an annoncées)",
+          "2 novembre 2026 : interdiction de l'orpaillage dans la région de Siguiri"
+        ]
+      },
+      "paragraphs": [
+        "Le Mali a ouvert la voie. Le 16 juin 2025, le général Assimi Goïta a lancé à Sénou, en périphérie de Bamako, la construction d'une raffinerie de 200 tonnes par an, détenue majoritairement par l'État et construite avec le groupe russe Yadran et une société d'investissement suisse. Selon [Reuters](https://www.kitco.com/news/off-the-wire/2025-06-17/mali-starts-construction-russia-backed-gold-refinery), la capacité prévue représentait près de quatre fois la production annuelle malienne. Le chef de la junte a résumé la doctrine : depuis 1980, l'or malien est exporté pour être raffiné et vendu ailleurs, ce qui prive le pays de recettes. Le président de Yadran, Irek Salikhov, présentait déjà l'usine comme un futur centre régional de traitement de l'or du Mali et des pays voisins, dont le Burkina Faso.",
+        "Le Burkina Faso a été plus rapide. La raffinerie Raffinor-BF, installée sur cinq hectares à Ouagadougou, a coûté plus de 11 milliards de francs CFA, soit environ 19 millions de dollars, financés par l'État, notamment par la Société nationale des substances précieuses (SONASP), et par des investisseurs privés, d'après l'[Associated Press](https://www.bnnbloomberg.ca/markets/gold/2026/09/29/burkina-faso-opens-its-first-gold-refinery-in-a-push-for-economic-sovereignty/). Sa capacité initiale de 164 tonnes doit être portée à 515 tonnes, alors que le pays a produit 94 tonnes d'or en 2025 selon les autorités. « L'or du Burkina Faso ne doit plus seulement être extrait au Burkina Faso, il doit y être transformé », a déclaré le capitaine Traoré lors de l'inauguration. Le Ghana, qui n'appartient pas à l'Alliance des États du Sahel (AES), suit une voie voisine : selon [Reuters](https://www.businessday.co.za/world/africa/2026-08-25-ghana-bars-unrefined-artisanal-gold-dore-exports-from-september-1/), son office de l'or, GoldBod, exige depuis le 1er septembre que le doré artisanal acheté par les agrégateurs soit raffiné dans le pays avant toute exportation.",
+        "La Guinée a choisi la formule la plus contraignante. Le 19 juin 2026, devant les opérateurs industriels, semi-industriels et artisanaux, Mamadi Doumbouya a annoncé que l'or guinéen serait désormais fondu, certifié et transformé en Guinée avant d'être exporté, selon l'[Agence Ecofin](https://clubofmozambique.com/news/guinea-bans-raw-gold-exports-mandates-local-refining-before-shipment/). Le décret du 8 juillet, rapporté par [Guinéenews](https://guineenews.org/2026/07/08/exportation-de-lor-le-president-doumbouya-impose-le-raffinage-local-obligatoire-prealable/), interdit l'exportation de tout or qui n'a pas été affiné dans une raffinerie agréée par l'État, après une transition de 90 jours. Un second décret, lu le 2 octobre et détaillé par l'[Agence guinéenne de presse](https://agpguinee.com/guinee-un-decret-encadre-lexportation-de-lor-raffine-et-des-metaux-associes/), confie à l'Office guinéen d'expertise de l'or (OGE) le contrôle des exportations : pesée et scellés à la raffinerie en présence des douanes, de la brigade anti-fraude et de la Banque centrale de la République de Guinée (BCRG), taxes calculées sur le fixing de Londres. Le premier lot d'or raffiné est parti le 9 octobre."
+      ]
+    },
+    {
+      "heading": "Des capacités sans rapport avec le métal disponible",
+      "figure": {
+        "after": 1,
+        "kind": "pairs",
+        "unit": "t",
+        "labelWidth": 150,
+        "title": "Capacité annoncée des raffineries et or disponible (tonnes par an)",
+        "legend": [
+          "Capacité de raffinage annoncée",
+          "Or exporté (Guinée) ou produit (Burkina Faso) en 2025"
+        ],
+        "items": [
+          {
+            "label": "Guinée",
+            "a": 733,
+            "b": 72.1,
+            "aLabel": "733",
+            "bLabel": "72"
+          },
+          {
+            "label": "Burkina Faso",
+            "a": 164,
+            "b": 94,
+            "aLabel": "164 (objectif 515)",
+            "bLabel": "94"
+          }
+        ],
+        "note": "Sources : Nimba Gold Refinery, d'après [Mediaguinee](https://mediaguinee.com/2026/11/conakry-doumbouya-inaugure-nimba-gold-refinery-une-raffinerie-dor-de-733-tonnes-par-an), 1er novembre 2026 ; ministère guinéen des Mines, d'après [Le360 Afrique](https://afrique.le360.ma/economie/guinee-lexportation-de-lor-raffine-soumise-a-de-nouvelles-regles_FJZTIOECJJETZK6VWRRG2LIADI/), 3 octobre 2026 ; présidence et autorités du Burkina Faso, d'après l'Associated Press, 29 septembre 2026. La raffinerie malienne de Sénou (200 t/an) n'est pas représentée, la production malienne de référence n'étant pas publiée par la même source."
+      },
+      "paragraphs": [
+        "Les capacités annoncées dépassent de loin le métal que chaque pays peut fournir. Selon les chiffres du ministère guinéen des Mines publiés par [Le360 Afrique](https://afrique.le360.ma/economie/guinee-lexportation-de-lor-raffine-soumise-a-de-nouvelles-regles_FJZTIOECJJETZK6VWRRG2LIADI/), la Guinée a exporté 72,12 tonnes d'or en 2025 et 40,28 tonnes au premier semestre 2026. La Nimba Gold Refinery, dont le représentant Moussa Magassouba a présenté la capacité de 733 tonnes lors de l'inauguration rapportée par [Mediaguinee](https://mediaguinee.com/2026/11/conakry-doumbouya-inaugure-nimba-gold-refinery-une-raffinerie-dor-de-733-tonnes-par-an), pourrait donc traiter environ dix fois la production nationale. Le Burkina Faso vise 515 tonnes pour 94 tonnes produites ; le Mali a dimensionné Sénou à près de quatre fois sa production. Additionnées, ces capacités excèdent largement la production d'or de l'ensemble de l'Afrique de l'Ouest.",
+        "Ce surdimensionnement n'est pas un accident de planification. Une raffinerie a des coûts fixes élevés, en équipements, en laboratoires d'analyse et en sécurité, et des coûts variables faibles ; son rendement dépend du volume traité. Une usine conçue pour plusieurs fois la production nationale ne peut atteindre sa rentabilité qu'en attirant du métal venu d'ailleurs. Le président de Yadran le disait ouvertement en 2025 en évoquant l'or burkinabè. Chaque projet repose ainsi sur l'hypothèse implicite qu'il deviendra le centre régional, ce qui ne peut être vrai pour tous à la fois. Avec trois raffineries situées à moins de mille kilomètres les unes des autres, la question devient celle de savoir laquelle captera le doré des autres, et par quel moyen.",
+        "L'économiste Albert Hirschman, né en Allemagne et devenu une figure de l'économie du développement aux États-Unis, a proposé dans « The Strategy of Economic Development » (1958) de juger un investissement à ses effets d'entraînement : les activités qu'il suscite en amont, chez ses fournisseurs, et en aval, chez ses clients[^1]. Il observait que les industries extractives en produisaient peu, parce que le minerai quitte le pays sans être transformé et que les mines importent leurs équipements. Le raffinage de l'or ajoute bien un maillon en aval, mais un maillon court : il n'existe guère, dans la région, d'industrie de la bijouterie, de l'électronique ou de la finance qui utiliserait le lingot sur place. L'entraînement attendu passe donc moins par l'industrie que par l'État, qui voit dans la raffinerie un point de passage obligé pour l'ensemble du métal."
+      ]
+    },
+    {
+      "heading": "Ce que rapporte le raffinage, et ce qu'il ne rapporte pas",
+      "paragraphs": [
+        "La marge du raffineur est faible, parce que la transformation porte sur une fraction de la masse : un doré contient déjà la plus grande partie de son or, et l'affinage en retire surtout l'argent et les impuretés. Le raffineur facture un service, à quelques dollars par once, et non la valeur du métal, qui reste indexée sur le cours de Londres. Les décrets guinéens en tirent la conséquence : selon [Guinée360](https://www.guinee360.com/04/07/2026/filiere-aurifere-mamadi-doumbouya-interdit-lexportation-de-lor-brut-et-impose-le-raffinage-en-guinee/), le prix d'achat est indexé sur le cours de la London Bullion Market Association (LBMA) et les sociétés minières restent propriétaires de leur or, la raffinerie agissant comme prestataire. Le gain direct pour l'économie guinéenne se limite donc aux frais d'affinage, aux emplois qualifiés que promettent les promoteurs et à quelques services annexes.",
+        "L'enjeu se situe ailleurs, dans l'information et dans la fiscalité. Une raffinerie nationale par laquelle tout l'or doit transiter devient le lieu où l'État pèse, analyse et enregistre le métal avant son départ. Le dispositif guinéen d'octobre organise précisément cette visibilité, avec rapports d'affinage transmis à l'OGE, à la BCRG, aux douanes et au Laboratoire national de géologie. Le ministre des Mines, Bouna Sylla, a ajouté lors de l'inauguration que l'État entendait acheter jusqu'à 30 % de la production industrielle et semi-industrielle, payée en francs guinéens, pour renforcer les réserves de change de la Banque centrale. La raffinerie sert ainsi trois objectifs que le raffinage étranger ne permettait pas : connaître les volumes, prélever l'impôt et constituer des réserves en or.",
+        "Reste la question de l'accès au marché. Les chercheurs Gary Gereffi, de l'université Duke, John Humphrey, de l'Institute of Development Studies de l'université du Sussex, et Timothy Sturgeon, du MIT, ont montré en 2005 que la position d'un pays dans une chaîne de valeur dépend de la manière dont celle-ci est gouvernée : lorsque les acheteurs imposent des normes complexes et difficiles à certifier, l'entrée de nouveaux fournisseurs reste contrôlée par ceux qui fixent les normes[^2]. Dans l'or, ce rôle revient à la LBMA, dont la liste « Good Delivery » détermine quels lingots sont acceptés sans nouvel affinage sur le marché de Londres. Selon le chercheur Hafed Al-Ghwell, du Stimson Center, dans une tribune publiée par [Arab News](https://www.arabnews.com/opinion/why-west-africas-gold-refineries-will-not-deliver-sovereignty-3007847) en octobre 2026, la Rand Refinery sud-africaine reste la seule raffinerie africaine inscrite sur cette liste. Tant que Nimba, Raffinor-BF et Sénou n'y figurent pas, leurs lingots devront être vendus à des acheteurs qui accepteront de les réaffiner ou de les décoter."
+      ]
+    },
+    {
+      "heading": "Siguiri : l'or artisanal, pièce maîtresse du dispositif",
+      "figure": {
+        "after": 0,
+        "kind": "bars",
+        "unit": "t",
+        "labelWidth": 230,
+        "title": "Exportations d'or de la Guinée selon l'origine (tonnes)",
+        "items": [
+          {
+            "label": "2025, or artisanal",
+            "value": 49.6,
+            "valueLabel": "49,6 t",
+            "hi": true
+          },
+          {
+            "label": "2025, or industriel",
+            "value": 22.52,
+            "valueLabel": "22,5 t"
+          },
+          {
+            "label": "1er semestre 2026, or artisanal",
+            "value": 29.23,
+            "valueLabel": "29,2 t",
+            "hi": true
+          },
+          {
+            "label": "1er semestre 2026, or industriel",
+            "value": 11.05,
+            "valueLabel": "11,1 t"
+          }
+        ],
+        "note": "Source : ministère guinéen des Mines et de la Géologie, d'après [Le360 Afrique](https://afrique.le360.ma/economie/guinee-lexportation-de-lor-raffine-soumise-a-de-nouvelles-regles_FJZTIOECJJETZK6VWRRG2LIADI/) (avec la MAP), 3 octobre 2026. Or industriel calculé par différence entre le total (72,12 t en 2025, 40,28 t au premier semestre 2026) et l'or artisanal."
+      },
+      "paragraphs": [
+        "La Guinée diffère de ses voisins par la structure de sa production. Selon le ministère des Mines, l'or artisanal représentait 49,60 des 72,12 tonnes exportées en 2025, soit environ 69 %, et 29,23 des 40,28 tonnes du premier semestre 2026, soit environ 73 %. Cet or est extrait par des orpailleurs, acheté par des collecteurs et des comptoirs, puis exporté en doré, souvent hors de tout contrôle de sa provenance. Pour qu'une raffinerie nationale capte le métal, l'or des grandes sociétés minières ne suffit pas : il faut que l'or artisanal, qui en représente plus des deux tiers, passe par elle. La politique de raffinage oblige ainsi l'État à reprendre la main sur la filière artisanale, qu'il tolérait jusqu'ici.",
+        "Siguiri, en Haute-Guinée, en est le premier gisement. Le 29 octobre, le gouverneur intérimaire de la région, le colonel Fayimba Mara, y a suspendu toutes les activités d'exploitation artisanale de l'or. Le 2 novembre, un communiqué conjoint de cinq ministères (Mines, Administration du territoire, Défense, Environnement et Justice) a interdit l'orpaillage dans la région, en invoquant la dégradation de l'environnement et la pollution du fleuve Niger et de ses affluents, selon [RFI](https://fr.allafrica.com/stories/202611060227.html). Un dispositif de surveillance réunissant armée, gendarmerie, police, douanes et agents des eaux et forêts a été déployé, et les personnes présentes sur les sites ont été soumises à des contrôles d'identité et de séjour. D'après un communiqué des ministères de la Défense et de la Sécurité daté du 7 novembre et cité par [Africanews](https://www.africanews.com/2026/11/11/gold-miners-expelled-by-guinea-start-leaving-assembly-site-in-mali/), 1 263 personnes de sept nationalités ont été interpellées.",
+        "La répression a visé aussi l'administration. Selon une vérification publiée par [Guinee114](https://www.guinee114.com/2026/11/08/guinee-siguiri-linterdiction-de-lorpaillage-artisanal-clandestin-ne-cible-pas-une-nationalite/), 22 administrateurs territoriaux, civils et militaires, dont le gouverneur intérimaire, ont été radiés par décret pour avoir facilité l'orpaillage clandestin ; sept d'entre eux ont été placés sous mandat de dépôt le 4 novembre par la Cour de répression des infractions économiques et financières, et la ministre de l'Administration du territoire, Djénabou Touré, a démis 479 chefs de district et de quartier. Ces sanctions décrivent une économie dans laquelle l'autorisation informelle d'exploiter se négociait localement, et dont la rente revenait aux intermédiaires plutôt qu'au Trésor. Le même article rappelle que des interdictions avaient déjà été annoncées en 2024, en juillet 2025 et en mars 2026. La différence, cette fois, est qu'une raffinerie attend le métal."
+      ]
+    },
+    {
+      "heading": "Le coût régional d'une décision nationale",
+      "figure": {
+        "after": 1,
+        "kind": "map",
+        "region": "westafrica",
+        "title": "La vague des raffineries et le reflux des orpailleurs de Siguiri",
+        "groups": [
+          {
+            "ids": [
+              "324"
+            ],
+            "label": "Guinée : raffinerie Nimba (733 t/an annoncées) et interdiction de l'orpaillage à Siguiri",
+            "tone": "c"
+          },
+          {
+            "ids": [
+              "854",
+              "466"
+            ],
+            "label": "Raffineries nationales ouvertes ou en construction (Burkina Faso, Mali)",
+            "tone": "a"
+          },
+          {
+            "ids": [
+              "288"
+            ],
+            "label": "Ghana : raffinage local obligatoire du doré artisanal depuis le 1er septembre 2026",
+            "tone": "b"
+          }
+        ],
+        "points": [
+          {
+            "name": "Conakry",
+            "lon": -13.68,
+            "lat": 9.64,
+            "anchor": "end"
+          },
+          {
+            "name": "Siguiri",
+            "lon": -9.17,
+            "lat": 11.42,
+            "anchor": "end",
+            "dy": 12
+          },
+          {
+            "name": "Bamako (Sénou)",
+            "lon": -8,
+            "lat": 12.64
+          },
+          {
+            "name": "Ouagadougou",
+            "lon": -1.53,
+            "lat": 12.37
+          },
+          {
+            "name": "Accra",
+            "lon": -0.19,
+            "lat": 5.6
+          }
+        ],
+        "links": [
+          {
+            "from": [
+              -9.17,
+              11.42
+            ],
+            "to": [
+              -8,
+              12.64
+            ],
+            "tone": "c"
+          },
+          {
+            "from": [
+              -8,
+              12.64
+            ],
+            "to": [
+              -1.53,
+              12.37
+            ],
+            "tone": "c"
+          }
+        ],
+        "note": "Les tracés en pointillé indiquent le reflux des orpailleurs de Siguiri vers Bamako, puis le rapatriement des Burkinabè par autocars. Sources : RFI, Africanews (AFP), Reuters, Associated Press, novembre 2026."
+      },
+      "paragraphs": [
+        "Les gisements de Siguiri font vivre bien au-delà de la Guinée. Le 7 novembre, les autorités maliennes ont déclaré avoir accueilli environ 160 000 personnes venues de Guinée depuis le début des opérations, en signalant six décès et une « urgence humanitaire », selon l'[AFP](https://www.africanews.com/2026/11/11/gold-miners-expelled-by-guinea-start-leaving-assembly-site-in-mali/). Le comité de crise malien avait relevé dès le 3 novembre un afflux important de ressortissants de diverses nationalités vers Bamako. Le ministre burkinabè de la Sécurité, Mahamadou Sana, venu à Bamako organiser le rapatriement, a qualifié l'opération de « fort déplorable et regrettable » et dénoncé un traitement « cruel, inhumain et dégradant ». Le ministre guinéen des Affaires étrangères, Morissanda Kouyaté, a répondu devant le corps diplomatique que la protection de l'environnement ne pouvait être sacrifiée au nom de la fraternité africaine, en précisant que 409 Burkinabè et 606 Maliens avaient été remis à leurs ambassades.",
+        "L'épisode révèle une dimension que les politiques nationales de raffinage ignorent : la chaîne de valeur de l'or artisanal ouest-africain est régionale par sa main-d'œuvre. Les orpailleurs se déplacent entre les gisements du Mali, de la Guinée, du Burkina Faso et de la Côte d'Ivoire selon les découvertes et les saisons, et leurs revenus alimentent des transferts vers les villages d'origine. Pour le Burkina Faso et le Mali, deux pays de l'AES dont les zones rurales sont touchées par l'insécurité, la fermeture brutale de Siguiri supprime un débouché pour une population jeune et sans qualification ; le quotidien burkinabè Le Pays notait que la plupart des jeunes concernés avaient moins de vingt ans. Le coût de la formalisation guinéenne est ainsi en partie supporté par des voisins qui n'ont pas été consultés.",
+        "Gavin Hilson, professeur à l'université du Surrey et spécialiste de l'exploitation minière artisanale en Afrique, a montré que celle-ci est d'abord une activité de subsistance, alimentée par la pauvreté rurale et l'absence d'autres revenus, et que les interdictions qui ne s'accompagnent pas d'une voie d'accès à des permis légaux rejettent les mineurs vers la clandestinité plutôt qu'elles ne les font disparaître[^3]. Le dispositif guinéen ne prévoit pour l'instant que la fermeture et le contrôle des séjours. Les orpailleurs guinéens, de loin les plus nombreux, restent dans la région, et les travailleurs étrangers sont susceptibles de rejoindre les sites voisins du sud du Mali ou de la Côte d'Ivoire. L'or qu'ils extrairont échappera alors à la raffinerie guinéenne, quel que soit le pays où il sera exporté."
+      ]
+    },
+    {
+      "heading": "La contrebande, limite d'une souveraineté décrétée",
+      "paragraphs": [
+        "L'obligation de raffinage crée un écart entre le prix que l'État offre et celui que le marché parallèle peut payer. Un orpailleur ou un collecteur qui vend par le circuit officiel supporte la traçabilité, la fiscalité, les frais d'affinage et, si l'État exerce son droit d'achat, un paiement en francs guinéens au taux officiel. Les économistes Jagdish Bhagwati, de l'université Columbia, et Bent Hansen, de l'université de Californie à Berkeley, ont montré en 1973 que tout écart de ce type entre deux pays crée une incitation à la contrebande, et que celle-ci peut réduire le bien-être national au lieu de seulement redistribuer la rente, parce qu'elle mobilise des ressources pour contourner la règle[^4]. Plus l'écart est grand, plus le métal s'oriente vers les frontières.",
+        "La géographie aggrave ce risque. Siguiri est à quelques dizaines de kilomètres de la frontière malienne, et le Mali comme le Burkina Faso disposeront bientôt de raffineries dont la rentabilité dépend de l'or importé. Si Sénou ou Raffinor-BF offrent de meilleures conditions que la filière guinéenne, l'or artisanal de Haute-Guinée passera la frontière en doré et sera raffiné, puis exporté, comme or malien ou burkinabè. Les trois États poursuivent le même objectif, faire transiter le métal par leurs propres installations, avec des instruments qui les mettent en concurrence. En l'absence de règles communes sur l'origine et la traçabilité de l'or au niveau de la CEDEAO ou de l'AES, chaque raffinerie a intérêt à accepter le métal d'origine incertaine que les autres refusent.",
+        "Le Ghana montre qu'une autre approche est possible, au prix d'un effort sur les prix plutôt que sur la répression. Depuis 2025, GoldBod est l'acheteur et l'exportateur unique de l'or artisanal ; selon son directeur général, Sammy Gyamfi, cité par [MyJoyOnline](https://www.myjoyonline.com/ghanas-small-scale-gold-exports-overtake-large-scale-for-the-first-time-goldbod-ceo/), les exportations artisanales ont dépassé pour la première fois celles des grandes mines au printemps 2025, et elles ont atteint 104 tonnes sur l'année selon [Reuters](https://www.businessday.co.za/world/africa/2026-08-25-ghana-bars-unrefined-artisanal-gold-dore-exports-from-september-1/). L'office a obtenu ce résultat en payant des prix proches du marché et en reconnaissant les orpailleurs comme des acteurs légitimes. L'obligation de raffinage local n'est venue qu'ensuite, une fois le métal capté. La Guinée a inversé l'ordre des opérations, en imposant le raffinage puis en fermant les sites, ce qui expose sa raffinerie au risque de manquer du métal qu'elle devait canaliser."
+      ]
+    },
+    {
+      "heading": "Scénarios",
+      "paragraphs": [],
+      "scenarios": [
+        {
+          "level": "most",
+          "title": "Des raffineries sous-utilisées et une contrebande déplacée",
+          "text": "Les raffineries guinéenne et burkinabè fonctionnent bien en dessous de leurs capacités annoncées, alimentées surtout par l'or industriel que les sociétés minières sont contraintes d'y faire passer. L'orpaillage reprend à Siguiri sous une forme plus clandestine ou se déplace vers les zones frontalières, et une partie de l'or artisanal guinéen transite par le Mali. Les lingots, faute d'inscription sur la liste « Good Delivery » de la LBMA, sont vendus avec une décote à des acheteurs du Golfe ou d'Asie. Les relations entre Conakry, Bamako et Ouagadougou se normalisent après le rapatriement, sans accord sur la mobilité des orpailleurs."
+        },
+        {
+          "level": "less",
+          "title": "Une formalisation réussie sur le modèle ghanéen",
+          "text": "Après la phase répressive, la Guinée ouvre des couloirs d'orpaillage légal à Siguiri, délivre des permis aux orpailleurs nationaux et fait acheter l'or artisanal par l'État ou des comptoirs agréés à des prix proches du cours de Londres. Les volumes déclarés progressent, la BCRG constitue des réserves en or et la Nimba Gold Refinery engage une démarche d'accréditation internationale. La CEDEAO et l'AES adoptent un cadre minimal de traçabilité de l'origine de l'or qui limite la concurrence entre raffineries."
+        },
+        {
+          "level": "least",
+          "title": "Une guerre de l'or entre voisins",
+          "text": "La surcapacité pousse les raffineries à surenchérir pour le doré artisanal, chacune acceptant un métal d'origine incertaine. Des sanctions financières ou des refus d'acheteurs internationaux frappent l'une d'elles pour défaut de traçabilité. Les tensions migratoires nées de Siguiri se transforment en différend politique durable entre la Guinée et l'AES, avec des mesures de rétorsion sur les échanges et la circulation des personnes, au détriment des corridors commerciaux qui relient Conakry à Bamako."
+        }
+      ]
+    },
+    {
+      "heading": "Sources",
+      "paragraphs": [
+        "[RFI (via AllAfrica), Guinée : l'orpaillage « anarchique » interdit dans le nord-est, Ouagadougou dénonce l'expulsion de Burkinabè, 6 novembre 2026](https://fr.allafrica.com/stories/202611060227.html) | [Africanews avec l'AFP, Gold miners expelled by Guinea start leaving assembly site in Mali, 11 novembre 2026](https://www.africanews.com/2026/11/11/gold-miners-expelled-by-guinea-start-leaving-assembly-site-in-mali/) | [Guinee114 (GuineeCheck), Siguiri : l'interdiction de l'orpaillage artisanal clandestin ne cible pas une nationalité, 8 novembre 2026](https://www.guinee114.com/2026/11/08/guinee-siguiri-linterdiction-de-lorpaillage-artisanal-clandestin-ne-cible-pas-une-nationalite/) | [Guinee360, Bamako et Ouagadougou réagissent : l'interdiction de l'orpaillage artisanal à Siguiri prend une dimension régionale, 4 novembre 2026](https://www.guinee360.com/04/11/2026/guinee-bamako-et-ouagadougou-reagissent-linterdiction-de-lorpaillage-artisanal-a-siguiri-prend-une-dimension-regionale) | [Le Pays (via AllAfrica), Expulsion d'orpailleurs burkinabè de Guinée : les leçons à tirer, 9 novembre 2026](https://fr.allafrica.com/stories/202611090128.html) | [Mediaguinee, Doumbouya inaugure Nimba Gold Refinery, une raffinerie d'or de 733 tonnes par an, 1er novembre 2026](https://mediaguinee.com/2026/11/conakry-doumbouya-inaugure-nimba-gold-refinery-une-raffinerie-dor-de-733-tonnes-par-an) | [Eco Finance Guinée, La Guinée exporte ses premiers lingots d'or raffinés sur son territoire, 10 octobre 2026](https://www.ecofinanceguinee.com/la-guinee-exporte-ses-premiers-lingots-dor-raffines-sur-son-territoire/) | [Agence guinéenne de presse, Un décret encadre l'exportation de l'or raffiné et des métaux associés, 3 octobre 2026](https://agpguinee.com/guinee-un-decret-encadre-lexportation-de-lor-raffine-et-des-metaux-associes/) | [Le360 Afrique, Guinée : l'exportation de l'or raffiné soumise à de nouvelles règles, 3 octobre 2026](https://afrique.le360.ma/economie/guinee-lexportation-de-lor-raffine-soumise-a-de-nouvelles-regles_FJZTIOECJJETZK6VWRRG2LIADI/) | [Guinéenews, Exportation de l'or : le président Doumbouya impose le raffinage local obligatoire préalable, 8 juillet 2026](https://guineenews.org/2026/07/08/exportation-de-lor-le-president-doumbouya-impose-le-raffinage-local-obligatoire-prealable/) | [Guinee360, Filière aurifère : Mamadi Doumbouya interdit l'exportation de l'or brut et impose le raffinage en Guinée, 4 juillet 2026](https://www.guinee360.com/04/07/2026/filiere-aurifere-mamadi-doumbouya-interdit-lexportation-de-lor-brut-et-impose-le-raffinage-en-guinee/) | [Agence Ecofin (via Club of Mozambique), Guinea bans raw gold exports, mandates local refining before shipment, 23 juin 2026](https://clubofmozambique.com/news/guinea-bans-raw-gold-exports-mandates-local-refining-before-shipment/) | [Associated Press (via BNN Bloomberg), Burkina Faso opens its first gold refinery in a push for economic sovereignty, 29 septembre 2026](https://www.bnnbloomberg.ca/markets/gold/2026/09/29/burkina-faso-opens-its-first-gold-refinery-in-a-push-for-economic-sovereignty/) | [Reuters (via Kitco), Mali starts construction of Russia-backed gold refinery, 17 juin 2025](https://www.kitco.com/news/off-the-wire/2025-06-17/mali-starts-construction-russia-backed-gold-refinery) | [Reuters (via Business Day), Ghana bars unrefined artisanal gold dore exports from September 1, 25 août 2026](https://www.businessday.co.za/world/africa/2026-08-25-ghana-bars-unrefined-artisanal-gold-dore-exports-from-september-1/) | [MyJoyOnline, Ghana's small-scale gold exports overtake large-scale for the first time, 3 juin 2025](https://www.myjoyonline.com/ghanas-small-scale-gold-exports-overtake-large-scale-for-the-first-time-goldbod-ceo/) | [Arab News, Hafed Al-Ghwell, Why West Africa's gold refineries will not deliver sovereignty, 24 octobre 2026](https://www.arabnews.com/opinion/why-west-africas-gold-refineries-will-not-deliver-sovereignty-3007847)"
+      ]
+    }
+  ],
+  "notes": [
+    "Albert O. Hirschman (1915-2012), économiste né à Berlin, professeur aux universités Yale, Columbia et Harvard, puis à l'Institute for Advanced Study de Princeton. « The Strategy of Economic Development », Yale University Press, New Haven, 1958.",
+    "Gary Gereffi, professeur de sociologie à l'université Duke ; John Humphrey, chercheur à l'Institute of Development Studies de l'université du Sussex ; Timothy Sturgeon, chercheur au Massachusetts Institute of Technology. « The Governance of Global Value Chains », Review of International Political Economy, vol. 12, n° 1, 2005, p. 78-104.",
+    "Gavin Hilson, professeur à l'université du Surrey, spécialiste de l'exploitation minière artisanale en Afrique subsaharienne. « Small-scale mining, poverty and economic development in sub-Saharan Africa: An overview », Resources Policy, vol. 34, n° 1-2, 2009, p. 1-5.",
+    "Jagdish Bhagwati, économiste indo-américain, professeur à l'université Columbia, et Bent Hansen, économiste danois, professeur à l'université de Californie à Berkeley. « A Theoretical Analysis of Smuggling », Quarterly Journal of Economics, vol. 87, n° 2, 1973, p. 172-187."
+  ]
+},
+{
   "id": 10,
   "day": "05",
   "month": "NOV",
@@ -3005,6 +3279,280 @@ const BULLETINS_FR = [
 ];
 
 const BULLETINS_EN = [
+{
+  "id": 11,
+  "day": "12",
+  "month": "NOV",
+  "year": "2026",
+  "title": "West African gold: refining at home, at the price of shutting artisanal mines",
+  "excerpt": "Burkina Faso on 28 September, Guinea on 1 November: two national gold refineries opened within five weeks, while Mali builds its own and Ghana requires artisanal doré to be refined locally. The day after the Conakry inauguration, Guinea banned artisanal mining in the Siguiri region, sending tens of thousands of Sahelian miners back towards Mali. What moving into refining actually earns, and why it runs through control of artisanal gold.",
+  "tags": [
+    "Gold",
+    "Refining",
+    "Guinea",
+    "Burkina Faso",
+    "Mali",
+    "Ghana",
+    "Artisanal mining",
+    "AES"
+  ],
+  "category": "Regional Value Chains",
+  "nutshell": [
+    "Guinea's Nimba Gold Refinery, inaugurated on 1 November 2026, claims a capacity of 733 tonnes a year, roughly ten times the 72 tonnes of gold Guinea exported in 2025; Burkina Faso's refinery, opened on 28 September, is aiming for 515",
+    "Refining adds little value to the metal: its appeal for governments lies in traceability, taxation and foreign-exchange reserves, which requires capturing artisanal gold, about 70% of Guinea's exports",
+    "The 2 November ban on artisanal mining in Siguiri drove workers back to Mali, which says it has received around 160,000 people; competition among oversized refineries is more likely to feed smuggling than industry"
+  ],
+  "content": [
+    {
+      "heading": null,
+      "paragraphs": [
+        "Gold is one of the few commodities whose value owes almost nothing to processing. A bar at 99.5% purity is worth barely more than the doré, the crude alloy poured at the mine site, from which it is made: nearly all of the price already lies in the metal when it leaves the ground. Yet it is precisely this segment, refining, that several West African states have chosen as the ground on which to assert economic sovereignty. For decades the region's gold has left as doré for Dubai, Switzerland or India, where it is refined, certified and resold. Governments read this as the mark of a rentier economy stuck at the first link of the value chain, and see national refining as the way out.",
+        "Within five weeks, two refineries opened. On 28 September 2026, Burkinabè President Ibrahim Traoré inaugurated the Raffinor-BF refinery in Ouagadougou, with a capacity of 164 tonnes a year. On 1 November, Guinean President Mamadi Doumbouya inaugurated the Nimba Gold Refinery in Conakry, whose promoters announce 733 tonnes a year. Mali has been building its own near Bamako since June 2025, and since 1 September 2026 Ghana has required artisanal doré bought for export to be refined locally. On 2 November, the day after the Conakry inauguration, five Guinean ministries banned artisanal mining in the Siguiri region, the country's leading gold district, and tens of thousands of workers, many of them Burkinabè and Malian, flowed back into Mali.",
+        "The two Guinean decisions belong to the same policy. They raise three questions: what moving into refining actually earns gold-producing countries, why it requires control over artisanal gold, and what this strategy costs the Sahelian neighbours whose workers made a living from these deposits. The answer has less to do with refining technology than with how the metal moves between countries whose borders are porous and whose refineries, all of them oversized, will compete for the same doré."
+      ]
+    },
+    {
+      "heading": "One doctrine, applied in fifteen months",
+      "factbox": {
+        "title": "Key dates: the refinery wave",
+        "items": [
+          "16 June 2025: construction begins on the Sénou refinery near Bamako (200 t/yr), with Russia's Yadran Group",
+          "19 June 2026: Mamadi Doumbouya announces the end of raw gold exports from Guinea",
+          "8 July 2026: Guinean decree requiring prior refining in an approved refinery, after a 90-day transition",
+          "1 September 2026: Ghana bars aggregators from exporting unrefined artisanal doré",
+          "28 September 2026: Raffinor-BF opens in Ouagadougou (164 t/yr, target 515 t)",
+          "2 October 2026: Guinean decree setting the export procedure for refined gold",
+          "9 October 2026: first export of gold refined in Guinea, by the Nimba Gold Refinery",
+          "1 November 2026: inauguration of the Nimba Gold Refinery in Conakry (733 t/yr announced)",
+          "2 November 2026: ban on artisanal mining in the Siguiri region"
+        ]
+      },
+      "paragraphs": [
+        "Mali led the way. On 16 June 2025, General Assimi Goïta launched construction at Sénou, on the outskirts of Bamako, of a 200-tonne-a-year refinery majority-owned by the state and built with Russia's Yadran Group and a Swiss investment company. According to [Reuters](https://www.kitco.com/news/off-the-wire/2025-06-17/mali-starts-construction-russia-backed-gold-refinery), the planned capacity was nearly four times Mali's annual output. The junta leader summed up the doctrine: since 1980, Malian gold has been exported to be refined and sold elsewhere, depriving the country of revenue. Yadran's president, Irek Salikhov, was already presenting the plant as a future regional centre for processing gold from Mali and neighbouring countries, Burkina Faso among them.",
+        "Burkina Faso moved faster. Raffinor-BF, set on five hectares in Ouagadougou, cost more than 11 billion CFA francs, about $19 million, financed by the state, notably through the National Precious Metals Company (SONASP), and by private investors, according to the [Associated Press](https://www.bnnbloomberg.ca/markets/gold/2026/09/29/burkina-faso-opens-its-first-gold-refinery-in-a-push-for-economic-sovereignty/). Its initial capacity of 164 tonnes is to be raised to 515 tonnes, whereas the country produced 94 tonnes of gold in 2025 according to the authorities. \"From now on, gold from Burkina Faso must not only be extracted in Burkina Faso, it must be processed\" there, Captain Traoré said at the inauguration. Ghana, which is not a member of the Alliance of Sahel States (AES), is following a similar path: according to [Reuters](https://www.businessday.co.za/world/africa/2026-08-25-ghana-bars-unrefined-artisanal-gold-dore-exports-from-september-1/), its gold board, GoldBod, has required since 1 September that artisanal doré bought by aggregators be refined in the country before any export.",
+        "Guinea opted for the most binding formula. On 19 June 2026, before industrial, semi-industrial and artisanal operators, Mamadi Doumbouya announced that Guinean gold would henceforth be smelted, certified and processed in Guinea before export, according to [Agence Ecofin](https://clubofmozambique.com/news/guinea-bans-raw-gold-exports-mandates-local-refining-before-shipment/). The decree of 8 July, reported by [Guinéenews](https://guineenews.org/2026/07/08/exportation-de-lor-le-president-doumbouya-impose-le-raffinage-local-obligatoire-prealable/), bans the export of any gold not refined in a state-approved refinery, after a 90-day transition. A second decree, read out on 2 October and detailed by the [Guinean Press Agency](https://agpguinee.com/guinee-un-decret-encadre-lexportation-de-lor-raffine-et-des-metaux-associes/), puts the Guinean Office for the Assay of Gold (OGE) in charge of export controls: weighing and sealing at the refinery in the presence of customs, the anti-fraud brigade and the Central Bank of the Republic of Guinea (BCRG), with taxes computed on the London fixing. The first batch of refined gold left on 9 October."
+      ]
+    },
+    {
+      "heading": "Capacity out of all proportion to the metal available",
+      "figure": {
+        "after": 1,
+        "kind": "pairs",
+        "unit": "t",
+        "labelWidth": 150,
+        "title": "Announced refinery capacity and gold available (tonnes a year)",
+        "legend": [
+          "Announced refining capacity",
+          "Gold exported (Guinea) or produced (Burkina Faso) in 2025"
+        ],
+        "items": [
+          {
+            "label": "Guinea",
+            "a": 733,
+            "b": 72.1,
+            "aLabel": "733",
+            "bLabel": "72"
+          },
+          {
+            "label": "Burkina Faso",
+            "a": 164,
+            "b": 94,
+            "aLabel": "164 (target 515)",
+            "bLabel": "94"
+          }
+        ],
+        "note": "Sources: Nimba Gold Refinery, via [Mediaguinee](https://mediaguinee.com/2026/11/conakry-doumbouya-inaugure-nimba-gold-refinery-une-raffinerie-dor-de-733-tonnes-par-an), 1 November 2026; Guinean Ministry of Mines, via [Le360 Afrique](https://afrique.le360.ma/economie/guinee-lexportation-de-lor-raffine-soumise-a-de-nouvelles-regles_FJZTIOECJJETZK6VWRRG2LIADI/), 3 October 2026; presidency and authorities of Burkina Faso, via the Associated Press, 29 September 2026. Mali's Sénou refinery (200 t/yr) is not shown, as the same source does not publish a reference figure for Malian output."
+      },
+      "paragraphs": [
+        "The announced capacities far exceed the metal each country can supply. According to Guinean Ministry of Mines figures published by [Le360 Afrique](https://afrique.le360.ma/economie/guinee-lexportation-de-lor-raffine-soumise-a-de-nouvelles-regles_FJZTIOECJJETZK6VWRRG2LIADI/), Guinea exported 72.12 tonnes of gold in 2025 and 40.28 tonnes in the first half of 2026. The Nimba Gold Refinery, whose representative Moussa Magassouba presented its 733-tonne capacity at the inauguration reported by [Mediaguinee](https://mediaguinee.com/2026/11/conakry-doumbouya-inaugure-nimba-gold-refinery-une-raffinerie-dor-de-733-tonnes-par-an), could therefore process about ten times national output. Burkina Faso is targeting 515 tonnes against 94 tonnes produced; Mali sized Sénou at nearly four times its output. Taken together, these capacities far exceed the gold production of West Africa as a whole.",
+        "This oversizing is no planning accident. A refinery has high fixed costs, in equipment, assay laboratories and security, and low variable costs; its returns depend on the volume it processes. A plant designed for several times national output can only become profitable by drawing in metal from elsewhere. Yadran's president said so openly in 2025 when he mentioned Burkinabè gold. Each project thus rests on the implicit assumption that it will become the regional hub, which cannot be true for all of them at once. With three refineries less than a thousand kilometres apart, the question becomes which one will capture the others' doré, and by what means.",
+        "The economist Albert Hirschman, born in Germany and later a leading figure of development economics in the United States, proposed in \"The Strategy of Economic Development\" (1958) that an investment be judged by its linkages: the activities it stimulates upstream, among its suppliers, and downstream, among its customers[^1]. He observed that extractive industries generated few of them, because ore leaves the country unprocessed and mines import their equipment. Gold refining does add a downstream link, but a short one: there is little jewellery, electronics or financial industry in the region that would use the bar locally. The expected linkage therefore runs less through industry than through the state, which sees the refinery as a mandatory checkpoint for all of the metal."
+      ]
+    },
+    {
+      "heading": "What refining earns, and what it does not",
+      "paragraphs": [
+        "The refiner's margin is thin, because processing affects only a fraction of the mass: doré already contains most of its gold, and refining mainly strips out silver and impurities. The refiner charges for a service, at a few dollars an ounce, not for the value of the metal, which remains pegged to the London price. The Guinean decrees draw the logical conclusion: according to [Guinee360](https://www.guinee360.com/04/07/2026/filiere-aurifere-mamadi-doumbouya-interdit-lexportation-de-lor-brut-et-impose-le-raffinage-en-guinee/), the purchase price is indexed to the London Bullion Market Association (LBMA) price and mining companies keep ownership of their gold, with the refinery acting as a service provider. The direct gain for the Guinean economy is thus limited to refining fees, the skilled jobs the promoters promise and a handful of ancillary services.",
+        "The real stakes lie elsewhere, in information and taxation. A national refinery through which all gold must pass becomes the place where the state weighs, assays and records the metal before it leaves. The October Guinean framework organises exactly this visibility, with refining reports sent to the OGE, the BCRG, customs and the National Geology Laboratory. Mines Minister Bouna Sylla added at the inauguration that the state intends to buy up to 30% of industrial and semi-industrial output, paid in Guinean francs, to bolster the central bank's foreign-exchange reserves. The refinery thus serves three purposes that refining abroad did not: knowing the volumes, levying tax and building gold reserves.",
+        "That leaves the question of market access. The scholars Gary Gereffi of Duke University, John Humphrey of the Institute of Development Studies at the University of Sussex and Timothy Sturgeon of MIT showed in 2005 that a country's position in a value chain depends on how the chain is governed: when buyers impose complex standards that are hard to certify, the entry of new suppliers remains controlled by those who set the standards[^2]. In gold, that role falls to the LBMA, whose Good Delivery List determines which bars are accepted on the London market without being refined again. According to Hafed Al-Ghwell of the Stimson Center, in a column published by [Arab News](https://www.arabnews.com/opinion/why-west-africas-gold-refineries-will-not-deliver-sovereignty-3007847) in October 2026, South Africa's Rand Refinery remains the only African refinery on that list. Until Nimba, Raffinor-BF and Sénou are on it, their bars will have to be sold to buyers willing to re-refine them or to take them at a discount."
+      ]
+    },
+    {
+      "heading": "Siguiri: artisanal gold, the linchpin of the scheme",
+      "figure": {
+        "after": 0,
+        "kind": "bars",
+        "unit": "t",
+        "labelWidth": 230,
+        "title": "Guinea's gold exports by origin (tonnes)",
+        "items": [
+          {
+            "label": "2025, artisanal gold",
+            "value": 49.6,
+            "valueLabel": "49.6 t",
+            "hi": true
+          },
+          {
+            "label": "2025, industrial gold",
+            "value": 22.52,
+            "valueLabel": "22.5 t"
+          },
+          {
+            "label": "H1 2026, artisanal gold",
+            "value": 29.23,
+            "valueLabel": "29.2 t",
+            "hi": true
+          },
+          {
+            "label": "H1 2026, industrial gold",
+            "value": 11.05,
+            "valueLabel": "11.1 t"
+          }
+        ],
+        "note": "Source: Guinean Ministry of Mines and Geology, via [Le360 Afrique](https://afrique.le360.ma/economie/guinee-lexportation-de-lor-raffine-soumise-a-de-nouvelles-regles_FJZTIOECJJETZK6VWRRG2LIADI/) (with MAP), 3 October 2026. Industrial gold calculated as the difference between the total (72.12 t in 2025, 40.28 t in H1 2026) and artisanal gold."
+      },
+      "paragraphs": [
+        "Guinea differs from its neighbours in the structure of its output. According to the Ministry of Mines, artisanal gold accounted for 49.60 of the 72.12 tonnes exported in 2025, about 69%, and for 29.23 of the 40.28 tonnes exported in the first half of 2026, about 73%. This gold is dug by artisanal miners, bought by collectors and trading houses, then exported as doré, often with no check on its provenance. For a national refinery to capture the metal, gold from the large mining companies is not enough: artisanal gold, more than two-thirds of the total, has to pass through it. The refining policy thus forces the state to take back control of an artisanal sector it had until now tolerated.",
+        "Siguiri, in Upper Guinea, is its largest deposit. On 29 October, the region's acting governor, Colonel Fayimba Mara, suspended all artisanal gold mining there. On 2 November, a joint statement by five ministries (Mines, Territorial Administration, Defence, Environment and Justice) banned artisanal mining in the region, citing environmental degradation and pollution of the Niger River and its tributaries, according to [RFI](https://fr.allafrica.com/stories/202611060227.html). A surveillance operation bringing together the army, gendarmerie, police, customs and forest rangers was deployed, and people on the sites were subjected to identity and residence checks. According to a statement by the defence and security ministries dated 7 November and cited by [Africanews](https://www.africanews.com/2026/11/11/gold-miners-expelled-by-guinea-start-leaving-assembly-site-in-mali/), 1,263 people of seven nationalities were arrested.",
+        "The crackdown also targeted the administration. According to a fact-check published by [Guinee114](https://www.guinee114.com/2026/11/08/guinee-siguiri-linterdiction-de-lorpaillage-artisanal-clandestin-ne-cible-pas-une-nationalite/), 22 territorial administrators, civilian and military, including the acting governor, were struck off by decree for facilitating illegal mining; seven of them were remanded in custody on 4 November by the Court for the Repression of Economic and Financial Offences, and the Minister of Territorial Administration, Djénabou Touré, dismissed 479 district and neighbourhood chiefs. These sanctions describe an economy in which informal permission to dig was negotiated locally and whose rent went to intermediaries rather than to the Treasury. The same article recalls that bans had already been announced in 2024, in July 2025 and in March 2026. The difference this time is that a refinery is waiting for the metal."
+      ]
+    },
+    {
+      "heading": "The regional cost of a national decision",
+      "figure": {
+        "after": 1,
+        "kind": "map",
+        "region": "westafrica",
+        "title": "The refinery wave and the exodus of Siguiri's miners",
+        "groups": [
+          {
+            "ids": [
+              "324"
+            ],
+            "label": "Guinea: Nimba refinery (733 t/yr announced) and artisanal mining ban in Siguiri",
+            "tone": "c"
+          },
+          {
+            "ids": [
+              "854",
+              "466"
+            ],
+            "label": "National refineries open or under construction (Burkina Faso, Mali)",
+            "tone": "a"
+          },
+          {
+            "ids": [
+              "288"
+            ],
+            "label": "Ghana: local refining of artisanal doré mandatory since 1 September 2026",
+            "tone": "b"
+          }
+        ],
+        "points": [
+          {
+            "name": "Conakry",
+            "lon": -13.68,
+            "lat": 9.64,
+            "anchor": "end"
+          },
+          {
+            "name": "Siguiri",
+            "lon": -9.17,
+            "lat": 11.42,
+            "anchor": "end",
+            "dy": 12
+          },
+          {
+            "name": "Bamako (Sénou)",
+            "lon": -8,
+            "lat": 12.64
+          },
+          {
+            "name": "Ouagadougou",
+            "lon": -1.53,
+            "lat": 12.37
+          },
+          {
+            "name": "Accra",
+            "lon": -0.19,
+            "lat": 5.6
+          }
+        ],
+        "links": [
+          {
+            "from": [
+              -9.17,
+              11.42
+            ],
+            "to": [
+              -8,
+              12.64
+            ],
+            "tone": "c"
+          },
+          {
+            "from": [
+              -8,
+              12.64
+            ],
+            "to": [
+              -1.53,
+              12.37
+            ],
+            "tone": "c"
+          }
+        ],
+        "note": "Dotted lines show the flow of Siguiri's miners towards Bamako, then the repatriation of Burkinabè by bus. Sources: RFI, Africanews (AFP), Reuters, Associated Press, November 2026."
+      },
+      "paragraphs": [
+        "The Siguiri deposits support livelihoods well beyond Guinea. On 7 November, Malian authorities said they had received around 160,000 people from Guinea since the operations began, reporting six deaths and a \"humanitarian emergency\", according to [AFP](https://www.africanews.com/2026/11/11/gold-miners-expelled-by-guinea-start-leaving-assembly-site-in-mali/). Mali's crisis committee had noted as early as 3 November a large influx of nationals of various countries towards Bamako. Burkina Faso's security minister, Mahamadou Sana, who travelled to Bamako to organise repatriation, called the operation \"deeply deplorable and regrettable\" and denounced \"cruel, inhuman and degrading\" treatment. Guinea's foreign minister, Morissanda Kouyaté, replied before the diplomatic corps that environmental protection could not be sacrificed in the name of African fraternity, adding that 409 Burkinabè and 606 Malians had been handed over to their embassies.",
+        "The episode exposes a dimension that national refining policies ignore: the value chain of West African artisanal gold is regional in its labour force. Artisanal miners move between deposits in Mali, Guinea, Burkina Faso and Côte d'Ivoire as discoveries and seasons dictate, and their earnings fund remittances to their home villages. For Burkina Faso and Mali, two AES countries whose rural areas are hit by insecurity, the abrupt closure of Siguiri removes an outlet for a young and unskilled population; the Burkinabè daily Le Pays noted that most of the young people involved were under twenty. Part of the cost of Guinea's formalisation is thus borne by neighbours who were not consulted.",
+        "Gavin Hilson, a professor at the University of Surrey and a specialist in artisanal mining in Africa, has shown that it is first and foremost a subsistence activity, driven by rural poverty and the lack of other income, and that bans which offer no route to legal permits push miners into clandestinity rather than making them disappear[^3]. The Guinean scheme so far provides only for closure and residence checks. Guinean artisanal miners, by far the most numerous, remain in the region, and foreign workers may move on to neighbouring sites in southern Mali or Côte d'Ivoire. The gold they extract will then escape the Guinean refinery, whichever country it is exported from."
+      ]
+    },
+    {
+      "heading": "Smuggling, the limit of sovereignty by decree",
+      "paragraphs": [
+        "The refining requirement opens a gap between the price the state offers and what the parallel market can pay. A miner or collector selling through the official channel bears traceability, taxation, refining fees and, if the state exercises its purchase right, payment in Guinean francs at the official rate. The economists Jagdish Bhagwati of Columbia University and Bent Hansen of the University of California, Berkeley, showed in 1973 that any such gap between two countries creates an incentive to smuggle, and that smuggling can reduce national welfare rather than merely redistribute the rent, because it uses up resources to get around the rule[^4]. The wider the gap, the more the metal heads for the borders.",
+        "Geography compounds the risk. Siguiri lies a few dozen kilometres from the Malian border, and both Mali and Burkina Faso will soon have refineries whose profitability depends on imported gold. If Sénou or Raffinor-BF offer better terms than the Guinean channel, artisanal gold from Upper Guinea will cross the border as doré and be refined, then exported, as Malian or Burkinabè gold. The three states pursue the same objective, routing metal through their own facilities, with instruments that set them against one another. Without common rules on the origin and traceability of gold at ECOWAS or AES level, each refinery has an incentive to accept the metal of uncertain origin that the others turn away.",
+        "Ghana shows that another approach is possible, at the cost of effort on prices rather than on repression. Since 2025, GoldBod has been the sole buyer and exporter of artisanal gold; according to its chief executive, Sammy Gyamfi, quoted by [MyJoyOnline](https://www.myjoyonline.com/ghanas-small-scale-gold-exports-overtake-large-scale-for-the-first-time-goldbod-ceo/), artisanal exports overtook those of large mines for the first time in spring 2025, and they reached 104 tonnes over the year according to [Reuters](https://www.businessday.co.za/world/africa/2026-08-25-ghana-bars-unrefined-artisanal-gold-dore-exports-from-september-1/). The board achieved this by paying prices close to the market and by recognising artisanal miners as legitimate actors. The local refining requirement came only afterwards, once the metal had been captured. Guinea reversed the sequence, imposing refining and then closing the sites, which leaves its refinery at risk of lacking the very metal it was meant to channel."
+      ]
+    },
+    {
+      "heading": "Scenarios",
+      "paragraphs": [],
+      "scenarios": [
+        {
+          "level": "most",
+          "title": "Underused refineries and displaced smuggling",
+          "text": "The Guinean and Burkinabè refineries run well below their announced capacity, fed mainly by industrial gold that mining companies are obliged to route through them. Artisanal mining resumes in Siguiri in a more clandestine form or shifts to border areas, and part of Guinea's artisanal gold transits through Mali. Lacking a place on the LBMA Good Delivery List, the bars are sold at a discount to buyers in the Gulf or Asia. Relations between Conakry, Bamako and Ouagadougou normalise after the repatriations, without any agreement on the mobility of artisanal miners."
+        },
+        {
+          "level": "less",
+          "title": "Successful formalisation on the Ghanaian model",
+          "text": "After the repressive phase, Guinea opens legal artisanal mining corridors in Siguiri, issues permits to national miners and has artisanal gold bought by the state or licensed trading houses at prices close to the London price. Declared volumes rise, the BCRG builds gold reserves and the Nimba Gold Refinery starts an international accreditation process. ECOWAS and the AES adopt a minimal framework for tracing the origin of gold that limits competition among refineries."
+        },
+        {
+          "level": "least",
+          "title": "A gold war between neighbours",
+          "text": "Overcapacity pushes refineries to outbid one another for artisanal doré, each accepting metal of uncertain origin. Financial sanctions or refusals by international buyers hit one of them for lack of traceability. The migration tensions born in Siguiri turn into a lasting political dispute between Guinea and the AES, with retaliatory measures on trade and the movement of people, to the detriment of the trade corridors linking Conakry to Bamako."
+        }
+      ]
+    },
+    {
+      "heading": "Sources",
+      "paragraphs": [
+        "[RFI (via AllAfrica), Guinea: \"anarchic\" artisanal mining banned in the north-east, Ouagadougou denounces expulsion of Burkinabè, 6 November 2026](https://fr.allafrica.com/stories/202611060227.html) | [Africanews with AFP, Gold miners expelled by Guinea start leaving assembly site in Mali, 11 November 2026](https://www.africanews.com/2026/11/11/gold-miners-expelled-by-guinea-start-leaving-assembly-site-in-mali/) | [Guinee114 (GuineeCheck), Siguiri: the ban on illegal artisanal mining does not target any nationality, 8 November 2026](https://www.guinee114.com/2026/11/08/guinee-siguiri-linterdiction-de-lorpaillage-artisanal-clandestin-ne-cible-pas-une-nationalite/) | [Guinee360, Bamako and Ouagadougou react: the artisanal mining ban in Siguiri takes on a regional dimension, 4 November 2026](https://www.guinee360.com/04/11/2026/guinee-bamako-et-ouagadougou-reagissent-linterdiction-de-lorpaillage-artisanal-a-siguiri-prend-une-dimension-regionale) | [Le Pays (via AllAfrica), Expulsion of Burkinabè gold miners from Guinea: lessons to be drawn, 9 November 2026](https://fr.allafrica.com/stories/202611090128.html) | [Mediaguinee, Doumbouya inaugurates Nimba Gold Refinery, a 733-tonne-a-year gold refinery, 1 November 2026](https://mediaguinee.com/2026/11/conakry-doumbouya-inaugure-nimba-gold-refinery-une-raffinerie-dor-de-733-tonnes-par-an) | [Eco Finance Guinée, Guinea exports its first gold bars refined on its territory, 10 October 2026](https://www.ecofinanceguinee.com/la-guinee-exporte-ses-premiers-lingots-dor-raffines-sur-son-territoire/) | [Guinean Press Agency, A decree regulates the export of refined gold and associated metals, 3 October 2026](https://agpguinee.com/guinee-un-decret-encadre-lexportation-de-lor-raffine-et-des-metaux-associes/) | [Le360 Afrique, Guinea: export of refined gold subject to new rules, 3 October 2026](https://afrique.le360.ma/economie/guinee-lexportation-de-lor-raffine-soumise-a-de-nouvelles-regles_FJZTIOECJJETZK6VWRRG2LIADI/) | [Guinéenews, Gold exports: President Doumbouya makes prior local refining mandatory, 8 July 2026](https://guineenews.org/2026/07/08/exportation-de-lor-le-president-doumbouya-impose-le-raffinage-local-obligatoire-prealable/) | [Guinee360, Gold sector: Mamadi Doumbouya bans raw gold exports and requires refining in Guinea, 4 July 2026](https://www.guinee360.com/04/07/2026/filiere-aurifere-mamadi-doumbouya-interdit-lexportation-de-lor-brut-et-impose-le-raffinage-en-guinee/) | [Agence Ecofin (via Club of Mozambique), Guinea bans raw gold exports, mandates local refining before shipment, 23 June 2026](https://clubofmozambique.com/news/guinea-bans-raw-gold-exports-mandates-local-refining-before-shipment/) | [Associated Press (via BNN Bloomberg), Burkina Faso opens its first gold refinery in a push for economic sovereignty, 29 September 2026](https://www.bnnbloomberg.ca/markets/gold/2026/09/29/burkina-faso-opens-its-first-gold-refinery-in-a-push-for-economic-sovereignty/) | [Reuters (via Kitco), Mali starts construction of Russia-backed gold refinery, 17 June 2025](https://www.kitco.com/news/off-the-wire/2025-06-17/mali-starts-construction-russia-backed-gold-refinery) | [Reuters (via Business Day), Ghana bars unrefined artisanal gold dore exports from September 1, 25 August 2026](https://www.businessday.co.za/world/africa/2026-08-25-ghana-bars-unrefined-artisanal-gold-dore-exports-from-september-1/) | [MyJoyOnline, Ghana's small-scale gold exports overtake large-scale for the first time, 3 June 2025](https://www.myjoyonline.com/ghanas-small-scale-gold-exports-overtake-large-scale-for-the-first-time-goldbod-ceo/) | [Arab News, Hafed Al-Ghwell, Why West Africa's gold refineries will not deliver sovereignty, 24 October 2026](https://www.arabnews.com/opinion/why-west-africas-gold-refineries-will-not-deliver-sovereignty-3007847)"
+      ]
+    }
+  ],
+  "notes": [
+    "Albert O. Hirschman (1915-2012), Berlin-born economist, professor at Yale, Columbia and Harvard universities, then at the Institute for Advanced Study in Princeton. \"The Strategy of Economic Development\", Yale University Press, New Haven, 1958.",
+    "Gary Gereffi, professor of sociology at Duke University; John Humphrey, research fellow at the Institute of Development Studies, University of Sussex; Timothy Sturgeon, researcher at the Massachusetts Institute of Technology. \"The Governance of Global Value Chains\", Review of International Political Economy, vol. 12, no. 1, 2005, pp. 78-104.",
+    "Gavin Hilson, professor at the University of Surrey, specialist in artisanal and small-scale mining in sub-Saharan Africa. \"Small-scale mining, poverty and economic development in sub-Saharan Africa: An overview\", Resources Policy, vol. 34, no. 1-2, 2009, pp. 1-5.",
+    "Jagdish Bhagwati, Indian-American economist, professor at Columbia University, and Bent Hansen, Danish economist, professor at the University of California, Berkeley. \"A Theoretical Analysis of Smuggling\", Quarterly Journal of Economics, vol. 87, no. 2, 1973, pp. 172-187."
+  ]
+},
 {
   "id": 10,
   "day": "05",
