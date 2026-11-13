@@ -4,48 +4,34 @@
 - **Titre FR** : L'or ouest-africain : raffiner chez soi, au prix d'une fermeture des mines artisanales
 - **Titre EN** : West African gold: refining at home, at the price of shutting artisanal mines
 - **Liens** : https://www.ismael-ouedraogo.com/#analyse-11-fr | https://www.ismael-ouedraogo.com/#analyse-11-en
-- **État** : textes prêts, rien n'a été publié ni envoyé.
+- **État** : posts LinkedIn réécrits le 13 novembre (prose continue, sans liste ni question rhétorique) ; textes prêts, rien n'a été publié ni envoyé.
 
 ## Post LinkedIn (FR)
 
 <!-- LI-FR -->
-L'or est l'un des rares produits dont la valeur ne doit presque rien à sa transformation. C'est pourtant sur le raffinage que plusieurs États d'Afrique de l'Ouest affirment leur souveraineté économique.
+Le Burkina Faso a inauguré sa raffinerie d'or nationale le 28 septembre, la Guinée la sienne le 1er novembre, et le Mali construit celle de Sénou, près de Bamako. Ces projets ont en commun des capacités sans rapport avec l'or disponible : la raffinerie de Conakry annonce 733 tonnes par an, alors que la Guinée a exporté 72 tonnes d'or en 2025.
 
-En cinq semaines, deux raffineries nationales ont ouvert : Raffinor-BF à Ouagadougou le 28 septembre, la Nimba Gold Refinery à Conakry le 1er novembre. Le Mali construit la sienne près de Bamako et le Ghana impose depuis le 1er septembre le raffinage local du doré artisanal.
+Le raffinage ajoute très peu de valeur au métal, dont le prix reste fixé à Londres. Ce qu'une raffinerie nationale apporte à l'État tient plutôt à l'information sur les volumes, à l'impôt et aux réserves de change, à condition que l'or y passe effectivement. En Guinée, l'or artisanal représentait environ 69 % des exportations en 2025, ce qui explique que l'interdiction de l'orpaillage à Siguiri soit tombée au lendemain de l'inauguration. Le Mali dit avoir accueilli depuis environ 160 000 personnes venues de Guinée.
 
-Trois faits :
-- la raffinerie guinéenne revendique 733 tonnes par an, environ dix fois les 72 tonnes d'or exportées par la Guinée en 2025 ;
-- l'or artisanal représente environ 69 % de ces exportations : sans lui, aucune raffinerie nationale ne tourne ;
-- au lendemain de l'inauguration, la Guinée a interdit l'orpaillage à Siguiri, et le Mali dit avoir accueilli environ 160 000 personnes venues de Guinée.
+Le Ghana a procédé dans l'ordre inverse (des prix d'achat proches du marché pour capter l'or artisanal, puis l'obligation de le raffiner sur place). Avec trois raffineries surdimensionnées à moins de mille kilomètres les unes des autres et sans règles communes de traçabilité, je crains que leur concurrence profite davantage à la contrebande qu'à l'industrie.
 
-Le raffinage rapporte peu en marge, davantage en information, en fiscalité et en réserves de change, à condition que le métal passe par l'usine. Le Ghana a d'abord capté l'or artisanal par les prix, puis imposé le raffinage. La Guinée a inversé l'ordre.
+L'analyse complète : https://www.ismael-ouedraogo.com/#analyse-11-fr
 
-Avec trois raffineries surdimensionnées à moins de mille kilomètres les unes des autres, laquelle captera le doré des autres, et leur concurrence nourrira-t-elle l'industrie ou la contrebande ?
-
-https://www.ismael-ouedraogo.com/#analyse-11-fr
-
-#Or #AfriqueDeLOuest #Guinée #Sahel #ÉconomieDuDéveloppement
+#Or #AfriqueDeLOuest #Sahel
 <!-- /LI-FR -->
 
 ## LinkedIn post (EN)
 
 <!-- LI-EN -->
-Gold is one of the few commodities whose value owes almost nothing to processing. Yet refining is the segment several West African states have chosen as the ground on which to assert economic sovereignty.
+Burkina Faso inaugurated its national gold refinery on 28 September, Guinea opened its own on 1 November, and Mali is building one at Sénou, near Bamako. These projects share capacities with little relation to the gold available: the Conakry refinery announces 733 tonnes a year, while Guinea exported 72 tonnes of gold in 2025.
 
-Within five weeks, two national refineries opened: Raffinor-BF in Ouagadougou on 28 September, the Nimba Gold Refinery in Conakry on 1 November. Mali is building its own near Bamako, and since 1 September Ghana has required artisanal doré to be refined locally.
+Refining adds very little value to the metal, whose price is still set in London. What a national refinery gives the state is information on volumes, tax revenue and foreign-exchange reserves, provided the gold actually goes through it. In Guinea, artisanal gold made up about 69% of exports in 2025, which is why the ban on artisanal mining in Siguiri came the day after the inauguration. Mali says it has since received around 160,000 people from Guinea.
 
-Three facts from the analysis:
-- Guinea's refinery claims 733 tonnes a year, roughly ten times the 72 tonnes of gold the country exported in 2025;
-- artisanal gold made up about 69% of those exports, so no national refinery runs without it;
-- the day after the inauguration, Guinea banned artisanal mining in Siguiri, and Mali says it has received around 160,000 people from Guinea.
+Ghana took the opposite route (purchase prices close to the market to capture artisanal gold first, then the obligation to refine it at home). With three oversized refineries less than a thousand kilometres apart and no common traceability rules, I fear their competition will benefit smuggling more than industry.
 
-Refining earns little in margin, more in information, taxation and foreign-exchange reserves, provided the metal actually goes through the plant. Ghana first captured artisanal gold through prices, then imposed refining. Guinea reversed the sequence.
+The full analysis: https://www.ismael-ouedraogo.com/#analyse-11-en
 
-With three oversized refineries less than a thousand kilometres apart, which one will capture the others' doré, and will their rivalry feed industry or smuggling?
-
-https://www.ismael-ouedraogo.com/#analyse-11-en
-
-#Gold #WestAfrica #Guinea #Sahel #DevelopmentEconomics
+#Gold #WestAfrica #Sahel
 <!-- /LI-EN -->
 
 ## Fil X (EN)
