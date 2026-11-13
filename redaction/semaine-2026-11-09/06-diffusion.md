@@ -55,3 +55,37 @@ Le Burkina Faso a ouvert sa raffinerie d'or nationale le 28 septembre, la Guiné
 
 https://www.ismael-ouedraogo.com/#analyse-11-fr
 <!-- /NL -->
+
+## Traduction française du fil X (pour lecture, ne pas publier)
+
+1/ Le Burkina Faso a ouvert une raffinerie d'or nationale le 28 septembre, la Guinée le 1er novembre, et le Mali en construit une près de Bamako. Leurs capacités ont peu à voir avec l'or disponible : l'usine de Conakry annonce 733 t par an, contre 72 t d'or exportées par la Guinée en 2025.
+
+2/ Le raffinage ajoute peu à la valeur de l'or, dont le prix se fixe à Londres, et le raffineur facture quelques dollars l'once. Pour l'État, le gain tient à la connaissance des volumes, à leur taxation et à la constitution de réserves en or, à condition que le métal passe par l'usine.
+
+3/ L'accès au marché est un obstacle distinct. La Rand Refinery sud-africaine est la seule raffinerie africaine inscrite sur la liste Good Delivery de la LBMA ; les lingots de Conakry, Ouagadougou ou Sénou iront donc à des acheteurs prêts à les réaffiner ou à les prendre avec une décote.
+
+4/ En Guinée, l'or artisanal représentait environ 69 % des exportations en 2025, ce qui explique que l'interdiction de l'orpaillage à Siguiri soit tombée au lendemain de l'ouverture de la raffinerie. Le Mali dit avoir accueilli depuis environ 160 000 personnes venues de Guinée.
+
+5/ Le Ghana a fait l'inverse, en achetant l'or artisanal à des prix proches du marché avant d'imposer le raffinage local. Avec trois raffineries surdimensionnées à moins de 1 000 km les unes des autres et sans règles communes de traçabilité, je m'attends à ce que leur rivalité profite à la contrebande.
+
+## Images
+
+### Figures de l'analyse (ton propre travail, aucun problème de droits)
+
+Fichiers dans `images/` (versions anglaises, capturées sur le site) :
+- `a11-capacites-vs-or-en.png` : capacité annoncée des raffineries et or disponible. **À joindre au post LinkedIn et au message 1 du fil X.**
+- `a11-or-artisanal-en.png` : part de l'or artisanal dans les exportations guinéennes. À joindre au message 4 du fil X.
+- `a11-carte-en.png` : carte de la vague des raffineries et du reflux des orpailleurs. Variante possible pour le post LinkedIn.
+
+Texte alternatif (LinkedIn et X) : "Bar chart: Guinea's Nimba refinery announces 733 tonnes a year of capacity against 72 tonnes of gold exported in 2025; Burkina Faso's refinery has 164 tonnes (target 515) against 94 tonnes produced."
+
+### Photos libres de droits (à télécharger toi-même)
+
+1. **Paysage après l'orpaillage, Safoule (Guinée), vers 2012.** Aucune personne visible d'après la description. Domaine public (USGS).
+   Page : https://www.usgs.gov/media/images/resulting-landscape-after-artisanal-mining-guinea
+   Crédit à indiquer : Photo: Peter G. Chirico, USGS (public domain)
+2. **Vue aérienne d'un site d'orpaillage, région de Forécariah (Guinée), vers 2014.** Prise par drone, sans personne identifiable. Domaine public (USGS).
+   Page : https://www.usgs.gov/media/images/artisanal-mine-site-guinea-0
+   Crédit à indiquer : Image: Peter G. Chirico, USGS (public domain)
+
+Écartées : l'image satellite de Siratoumany (copyright DigitalGlobe, non libre) et la photo de trois orpailleurs à Kenenday (personnes reconnaissables, et site de diamant, pas d'or). Ces photos datent de 2012 et 2014 : si tu les utilises, la légende doit le préciser pour ne pas laisser croire qu'il s'agit de Siguiri en novembre 2026.
