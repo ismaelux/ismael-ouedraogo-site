@@ -77,7 +77,7 @@ export function LineChart({ fig, lang, fmt }) {
             <text x={X(e.x) + 4} y={top + 10 + (i % 2) * 14} className="c2-event-l">{fmt(e.label)}</text>
           </g>
         ))}
-        {xs.map((v, i) => (i % every === 0 || i === xs.length - 1) && <text key={i} x={X(v)} y={H - bottom + 18} textAnchor="middle" className="c2-axis">{xl[i]}</text>)}
+        {xs.map((v, i) => ((i % every === 0 && xs.length - 1 - i >= every * 0.67) || i === xs.length - 1) && <text key={i} x={X(v)} y={H - bottom + 18} textAnchor="middle" className="c2-axis">{xl[i]}</text>)}
         {series.map((s, si) => {
           const pts = s.values.map((v, i) => (v == null ? null : [X(xs[i]), Y(v)])).filter(Boolean);
           const last = s.values.map((v, i) => [v, i]).filter(([v]) => v != null).pop();

@@ -1,6 +1,322 @@
 // Traductions en chinois simplifié des analyses (catégories en anglais, traduites à l'affichage).
 export const BULLETINS_ZH = [
 {
+  "id": 12,
+  "day": "19",
+  "month": "NOV",
+  "year": "2026",
+  "title": "西非债券市场：通行证受阻于货币",
+  "excerpt": "11月10日，尼日利亚财政部长在拉各斯提议连通尼日利亚、加纳和西非经济货币联盟八国的债券市场。该项目针对的是监管碎片化，而将非洲金融共同体法郎储蓄与奈拉债务分隔开来的，是每年十五个百分点的通胀差。本文探讨区域市场究竟能够真正整合什么、谁将从中获益，以及应以何种顺序构建这一市场。",
+  "tags": [
+    "债券市场",
+    "尼日利亚",
+    "加纳",
+    "西非经济货币联盟",
+    "西非国家中央银行",
+    "非洲金融共同体法郎",
+    "奈拉",
+    "西共体",
+    "萨赫勒国家联盟"
+  ],
+  "category": "African Economic Integration",
+  "nutshell": [
+    "尼日利亚提议为十个国家建立发行人通行证、统一的投资者识别、互联的结算系统、区域指数和信用增级机制；该项目既无时间表，也未得到西非经济货币联盟的公开回应",
+    "十年期借款方面，尼日利亚联邦政府以奈拉支付逾17%的利率，科特迪瓦以非洲金融共同体法郎支付6.25%：这一利差补偿的是汇率风险，其根源在于2015年至2025年尼日利亚年均通胀率为17.7%，而科特迪瓦仅为2.2%，任何通行证都无法消除这一风险",
+    "西非货币联盟未偿政府证券的三分之一由布基纳法索、马里和尼日尔发行，而这三国已退出西共体，整个一体化法律框架恰恰隶属于西共体；该项目宜从非主权发行人以及尼日利亚为共同基础设施出资入手"
+  ],
+  "content": [
+    {
+      "heading": null,
+      "paragraphs": [
+        "2025年前九个月，尼日利亚吸收了[167.8亿美元外国资本](https://nairametrics.com/2026/02/16/ecowas-based-investors-contribute-only-0-01-to-nigerias-16-78-billion-foreign-capital/)，其中西共体其他国家投资者仅贡献216万美元，略高于总额的万分之一。地区最大贡献国加纳提供了150万美元，而西非经济货币联盟（UEMOA）第一大经济体科特迪瓦仅提供3万美元。尼日利亚国家统计局（NBS）的这些数据涵盖所有资本流动，包括直接投资、证券投资和贷款。它们描绘出这样一个地区：最大的经济体与最大的货币联盟比邻而居，却互不交换储蓄，而双方的政府证券市场规模均已足以实现这种交换。科特迪瓦、塞内加尔或多哥的银行购买达喀尔、阿比让或瓦加杜古的债务；尼日利亚的养老基金则购买阿布贾的债务。",
+        "2026年11月10日，在拉各斯举行的标普全球评级非洲峰会（S&P Global Ratings Africa Summit）上，尼日利亚财政部长塔伊沃·奥耶德莱[提议连通尼日利亚、加纳和西非经济货币联盟八国的债券市场](https://businessday.ng/news/article/nigeria-seeks-to-connect-west-african-bond-markets-to-unlock-infrastructure-funding/)。其方案包括：发行人区域通行证、统一的投资者识别、可用本币结算的互联交易、结算和支付系统、区域债券指数，以及针对跨境基础设施的信用增级机制；后两项[仍在研究之中](https://dabafinance.com/fr/nouvelles/nigeria-propose-integration-marches-financiers-ouest-africains-2026-11-10)。整个方案仍处于规划阶段，既无议定书，也无时间表；截至11月中旬，西非国家中央银行（BCEAO）、西非货币联盟金融市场管理局和区域证券交易所（BRVM）均未作出公开回应。这一倡议出自一个力求在三年内获得“投资级”评级、并在其十年规划中设定至少1万亿美元资本市场目标的政府。",
+        "该项目基于监管碎片化的诊断：互联的市场将为各国提供任何一国单独都不具备的深度。本文持不同观点。将西非货币联盟（UMOA）以非洲金融共同体法郎计价、十年期收益略高于6%的储蓄，与以奈拉计价、收益逾17%的尼日利亚债务分隔开来的，是汇率风险以及助长这一风险的通胀差，而通行证对二者均无能为力。当持有人没有任何理由跨越货币边界时，简单加总存量并不能创造流动性。因此需要追问：西非债券市场究竟能够真正整合什么，谁将从中获益，以及应以何种顺序构建，才能避免它沦为又一个止步于第一阶段的金融一体化项目。"
+      ]
+    },
+    {
+      "heading": "一项由旧有工程拼合而成的提议",
+      "factbox": {
+        "title": "要点：西非市场一体化十三年",
+        "items": [
+          "2013年1月18日：西非资本市场一体化理事会（WACMIC）成立",
+          "2015年4月1日：WACMIC第一阶段启动（经纪商之间的保荐准入），首批交易于7月15日完成",
+          "2015年7月：宣布将于2016年底前建立西非虚拟交易所，但从未实现",
+          "2022年：非洲交易所互联项目（AELP）平台在阿比让上线",
+          "2025年1月29日：布基纳法索、马里和尼日尔正式退出西共体",
+          "2026年2月17日至19日：洛美技术委员会审议区域监管机构（WASRA）章程",
+          "2026年11月10日：塔伊沃·奥耶德莱在拉各斯提出倡议",
+          "2026年11月23日至24日：尼日利亚中央银行货币政策委员会会议"
+        ]
+      },
+      "paragraphs": [
+        "[西非资本市场一体化理事会（WACMIC）](https://www.brvm.org/en/wacmic)于2013年1月18日成立，汇集了西非经济货币联盟、加纳、尼日利亚、塞拉利昂和佛得角的监管机构与交易所。其路线图分为三个阶段。第一阶段为保荐准入，自2015年4月1日起，经纪商可通过当地经纪商在另一交易所下单，首批交易于2015年7月15日完成。第二阶段为合格经纪商的共同通行证，第三阶段为虚拟统一市场，二者均从未确定日期。2015年7月，该理事会[宣布将于2016年底前建立西非虚拟交易所](https://africaglobalfunds.com/news/funds/markets-and-industry-news/12-countries-to-agree-joint-west-african-stock-exchange/)，以本币设立订单簿。十一年后，2022年在阿比让上线的[非洲交易所互联项目（African Exchanges Linkage Project）](https://www.ecofinagency.com/news/1111-60694-what-to-know-about-nigeria-s-plan-for-a-west-african-bond-passport)平台使经纪商能够在BRVM、加纳证券交易所和尼日利亚交易所之间传递订单，但每个发行人仍须满足每个市场的要求。",
+        "塔伊沃·奥耶德莱与其说是开辟新工程，不如说是接续旧工程，他在拉各斯的表述直言不讳：“The task now is to join these pieces together”；此前他指出，WACMIC、AELP和泛非支付结算系统（PAPSS）[已经提供了基础](https://businessday.ng/news/article/nigeria-seeks-to-connect-west-african-bond-markets-to-unlock-infrastructure-funding/)。发行人通行证对应WACMIC的第二阶段，只是从经纪商扩展到发行人；统一的投资者识别和结算系统互联是AELP的延伸；本币结算则依托PAPSS。新意在于所针对的对象，即公共债务，以及其倡导者：一位财政部长，而非证券监管者。[适用范围仍不明确](https://www.ecofinagency.com/news/1111-60694-what-to-know-about-nigeria-s-plan-for-a-west-african-bond-passport)：西非货币联盟的国家证券通过拍卖发行、由UMOA-Titres提供支持并受独立框架管辖，目前没有迹象表明它们是否会被纳入。",
+        "十年的保荐准入并未让储蓄流动起来，而金融学文献有助于理解，为何一个在法律上开放的市场在事实上仍可能处于割裂状态。哥伦比亚商学院金融学教授吉尔特·贝克特（Geert Bekaert）与杜克大学教授坎贝尔·哈维（Campbell Harvey）于1995年根据新兴市场的收益率表现，测算了这些市场与世界市场的一体化程度，发现一体化程度随时间变化，且在正式限制取消之后仍长期处于部分状态[^1]。一体化体现在价格和投资组合之中，而非靠宣布实现。以此衡量，西非的金融一体化仍接近于零：尽管交易所互联已存在十年，2025年地区投资者仅贡献了流入尼日利亚资本的0.01%。2026年的通行证将取消一些手续，却触及不到资本裹足不前的原因。"
+      ]
+    },
+    {
+      "heading": "两个规模相当、价格悬殊的市场",
+      "figure": {
+        "after": 3,
+        "kind": "table",
+        "title": "十年期政府借款利率：以非洲金融共同体法郎计略高于6%，以奈拉计逾17%（利率，%）",
+        "columns": [
+          "",
+          "尼日利亚",
+          "加纳",
+          "西非经济货币联盟（科特迪瓦）"
+        ],
+        "rows": [
+          [
+            "汇率制度",
+            "奈拉浮动",
+            "塞地浮动",
+            "非洲金融共同体法郎与欧元挂钩"
+          ],
+          [
+            "政策利率",
+            "23.00（2026年9月22日）",
+            "14.0（2026年9月）",
+            "3.00（2026年9月9日）"
+          ],
+          [
+            "同比通胀率",
+            "15.39（2026年8月）",
+            "5.0（2026年8月）",
+            "0.4（2026年第二季度，联盟）"
+          ],
+          [
+            "约十年期政府债券",
+            "17.39（收益率）",
+            "15.68（收益率）",
+            "6.25（票面利率）"
+          ],
+          [
+            "十年期利率减通胀（百分点）",
+            "2.0",
+            "10.7",
+            "5.9"
+          ],
+          [
+            "2026年本币兑美元",
+            "+5.6%（7月底）",
+            "−9.5%（9月中旬）",
+            "与欧元固定平价"
+          ],
+          [
+            "政府证券存量（十亿美元）",
+            "29（奈拉计价联邦债券）",
+            "16（中长期证券）",
+            "46.6（区域国家证券，2025年底）"
+          ]
+        ],
+        "hiRow": 3,
+        "note": "资料来源：尼日利亚中央银行（第307次货币政策委员会会议，2026年9月）；加纳银行（货币政策委员会决议声明，2026年9月）；西非国家中央银行（2026年9月9日货币政策委员会公报）；IC Securities, Monthly Fixed Income & Currency Guide，2026年7月（收益率和奈拉）；UMOA-Titres，截至2026年8月31日的存续证券清单（科特迪瓦票面利率）；Ecofin，2026年11月11日（存量，类别不完全可比）。约十年期证券：尼日利亚2036年3月到期债券和加纳2036年2月到期债券（2026年7月底收益率）；西非经济货币联盟一栏为科特迪瓦10年期和15年期国债的票面利率，属发行利率，而非市场收益率。“利率减通胀”一行为作者根据相近但不完全相同日期的数据计算，仅表示数量级。"
+      },
+      "paragraphs": [
+        "截至2025年底，西非货币联盟国家证券在区域市场上的存量[约为27.449万亿非洲金融共同体法郎，合466亿美元](https://www.ecofinagency.com/news/1111-60694-what-to-know-about-nigeria-s-plan-for-a-west-african-bond-passport)，而尼日利亚以奈拉计价的联邦债券为290亿美元，加纳中长期证券为160亿美元。这些数额涵盖的类别略有不同，只能在数量级上比较，但它们驳斥了一种流行看法：就本币公共债务而言，所涉十国中规模最大的市场是货币联盟的市场，而非西非第一大经济体的市场。2025年，西非货币联盟各国通过拍卖和银团发行在该市场筹资9.069万亿非洲金融共同体法郎，[2024年的筹资额已达8.127万亿](https://fr.allafrica.com/stories/202503090138.html)。这一区域市场是在没有尼日利亚和加纳参与的情况下，依靠联盟银行的储蓄建立起来的。",
+        "阿布贾则拥有更广泛的国内买家基础和更迫切的融资需求。截至2026年6月30日，尼日利亚公共债务[达到166.79万亿奈拉](https://nairametrics.com/2026/09/26/nigerias-public-debt-rises-to-n166-79-trillion-in-q2-2026/)，合1209.3亿美元，其中国内债务91.59万亿奈拉；国内债务从2023年12月的59.1万亿奈拉增至2025年12月的89.4万亿奈拉。尼日利亚养老基金管理着27.45万亿奈拉，约合203亿美元，与银行共同构成联邦债务持有人的主体。因此，最需要扩大债权人范围的借款方是尼日利亚，而以稳定货币计价、最为充裕的储蓄则在西非货币联盟。一体化若取得成功，首先会让阿比让、达喀尔和洛美的储蓄流向阿布贾的债务，而拉各斯的讲话将此表述为为区域基础设施融资。",
+        "2026年7月底，2036年3月到期的尼日利亚联邦债券[交易收益率为17.39%](https://cms.ic.africa/wp-content/uploads/2026/08/Monthly_Fixed_Income_amp_Currency_Guide_July_2026.pdf)，2036年2月到期的加纳债券为15.68%，而科特迪瓦发行的十年期和十五年期国债（OAT）[票面利率为6.25%](https://www.umoatitres.org/wp-content/uploads/2026/09/UT-LTV-31.08.2026.pdf)。货币政策解释了利差的大部分。尼日利亚中央银行（CBN）于9月22日[将政策利率从26.50%下调至23.00%](https://www.cbn.gov.ng/Out/2026/CCD/Personal%20Statements%20of%20Members%20for%20the%20307th%20Meeting%20of%20the%20MPC_September%202026.pdf)，当时8月通胀率为15.39%；加纳银行在通胀率为5.0%的情况下[将政策利率维持在14.0%](https://www.bog.gov.gh/wp-content/uploads/2026/10/MPC-Decision-Statement-September-2026.pdf)；西非国家中央银行自3月16日起[将其保持在3.00%](https://www.bceao.int/sites/default/files/2026-09/Communiqu%C3%A9%20de%20Presse%20CPM%209%20septembre%202026.pdf)，联盟第二季度通胀率为0.4%。此外还有三种汇率制度：与欧元挂钩的非洲金融共同体法郎，以及浮动的奈拉和塞地。因此，区域债券指数将把收益率相差十个百分点以上的证券加总在一起，而造成这种差异的首先是货币，其次才是借款人的资质。"
+      ]
+    },
+    {
+      "heading": "汇率：任何通行证都无法消除的成本",
+      "figure": {
+        "after": 1,
+        "kind": "line",
+        "title": "十年来，尼日利亚和加纳的通胀率从未低于7%，科特迪瓦从未超过5.3%（居民消费价格年涨幅，%）",
+        "unit": "%",
+        "x": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "series": [
+          {
+            "name": "尼日利亚",
+            "values": [
+              9,
+              15.7,
+              16.5,
+              12.1,
+              11.4,
+              13.2,
+              17,
+              18.8,
+              24.7,
+              33.2,
+              23
+            ],
+            "tone": "a"
+          },
+          {
+            "name": "加纳",
+            "values": [
+              17.1,
+              17.5,
+              12.4,
+              7.8,
+              7.1,
+              9.9,
+              10,
+              31.3,
+              38.1,
+              22.8,
+              14.2
+            ],
+            "tone": "b"
+          },
+          {
+            "name": "科特迪瓦",
+            "values": [
+              1.3,
+              0.7,
+              0.7,
+              0.4,
+              0.8,
+              2.4,
+              4.2,
+              5.2,
+              4.4,
+              3.5,
+              0.1
+            ],
+            "tone": "c"
+          }
+        ],
+        "yMin": 0,
+        "note": "资料来源：世界银行，World Development Indicators（通货膨胀，消费者价格，年百分比），序列FPCPITOTLZGNGA、FPCPITOTLZGGHA和FPCPITOTLZGCIV，由圣路易斯联邦储备银行（FRED）发布，2026年10月13日更新；数值四舍五入至一位小数。此处以科特迪瓦代表西非经济货币联盟，因其为联盟第一大经济体。尼日利亚2025年数值基于国家统计局2025年调整基期后的价格指数，与此前年份的可比性有限。2015-2025年平均值由作者计算：尼日利亚17.7%，加纳17.1%，科特迪瓦2.2%。"
+      },
+      "paragraphs": [
+        "对阿比让的一家银行而言，购买收益率17.39%的尼日利亚债券而非6.25%的科特迪瓦国债，每年可多获约十一个百分点，前提是在投资期内奈拉兑非洲金融共同体法郎不再进一步贬值。近期历史使这一押注代价高昂。2015年至2025年，[尼日利亚](https://fred.stlouisfed.org/data/FPCPITOTLZGNGA)年均物价涨幅达17.7%，[加纳](https://fred.stlouisfed.org/data/FPCPITOTLZGGHA)为17.1%，而[科特迪瓦](https://fred.stlouisfed.org/data/FPCPITOTLZGCIV)为2.2%。每年十五个百分点的通胀差持续十年，迟早会转化为幅度相当的货币贬值，而名义收益率所预期的正是这种贬值。因此，尼日利亚政府多付的十一个百分点并非送给西非货币联盟储户的租金：它仅勉强补偿了可能发生的汇兑损失。",
+        "加州大学伯克利分校经济史学家巴里·艾肯格林（Barry Eichengreen）、哈佛大学肯尼迪政府学院的里卡多·豪斯曼（Ricardo Hausmann）和日内瓦国际与发展研究院的乌戈·帕尼扎（Ugo Panizza）将一国无法以本币对外借款的状况称为“原罪”，并于2007年证明，这不能仅以借款国的失误来解释：全球投资组合集中于少数几种货币，使本币债务难以在境外配售[^2]。尼日利亚的项目相当于试图在区域层面为这一原罪赎罪，即把奈拉债务卖给邻国，而非伦敦或纽约的投资者。然而，对于负债以非洲金融共同体法郎计价的投资者而言，奈拉与对英国基金一样，仍是一种高风险外币，而且可用的对冲工具更少。通过PAPSS以本币结算可在支付时避免经由美元，但无法降低证券存续十年期间的汇率风险敞口。",
+        "相反的论点值得认真对待。马里兰洛约拉大学的约翰·伯格（John Burger）和弗吉尼亚大学达顿商学院的弗朗西斯·沃诺克（Francis Warnock）于2006年研究了49个国家的本币债券市场，得出结论：这些市场的发展更多取决于政策和法律、稳定的通胀和受保护的债权人，而非小币种注定的宿命[^3]。2026年的走势印证了这一点。加纳8月通胀率降至5.0%，低于加纳银行的目标区间；91天期国库券收益率在一年内从10.3%降至5.4%；奈拉在今年前七个月兑美元升值5.6%。如果通胀回落得到巩固，拉各斯与阿比让之间的收益率差距将会缩小，而一个已经就位的通行证可以让各方即时从中受益。",
+        "伯格和沃诺克的49个市场是在稳定之后才吸引外部储蓄的，其样本中没有任何迹象表明市场开放曾使货币趋于稳定。因果关系是从货币指向市场。8月尼日利亚通胀率仍高达15.39%，联邦政府十年期收益率仅比通胀高出约两个百分点，而CBN将银行法定存款准备金率维持在45%，这一水平表明货币政策仍忙于回收流动性。在加纳，情况恰恰相反，十年期收益率与通胀之差超过十个百分点，衡量的是债权人对一个刚走出违约的国家仍然要求的溢价。通行证应在双方实现通胀回落之后发挥作用；它不能替代通胀回落。"
+      ]
+    },
+    {
+      "heading": "受制于银行与外汇法规的西非货币联盟储蓄",
+      "paragraphs": [
+        "在西非货币联盟市场上配售的主权债务中，[商业银行持有约90%](https://fr.allafrica.com/stories/202503090138.html)，这种集中有其制度原因。联盟的政府证券可作为抵押品用于西非国家中央银行的再融资窗口：购买塞内加尔或布基纳法索国债的银行可以凭此按3.00%的政策利率向中央银行获取流动性。区域债务因此成为银行资产负债表上兼具收益性和流动性的资产，这是任何尼日利亚债券都无法提供的优势，因为它既非以非洲金融共同体法郎计价，也不符合西非国家中央银行窗口的合格条件。二级市场仍然狭窄，2024年交易额为3.4万亿非洲金融共同体法郎，2023年为2万亿，这些证券的流动性首先来自中央银行，而非投资者之间的交易。",
+        "联盟的外汇法规为银行壁垒又增加了一道法律壁垒，而尼日利亚方案的五个组成部分均未提及这一点。2010年关于西非经济货币联盟对外金融关系的条例[于2024年12月被第06/2024号条例取代](https://droitmediasfinance.com/index.php/actualites/droit-monetaire/915-uemoa-changes-ce-qui-a-change-dans-la-reglementation-des-changes-depuis-le-20-decembre-2024)，该条例确立了成员国之间资本流动的自由，同时规定资本交易项下的对外支付须获外汇许可。只有当外国证券在联盟内的发行或销售已获区域金融市场监管机构批准时，居民购买这些证券才[可免于许可](https://www.umoatitres.org/wp-content/uploads/2018/03/reglement_ndeg_09-2010-cm-uemoa_relatif_aux_relations_financieres_exterieures_de_luemoa.pdf)。发行人通行证恰恰具有这种法律效力，因为它将使尼日利亚或加纳债券成为联盟内获准的证券。这是该项目中最有用的组成部分，前提是西非国家中央银行和西非货币联盟金融市场管理局予以接受，而这牵涉到它们对共同外汇储备的管理。",
+        "反向流动对储户而言更合逻辑，但在政治上成功的可能性更小。对尼日利亚养老基金而言，以与欧元挂钩的非洲金融共同体法郎计价的国债可提供对冲奈拉贬值的保护，而西非货币联盟市场的规模足以吸纳这些基金所管理的27.45万亿奈拉中的一部分。然而，尼日利亚储蓄流向阿比让，正是CBN在重建外汇储备之际力图避免的；截至9月中旬，其储备[已增至552.5亿美元](https://www.cbn.gov.ng/Out/2026/CCD/Personal%20Statements%20of%20Members%20for%20the%20307th%20Meeting%20of%20the%20MPC_September%202026.pdf)。因此，对储户最有利的一体化，对提出这一倡议的国家的中央银行而言代价最高。拉各斯的讲话谈的是吸引资本流向尼日利亚和区域基础设施，而非让资本流出。"
+      ]
+    },
+    {
+      "heading": "三分之一的存量由退出西共体的国家发行",
+      "figure": {
+        "after": 1,
+        "kind": "bars",
+        "title": "萨赫勒国家联盟三国发行了西非货币联盟市场存续政府证券的三分之一（截至2026年8月31日存量，十亿西非法郎）",
+        "unit": "十亿西非法郎",
+        "labelWidth": 150,
+        "items": [
+          {
+            "label": "科特迪瓦",
+            "value": 7443.44,
+            "valueLabel": "7,443"
+          },
+          {
+            "label": "塞内加尔",
+            "value": 5267.26,
+            "valueLabel": "5,267"
+          },
+          {
+            "label": "布基纳法索",
+            "value": 3045.82,
+            "valueLabel": "3,046",
+            "hi": true
+          },
+          {
+            "label": "马里",
+            "value": 2640.54,
+            "valueLabel": "2,641",
+            "hi": true
+          },
+          {
+            "label": "尼日尔",
+            "value": 2108.47,
+            "valueLabel": "2,108",
+            "hi": true
+          },
+          {
+            "label": "多哥",
+            "value": 1713.13,
+            "valueLabel": "1,713"
+          },
+          {
+            "label": "贝宁",
+            "value": 1163.04,
+            "valueLabel": "1,163"
+          },
+          {
+            "label": "几内亚比绍",
+            "value": 569.29,
+            "valueLabel": "569"
+          }
+        ],
+        "note": "资料来源：UMOA-Titres，截至2026年8月31日的存续证券清单（国库债券和可替代国库券）。总额23.951万亿西非法郎以及萨赫勒国家联盟（布基纳法索、马里、尼日尔，突出显示）所占32.5%的份额由作者计算。这一口径不同于正文所引2025年底存量（27.449万亿），后者包括其他类别的证券。"
+      },
+      "paragraphs": [
+        "截至2026年8月31日，[UMOA-Titres存续证券清单](https://www.umoatitres.org/wp-content/uploads/2026/09/UT-LTV-31.08.2026.pdf)共列出23.951万亿非洲金融共同体法郎的政府证券，其中科特迪瓦发行7.443万亿，塞内加尔5.267万亿。同属萨赫勒国家联盟（AES）的布基纳法索（3.046万亿）、马里（2.641万亿）和尼日尔（2.108万亿）合计7.795万亿，占32.5%。这三个国家于2025年1月29日退出西共体，但仍留在西非经济货币联盟内，继续向联盟银行借款；布基纳法索国库在2026年8月13日和27日仍有发行。因此，以西非经济货币联盟八国为对象的尼日利亚项目涵盖了三个与阿布贾已不再共享共同体框架的国家。",
+        "自2013年以来，西非市场一体化的全部法律架构都是在西共体（CEDEAO）框架内构建的。WACMIC即源于此；使西非证券监管机构协会（WASRA）成为区域监管机构的章程草案，已由[西共体十二国监管机构于2026年2月17日至19日在洛美](https://www.newsghana.com.gh/west-africa-moves-closer-to-single-capital-market-regulator/)进行审议，尚须经趋同理事会和部长理事会通过。尼日利亚证券交易委员会总干事、WASRA主席埃莫莫蒂米·阿加马（Emomotimi Agama）于2025年10月表示，一体化的区域市场“no longer a luxury; it is a necessity”。马里、布基纳法索和尼日尔已不再参与这些机构。因此，依托WASRA的通行证将止步于这三国边境，而它们的证券却在科特迪瓦、塞内加尔和多哥银行的投资组合之中。",
+        "统一市场因此将有两个范围：共同体法律的范围为十二国，货币的范围为八国，其中三国不属于西共体。2023年7月尼日尔政变后西共体对其实施制裁时，博拉·提努布正担任西共体主席，阿布贾与萨赫勒国家联盟各国首都的关系至今未恢复到此前水平。对于从未发行过欧洲债券的巴马科、瓦加杜古和尼亚美而言，西非货币联盟市场是主要的市场融资来源，而2022年1月针对马里的制裁曾使其暂时失去这一渠道，显示了失去这一准入的代价；任何使这一准入取决于隶属西共体的监管机构的安排都将遭到拒绝。相反，对阿布贾而言，纳入这些国家将提供一个无需事先进行政治谈判即可恢复接触的渠道。两种解读都以由西非经济货币联盟而非西共体代表法语国家一方进行谈判为前提。"
+      ]
+    },
+    {
+      "heading": "从不依赖货币的环节入手",
+      "paragraphs": [
+        "美国经济学家曼瑟尔·奥尔森（Mancur Olson）和理查德·泽克豪泽（Richard Zeckhauser）在1966年一篇关于军事联盟的论文中，形式化地提出了不平等伙伴之间集体物品的一条规律：从共同物品中获益最多的最大成员，所承担的成本份额高于其比重，而小伙伴的贡献则低于其比例[^4]。将这一逻辑移用于西非债券市场，尼日利亚便是共同基础设施的天然出资方：互联的中央证券存管机构、相连的券款对付结算系统、统一的投资者识别数据库。仍在研究中的信用增级机制将是其最直接的体现。若由阿布贾注资，该机制将为所有人降低跨境项目的发行成本，包括那些永远不会购买奈拉的投资者，并赋予拉各斯的宣示以单凭讲话无法建立的可信度。",
+        "非主权发行人提供了第一块试验田，因为其风险可以与其收入相匹配，而不受母国货币政策的影响。在联盟内设有子公司的尼日利亚或加纳企业，借助通行证可在阿比让以非洲金融共同体法郎发行债券，为产生非洲金融共同体法郎收入的资产融资，任何一方都无需承担汇率风险。多边开发银行可使用同一套文件在三个交易所以奈拉、塞地和非洲金融共同体法郎发行债券，为区域指数提供首批可比证券。这些发行不会立即造就一个有深度的市场。但它们将使结算、托管和投资者识别这套共同的“管道”先运转起来，然后再承载规模大得多的主权债务。",
+        "加纳尽管近期发生违约，仍是应当首先合作的主权伙伴。国际货币基金组织经济学家R.加斯顿·赫洛斯（R. Gaston Gelos）和拉特纳·萨哈伊（Ratna Sahay）以及托尔夸托·迪特利亚大学的吉多·桑德莱里斯（Guido Sandleris）于2011年发现，发展中国家的市场准入更多取决于其基本面和制度质量，而非过去违约的频率[^5]。曾于2022年12月暂停偿付外债的阿克拉便是例证：其通胀已回落至5.0%，十年期收益率高出通胀十个百分点以上，这一实际溢价使其证券对愿意承担塞地风险的西非货币联盟投资者具有吸引力，而塞地在2026年兑美元已贬值9.5%。阿克拉与阿比让这两个相邻且贸易往来由来已久的金融中心之间的连接，可在尼日利亚债务进入之前充当试验平台。",
+        "摆在本地区各国政府面前的选择，涉及的是操作顺序，而非原则。从尼日利亚主权债务入手，将使西非货币联盟的银行面临它们毫无理由接受的汇率风险，迫使西非国家中央银行在开放与外汇储备之间作出取舍，并将在萨赫勒国家联盟问题上受阻。从基础设施、非主权发行人和加纳入手，则要求尼日利亚为共同基础设施付费，却不能立即获得资本流入作为回报。11月23日至24日召开的CBN货币政策委员会会议，将就第二步所依赖的通胀回落给出初步信号。尚未表态的西非经济货币联盟的回应，将决定拉各斯的提议是成为一项共同工程，还是与WACMIC第二阶段一道沦为没有日期的意向。"
+      ]
+    },
+    {
+      "heading": "情景分析",
+      "paragraphs": [],
+      "scenarios": [
+        {
+          "level": "most",
+          "title": "技术层面互联，储蓄依旧各归本国",
+          "text": "监管机构在WACMIC和AELP框架内采纳该提议：统一投资者识别、存管机构部分互联，并研究区域指数。西非国家中央银行未就联盟居民购买尼日利亚债务问题表态，西非货币联盟国家证券仍在适用范围之外，货币区之间的储蓄流动依然微不足道。尼日利亚继续依靠本国银行和养老基金为国内债务融资，利率随通胀回落的节奏下降。"
+        },
+        {
+          "level": "less",
+          "title": "面向非主权发行人的首个板块",
+          "text": "尼日利亚为区域担保机制注资，西非货币联盟金融市场管理局接受仅限于企业和开发银行的通行证。若干多币种债券在阿比让、阿克拉和拉各斯同时配售，加纳证券交易所与BRVM之间的连接成为加纳主权债务的试验平台。萨赫勒国家联盟问题得以绕开，因为由西非经济货币联盟而非西共体代表联盟八国进行谈判。"
+        },
+        {
+          "level": "least",
+          "title": "奈拉再度下跌，项目陷入停滞",
+          "text": "油价下跌或货币政策过早放松重新推高尼日利亚通胀，导致奈拉大幅贬值。CBN加强对资本外流的管制，西非货币联盟的银行回避一切以浮动货币计价的证券，该提议沦为又一个没有时间表的意向。此外，西共体与萨赫勒国家联盟之间的紧张关系也使任何共同监管框架更加复杂。"
+        }
+      ]
+    },
+    {
+      "heading": "Sources",
+      "paragraphs": [
+        "[BusinessDay, Nigeria seeks to connect West African bond markets to unlock infrastructure funding, 11 November 2026](https://businessday.ng/news/article/nigeria-seeks-to-connect-west-african-bond-markets-to-unlock-infrastructure-funding/) | [Ecofin Agency, What to know about Nigeria's plan for a West African bond passport, 11 November 2026](https://www.ecofinagency.com/news/1111-60694-what-to-know-about-nigeria-s-plan-for-a-west-african-bond-passport) | [Daba Finance, Nigeria proposes integrating West African financial markets, 11 November 2026](https://dabafinance.com/fr/nouvelles/nigeria-propose-integration-marches-financiers-ouest-africains-2026-11-10) | [The Whistler, FG proposes unified bond market framework for West African countries, 10 November 2026](https://thewhistler.ng/fg-proposes-unified-bond-market-framework-for-west-african-countries/) | [Nairametrics, ECOWAS-based investors contribute only 0.01% to Nigeria's $16.78 billion foreign capital (NBS data), 16 February 2026](https://nairametrics.com/2026/02/16/ecowas-based-investors-contribute-only-0-01-to-nigerias-16-78-billion-foreign-capital/) | [Nairametrics, Nigeria's public debt rises to N166.79 trillion in Q2 2026 (Debt Management Office data), 26 September 2026](https://nairametrics.com/2026/09/26/nigerias-public-debt-rises-to-n166-79-trillion-in-q2-2026/) | [BRVM, West African Capital Markets Integration Council (WACMIC)](https://www.brvm.org/en/wacmic) | [Africa Global Funds, 12 countries to agree joint West African stock exchange, 29 July 2015](https://africaglobalfunds.com/news/funds/markets-and-industry-news/12-countries-to-agree-joint-west-african-stock-exchange/) | [News Ghana, West Africa moves closer to single capital market regulator, 2026](https://www.newsghana.com.gh/west-africa-moves-closer-to-single-capital-market-regulator/) | [AllAfrica, WAEMU government securities market, March 2025](https://fr.allafrica.com/stories/202503090138.html) | [UMOA-Titres, list of outstanding securities at 31 August 2026](https://www.umoatitres.org/wp-content/uploads/2026/09/UT-LTV-31.08.2026.pdf) | [BCEAO, press release of the Monetary Policy Committee meeting of 9 September 2026](https://www.bceao.int/sites/default/files/2026-09/Communiqu%C3%A9%20de%20Presse%20CPM%209%20septembre%202026.pdf) | [Central Bank of Nigeria, Personal Statements of Members for the 307th Meeting of the MPC, September 2026](https://www.cbn.gov.ng/Out/2026/CCD/Personal%20Statements%20of%20Members%20for%20the%20307th%20Meeting%20of%20the%20MPC_September%202026.pdf) | [Bank of Ghana, MPC Decision Statement, September 2026](https://www.bog.gov.gh/wp-content/uploads/2026/10/MPC-Decision-Statement-September-2026.pdf) | [IC Securities, Monthly Fixed Income & Currency Guide, July 2026](https://cms.ic.africa/wp-content/uploads/2026/08/Monthly_Fixed_Income_amp_Currency_Guide_July_2026.pdf) | [World Bank, World Development Indicators via FRED, inflation in Nigeria](https://fred.stlouisfed.org/data/FPCPITOTLZGNGA) | [World Bank, World Development Indicators via FRED, inflation in Ghana](https://fred.stlouisfed.org/data/FPCPITOTLZGGHA) | [World Bank, World Development Indicators via FRED, inflation in Côte d'Ivoire](https://fred.stlouisfed.org/data/FPCPITOTLZGCIV) | [WAEMU, Regulation No. 09/2010/CM/UEMOA on the external financial relations of member states](https://www.umoatitres.org/wp-content/uploads/2018/03/reglement_ndeg_09-2010-cm-uemoa_relatif_aux_relations_financieres_exterieures_de_luemoa.pdf) | [Droit Médias Finance, What has changed in WAEMU exchange-control regulation since 20 December 2024](https://droitmediasfinance.com/index.php/actualites/droit-monetaire/915-uemoa-changes-ce-qui-a-change-dans-la-reglementation-des-changes-depuis-le-20-decembre-2024)"
+      ]
+    }
+  ],
+  "notes": [
+    "吉尔特·贝克特（Geert Bekaert），哥伦比亚商学院金融学教授；坎贝尔·R.哈维（Campbell R. Harvey），杜克大学富卡商学院金融学教授，美国金融学会前会长。“Time-Varying World Market Integration”，Journal of Finance，第50卷第2期，1995年，第403-444页。",
+    "巴里·艾肯格林（Barry Eichengreen），加州大学伯克利分校经济学与政治学教授；里卡多·豪斯曼（Ricardo Hausmann），哈佛大学肯尼迪政府学院教授，美洲开发银行前首席经济学家；乌戈·帕尼扎（Ugo Panizza），日内瓦国际与发展研究院经济学教授。“Currency Mismatches, Debt Intolerance, and the Original Sin: Why They Are Not the Same and Why It Matters”，载Sebastian Edwards编，Capital Controls and Capital Flows in Emerging Economies: Policies, Practices, and Consequences，芝加哥：University of Chicago Press，2007年，第121-170页。",
+    "约翰·D.伯格（John D. Burger），马里兰洛约拉大学经济学教授；弗朗西斯·E.沃诺克（Francis E. Warnock），弗吉尼亚大学达顿商学院教授。“Local Currency Bond Markets”，IMF Staff Papers，第53卷特刊，2006年。",
+    "曼瑟尔·奥尔森（Mancur Olson，1932-1998），美国经济学家，马里兰大学教授，著有The Logic of Collective Action（1965年）；理查德·J.泽克豪泽（Richard J. Zeckhauser），哈佛大学肯尼迪政府学院政治经济学教授。“An Economic Theory of Alliances”，Review of Economics and Statistics，第48卷第3期，1966年，第266-279页。",
+    "R.加斯顿·赫洛斯（R. Gaston Gelos）和拉特纳·萨哈伊（Ratna Sahay），国际货币基金组织经济学家；吉多·桑德莱里斯（Guido Sandleris），托尔夸托·迪特利亚大学（布宜诺斯艾利斯）教授。“Sovereign Borrowing by Developing Countries: What Determines Market Access?”，Journal of International Economics，第83卷第2期，2011年，第243-254页。"
+  ]
+},
+{
   "id": 11,
   "day": "12",
   "month": "NOV",

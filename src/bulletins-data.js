@@ -1,6 +1,322 @@
 // Données des analyses (FR, EN). Champs facultatifs : nutshell, figure(s), factbox, scenarios, notes.
 const BULLETINS_FR = [
 {
+  "id": 12,
+  "day": "19",
+  "month": "NOV",
+  "year": "2026",
+  "title": "Marché obligataire ouest-africain : le passeport bute sur la monnaie",
+  "excerpt": "Le 10 novembre, à Lagos, le ministre nigérian des Finances a proposé de relier les marchés obligataires du Nigeria, du Ghana et des huit pays de l'UEMOA. Le projet traite la fragmentation réglementaire, alors que ce qui sépare l'épargne en franc CFA de la dette en naira est un écart d'inflation de quinze points par an. Ce qu'un marché régional pourrait réellement intégrer, qui en tirerait profit, et dans quel ordre le construire.",
+  "tags": [
+    "Marchés obligataires",
+    "Nigeria",
+    "Ghana",
+    "UEMOA",
+    "BCEAO",
+    "Franc CFA",
+    "Naira",
+    "CEDEAO",
+    "AES"
+  ],
+  "category": "Intégration économique africaine",
+  "nutshell": [
+    "Le Nigeria propose un passeport des émetteurs, une identification unique des investisseurs, des systèmes de règlement reliés, un indice régional et un rehaussement de crédit pour dix pays ; le projet n'a ni calendrier ni réponse publique de l'UEMOA",
+    "À dix ans, l'État fédéral nigérian paie plus de 17 % en naira et la Côte d'Ivoire 6,25 % en franc CFA : l'écart rémunère un risque de change nourri par une inflation moyenne de 17,7 % au Nigeria contre 2,2 % en Côte d'Ivoire de 2015 à 2025, qu'aucun passeport ne supprime",
+    "Un tiers de l'encours des titres publics de l'UMOA est émis par le Burkina Faso, le Mali et le Niger, sortis de la CEDEAO dont relève tout le cadre juridique de l'intégration ; le projet gagnerait à commencer par les émetteurs non souverains et par une contribution financière nigériane aux infrastructures communes"
+  ],
+  "content": [
+    {
+      "heading": null,
+      "paragraphs": [
+        "Au cours des neuf premiers mois de 2025, le Nigeria a reçu [16,78 milliards de dollars de capitaux étrangers](https://nairametrics.com/2026/02/16/ecowas-based-investors-contribute-only-0-01-to-nigerias-16-78-billion-foreign-capital/), dont 2,16 millions apportés par des investisseurs des autres pays de la CEDEAO, un peu plus d'un dix-millième du total. Le Ghana, premier contributeur régional, en a fourni 1,5 million, et la Côte d'Ivoire, première économie de l'Union économique et monétaire ouest-africaine (UEMOA), 30 000 dollars. Ces chiffres de l'Office national de la statistique nigérian (NBS) couvrent tous les flux, investissements directs, placements de portefeuille et prêts. Ils décrivent une région où la première économie et la première union monétaire vivent côte à côte sans échanger leur épargne, alors que leurs marchés de titres publics ont chacun atteint une taille qui permettrait de le faire. Les banques ivoiriennes, sénégalaises ou togolaises achètent la dette de Dakar, d'Abidjan ou de Ouagadougou ; les fonds de pension nigérians achètent celle d'Abuja.",
+        "Le 10 novembre 2026, au S&P Global Ratings Africa Summit de Lagos, le ministre nigérian des Finances, Taiwo Oyedele, [a proposé de relier les marchés obligataires du Nigeria, du Ghana et des huit pays de l'UEMOA](https://businessday.ng/news/article/nigeria-seeks-to-connect-west-african-bond-markets-to-unlock-infrastructure-funding/). Son plan comporte un passeport régional pour les émetteurs, une identification unique des investisseurs, des systèmes de négociation, de règlement et de paiement connectés pour régler en monnaies locales, un indice obligataire régional et un mécanisme de rehaussement de crédit pour les infrastructures transfrontalières ; les deux derniers sont [encore à l'étude](https://dabafinance.com/fr/nouvelles/nigeria-propose-integration-marches-financiers-ouest-africains-2026-11-10). L'ensemble reste au stade de la planification, sans protocole ni calendrier, et aucune réponse publique de la Banque centrale des États de l'Afrique de l'Ouest (BCEAO), de l'Autorité des marchés financiers de l'UMOA ou de la Bourse régionale des valeurs mobilières (BRVM) n'avait été enregistrée à la mi-novembre. L'initiative vient d'un gouvernement qui vise une note « investment grade » dans les trois ans et un marché des capitaux d'au moins 1 000 milliards de dollars dans son plan décennal.",
+        "Le projet part d'un diagnostic de fragmentation réglementaire : des marchés reliés offriraient aux États la profondeur qu'aucun n'a seul. La thèse défendue ici est différente. Ce qui sépare l'épargne de l'UMOA, placée en franc CFA à un peu plus de 6 % sur dix ans, de la dette nigériane, rémunérée à plus de 17 % en naira, tient au risque de change et à l'écart d'inflation qui l'alimente, et un passeport n'efface ni l'un ni l'autre. Additionner des encours ne crée pas de liquidité quand les détenteurs n'ont aucune raison de franchir la frontière monétaire. Il faut donc se demander ce qu'un marché obligataire ouest-africain pourrait réellement intégrer, qui en tirerait profit, et dans quel ordre le construire pour qu'il ne rejoigne pas la liste des projets d'intégration financière restés à leur première phase."
+      ]
+    },
+    {
+      "heading": "Une proposition assemblée à partir de chantiers anciens",
+      "factbox": {
+        "title": "Repères : treize ans d'intégration des marchés ouest-africains",
+        "items": [
+          "18 janvier 2013 : inauguration du Conseil d'intégration des marchés de capitaux ouest-africains (WACMIC)",
+          "1er avril 2015 : phase 1 du WACMIC (accès parrainé entre courtiers), premières transactions le 15 juillet",
+          "Juillet 2015 : annonce d'une bourse virtuelle ouest-africaine pour la fin de 2016, jamais réalisée",
+          "2022 : lancement à Abidjan de la plateforme de l'African Exchanges Linkage Project (AELP)",
+          "29 janvier 2025 : retrait effectif du Burkina Faso, du Mali et du Niger de la CEDEAO",
+          "17-19 février 2026 : comité technique de Lomé sur la charte du régulateur régional (WASRA)",
+          "10 novembre 2026 : proposition de Taiwo Oyedele à Lagos",
+          "23-24 novembre 2026 : comité de politique monétaire de la Banque centrale du Nigeria"
+        ]
+      },
+      "paragraphs": [
+        "Inauguré le 18 janvier 2013, le [Conseil d'intégration des marchés de capitaux ouest-africains (WACMIC)](https://www.brvm.org/en/wacmic) réunit les régulateurs et les bourses de l'UEMOA, du Ghana, du Nigeria, de la Sierra Leone et du Cap-Vert. Sa feuille de route prévoyait trois phases. La première, l'accès parrainé, permet depuis le 1er avril 2015 à un courtier de passer des ordres sur une autre place par l'intermédiaire d'un courtier local, et les premières transactions datent du 15 juillet 2015. La deuxième, un passeport commun pour des courtiers qualifiés, et la troisième, un marché unique virtuel, n'ont jamais reçu de date. En juillet 2015, le Conseil [annonçait une bourse virtuelle ouest-africaine pour la fin de 2016](https://africaglobalfunds.com/news/funds/markets-and-industry-news/12-countries-to-agree-joint-west-african-stock-exchange/), avec un carnet d'ordres en monnaies locales. Onze ans plus tard, la plateforme de l'[African Exchanges Linkage Project](https://www.ecofinagency.com/news/1111-60694-what-to-know-about-nigeria-s-plan-for-a-west-african-bond-passport), lancée à Abidjan en 2022, permet aux courtiers d'acheminer des ordres entre la BRVM, la Ghana Stock Exchange et la Nigerian Exchange, mais chaque émetteur doit encore satisfaire aux exigences de chaque marché.",
+        "Taiwo Oyedele reprend ces chantiers plutôt qu'il n'en ouvre de nouveaux, et sa formule de Lagos le dit sans détour : « The task now is to join these pieces together », après avoir rappelé que le WACMIC, l'AELP et le Système panafricain de paiement et de règlement (PAPSS) [fournissaient déjà une base](https://businessday.ng/news/article/nigeria-seeks-to-connect-west-african-bond-markets-to-unlock-infrastructure-funding/). Le passeport des émetteurs correspond à la deuxième phase du WACMIC, élargie des courtiers aux émetteurs ; l'identification unique des investisseurs et la connexion des systèmes de règlement prolongent l'AELP ; le règlement en monnaies locales s'appuie sur le PAPSS. La nouveauté tient à l'objet visé, la dette publique, et à son porteur, un ministre des Finances plutôt qu'un régulateur boursier. Le [périmètre reste flou](https://www.ecofinagency.com/news/1111-60694-what-to-know-about-nigeria-s-plan-for-a-west-african-bond-passport) : rien n'indique si les titres d'État de l'UMOA, émis par adjudication avec l'appui d'UMOA-Titres et régis par un cadre distinct, seraient couverts.",
+        "Dix ans d'accès parrainé n'ont pas fait circuler l'épargne, et la littérature financière aide à comprendre pourquoi un marché ouvert en droit peut rester cloisonné en fait. Geert Bekaert, professeur de finance à la Columbia Business School, et Campbell Harvey, professeur à l'université Duke, ont mesuré en 1995 le degré d'intégration de marchés émergents au marché mondial à partir du comportement de leurs rendements, et constaté qu'il varie dans le temps et reste souvent partiel bien après la levée des restrictions formelles[^1]. L'intégration se constate dans les prix et dans les portefeuilles ; elle ne se décrète pas. À cette aune, l'intégration financière ouest-africaine reste proche de zéro, puisque les investisseurs de la région n'ont apporté que 0,01 % des capitaux entrés au Nigeria en 2025, alors que les liaisons boursières existaient depuis une décennie. Le passeport de 2026 supprimerait des formalités sans toucher aux raisons qui retiennent les capitaux."
+      ]
+    },
+    {
+      "heading": "Deux marchés de même ordre de grandeur, à des prix sans rapport",
+      "figure": {
+        "after": 3,
+        "kind": "table",
+        "title": "À dix ans, l'État emprunte à un peu plus de 6 % en franc CFA et à plus de 17 % en naira (taux en %)",
+        "columns": [
+          "",
+          "Nigeria",
+          "Ghana",
+          "UEMOA (Côte d'Ivoire)"
+        ],
+        "rows": [
+          [
+            "Régime de change",
+            "Naira flottant",
+            "Cedi flottant",
+            "Franc CFA arrimé à l'euro"
+          ],
+          [
+            "Taux directeur",
+            "23,00 (22 sept. 2026)",
+            "14,0 (sept. 2026)",
+            "3,00 (9 sept. 2026)"
+          ],
+          [
+            "Inflation sur un an",
+            "15,39 (août 2026)",
+            "5,0 (août 2026)",
+            "0,4 (2e trim. 2026, Union)"
+          ],
+          [
+            "Titre d'État à environ dix ans",
+            "17,39 (rendement)",
+            "15,68 (rendement)",
+            "6,25 (coupon)"
+          ],
+          [
+            "Taux à dix ans moins inflation (points)",
+            "2,0",
+            "10,7",
+            "5,9"
+          ],
+          [
+            "Monnaie face au dollar en 2026",
+            "+5,6 % (fin juillet)",
+            "−9,5 % (mi-septembre)",
+            "Parité fixe avec l'euro"
+          ],
+          [
+            "Encours de titres publics (milliards de dollars)",
+            "29 (obligations fédérales en nairas)",
+            "16 (titres à moyen et long terme)",
+            "46,6 (titres d'État régionaux, fin 2025)"
+          ]
+        ],
+        "hiRow": 3,
+        "note": "Sources : Banque centrale du Nigeria (307e comité de politique monétaire, septembre 2026) ; Banque du Ghana (communiqué du comité de politique monétaire, septembre 2026) ; BCEAO (communiqué du comité de politique monétaire du 9 septembre 2026) ; IC Securities, Monthly Fixed Income & Currency Guide, juillet 2026 (rendements et naira) ; UMOA-Titres, liste des titres en vie au 31 août 2026 (coupons ivoiriens) ; Ecofin, 11 novembre 2026 (encours, catégories non strictement comparables). Titres à environ dix ans : obligations nigériane de mars 2036 et ghanéenne de février 2036 (rendements de fin juillet 2026) ; pour l'UEMOA, coupon des OAT ivoiriennes à 10 et 15 ans, qui est un taux d'émission et non un rendement de marché. La ligne « taux moins inflation » est un calcul de l'auteur sur des dates voisines mais non identiques ; c'est un ordre de grandeur."
+      },
+      "paragraphs": [
+        "À la fin de 2025, l'encours des titres d'État de l'UMOA sur le marché régional [atteignait environ 27 449 milliards de francs CFA, soit 46,6 milliards de dollars](https://www.ecofinagency.com/news/1111-60694-what-to-know-about-nigeria-s-plan-for-a-west-african-bond-passport), contre 29 milliards de dollars d'obligations fédérales nigérianes en nairas et 16 milliards de dollars de titres ghanéens à moyen et long terme. Ces montants couvrent des catégories un peu différentes et ne se comparent qu'en ordre de grandeur, mais ils contredisent une idée répandue : pour la dette publique en monnaie locale, le marché le plus vaste des dix pays visés est celui de l'union monétaire, et non celui de la première économie d'Afrique de l'Ouest. Les États de l'UMOA y ont levé 9 069 milliards de francs CFA par adjudication et syndication en 2025, et [leurs levées atteignaient déjà 8 127 milliards en 2024](https://fr.allafrica.com/stories/202503090138.html). Ce marché régional s'est construit sans le Nigeria et sans le Ghana, sur l'épargne des banques de l'Union.",
+        "Abuja dispose en revanche d'une base d'acheteurs nationaux plus large et d'un besoin de financement plus pressant. La dette publique nigériane [s'élevait à 166 790 milliards de nairas au 30 juin 2026](https://nairametrics.com/2026/09/26/nigerias-public-debt-rises-to-n166-79-trillion-in-q2-2026/), soit 120,93 milliards de dollars, dont 91 590 milliards de dette intérieure ; celle-ci est passée de 59 100 milliards de nairas en décembre 2023 à 89 400 milliards en décembre 2025. Les fonds de pension nigérians gèrent 27 450 milliards de nairas, environ 20,3 milliards de dollars, et forment avec les banques le socle des détenteurs de la dette fédérale. L'emprunteur qui a le plus besoin d'élargir le cercle de ses créanciers est donc le Nigeria, tandis que l'épargne la plus abondante en monnaie stable se trouve dans l'UMOA. Une intégration réussie ferait d'abord circuler l'épargne d'Abidjan, de Dakar et de Lomé vers la dette d'Abuja, ce que le discours de Lagos présente comme un financement des infrastructures régionales.",
+        "À la fin de juillet 2026, l'obligation fédérale nigériane de mars 2036 [se négociait à 17,39 %](https://cms.ic.africa/wp-content/uploads/2026/08/Monthly_Fixed_Income_amp_Currency_Guide_July_2026.pdf) et l'obligation ghanéenne de février 2036 à 15,68 %, quand la Côte d'Ivoire plaçait ses OAT à dix et quinze ans avec [un coupon de 6,25 %](https://www.umoatitres.org/wp-content/uploads/2026/09/UT-LTV-31.08.2026.pdf). Les politiques monétaires expliquent la plus grande part de l'écart. La Banque centrale du Nigeria (CBN) a [ramené son taux directeur de 26,50 % à 23,00 % le 22 septembre](https://www.cbn.gov.ng/Out/2026/CCD/Personal%20Statements%20of%20Members%20for%20the%20307th%20Meeting%20of%20the%20MPC_September%202026.pdf) avec une inflation de 15,39 % en août, la Banque du Ghana l'a [maintenu à 14,0 %](https://www.bog.gov.gh/wp-content/uploads/2026/10/MPC-Decision-Statement-September-2026.pdf) pour une inflation de 5,0 %, et la BCEAO le [laisse à 3,00 %](https://www.bceao.int/sites/default/files/2026-09/Communiqu%C3%A9%20de%20Presse%20CPM%209%20septembre%202026.pdf) depuis le 16 mars, pour une inflation de 0,4 % dans l'Union au deuxième trimestre. S'y ajoutent trois régimes de change : un franc CFA arrimé à l'euro, un naira et un cedi flottants. Un indice obligataire régional additionnerait ainsi des titres dont les rendements diffèrent de plus de dix points pour des raisons qui tiennent d'abord à la monnaie, ensuite seulement à la qualité des emprunteurs."
+      ]
+    },
+    {
+      "heading": "Le change, un coût qu'aucun passeport ne supprime",
+      "figure": {
+        "after": 1,
+        "kind": "line",
+        "title": "L'inflation nigériane et ghanéenne n'est jamais descendue sous 7 % en dix ans, l'ivoirienne n'a jamais dépassé 5,3 % (hausse annuelle des prix à la consommation, %)",
+        "unit": "%",
+        "x": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "series": [
+          {
+            "name": "Nigeria",
+            "values": [
+              9,
+              15.7,
+              16.5,
+              12.1,
+              11.4,
+              13.2,
+              17,
+              18.8,
+              24.7,
+              33.2,
+              23
+            ],
+            "tone": "a"
+          },
+          {
+            "name": "Ghana",
+            "values": [
+              17.1,
+              17.5,
+              12.4,
+              7.8,
+              7.1,
+              9.9,
+              10,
+              31.3,
+              38.1,
+              22.8,
+              14.2
+            ],
+            "tone": "b"
+          },
+          {
+            "name": "Côte d'Ivoire",
+            "values": [
+              1.3,
+              0.7,
+              0.7,
+              0.4,
+              0.8,
+              2.4,
+              4.2,
+              5.2,
+              4.4,
+              3.5,
+              0.1
+            ],
+            "tone": "c"
+          }
+        ],
+        "yMin": 0,
+        "note": "Source : Banque mondiale, World Development Indicators (inflation, prix à la consommation, % annuel), séries FPCPITOTLZGNGA, FPCPITOTLZGGHA et FPCPITOTLZGCIV diffusées par la Federal Reserve Bank of St. Louis (FRED), mise à jour du 13 octobre 2026 ; valeurs arrondies à une décimale. La Côte d'Ivoire représente ici l'UEMOA, dont elle est la première économie. La valeur 2025 du Nigeria repose sur l'indice des prix rebasé par le NBS en 2025, ce qui limite la comparaison avec les années antérieures. Moyennes 2015-2025 calculées par l'auteur : Nigeria 17,7 %, Ghana 17,1 %, Côte d'Ivoire 2,2 %."
+      },
+      "paragraphs": [
+        "Pour une banque d'Abidjan, acheter une obligation nigériane à 17,39 % plutôt qu'une OAT ivoirienne à 6,25 % rapporte environ onze points par an, à condition que le naira ne perde pas davantage face au franc CFA pendant la durée du placement. L'histoire récente rend ce pari coûteux. De 2015 à 2025, la hausse des prix a atteint en moyenne 17,7 % par an au [Nigeria](https://fred.stlouisfed.org/data/FPCPITOTLZGNGA) et 17,1 % au [Ghana](https://fred.stlouisfed.org/data/FPCPITOTLZGGHA), contre 2,2 % en [Côte d'Ivoire](https://fred.stlouisfed.org/data/FPCPITOTLZGCIV). Un écart d'inflation de quinze points par an, maintenu pendant une décennie, se traduit tôt ou tard par une dépréciation du même ordre, et c'est elle que les rendements nominaux anticipent. Le supplément de onze points que paie l'État nigérian n'est donc pas une rente offerte aux épargnants de l'UMOA : il rémunère, à peine, une perte de change probable.",
+        "Barry Eichengreen, historien de l'économie à l'université de Californie à Berkeley, Ricardo Hausmann, de la Harvard Kennedy School, et Ugo Panizza, de l'Institut de hautes études internationales et du développement de Genève, appellent « péché originel » l'incapacité d'un pays à emprunter à l'étranger dans sa propre monnaie, et ont établi en 2007 qu'elle ne s'explique pas seulement par les erreurs des emprunteurs : la concentration des portefeuilles mondiaux sur quelques devises rend la dette en monnaie locale difficile à placer hors de ses frontières[^2]. Le projet nigérian revient à tenter de racheter ce péché à l'échelle régionale, en vendant de la dette en nairas à des voisins plutôt qu'à Londres ou New York. Pour un investisseur dont le passif est en franc CFA, le naira reste pourtant une devise étrangère aussi risquée que pour un fonds britannique, et il dispose de moins d'instruments pour s'en couvrir. Le règlement en monnaies locales par le PAPSS évite le passage par le dollar au moment du paiement, sans réduire l'exposition au change pendant les dix ans que dure le titre.",
+        "L'argument inverse mérite d'être pris au sérieux. John Burger, de l'université Loyola du Maryland, et Francis Warnock, de la Darden School of Business de l'université de Virginie, ont étudié en 2006 les marchés obligataires en monnaie locale de 49 pays et conclu que leur développement dépend des politiques et du droit, d'une inflation stable et de créanciers protégés, davantage que d'une fatalité attachée aux petites monnaies[^3]. La trajectoire de 2026 va dans ce sens. L'inflation ghanéenne est tombée à 5,0 % en août, sous la fourchette cible de la Banque du Ghana, le rendement du bon à 91 jours est passé de 10,3 % à 5,4 % en un an, et le naira s'est apprécié de 5,6 % face au dollar au cours des sept premiers mois de l'année. Si la désinflation se confirme, l'écart de rendement entre Lagos et Abidjan se réduira, et un passeport déjà en place permettrait d'en profiter sans délai.",
+        "Les 49 marchés de Burger et Warnock attirent l'épargne extérieure après leur stabilisation, et rien dans leur échantillon ne montre une ouverture qui aurait stabilisé une monnaie. La causalité va de la monnaie vers le marché. L'inflation nigériane atteignait encore 15,39 % en août, le rendement à dix ans de l'État fédéral ne la dépassait que de deux points environ, et la CBN maintenait à 45 % le coefficient de réserves obligatoires des banques, un niveau qui signale une politique monétaire encore occupée à éponger des liquidités. Au Ghana, l'écart inverse, plus de dix points entre le rendement à dix ans et l'inflation, mesure la prime que les créanciers exigent encore d'un pays sorti d'un défaut. Le passeport aurait sa place une fois la désinflation acquise des deux côtés ; il ne peut pas en tenir lieu."
+      ]
+    },
+    {
+      "heading": "Une épargne de l'UMOA retenue par ses banques et par son droit des changes",
+      "paragraphs": [
+        "Les [banques commerciales détiennent environ 90 % de la dette souveraine](https://fr.allafrica.com/stories/202503090138.html) placée sur le marché de l'UMOA, et cette concentration a une cause institutionnelle. Les titres publics de l'Union sont admis en garantie aux guichets de refinancement de la BCEAO : une banque qui achète une OAT sénégalaise ou burkinabè peut la mobiliser auprès de la banque centrale pour obtenir des liquidités, au taux directeur de 3,00 %. La dette régionale devient ainsi un actif à la fois rémunérateur et liquide pour le bilan bancaire, avantage qu'aucune obligation nigériane ne pourrait offrir, puisqu'elle ne serait ni libellée en franc CFA ni éligible aux guichets de la BCEAO. Le marché secondaire, encore étroit, a traité 3 400 milliards de francs CFA en 2024 contre 2 000 milliards en 2023, et la liquidité de ces titres tient d'abord à la banque centrale plutôt qu'aux échanges entre investisseurs.",
+        "Le droit des changes de l'Union, qu'aucune des cinq briques nigérianes ne mentionne, ajoute une barrière juridique à la barrière bancaire. Le règlement de 2010 relatif aux relations financières extérieures de l'UEMOA, [remplacé par le règlement 06/2024 en décembre 2024](https://droitmediasfinance.com/index.php/actualites/droit-monetaire/915-uemoa-changes-ce-qui-a-change-dans-la-reglementation-des-changes-depuis-le-20-decembre-2024), posait la liberté des mouvements de capitaux entre États membres et soumettait à une autorisation de change les paiements vers l'extérieur au titre d'opérations en capital. Il [ne dispensait d'autorisation](https://www.umoatitres.org/wp-content/uploads/2018/03/reglement_ndeg_09-2010-cm-uemoa_relatif_aux_relations_financieres_exterieures_de_luemoa.pdf) les achats de valeurs mobilières étrangères par des résidents que lorsque l'émission ou la vente de ces titres dans l'Union avait été autorisée par le régulateur régional du marché financier. Un passeport des émetteurs aurait précisément cet effet juridique, puisqu'il ferait des obligations nigérianes ou ghanéennes des titres autorisés dans l'Union. C'est la brique la plus utile du projet, à condition que la BCEAO et l'Autorité des marchés financiers de l'UMOA l'acceptent, ce qui engage leur gestion des réserves de change communes.",
+        "Le flux inverse aurait plus de logique pour les épargnants et moins de chances politiques. Pour un fonds de pension nigérian, une OAT en franc CFA arrimé à l'euro offrirait une protection contre la dépréciation du naira, et le marché de l'UMOA a la taille nécessaire pour absorber une partie des 27 450 milliards de nairas que gèrent ces fonds. Une sortie d'épargne nigériane vers Abidjan est toutefois ce que la CBN cherche à éviter au moment où elle reconstitue des réserves [portées à 55,25 milliards de dollars](https://www.cbn.gov.ng/Out/2026/CCD/Personal%20Statements%20of%20Members%20for%20the%20307th%20Meeting%20of%20the%20MPC_September%202026.pdf) à la mi-septembre. L'intégration la plus rentable pour les épargnants serait ainsi la plus coûteuse pour la banque centrale du pays qui la propose. Le discours de Lagos parle d'attirer des capitaux vers les infrastructures nigérianes et régionales, pas d'en laisser partir."
+      ]
+    },
+    {
+      "heading": "Un tiers de l'encours émis par des États sortis de la CEDEAO",
+      "figure": {
+        "after": 1,
+        "kind": "bars",
+        "title": "Les trois pays de l'AES émettent un tiers des titres publics en vie sur le marché de l'UMOA (encours au 31 août 2026, milliards de FCFA)",
+        "unit": "Md FCFA",
+        "labelWidth": 150,
+        "items": [
+          {
+            "label": "Côte d'Ivoire",
+            "value": 7443.44,
+            "valueLabel": "7 443"
+          },
+          {
+            "label": "Sénégal",
+            "value": 5267.26,
+            "valueLabel": "5 267"
+          },
+          {
+            "label": "Burkina Faso",
+            "value": 3045.82,
+            "valueLabel": "3 046",
+            "hi": true
+          },
+          {
+            "label": "Mali",
+            "value": 2640.54,
+            "valueLabel": "2 641",
+            "hi": true
+          },
+          {
+            "label": "Niger",
+            "value": 2108.47,
+            "valueLabel": "2 108",
+            "hi": true
+          },
+          {
+            "label": "Togo",
+            "value": 1713.13,
+            "valueLabel": "1 713"
+          },
+          {
+            "label": "Bénin",
+            "value": 1163.04,
+            "valueLabel": "1 163"
+          },
+          {
+            "label": "Guinée-Bissau",
+            "value": 569.29,
+            "valueLabel": "569"
+          }
+        ],
+        "note": "Source : UMOA-Titres, liste des titres en vie au 31 août 2026 (obligations et bons assimilables du Trésor). Total de 23 951 milliards de FCFA et part de l'AES (Burkina Faso, Mali, Niger, en surbrillance) de 32,5 % calculés par l'auteur. Ce périmètre diffère de celui de l'encours de fin 2025 cité dans le texte (27 449 milliards), qui inclut d'autres catégories de titres."
+      },
+      "paragraphs": [
+        "Au 31 août 2026, la [liste des titres en vie d'UMOA-Titres](https://www.umoatitres.org/wp-content/uploads/2026/09/UT-LTV-31.08.2026.pdf) recensait 23 951 milliards de francs CFA de titres publics, dont 7 443 milliards émis par la Côte d'Ivoire et 5 267 milliards par le Sénégal. Le Burkina Faso (3 046 milliards), le Mali (2 641) et le Niger (2 108), réunis dans l'Alliance des États du Sahel (AES), en représentaient 7 795 milliards, soit 32,5 %. Ces trois pays ont quitté la CEDEAO le 29 janvier 2025 mais sont restés dans l'UEMOA, où ils continuent d'emprunter auprès des banques de l'Union ; le Trésor burkinabè a encore émis les 13 et 27 août 2026. Le projet nigérian, qui vise les huit pays de l'UEMOA, englobe donc trois États avec lesquels Abuja ne partage plus de cadre communautaire.",
+        "Toute la construction juridique de l'intégration des marchés ouest-africains a été bâtie dans le cadre de la CEDEAO depuis 2013. Le WACMIC en est issu, et le projet de charte qui ferait de l'association des régulateurs de valeurs mobilières d'Afrique de l'Ouest (WASRA) le régulateur régional a été examiné [à Lomé, du 17 au 19 février 2026, par les régulateurs des douze États de la CEDEAO](https://www.newsghana.com.gh/west-africa-moves-closer-to-single-capital-market-regulator/) ; il doit encore être adopté par le Conseil de convergence puis par le Conseil des ministres. Emomotimi Agama, directeur général de la commission des valeurs mobilières du Nigeria et président de la WASRA, jugeait en octobre 2025 qu'un marché régional intégré n'était « no longer a luxury; it is a necessity ». Le Mali, le Burkina Faso et le Niger ne siègent plus dans ces instances. Un passeport adossé à la WASRA s'arrêterait donc à leurs frontières, alors que leurs titres figurent dans le portefeuille des banques ivoiriennes, sénégalaises ou togolaises.",
+        "Le marché unifié aurait ainsi deux périmètres, celui du droit communautaire, à douze, et celui de la monnaie, à huit, dont trois États hors de la CEDEAO. Bola Tinubu présidait la CEDEAO lorsque l'organisation a imposé des sanctions au Niger après le coup d'État de juillet 2023, et les relations entre Abuja et les capitales de l'AES n'ont pas retrouvé leur niveau antérieur. Pour Bamako, Ouagadougou et Niamey, qui n'ont jamais émis d'euro-obligations, le marché de l'UMOA est la principale source de financement de marché, et les sanctions de janvier 2022 contre le Mali, qui l'en avaient temporairement privé, ont montré ce que coûte la perte de cet accès ; tout dispositif qui ferait dépendre cet accès d'un régulateur rattaché à la CEDEAO serait refusé. Pour Abuja, inclure ces États offrirait au contraire un canal de reprise de contact sans négociation politique préalable. Les deux lectures supposent que l'UEMOA, et non la CEDEAO, porte la négociation du côté francophone."
+      ]
+    },
+    {
+      "heading": "Commencer par ce qui ne dépend pas de la monnaie",
+      "paragraphs": [
+        "Dans un article de 1966 consacré aux alliances militaires, les économistes américains Mancur Olson et Richard Zeckhauser ont formalisé une règle des biens collectifs entre partenaires inégaux : le membre le plus grand, qui tire le plus de bénéfice du bien commun, en supporte une part du coût supérieure à son poids, et les petits partenaires contribuent moins que proportionnellement[^4]. Transposée au marché obligataire ouest-africain, cette logique désigne le Nigeria comme le financeur naturel des infrastructures communes : dépositaires centraux reliés, systèmes de règlement-livraison connectés, base unique d'identification des investisseurs. Le mécanisme de rehaussement de crédit, encore à l'étude, en serait la traduction la plus directe. S'il était capitalisé par Abuja, il abaisserait le coût d'émission des projets transfrontaliers pour tous, y compris pour des investisseurs qui n'achèteront jamais de naira, et donnerait à l'annonce de Lagos la crédibilité qu'un discours ne suffit pas à établir.",
+        "Les émetteurs non souverains offrent un premier terrain, parce que leur risque peut être apparié à leurs recettes indépendamment de la politique monétaire de leur pays d'origine. Une entreprise nigériane ou ghanéenne dotée de filiales dans l'Union pourrait, grâce au passeport, émettre en franc CFA à Abidjan pour financer des actifs qui produisent des recettes en franc CFA, sans que personne ne porte de risque de change. Une banque multilatérale de développement pourrait émettre en nairas, en cedis et en francs CFA sur les trois places avec une même documentation, et fournir à l'indice régional ses premiers titres comparables. Ces émissions ne créeraient pas d'emblée un marché profond. Elles feraient fonctionner la plomberie commune, règlement, conservation et identification des investisseurs, avant qu'elle ne porte les volumes beaucoup plus lourds de la dette souveraine.",
+        "Le Ghana est le partenaire souverain par lequel commencer, malgré son défaut récent. R. Gaston Gelos et Ratna Sahay, économistes au Fonds monétaire international, et Guido Sandleris, de l'université Torcuato Di Tella, ont observé en 2011 que l'accès des pays en développement aux marchés dépend de leurs fondamentaux et de la qualité de leurs institutions bien plus que de la fréquence de leurs défauts passés[^5]. Accra, qui avait suspendu le service de sa dette extérieure en décembre 2022, en offre une illustration : son inflation est revenue à 5,0 %, son rendement à dix ans dépasse l'inflation de plus de dix points, et cette prime réelle rend ses titres attractifs pour un investisseur de l'UMOA prêt à porter le risque du cedi, qui a perdu 9,5 % face au dollar en 2026. Une liaison entre Accra et Abidjan, deux places voisines dont les échanges commerciaux sont anciens, servirait de banc d'essai avant l'entrée de la dette nigériane.",
+        "Le choix qui se présente aux gouvernements de la région porte sur l'ordre des opérations plutôt que sur le principe. Commencer par la dette souveraine nigériane exposerait les banques de l'UMOA à un risque de change qu'elles n'ont aucune raison d'accepter, obligerait la BCEAO à arbitrer entre l'ouverture et ses réserves, et buterait sur la question de l'AES. Commencer par la plomberie, les émetteurs non souverains et le Ghana demanderait au Nigeria de payer les infrastructures communes sans contrepartie immédiate en capitaux. Le comité de politique monétaire de la CBN, les 23 et 24 novembre, donnera une première indication sur la désinflation dont dépend la seconde étape. La réponse de l'UEMOA, qui n'a pas encore parlé, décidera si la proposition de Lagos devient un chantier commun ou rejoint la deuxième phase du WACMIC parmi les intentions sans date."
+      ]
+    },
+    {
+      "heading": "Scénarios",
+      "paragraphs": [],
+      "scenarios": [
+        {
+          "level": "most",
+          "title": "Des liaisons techniques, des épargnes toujours nationales",
+          "text": "Les régulateurs reprennent la proposition dans le cadre du WACMIC et de l'AELP : identification commune des investisseurs, liaison partielle des dépositaires et étude d'un indice régional. La BCEAO ne se prononce pas sur l'accès des résidents de l'Union à la dette nigériane, les titres d'État de l'UMOA restent hors du périmètre et les flux d'épargne entre zones monétaires demeurent marginaux. Le Nigeria continue de financer sa dette intérieure auprès de ses banques et de ses fonds de pension, à des taux qui baissent au rythme de sa désinflation."
+        },
+        {
+          "level": "less",
+          "title": "Un premier compartiment pour les émetteurs non souverains",
+          "text": "Le Nigeria capitalise un mécanisme de garantie régional et l'Autorité des marchés financiers de l'UMOA accepte un passeport limité aux entreprises et aux banques de développement. Quelques émissions multidevises sont placées simultanément à Abidjan, Accra et Lagos, et une liaison entre la Ghana Stock Exchange et la BRVM sert de banc d'essai pour la dette souveraine ghanéenne. La question de l'AES est contournée parce que l'UEMOA, et non la CEDEAO, négocie pour les huit pays de l'Union."
+        },
+        {
+          "level": "least",
+          "title": "Une rechute du naira qui fige le projet",
+          "text": "Un recul des cours du pétrole ou un relâchement monétaire prématuré ravive l'inflation nigériane et fait chuter le naira. La CBN durcit le contrôle des sorties de capitaux, les banques de l'UMOA se détournent de tout titre libellé en monnaie flottante et la proposition rejoint la liste des intentions sans calendrier. Les tensions entre la CEDEAO et l'AES compliquent en outre tout cadre réglementaire commun."
+        }
+      ]
+    },
+    {
+      "heading": "Sources",
+      "paragraphs": [
+        "[BusinessDay, Nigeria seeks to connect West African bond markets to unlock infrastructure funding, 11 novembre 2026](https://businessday.ng/news/article/nigeria-seeks-to-connect-west-african-bond-markets-to-unlock-infrastructure-funding/) | [Ecofin Agency, What to know about Nigeria's plan for a West African bond passport, 11 novembre 2026](https://www.ecofinagency.com/news/1111-60694-what-to-know-about-nigeria-s-plan-for-a-west-african-bond-passport) | [Daba Finance, Le Nigeria propose l'intégration des marchés financiers ouest-africains, 11 novembre 2026](https://dabafinance.com/fr/nouvelles/nigeria-propose-integration-marches-financiers-ouest-africains-2026-11-10) | [The Whistler, FG proposes unified bond market framework for West African countries, 10 novembre 2026](https://thewhistler.ng/fg-proposes-unified-bond-market-framework-for-west-african-countries/) | [Nairametrics, ECOWAS-based investors contribute only 0.01% to Nigeria's $16.78 billion foreign capital (données du NBS), 16 février 2026](https://nairametrics.com/2026/02/16/ecowas-based-investors-contribute-only-0-01-to-nigerias-16-78-billion-foreign-capital/) | [Nairametrics, Nigeria's public debt rises to N166.79 trillion in Q2 2026 (données du Debt Management Office), 26 septembre 2026](https://nairametrics.com/2026/09/26/nigerias-public-debt-rises-to-n166-79-trillion-in-q2-2026/) | [BRVM, West African Capital Markets Integration Council (WACMIC)](https://www.brvm.org/en/wacmic) | [Africa Global Funds, 12 countries to agree joint West African stock exchange, 29 juillet 2015](https://africaglobalfunds.com/news/funds/markets-and-industry-news/12-countries-to-agree-joint-west-african-stock-exchange/) | [News Ghana, West Africa moves closer to single capital market regulator, 2026](https://www.newsghana.com.gh/west-africa-moves-closer-to-single-capital-market-regulator/) | [AllAfrica, marché des titres publics de l'UMOA, mars 2025](https://fr.allafrica.com/stories/202503090138.html) | [UMOA-Titres, liste des titres en vie au 31 août 2026](https://www.umoatitres.org/wp-content/uploads/2026/09/UT-LTV-31.08.2026.pdf) | [BCEAO, communiqué de presse du comité de politique monétaire du 9 septembre 2026](https://www.bceao.int/sites/default/files/2026-09/Communiqu%C3%A9%20de%20Presse%20CPM%209%20septembre%202026.pdf) | [Central Bank of Nigeria, Personal Statements of Members for the 307th Meeting of the MPC, septembre 2026](https://www.cbn.gov.ng/Out/2026/CCD/Personal%20Statements%20of%20Members%20for%20the%20307th%20Meeting%20of%20the%20MPC_September%202026.pdf) | [Bank of Ghana, MPC Decision Statement, septembre 2026](https://www.bog.gov.gh/wp-content/uploads/2026/10/MPC-Decision-Statement-September-2026.pdf) | [IC Securities, Monthly Fixed Income & Currency Guide, juillet 2026](https://cms.ic.africa/wp-content/uploads/2026/08/Monthly_Fixed_Income_amp_Currency_Guide_July_2026.pdf) | [Banque mondiale, World Development Indicators via FRED, inflation au Nigeria](https://fred.stlouisfed.org/data/FPCPITOTLZGNGA) | [Banque mondiale, World Development Indicators via FRED, inflation au Ghana](https://fred.stlouisfed.org/data/FPCPITOTLZGGHA) | [Banque mondiale, World Development Indicators via FRED, inflation en Côte d'Ivoire](https://fred.stlouisfed.org/data/FPCPITOTLZGCIV) | [UEMOA, règlement n° 09/2010/CM/UEMOA relatif aux relations financières extérieures des États membres](https://www.umoatitres.org/wp-content/uploads/2018/03/reglement_ndeg_09-2010-cm-uemoa_relatif_aux_relations_financieres_exterieures_de_luemoa.pdf) | [Droit Médias Finance, Ce qui change dans la réglementation des changes de l'UEMOA depuis le 20 décembre 2024](https://droitmediasfinance.com/index.php/actualites/droit-monetaire/915-uemoa-changes-ce-qui-a-change-dans-la-reglementation-des-changes-depuis-le-20-decembre-2024)"
+      ]
+    }
+  ],
+  "notes": [
+    "Geert Bekaert, professeur de finance à la Columbia Business School, et Campbell R. Harvey, professeur de finance à la Fuqua School of Business de l'université Duke, ancien président de l'American Finance Association. « Time-Varying World Market Integration », Journal of Finance, vol. 50, n° 2, 1995, p. 403-444.",
+    "Barry Eichengreen, professeur d'économie et de science politique à l'université de Californie à Berkeley ; Ricardo Hausmann, professeur à la Harvard Kennedy School, ancien économiste en chef de la Banque interaméricaine de développement ; Ugo Panizza, professeur d'économie à l'Institut de hautes études internationales et du développement (Genève). « Currency Mismatches, Debt Intolerance, and the Original Sin: Why They Are Not the Same and Why It Matters », dans Sebastian Edwards (dir.), Capital Controls and Capital Flows in Emerging Economies: Policies, Practices, and Consequences, Chicago, University of Chicago Press, 2007, p. 121-170.",
+    "John D. Burger, professeur d'économie à l'université Loyola du Maryland, et Francis E. Warnock, professeur à la Darden School of Business de l'université de Virginie. « Local Currency Bond Markets », IMF Staff Papers, vol. 53, numéro spécial, 2006.",
+    "Mancur Olson (1932-1998), économiste américain, professeur à l'université du Maryland, auteur de The Logic of Collective Action (1965), et Richard J. Zeckhauser, professeur d'économie politique à la Harvard Kennedy School. « An Economic Theory of Alliances », Review of Economics and Statistics, vol. 48, n° 3, 1966, p. 266-279.",
+    "R. Gaston Gelos et Ratna Sahay, économistes au Fonds monétaire international, et Guido Sandleris, professeur à l'université Torcuato Di Tella (Buenos Aires). « Sovereign Borrowing by Developing Countries: What Determines Market Access? », Journal of International Economics, vol. 83, n° 2, 2011, p. 243-254."
+  ]
+},
+{
   "id": 11,
   "day": "12",
   "month": "NOV",
@@ -3270,6 +3586,322 @@ const BULLETINS_FR = [
 ];
 
 const BULLETINS_EN = [
+{
+  "id": 12,
+  "day": "19",
+  "month": "NOV",
+  "year": "2026",
+  "title": "West Africa's bond market: a passport that stops at the currency",
+  "excerpt": "On 10 November in Lagos, Nigeria's finance minister proposed linking the bond markets of Nigeria, Ghana and the eight WAEMU countries. The plan tackles regulatory fragmentation, yet what separates CFA franc savings from naira debt is an inflation gap of fifteen points a year. What a regional market could genuinely integrate, who would gain from it, and in what order to build it.",
+  "tags": [
+    "Bond markets",
+    "Nigeria",
+    "Ghana",
+    "WAEMU",
+    "BCEAO",
+    "CFA franc",
+    "Naira",
+    "ECOWAS",
+    "AES"
+  ],
+  "category": "African Economic Integration",
+  "nutshell": [
+    "Nigeria proposes an issuer passport, a single investor identifier, linked settlement systems, a regional index and a credit-enhancement facility for ten countries; the plan has neither a timetable nor any public response from WAEMU",
+    "At ten years, Nigeria's federal government pays more than 17% in naira and Côte d'Ivoire 6.25% in CFA francs: the gap prices a currency risk fed by average inflation of 17.7% in Nigeria against 2.2% in Côte d'Ivoire from 2015 to 2025, and no passport removes it",
+    "A third of outstanding WAMU government securities is issued by Burkina Faso, Mali and Niger, which have left ECOWAS, the organisation under which the entire legal framework for integration sits; the project would do better to start with non-sovereign issuers and a Nigerian financial contribution to the shared infrastructure"
+  ],
+  "content": [
+    {
+      "heading": null,
+      "paragraphs": [
+        "In the first nine months of 2025, Nigeria received [$16.78 billion in foreign capital](https://nairametrics.com/2026/02/16/ecowas-based-investors-contribute-only-0-01-to-nigerias-16-78-billion-foreign-capital/), of which $2.16 million came from investors in other ECOWAS countries, just over one ten-thousandth of the total. Ghana, the largest regional contributor, supplied $1.5 million, and Côte d'Ivoire, the largest economy of the West African Economic and Monetary Union (WAEMU), $30,000. The figures, from Nigeria's National Bureau of Statistics (NBS), cover all flows: direct investment, portfolio investment and loans. They describe a region where the largest economy and the largest monetary union live side by side without exchanging their savings, even though each of their government securities markets has grown large enough to make such exchange possible. Ivorian, Senegalese and Togolese banks buy the debt of Dakar, Abidjan and Ouagadougou; Nigerian pension funds buy Abuja's.",
+        "On 10 November 2026, at the S&P Global Ratings Africa Summit in Lagos, Nigeria's finance minister, Taiwo Oyedele, [proposed linking the bond markets of Nigeria, Ghana and the eight WAEMU countries](https://businessday.ng/news/article/nigeria-seeks-to-connect-west-african-bond-markets-to-unlock-infrastructure-funding/). His plan comprises a regional passport for issuers, a single investor identifier, connected trading, settlement and payment systems so that transactions can be settled in local currencies, a regional bond index and a credit-enhancement mechanism for cross-border infrastructure; the last two are [still under study](https://dabafinance.com/fr/nouvelles/nigeria-propose-integration-marches-financiers-ouest-africains-2026-11-10). The scheme as a whole remains at the planning stage, with no protocol and no timetable, and by mid-November no public response had come from the Central Bank of West African States (BCEAO), the WAMU Financial Markets Authority or the Regional Securities Exchange (BRVM). The initiative comes from a government that is aiming for an investment-grade rating within three years and, in its ten-year plan, for a capital market worth at least $1 trillion.",
+        "The project starts from a diagnosis of regulatory fragmentation: linked markets would give states the depth that none of them has on its own. The argument made here is different. What separates WAMU savings, invested in CFA francs at just over 6% for ten years, from Nigerian debt, which pays more than 17% in naira, is currency risk and the inflation gap that feeds it, and a passport erases neither. Adding up outstanding stocks does not create liquidity when holders have no reason to cross the monetary border. The real question is what a West African bond market could genuinely integrate, who would gain from it, and in what order to build it so that it does not join the list of financial integration projects that never got beyond their first phase."
+      ]
+    },
+    {
+      "heading": "A proposal assembled from old workstreams",
+      "factbox": {
+        "title": "Milestones: thirteen years of West African market integration",
+        "items": [
+          "18 January 2013: launch of the West African Capital Markets Integration Council (WACMIC)",
+          "1 April 2015: WACMIC phase 1 (sponsored access between brokers), first trades on 15 July",
+          "July 2015: a West African virtual exchange announced for the end of 2016, never delivered",
+          "2022: launch in Abidjan of the African Exchanges Linkage Project (AELP) platform",
+          "29 January 2025: Burkina Faso, Mali and Niger formally leave ECOWAS",
+          "17-19 February 2026: technical committee in Lomé on the charter of the regional regulator (WASRA)",
+          "10 November 2026: Taiwo Oyedele's proposal in Lagos",
+          "23-24 November 2026: Monetary Policy Committee of the Central Bank of Nigeria"
+        ]
+      },
+      "paragraphs": [
+        "Launched on 18 January 2013, the [West African Capital Markets Integration Council (WACMIC)](https://www.brvm.org/en/wacmic) brings together the regulators and exchanges of WAEMU, Ghana, Nigeria, Sierra Leone and Cape Verde. Its roadmap set out three phases. The first, sponsored access, has allowed a broker since 1 April 2015 to place orders on another exchange through a local broker, and the first trades date from 15 July 2015. The second, a common passport for qualified brokers, and the third, a virtual single market, were never given a date. In July 2015 the Council [announced a West African virtual exchange for the end of 2016](https://africaglobalfunds.com/news/funds/markets-and-industry-news/12-countries-to-agree-joint-west-african-stock-exchange/), with an order book in local currencies. Eleven years on, the [African Exchanges Linkage Project](https://www.ecofinagency.com/news/1111-60694-what-to-know-about-nigeria-s-plan-for-a-west-african-bond-passport) platform, launched in Abidjan in 2022, lets brokers route orders between the BRVM, the Ghana Stock Exchange and the Nigerian Exchange, but every issuer must still satisfy the requirements of every market.",
+        "Taiwo Oyedele is picking up these workstreams rather than opening new ones, and his line in Lagos said so plainly: “The task now is to join these pieces together”, after he had recalled that WACMIC, the AELP and the Pan-African Payment and Settlement System (PAPSS) [already provided a foundation](https://businessday.ng/news/article/nigeria-seeks-to-connect-west-african-bond-markets-to-unlock-infrastructure-funding/). The issuer passport corresponds to WACMIC's second phase, extended from brokers to issuers; the single investor identifier and the connection of settlement systems build on the AELP; local-currency settlement relies on PAPSS. What is new is the target, public debt, and its sponsor, a finance minister rather than a securities regulator. The [scope remains vague](https://www.ecofinagency.com/news/1111-60694-what-to-know-about-nigeria-s-plan-for-a-west-african-bond-passport): nothing indicates whether WAMU government securities, issued by auction with the support of UMOA-Titres and governed by a separate framework, would be covered.",
+        "Ten years of sponsored access have not set savings moving across borders, and the finance literature helps explain why a market that is open in law can remain segmented in practice. Geert Bekaert, professor of finance at Columbia Business School, and Campbell Harvey, professor at Duke University, measured in 1995 how far emerging markets were integrated with the world market by looking at the behaviour of their returns, and found that integration varies over time and often remains partial long after formal restrictions have been lifted[^1]. Integration shows up in prices and in portfolios; it cannot be decreed. By that yardstick, West African financial integration remains close to zero, since investors from the region supplied only 0.01% of the capital that entered Nigeria in 2025, although the exchange links had existed for a decade. The 2026 passport would remove formalities without touching the reasons that keep capital at home."
+      ]
+    },
+    {
+      "heading": "Two markets of similar size, priced worlds apart",
+      "figure": {
+        "after": 3,
+        "kind": "table",
+        "title": "At ten years, governments borrow at just over 6% in CFA francs and at more than 17% in naira (rates in %)",
+        "columns": [
+          "",
+          "Nigeria",
+          "Ghana",
+          "WAEMU (Côte d'Ivoire)"
+        ],
+        "rows": [
+          [
+            "Exchange-rate regime",
+            "Floating naira",
+            "Floating cedi",
+            "CFA franc pegged to the euro"
+          ],
+          [
+            "Policy rate",
+            "23.00 (22 Sept. 2026)",
+            "14.0 (Sept. 2026)",
+            "3.00 (9 Sept. 2026)"
+          ],
+          [
+            "Year-on-year inflation",
+            "15.39 (Aug. 2026)",
+            "5.0 (Aug. 2026)",
+            "0.4 (Q2 2026, Union)"
+          ],
+          [
+            "Government bond, about ten years",
+            "17.39 (yield)",
+            "15.68 (yield)",
+            "6.25 (coupon)"
+          ],
+          [
+            "Ten-year rate minus inflation (points)",
+            "2.0",
+            "10.7",
+            "5.9"
+          ],
+          [
+            "Currency against the dollar in 2026",
+            "+5.6% (end-July)",
+            "−9.5% (mid-September)",
+            "Fixed parity with the euro"
+          ],
+          [
+            "Outstanding government securities ($ billion)",
+            "29 (federal naira bonds)",
+            "16 (medium- and long-term securities)",
+            "46.6 (regional government securities, end-2025)"
+          ]
+        ],
+        "hiRow": 3,
+        "note": "Sources: Central Bank of Nigeria (307th Monetary Policy Committee meeting, September 2026); Bank of Ghana (Monetary Policy Committee statement, September 2026); BCEAO (Monetary Policy Committee communiqué of 9 September 2026); IC Securities, Monthly Fixed Income & Currency Guide, July 2026 (yields and naira); UMOA-Titres, list of outstanding securities at 31 August 2026 (Ivorian coupons); Ecofin, 11 November 2026 (outstanding amounts, categories not strictly comparable). Ten-year securities: Nigeria's March 2036 and Ghana's February 2036 bonds (yields at end-July 2026); for WAEMU, the coupon on Ivorian 10- and 15-year OATs, an issue rate rather than a market yield. The “rate minus inflation” row is the author's calculation using close but not identical dates; it gives an order of magnitude."
+      },
+      "paragraphs": [
+        "At the end of 2025, outstanding WAMU government securities on the regional market [stood at about 27,449 billion CFA francs, or $46.6 billion](https://www.ecofinagency.com/news/1111-60694-what-to-know-about-nigeria-s-plan-for-a-west-african-bond-passport), against $29 billion of Nigerian federal naira bonds and $16 billion of Ghanaian medium- and long-term securities. The amounts cover somewhat different categories and can be compared only in order of magnitude, but they contradict a widespread assumption: for local-currency public debt, the largest market among the ten countries concerned belongs to the monetary union, not to West Africa's largest economy. WAMU states raised 9,069 billion CFA francs on it through auctions and syndications in 2025, and [their borrowing had already reached 8,127 billion in 2024](https://fr.allafrica.com/stories/202503090138.html). The regional market was built without Nigeria or Ghana, on the savings of the Union's banks.",
+        "Abuja, for its part, has a broader domestic investor base and a more pressing need for financing. Nigeria's public debt [stood at 166.79 trillion naira on 30 June 2026](https://nairametrics.com/2026/09/26/nigerias-public-debt-rises-to-n166-79-trillion-in-q2-2026/), or $120.93 billion, of which 91.59 trillion was domestic; domestic debt rose from 59.1 trillion naira in December 2023 to 89.4 trillion in December 2025. Nigerian pension funds manage 27.45 trillion naira, about $20.3 billion, and together with the banks form the core of the holders of federal debt. The borrower that most needs to widen its circle of creditors is therefore Nigeria, while the most abundant savings in a stable currency sit in WAMU. Successful integration would first channel savings from Abidjan, Dakar and Lomé into Abuja's debt, which the Lagos speech presents as financing for regional infrastructure.",
+        "At the end of July 2026, Nigeria's March 2036 federal bond [was trading at 17.39%](https://cms.ic.africa/wp-content/uploads/2026/08/Monthly_Fixed_Income_amp_Currency_Guide_July_2026.pdf) and Ghana's February 2036 bond at 15.68%, while Côte d'Ivoire was selling its ten- and fifteen-year OATs with [a 6.25% coupon](https://www.umoatitres.org/wp-content/uploads/2026/09/UT-LTV-31.08.2026.pdf). Monetary policy accounts for most of the gap. The Central Bank of Nigeria (CBN) [cut its policy rate from 26.50% to 23.00% on 22 September](https://www.cbn.gov.ng/Out/2026/CCD/Personal%20Statements%20of%20Members%20for%20the%20307th%20Meeting%20of%20the%20MPC_September%202026.pdf) with inflation at 15.39% in August, the Bank of Ghana [held its rate at 14.0%](https://www.bog.gov.gh/wp-content/uploads/2026/10/MPC-Decision-Statement-September-2026.pdf) with inflation at 5.0%, and the BCEAO has [kept its rate at 3.00%](https://www.bceao.int/sites/default/files/2026-09/Communiqu%C3%A9%20de%20Presse%20CPM%209%20septembre%202026.pdf) since 16 March, against inflation of 0.4% in the Union in the second quarter. On top of that come three exchange-rate regimes: a CFA franc pegged to the euro, and a floating naira and cedi. A regional bond index would thus lump together securities whose yields differ by more than ten points for reasons that stem first from the currency and only then from the quality of the borrowers."
+      ]
+    },
+    {
+      "heading": "Currency risk, a cost no passport removes",
+      "figure": {
+        "after": 1,
+        "kind": "line",
+        "title": "Nigerian and Ghanaian inflation never fell below 7% in ten years, while Ivorian inflation never exceeded 5.3% (annual rise in consumer prices, %)",
+        "unit": "%",
+        "x": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "series": [
+          {
+            "name": "Nigeria",
+            "values": [
+              9,
+              15.7,
+              16.5,
+              12.1,
+              11.4,
+              13.2,
+              17,
+              18.8,
+              24.7,
+              33.2,
+              23
+            ],
+            "tone": "a"
+          },
+          {
+            "name": "Ghana",
+            "values": [
+              17.1,
+              17.5,
+              12.4,
+              7.8,
+              7.1,
+              9.9,
+              10,
+              31.3,
+              38.1,
+              22.8,
+              14.2
+            ],
+            "tone": "b"
+          },
+          {
+            "name": "Côte d'Ivoire",
+            "values": [
+              1.3,
+              0.7,
+              0.7,
+              0.4,
+              0.8,
+              2.4,
+              4.2,
+              5.2,
+              4.4,
+              3.5,
+              0.1
+            ],
+            "tone": "c"
+          }
+        ],
+        "yMin": 0,
+        "note": "Source: World Bank, World Development Indicators (inflation, consumer prices, annual %), series FPCPITOTLZGNGA, FPCPITOTLZGGHA and FPCPITOTLZGCIV published by the Federal Reserve Bank of St. Louis (FRED), update of 13 October 2026; values rounded to one decimal place. Côte d'Ivoire stands in here for WAEMU, of which it is the largest economy. Nigeria's 2025 value rests on the consumer price index rebased by the NBS in 2025, which limits comparison with earlier years. 2015-2025 averages calculated by the author: Nigeria 17.7%, Ghana 17.1%, Côte d'Ivoire 2.2%."
+      },
+      "paragraphs": [
+        "For a bank in Abidjan, buying a Nigerian bond at 17.39% rather than an Ivorian OAT at 6.25% earns about eleven points a year, provided the naira loses no further ground against the CFA franc over the life of the investment. Recent history makes that an expensive bet. From 2015 to 2025, consumer prices rose by an average of 17.7% a year in [Nigeria](https://fred.stlouisfed.org/data/FPCPITOTLZGNGA) and 17.1% in [Ghana](https://fred.stlouisfed.org/data/FPCPITOTLZGGHA), against 2.2% in [Côte d'Ivoire](https://fred.stlouisfed.org/data/FPCPITOTLZGCIV). An inflation gap of fifteen points a year, sustained over a decade, sooner or later turns into a depreciation of similar size, and nominal yields price it in advance. The extra eleven points paid by the Nigerian government are therefore no windfall for WAMU savers: they barely compensate for a probable currency loss.",
+        "Barry Eichengreen, economic historian at the University of California, Berkeley, Ricardo Hausmann, of the Harvard Kennedy School, and Ugo Panizza, of the Graduate Institute of International and Development Studies in Geneva, use the term “original sin” for a country's inability to borrow abroad in its own currency, and established in 2007 that it cannot be explained by borrowers' mistakes alone: the concentration of global portfolios in a handful of currencies makes local-currency debt hard to sell beyond its borders[^2]. The Nigerian project amounts to an attempt to redeem that sin at regional level, by selling naira debt to neighbours rather than to London or New York. Yet for an investor whose liabilities are in CFA francs, the naira remains a foreign currency as risky as it is for a British fund, and one with fewer instruments to hedge against. Local-currency settlement through PAPSS avoids routing the payment through the dollar, but does nothing to reduce currency exposure over the ten years the security runs.",
+        "The opposite argument deserves to be taken seriously. John Burger, of Loyola University Maryland, and Francis Warnock, of the University of Virginia's Darden School of Business, studied local-currency bond markets in 49 countries in 2006 and concluded that their development depends on policies and law, on stable inflation and protected creditors, more than on any fate attached to small currencies[^3]. The course of 2026 points in that direction. Ghanaian inflation fell to 5.0% in August, below the Bank of Ghana's target band, the 91-day bill yield dropped from 10.3% to 5.4% in a year, and the naira gained 5.6% against the dollar in the first seven months of the year. If disinflation holds, the yield gap between Lagos and Abidjan will narrow, and a passport already in place would let investors take advantage of it without delay.",
+        "Burger and Warnock's 49 markets attract foreign savings after they have stabilised, and nothing in their sample shows an opening that stabilised a currency. Causality runs from the currency to the market. Nigerian inflation still stood at 15.39% in August, the federal government's ten-year yield exceeded it by only about two points, and the CBN kept banks' cash reserve requirement at 45%, a level that signals a monetary policy still busy mopping up liquidity. In Ghana, the reverse gap, more than ten points between the ten-year yield and inflation, measures the premium creditors still demand from a country emerging from default. The passport would have its place once disinflation is secured on both sides; it cannot stand in for it."
+      ]
+    },
+    {
+      "heading": "WAMU savings held back by its banks and its exchange-control rules",
+      "paragraphs": [
+        "[Commercial banks hold about 90% of the sovereign debt](https://fr.allafrica.com/stories/202503090138.html) placed on the WAMU market, and the concentration has an institutional cause. The Union's government securities are accepted as collateral at the BCEAO's refinancing windows: a bank that buys a Senegalese or Burkinabè OAT can pledge it with the central bank to obtain liquidity at the 3.00% policy rate. Regional debt thus becomes an asset that is both yielding and liquid for a bank's balance sheet, an advantage no Nigerian bond could offer, since it would be neither denominated in CFA francs nor eligible at the BCEAO's windows. The secondary market, still thin, handled 3,400 billion CFA francs in 2024 against 2,000 billion in 2023, and the liquidity of these securities owes more to the central bank than to trading between investors.",
+        "The Union's exchange-control law, which none of the five Nigerian building blocks mentions, adds a legal barrier to the banking one. The 2010 regulation on WAEMU's external financial relations, [replaced by Regulation 06/2024 in December 2024](https://droitmediasfinance.com/index.php/actualites/droit-monetaire/915-uemoa-changes-ce-qui-a-change-dans-la-reglementation-des-changes-depuis-le-20-decembre-2024), established the free movement of capital between member states and made payments abroad for capital transactions subject to exchange-control authorisation. It [exempted from authorisation](https://www.umoatitres.org/wp-content/uploads/2018/03/reglement_ndeg_09-2010-cm-uemoa_relatif_aux_relations_financieres_exterieures_de_luemoa.pdf) residents' purchases of foreign securities only when the issue or sale of those securities in the Union had been authorised by the regional financial market regulator. An issuer passport would have precisely that legal effect, since it would turn Nigerian or Ghanaian bonds into securities authorised within the Union. That makes it the most useful component of the project, provided the BCEAO and the WAMU Financial Markets Authority accept it, which bears on their management of the pooled foreign-exchange reserves.",
+        "The reverse flow would make more sense for savers and stand less chance politically. For a Nigerian pension fund, an OAT in CFA francs pegged to the euro would offer protection against naira depreciation, and the WAMU market is large enough to absorb part of the 27.45 trillion naira these funds manage. An outflow of Nigerian savings to Abidjan, however, is exactly what the CBN is trying to prevent as it rebuilds reserves, [which had risen to $55.25 billion](https://www.cbn.gov.ng/Out/2026/CCD/Personal%20Statements%20of%20Members%20for%20the%20307th%20Meeting%20of%20the%20MPC_September%202026.pdf) by mid-September. The integration most profitable for savers would thus be the most costly for the central bank of the country proposing it. The Lagos speech talks about attracting capital to Nigerian and regional infrastructure, not about letting it leave."
+      ]
+    },
+    {
+      "heading": "A third of outstanding debt issued by states that have left ECOWAS",
+      "figure": {
+        "after": 1,
+        "kind": "bars",
+        "title": "The three AES countries issue a third of the government securities outstanding on the WAMU market (outstanding at 31 August 2026, billion CFA francs)",
+        "unit": "CFA bn",
+        "labelWidth": 150,
+        "items": [
+          {
+            "label": "Côte d'Ivoire",
+            "value": 7443.44,
+            "valueLabel": "7,443"
+          },
+          {
+            "label": "Senegal",
+            "value": 5267.26,
+            "valueLabel": "5,267"
+          },
+          {
+            "label": "Burkina Faso",
+            "value": 3045.82,
+            "valueLabel": "3,046",
+            "hi": true
+          },
+          {
+            "label": "Mali",
+            "value": 2640.54,
+            "valueLabel": "2,641",
+            "hi": true
+          },
+          {
+            "label": "Niger",
+            "value": 2108.47,
+            "valueLabel": "2,108",
+            "hi": true
+          },
+          {
+            "label": "Togo",
+            "value": 1713.13,
+            "valueLabel": "1,713"
+          },
+          {
+            "label": "Benin",
+            "value": 1163.04,
+            "valueLabel": "1,163"
+          },
+          {
+            "label": "Guinea-Bissau",
+            "value": 569.29,
+            "valueLabel": "569"
+          }
+        ],
+        "note": "Source: UMOA-Titres, list of outstanding securities at 31 August 2026 (Treasury bonds and fungible Treasury bills). The total of 23,951 billion CFA francs and the 32.5% share of the AES (Burkina Faso, Mali, Niger, shown in colour) are the author's calculations. The coverage differs from that of the end-2025 outstanding amount cited in the text (27,449 billion), which includes other categories of securities."
+      },
+      "paragraphs": [
+        "On 31 August 2026, the [UMOA-Titres list of outstanding securities](https://www.umoatitres.org/wp-content/uploads/2026/09/UT-LTV-31.08.2026.pdf) recorded 23,951 billion CFA francs of government securities, of which 7,443 billion had been issued by Côte d'Ivoire and 5,267 billion by Senegal. Burkina Faso (3,046 billion), Mali (2,641) and Niger (2,108), grouped in the AES (Alliance of Sahel States), accounted for 7,795 billion, or 32.5%. The three countries left ECOWAS on 29 January 2025 but stayed in WAEMU, where they continue to borrow from the Union's banks; the Burkinabè Treasury issued again on 13 and 27 August 2026. The Nigerian project, which targets the eight WAEMU countries, therefore takes in three states with which Abuja no longer shares a community framework.",
+        "The entire legal architecture of West African market integration has been built within the ECOWAS framework since 2013. WACMIC grew out of it, and the draft charter that would make the West African Securities Regulators Association (WASRA) the regional regulator was examined [in Lomé from 17 to 19 February 2026 by the regulators of the twelve ECOWAS states](https://www.newsghana.com.gh/west-africa-moves-closer-to-single-capital-market-regulator/); it must still be adopted by the Convergence Council and then by the Council of Ministers. Emomotimi Agama, director general of Nigeria's Securities and Exchange Commission and chair of WASRA, argued in October 2025 that an integrated regional market was “no longer a luxury; it is a necessity”. Mali, Burkina Faso and Niger no longer sit on these bodies. A passport anchored in WASRA would therefore stop at their borders, even though their securities are held by Ivorian, Senegalese and Togolese banks.",
+        "The unified market would thus have two perimeters, one defined by community law, with twelve members, and one defined by the currency, with eight, three of them outside ECOWAS. Bola Tinubu chaired ECOWAS when the organisation imposed sanctions on Niger after the July 2023 coup, and relations between Abuja and the AES capitals have not recovered their former level. For Bamako, Ouagadougou and Niamey, which have never issued Eurobonds, the WAMU market is the main source of market financing, and the January 2022 sanctions against Mali, which temporarily cut it off, showed what losing that access costs; any arrangement that made access depend on a regulator attached to ECOWAS would be rejected. For Abuja, by contrast, including these states would offer a channel for re-engagement without prior political negotiation. Both readings assume that WAEMU, not ECOWAS, leads the negotiation on the francophone side."
+      ]
+    },
+    {
+      "heading": "Start with what does not depend on the currency",
+      "paragraphs": [
+        "In a 1966 article on military alliances, the American economists Mancur Olson and Richard Zeckhauser formalised a rule for collective goods shared among unequal partners: the largest member, which draws the greatest benefit from the common good, bears a share of its cost larger than its weight, while the smaller partners contribute less than proportionally[^4]. Applied to the West African bond market, that logic makes Nigeria the natural financier of the shared infrastructure: linked central securities depositories, connected settlement-delivery systems, a single investor identification database. The credit-enhancement mechanism, still under study, would be its most direct expression. Capitalised by Abuja, it would lower the cost of issuance for cross-border projects for everyone, including investors who will never buy naira, and would give the Lagos announcement a credibility that a speech alone cannot establish.",
+        "Non-sovereign issuers offer a first testing ground, because their risk can be matched to their revenues regardless of the monetary policy of their home country. A Nigerian or Ghanaian company with subsidiaries in the Union could use the passport to issue in CFA francs in Abidjan to finance assets that earn CFA franc revenues, with nobody carrying any currency risk. A multilateral development bank could issue in naira, cedis and CFA francs on all three exchanges with the same documentation, and supply the regional index with its first comparable securities. Such issues would not create a deep market at a stroke. They would get the shared plumbing (settlement, custody and investor identification) working before it has to carry the far heavier volumes of sovereign debt.",
+        "Among sovereign borrowers, Ghana is the partner to start with, despite its recent default. R. Gaston Gelos and Ratna Sahay, economists at the International Monetary Fund, and Guido Sandleris, of Torcuato Di Tella University, observed in 2011 that developing countries' access to markets depends on their fundamentals and the quality of their institutions far more than on how often they have defaulted in the past[^5]. Accra, which suspended service on its external debt in December 2022, is a case in point: its inflation is back at 5.0%, its ten-year yield exceeds inflation by more than ten points, and that real premium makes its securities attractive to a WAMU investor willing to bear the risk of the cedi, which has lost 9.5% against the dollar in 2026. A link between Accra and Abidjan, two neighbouring markets with long-standing trade ties, would serve as a test bench before Nigerian debt comes in.",
+        "The choice facing the region's governments concerns the order of operations rather than the principle. Starting with Nigerian sovereign debt would expose WAMU banks to a currency risk they have no reason to accept, force the BCEAO to choose between openness and its reserves, and run into the AES question. Starting with the plumbing, non-sovereign issuers and Ghana would require Nigeria to pay for the shared infrastructure with no immediate return in capital. The CBN's Monetary Policy Committee on 23 and 24 November will give a first signal on the disinflation on which the second stage depends. WAEMU's response, still awaited, will decide whether the Lagos proposal becomes a joint undertaking or joins WACMIC's second phase among the intentions that never received a date."
+      ]
+    },
+    {
+      "heading": "Scenarios",
+      "paragraphs": [],
+      "scenarios": [
+        {
+          "level": "most",
+          "title": "Technical links, savings that stay national",
+          "text": "Regulators take up the proposal within the WACMIC and AELP framework: common investor identification, partial linkage of depositories and a study of a regional index. The BCEAO does not rule on whether Union residents may buy Nigerian debt, WAMU government securities remain outside the scope, and savings flows between currency areas stay marginal. Nigeria keeps financing its domestic debt through its banks and pension funds, at rates that fall as fast as its disinflation allows."
+        },
+        {
+          "level": "less",
+          "title": "A first segment for non-sovereign issuers",
+          "text": "Nigeria capitalises a regional guarantee mechanism and the WAMU Financial Markets Authority accepts a passport limited to companies and development banks. A few multi-currency issues are placed simultaneously in Abidjan, Accra and Lagos, and a link between the Ghana Stock Exchange and the BRVM serves as a test bench for Ghanaian sovereign debt. The AES question is sidestepped because WAEMU, not ECOWAS, negotiates for the Union's eight countries."
+        },
+        {
+          "level": "least",
+          "title": "A naira relapse that freezes the project",
+          "text": "A fall in oil prices or premature monetary easing rekindles Nigerian inflation and sends the naira tumbling. The CBN tightens controls on capital outflows, WAMU banks turn away from any security denominated in a floating currency, and the proposal joins the list of intentions without a timetable. Tensions between ECOWAS and the AES further complicate any common regulatory framework."
+        }
+      ]
+    },
+    {
+      "heading": "Sources",
+      "paragraphs": [
+        "[BusinessDay, Nigeria seeks to connect West African bond markets to unlock infrastructure funding, 11 November 2026](https://businessday.ng/news/article/nigeria-seeks-to-connect-west-african-bond-markets-to-unlock-infrastructure-funding/) | [Ecofin Agency, What to know about Nigeria's plan for a West African bond passport, 11 November 2026](https://www.ecofinagency.com/news/1111-60694-what-to-know-about-nigeria-s-plan-for-a-west-african-bond-passport) | [Daba Finance, Nigeria proposes integrating West African financial markets, 11 November 2026](https://dabafinance.com/fr/nouvelles/nigeria-propose-integration-marches-financiers-ouest-africains-2026-11-10) | [The Whistler, FG proposes unified bond market framework for West African countries, 10 November 2026](https://thewhistler.ng/fg-proposes-unified-bond-market-framework-for-west-african-countries/) | [Nairametrics, ECOWAS-based investors contribute only 0.01% to Nigeria's $16.78 billion foreign capital (NBS data), 16 February 2026](https://nairametrics.com/2026/02/16/ecowas-based-investors-contribute-only-0-01-to-nigerias-16-78-billion-foreign-capital/) | [Nairametrics, Nigeria's public debt rises to N166.79 trillion in Q2 2026 (Debt Management Office data), 26 September 2026](https://nairametrics.com/2026/09/26/nigerias-public-debt-rises-to-n166-79-trillion-in-q2-2026/) | [BRVM, West African Capital Markets Integration Council (WACMIC)](https://www.brvm.org/en/wacmic) | [Africa Global Funds, 12 countries to agree joint West African stock exchange, 29 July 2015](https://africaglobalfunds.com/news/funds/markets-and-industry-news/12-countries-to-agree-joint-west-african-stock-exchange/) | [News Ghana, West Africa moves closer to single capital market regulator, 2026](https://www.newsghana.com.gh/west-africa-moves-closer-to-single-capital-market-regulator/) | [AllAfrica, WAEMU government securities market, March 2025](https://fr.allafrica.com/stories/202503090138.html) | [UMOA-Titres, list of outstanding securities at 31 August 2026](https://www.umoatitres.org/wp-content/uploads/2026/09/UT-LTV-31.08.2026.pdf) | [BCEAO, press release of the Monetary Policy Committee meeting of 9 September 2026](https://www.bceao.int/sites/default/files/2026-09/Communiqu%C3%A9%20de%20Presse%20CPM%209%20septembre%202026.pdf) | [Central Bank of Nigeria, Personal Statements of Members for the 307th Meeting of the MPC, September 2026](https://www.cbn.gov.ng/Out/2026/CCD/Personal%20Statements%20of%20Members%20for%20the%20307th%20Meeting%20of%20the%20MPC_September%202026.pdf) | [Bank of Ghana, MPC Decision Statement, September 2026](https://www.bog.gov.gh/wp-content/uploads/2026/10/MPC-Decision-Statement-September-2026.pdf) | [IC Securities, Monthly Fixed Income & Currency Guide, July 2026](https://cms.ic.africa/wp-content/uploads/2026/08/Monthly_Fixed_Income_amp_Currency_Guide_July_2026.pdf) | [World Bank, World Development Indicators via FRED, inflation in Nigeria](https://fred.stlouisfed.org/data/FPCPITOTLZGNGA) | [World Bank, World Development Indicators via FRED, inflation in Ghana](https://fred.stlouisfed.org/data/FPCPITOTLZGGHA) | [World Bank, World Development Indicators via FRED, inflation in Côte d'Ivoire](https://fred.stlouisfed.org/data/FPCPITOTLZGCIV) | [WAEMU, Regulation No. 09/2010/CM/UEMOA on the external financial relations of member states](https://www.umoatitres.org/wp-content/uploads/2018/03/reglement_ndeg_09-2010-cm-uemoa_relatif_aux_relations_financieres_exterieures_de_luemoa.pdf) | [Droit Médias Finance, What has changed in WAEMU exchange-control regulation since 20 December 2024](https://droitmediasfinance.com/index.php/actualites/droit-monetaire/915-uemoa-changes-ce-qui-a-change-dans-la-reglementation-des-changes-depuis-le-20-decembre-2024)"
+      ]
+    }
+  ],
+  "notes": [
+    "Geert Bekaert, professor of finance at Columbia Business School, and Campbell R. Harvey, professor of finance at Duke University's Fuqua School of Business and former president of the American Finance Association. “Time-Varying World Market Integration”, Journal of Finance, vol. 50, no. 2, 1995, pp. 403-444.",
+    "Barry Eichengreen, professor of economics and political science at the University of California, Berkeley; Ricardo Hausmann, professor at the Harvard Kennedy School and former chief economist of the Inter-American Development Bank; Ugo Panizza, professor of economics at the Graduate Institute of International and Development Studies (Geneva). “Currency Mismatches, Debt Intolerance, and the Original Sin: Why They Are Not the Same and Why It Matters”, in Sebastian Edwards (ed.), Capital Controls and Capital Flows in Emerging Economies: Policies, Practices, and Consequences, Chicago, University of Chicago Press, 2007, pp. 121-170.",
+    "John D. Burger, professor of economics at Loyola University Maryland, and Francis E. Warnock, professor at the University of Virginia's Darden School of Business. “Local Currency Bond Markets”, IMF Staff Papers, vol. 53, special issue, 2006.",
+    "Mancur Olson (1932-1998), American economist, professor at the University of Maryland and author of The Logic of Collective Action (1965), and Richard J. Zeckhauser, professor of political economy at the Harvard Kennedy School. “An Economic Theory of Alliances”, Review of Economics and Statistics, vol. 48, no. 3, 1966, pp. 266-279.",
+    "R. Gaston Gelos and Ratna Sahay, economists at the International Monetary Fund, and Guido Sandleris, professor at Torcuato Di Tella University (Buenos Aires). “Sovereign Borrowing by Developing Countries: What Determines Market Access?”, Journal of International Economics, vol. 83, no. 2, 2011, pp. 243-254."
+  ]
+},
 {
   "id": 11,
   "day": "12",
