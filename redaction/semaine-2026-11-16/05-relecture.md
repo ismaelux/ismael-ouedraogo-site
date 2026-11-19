@@ -40,3 +40,7 @@ Références : les cinq notices vérifiées (Bekaert-Harvey JF 1995 ; Eichengree
 ## Note de solidité : 8/10
 
 Thèse nette et originale, mécanisme renforcé par le texte du règlement 06/2024, contre-argument loyal, chiffres désormais tous rattachés à une source lue. Réserves : quatre encours par pays lus en résumé ; la figure 3 reste plus descriptive qu'analytique.
+
+## Publication
+
+Publiée le jeudi 19 novembre 2026 (heure de Paris), avec l'accord d'Ismaël : fusion de `veille-2026-11-19` sur main (commit `e87aae0`, sans réécriture d'historique) ; déploiement de production Vercel `dpl_76FZsj55BiVCsWP7iUQc7WJ9pLJt` READY.
