@@ -708,7 +708,7 @@ export default function App() {
               <div className="portrait"><img src="/portrait-crayon.webp?v=3" alt="Ismaël Ouédraogo" loading="lazy" /></div>
             </div>
             <div>
-              <div className="about-text"><p className="about-name">Ismaël Ouédraogo</p><p className="about-identity">{t.aboutIdentity}</p>{t.about.map((p, i) => <p key={i}>{p}</p>)}</div>
+              <div className="about-text"><p className="about-name">{t.aboutName}</p><p className="about-identity">{t.aboutIdentity}</p>{t.about.map((p, i) => <p key={i}>{p}</p>)}</div>
             </div>
           </div>
         </section>

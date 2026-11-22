@@ -562,3 +562,8 @@ a { color: inherit; }
 @media (max-width: 640px) { .wb-svg { height: auto; transform: none; } }
 .wb-tip { transform: translate(-50%, calc(-100% - 14px)); }
 .wb-tip.is-below { transform: translate(-50%, 18px); }
+/* Carte du monde : océans et petits États (22 novembre) */
+.wb-oceans text { font-family: var(--serif); font-style: italic; font-size: 8.5px; letter-spacing: .08em; fill: #6F7FA3; pointer-events: none; }
+.wb-dot { fill: var(--wb-land); stroke: #7F8DAE; stroke-width: 0.6; pointer-events: none; transition: r .15s; }
+.wb-hit { fill: transparent; cursor: pointer; }
+@media (max-width: 640px) { .wb-oceans { display: none; } }

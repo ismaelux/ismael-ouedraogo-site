@@ -22,7 +22,7 @@ const SITE = {
     "teachingSub": "J'enseigne l'économie en licence et en master depuis 2022, à l'Université Rennes 2 depuis 2026 et auparavant à l'Université Clermont Auvergne, de la statistique et de l'économétrie à l'économie internationale.",
     "aboutTitle": "À propos",
     "about": [
-      "Après une thèse au CERDI sur la distance géopolitique et les relations économiques internationales, soutenue en 2025, j'ai passé un an et demi au Bureau de l'économiste en chef pour l'Afrique de la Banque mondiale, d'abord comme fellow puis comme consultant. J'y ai travaillé sur l'intégration régionale africaine.",
+      "Après une thèse au Centre d'études et de recherches sur le développement international (CERDI) sur la distance géopolitique et les relations économiques internationales, soutenue en 2025, j'ai passé un an et demi au Bureau de l'économiste en chef pour l'Afrique de la Banque mondiale, d'abord comme fellow puis comme consultant. J'y ai travaillé sur l'intégration régionale africaine.",
       "J'enseigne l'économie depuis 2022, à l'Université Clermont Auvergne puis à l'Université Rennes 2, de la licence au master. Je suis qualifié aux fonctions de maître de conférences (CNU, section 05) et j'ai reçu en 2026 le Prix Jeune Chercheur de la Fondation UCA et de la Ville de Clermont-Ferrand."
     ],
     "authorBox": "Ismaël Ouédraogo est économiste, docteur en sciences économiques de l'Université Clermont Auvergne (CERDI). Il étudie les relations économiques internationales sous l'angle de la géopolitique. Il a été fellow puis consultant au Bureau de l'économiste en chef pour l'Afrique de la Banque mondiale et enseigne l'économie à l'Université Rennes 2.",
@@ -39,7 +39,8 @@ const SITE = {
     ],
     "heroKicker": "Analyses géoéconomiques",
     "btnAll": "Toutes les analyses",
-    "aboutIdentity": "Économiste, docteur en sciences économiques, Université Clermont Auvergne, 2025",
+    "aboutName": "Ismaël Ouédraogo, PhD",
+    "aboutIdentity": "Économiste, docteur en sciences économiques",
     "quotes": [
       {
         "emblem": "column",
@@ -82,7 +83,7 @@ const SITE = {
     "btnAbout": "À propos",
     "mapBandTitle": "Le monde par ses blocs",
     "mapBandHint": "Choisissez une région, puis un bloc. Survolez un pays pour voir tous les groupements auxquels il appartient.",
-    "mapBandNote": "Appartenances au 22 novembre 2026. Mercosur sans le Venezuela, suspendu ; BRICS avec l'Arabie saoudite, qui n'a pas officialisé son adhésion. Les petits États insulaires (Cabo Verde, Comores, Maurice, Seychelles, Bahreïn, Singapour, Liechtenstein) n'apparaissent pas à cette échelle. Fond de carte Natural Earth.",
+    "mapBandNote": "Appartenances au 22 novembre 2026. Mercosur sans le Venezuela, suspendu ; BRICS avec l'Arabie saoudite, qui n'a pas officialisé son adhésion. Les 193 États membres de l'ONU et les deux États observateurs (Saint-Siège, Palestine) figurent sur la carte ; les 29 trop petits pour être dessinés à cette échelle, comme Singapour, Bahreïn, Malte ou Cabo Verde, sont marqués d'un point. Fond de carte Natural Earth.",
     "regions": {
       "africa": "Afrique",
       "europe": "Europe",
@@ -113,6 +114,7 @@ const SITE = {
       "bricsp": "BRICS, pays partenaire"
     },
     "noBloc": "Aucun des blocs affichés",
+    "oceans": { "atlantic": "Océan Atlantique", "pacific": "Océan Pacifique", "indian": "Océan Indien", "arctic": "Océan Arctique", "southern": "Océan Austral" },
     "readLatest": "Lire la dernière analyse"
   },
   "en": {
@@ -137,7 +139,7 @@ const SITE = {
     "teachingSub": "I have taught economics at undergraduate and master's level since 2022, at Université Rennes 2 since 2026 and before that at Université Clermont Auvergne, from statistics and econometrics to international economics.",
     "aboutTitle": "About",
     "about": [
-      "After a dissertation at CERDI on geopolitical distance and international economic relations, defended in 2025, I spent a year and a half in the World Bank's Office of the Chief Economist for Africa, first as a fellow and then as a consultant, working on African regional integration.",
+      "After a dissertation at the Centre d'études et de recherches sur le développement international (CERDI) on geopolitical distance and international economic relations, defended in 2025, I spent a year and a half in the World Bank's Office of the Chief Economist for Africa, first as a fellow and then as a consultant, working on African regional integration.",
       "I have taught economics since 2022, at Université Clermont Auvergne and then at Université Rennes 2, from undergraduate to master's level. I am qualified for associate professor positions in France (CNU, section 05), and in 2026 I received the Young Researcher Prize from the Fondation UCA and the City of Clermont-Ferrand."
     ],
     "authorBox": "Ismaël Ouédraogo is an economist with a PhD in Economics from Université Clermont Auvergne (CERDI). He studies international economic relations through the lens of geopolitics. He was a fellow, then a consultant, in the World Bank's Office of the Chief Economist for Africa and teaches economics at Université Rennes 2.",
@@ -154,7 +156,8 @@ const SITE = {
     ],
     "heroKicker": "Geoeconomic analysis",
     "btnAll": "All analyses",
-    "aboutIdentity": "Economist, PhD in Economics, Université Clermont Auvergne, 2025",
+    "aboutName": "Ismaël Ouédraogo, PhD",
+    "aboutIdentity": "Economist, PhD in Economics",
     "quotes": [
       {
         "emblem": "column",
@@ -197,7 +200,7 @@ const SITE = {
     "btnAbout": "About",
     "mapBandTitle": "The world by its blocs",
     "mapBandHint": "Pick a region, then a bloc. Hover over a country to see every grouping it belongs to.",
-    "mapBandNote": "Membership as of 22 November 2026. Mercosur excludes Venezuela, which is suspended; BRICS includes Saudi Arabia, which has not formalised its membership. Small island states (Cabo Verde, Comoros, Mauritius, Seychelles, Bahrain, Singapore, Liechtenstein) do not show at this scale. Base map: Natural Earth.",
+    "mapBandNote": "Membership as of 22 November 2026. Mercosur excludes Venezuela, which is suspended; BRICS includes Saudi Arabia, which has not formalised its membership. All 193 UN member states and the two observer states (Holy See, Palestine) are on the map; the 29 too small to draw at this scale, such as Singapore, Bahrain, Malta or Cabo Verde, are marked with a dot. Base map: Natural Earth.",
     "regions": {
       "africa": "Africa",
       "europe": "Europe",
@@ -228,6 +231,7 @@ const SITE = {
       "bricsp": "BRICS partner country"
     },
     "noBloc": "None of the blocs shown",
+    "oceans": { "atlantic": "Atlantic Ocean", "pacific": "Pacific Ocean", "indian": "Indian Ocean", "arctic": "Arctic Ocean", "southern": "Southern Ocean" },
     "readLatest": "Read the latest analysis"
   },
   "zh": {
@@ -252,7 +256,7 @@ const SITE = {
     "teachingSub": "自2022年起，我在本科和硕士阶段讲授经济学：2026年起任教于雷恩第二大学，此前任教于克莱蒙奥弗涅大学，课程涵盖统计学、计量经济学和国际经济学等。",
     "aboutTitle": "简介",
     "about": [
-      "我在CERDI完成了关于地缘政治距离与国际经济关系的博士论文，并于2025年答辩。此后，我在世界银行非洲首席经济学家办公室工作了一年半，先任研究员，后任顾问，从事非洲区域一体化方面的工作。",
+      "我在国际发展研究中心（CERDI）完成了关于地缘政治距离与国际经济关系的博士论文，并于2025年答辩。此后，我在世界银行非洲首席经济学家办公室工作了一年半，先任研究员，后任顾问，从事非洲区域一体化方面的工作。",
       "自2022年起，我先后在克莱蒙奥弗涅大学和雷恩第二大学讲授经济学，覆盖本科至硕士阶段。我具有法国国家大学委员会（CNU）第05学科副教授任职资格，并于2026年获得克莱蒙奥弗涅大学基金会与克莱蒙费朗市联合颁发的青年研究者奖。"
     ],
     "authorBox": "Ismaël Ouédraogo是经济学家，克莱蒙奥弗涅大学（CERDI）经济学博士。他从地缘政治角度研究国际经济关系，曾先后任世界银行非洲首席经济学家办公室研究员和顾问，现于雷恩第二大学讲授经济学。",
@@ -269,7 +273,8 @@ const SITE = {
     ],
     "heroKicker": "地缘经济分析",
     "btnAll": "全部分析",
-    "aboutIdentity": "经济学家，克莱蒙奥弗涅大学经济学博士，2025年",
+    "aboutName": "Ismaël Ouédraogo 博士",
+    "aboutIdentity": "经济学家，经济学博士",
     "quotes": [
       {
         "emblem": "column",
@@ -312,7 +317,7 @@ const SITE = {
     "btnAbout": "简介",
     "mapBandTitle": "以集团看世界",
     "mapBandHint": "先选择地区，再选择集团。将鼠标悬停在国家上，可查看其所属组织。",
-    "mapBandNote": "成员构成截至2026年11月22日。南方共同市场不含已被暂停成员资格的委内瑞拉；金砖国家包含尚未正式确认加入的沙特阿拉伯。小岛屿国家（佛得角、科摩罗、毛里求斯、塞舌尔、巴林、新加坡、列支敦士登）在此比例尺下无法显示。底图：Natural Earth。",
+    "mapBandNote": "成员构成截至2026年11月22日。南方共同市场不含已被暂停成员资格的委内瑞拉；金砖国家包含尚未正式确认加入的沙特阿拉伯。地图涵盖联合国全部193个会员国和两个观察员国（教廷、巴勒斯坦）；其中29个国家在此比例尺下无法绘出轮廓（如新加坡、巴林、马耳他、佛得角），以圆点标示。底图：Natural Earth。",
     "regions": {
       "africa": "非洲",
       "europe": "欧洲",
@@ -343,6 +348,7 @@ const SITE = {
       "bricsp": "金砖国家伙伴国"
     },
     "noBloc": "不属于所示任何集团",
+    "oceans": { "atlantic": "大西洋", "pacific": "太平洋", "indian": "印度洋", "arctic": "北冰洋", "southern": "南大洋" },
     "readLatest": "阅读最新分析"
   }
 };
