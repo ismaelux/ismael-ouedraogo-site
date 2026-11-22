@@ -115,6 +115,7 @@ const SITE = {
     },
     "noBloc": "Aucun des blocs affichés",
     "oceans": { "atlantic": "Océan Atlantique", "pacific": "Océan Pacifique", "indian": "Océan Indien", "arctic": "Océan Arctique", "southern": "Océan Austral" },
+    "oceansShort": { "atlantic": "Atlantique", "pacific": "Pacifique", "indian": "Indien", "arctic": "Arctique", "southern": "Austral" },
     "readLatest": "Lire la dernière analyse"
   },
   "en": {
@@ -232,6 +233,7 @@ const SITE = {
     },
     "noBloc": "None of the blocs shown",
     "oceans": { "atlantic": "Atlantic Ocean", "pacific": "Pacific Ocean", "indian": "Indian Ocean", "arctic": "Arctic Ocean", "southern": "Southern Ocean" },
+    "oceansShort": { "atlantic": "Atlantic", "pacific": "Pacific", "indian": "Indian", "arctic": "Arctic", "southern": "Southern" },
     "readLatest": "Read the latest analysis"
   },
   "zh": {
@@ -349,6 +351,7 @@ const SITE = {
     },
     "noBloc": "不属于所示任何集团",
     "oceans": { "atlantic": "大西洋", "pacific": "太平洋", "indian": "印度洋", "arctic": "北冰洋", "southern": "南大洋" },
+    "oceansShort": { "atlantic": "大西洋", "pacific": "太平洋", "indian": "印度洋", "arctic": "北冰洋", "southern": "南大洋" },
     "readLatest": "阅读最新分析"
   }
 };

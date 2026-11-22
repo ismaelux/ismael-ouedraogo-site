@@ -566,4 +566,10 @@ a { color: inherit; }
 .wb-oceans text { font-family: var(--serif); font-style: italic; font-size: 8.5px; letter-spacing: .08em; fill: #6F7FA3; pointer-events: none; }
 .wb-dot { fill: var(--wb-land); stroke: #7F8DAE; stroke-width: 0.6; pointer-events: none; transition: r .15s; }
 .wb-hit { fill: transparent; cursor: pointer; }
-@media (max-width: 640px) { .wb-oceans { display: none; } }
+/* Noms des océans : forme longue à l'écran large, plus grande sur tablette, forme courte et grossie sur téléphone */
+.wb-oceans .wb-ocean-short { display: none; }
+@media (max-width: 1024px) { .wb-oceans .wb-ocean-full { font-size: 12px; } }
+@media (max-width: 640px) {
+  .wb-oceans .wb-ocean-full { display: none; }
+  .wb-oceans .wb-ocean-short { display: inline; font-size: 21px; letter-spacing: .02em; fill: #5F6F96; }
+}

@@ -60,7 +60,7 @@ const KOSOVO = { fr: "Kosovo", en: "Kosovo", zh: "科索沃" };
 const ATTACH = { "N. Cyprus": "196", Somaliland: "706" };
 
 // Noms des océans, placés en mer [clé, longitude, latitude]
-const OCEANS = [["atlantic", -41, 27], ["pacific", -134, 4], ["pacific", 151, 23], ["indian", 79, -21], ["arctic", -150, 78.5], ["southern", 28, -53]];
+const OCEANS = [["atlantic", -41, 27], ["pacific", -134, 4], ["pacific", 151, 23], ["indian", 79, -21], ["arctic", -150, 75.5], ["southern", 28, -53]];
 
 export const BLOCS = {
   africa: [["ecowas", "#3048B0"], ["uemoa", "#177A72"], ["aes", "#C2410C"], ["cemac", "#8A3D6B"], ["sadc", "#B8730E"], ["eac", "#4F7CC2"], ["uma", "#6B7F3A"]],
@@ -164,7 +164,12 @@ export default function WorldBand({ t, lang }) {
           <g className="wb-oceans" aria-hidden="true">
             {OCEANS.map(([k, lon, lat], i) => {
               const [x, y] = project(lon, lat);
-              return <text key={k + i} x={x} y={y} textAnchor="middle">{t.oceans[k]}</text>;
+              return (
+                <g key={k + i}>
+                  <text className="wb-ocean-full" x={x} y={y} textAnchor="middle">{t.oceans[k]}</text>
+                  <text className="wb-ocean-short" x={x} y={y} textAnchor="middle">{t.oceansShort[k]}</text>
+                </g>
+              );
             })}
           </g>
           <g className="wb-small">
