@@ -38,11 +38,81 @@ const SITE = {
       "Sanctions économiques et commerce, à partir de la Global Sanctions Data Base"
     ],
     "heroKicker": "Analyses géoéconomiques",
-    "heroTitle": "Ce que la géopolitique fait à l'économie mondiale",
-    "heroLead": "Des analyses de la façon dont les rivalités et les alliances entre États orientent le commerce, l'investissement, la finance et les matières premières, avec une attention particulière à l'Afrique. Chaque analyse part d'une décision ou d'un événement daté, s'appuie sur des données publiques et sur la recherche économique, et se termine par des scénarios.",
     "btnAll": "Toutes les analyses",
-    "btnResearch": "Mes recherches",
-    "aboutIdentity": "Économiste, docteur en sciences économiques, Université Clermont Auvergne, 2025"
+    "aboutIdentity": "Économiste, docteur en sciences économiques, Université Clermont Auvergne, 2025",
+    "quotes": [
+      {
+        "emblem": "column",
+        "text": "« Les forts font ce qu'ils peuvent, et les faibles subissent ce qu'ils doivent. »",
+        "who": "Thucydide",
+        "work": "La Guerre du Péloponnèse, Ve siècle av. J.-C.",
+        "note": "Historien grec, dialogue mélien (V, 89)"
+      },
+      {
+        "emblem": "scales",
+        "text": "« L'effet naturel du commerce est de porter à la paix. »",
+        "who": "Montesquieu",
+        "work": "De l'esprit des lois, 1748",
+        "note": "Philosophe, livre XX, chapitre 2"
+      },
+      {
+        "emblem": "ship",
+        "text": "« La défense est d'une bien plus grande importance que l'opulence. »",
+        "who": "Adam Smith",
+        "work": "La Richesse des nations, 1776",
+        "note": "Économiste, livre IV, chapitre 2 (traduction)"
+      },
+      {
+        "emblem": "coins",
+        "text": "« Que les marchandises soient produites chez soi chaque fois que c'est raisonnable et commode, et surtout que la finance soit avant tout nationale. »",
+        "who": "John Maynard Keynes",
+        "work": "« National Self-Sufficiency », 1933",
+        "note": "Économiste (traduction)"
+      },
+      {
+        "emblem": "compass",
+        "text": "« La logique de la guerre dans la grammaire du commerce »",
+        "who": "Edward Luttwak",
+        "work": "« From Geopolitics to Geo-Economics », 1990",
+        "note": "Stratège, définition de la géoéconomie (traduction)"
+      }
+    ],
+    "quotesLabel": "Citations",
+    "synthesis": "De Thucydide à Luttwak, la même question revient sous des formes différentes. Le commerce crée entre les nations des dépendances dont les États se servent comme de leviers, et le poids de chacun décide souvent de qui en profite. Étudier l'économie sans les relations entre États, c'est lire une carte sans relief, où toutes les routes paraissent droites.",
+    "btnAbout": "À propos",
+    "mapBandTitle": "Le monde par ses blocs",
+    "mapBandHint": "Choisissez une région, puis un bloc. Survolez un pays pour voir tous les groupements auxquels il appartient.",
+    "mapBandNote": "Appartenances au 22 novembre 2026. Mercosur sans le Venezuela, suspendu ; BRICS avec l'Arabie saoudite, qui n'a pas officialisé son adhésion. Les petits États insulaires (Cabo Verde, Comores, Maurice, Seychelles, Bahreïn, Singapour, Liechtenstein) n'apparaissent pas à cette échelle. Fond de carte Natural Earth.",
+    "regions": {
+      "africa": "Afrique",
+      "europe": "Europe",
+      "asia": "Asie et Moyen-Orient",
+      "americas": "Amériques",
+      "world": "Mondial"
+    },
+    "blocs": {
+      "ecowas": "CEDEAO",
+      "uemoa": "UEMOA",
+      "aes": "AES",
+      "cemac": "CEMAC",
+      "sadc": "SADC",
+      "eac": "Communauté d'Afrique de l'Est",
+      "uma": "Union du Maghreb arabe",
+      "eu": "Union européenne",
+      "nato": "OTAN",
+      "efta": "AELE",
+      "asean": "ASEAN",
+      "sco": "Organisation de coopération de Shanghai",
+      "rcep": "RCEP",
+      "gcc": "Conseil de coopération du Golfe",
+      "makkah": "Alliance de défense de La Mecque",
+      "usmca": "ACEUM",
+      "mercosur": "Mercosur",
+      "g7": "G7",
+      "brics": "BRICS",
+      "bricsp": "BRICS, pays partenaire"
+    },
+    "noBloc": "Aucun des blocs affichés"
   },
   "en": {
     "nav": {
@@ -82,11 +152,81 @@ const SITE = {
       "Economic sanctions and trade, using the Global Sanctions Data Base"
     ],
     "heroKicker": "Geoeconomic analysis",
-    "heroTitle": "What geopolitics does to the world economy",
-    "heroLead": "Analyses of how rivalries and alliances between states shape trade, investment, finance and commodities, with particular attention to Africa. Each one starts from a dated decision or event, draws on public data and economic research, and ends with scenarios.",
     "btnAll": "All analyses",
-    "btnResearch": "My research",
-    "aboutIdentity": "Economist, PhD in Economics, Université Clermont Auvergne, 2025"
+    "aboutIdentity": "Economist, PhD in Economics, Université Clermont Auvergne, 2025",
+    "quotes": [
+      {
+        "emblem": "column",
+        "text": "“The strong do what they can and the weak suffer what they must.”",
+        "who": "Thucydides",
+        "work": "History of the Peloponnesian War, 5th century BC",
+        "note": "Greek historian, Melian dialogue (V, 89)"
+      },
+      {
+        "emblem": "scales",
+        "text": "“Peace is the natural effect of trade.”",
+        "who": "Montesquieu",
+        "work": "The Spirit of the Laws, 1748",
+        "note": "Philosopher, Book XX, chapter 2"
+      },
+      {
+        "emblem": "ship",
+        "text": "“Defence, however, is of much more importance than opulence.”",
+        "who": "Adam Smith",
+        "work": "The Wealth of Nations, 1776",
+        "note": "Economist, Book IV, chapter 2"
+      },
+      {
+        "emblem": "coins",
+        "text": "“Let goods be homespun whenever it is reasonably and conveniently possible; and, above all, let finance be primarily national.”",
+        "who": "John Maynard Keynes",
+        "work": "“National Self-Sufficiency”, 1933",
+        "note": "Economist"
+      },
+      {
+        "emblem": "compass",
+        "text": "“The logic of war in the grammar of commerce”",
+        "who": "Edward Luttwak",
+        "work": "“From Geopolitics to Geo-Economics”, 1990",
+        "note": "Strategist, defining geoeconomics"
+      }
+    ],
+    "quotesLabel": "Quotations",
+    "synthesis": "From Thucydides to Luttwak, the same question keeps returning in different forms. Trade creates dependencies between nations that states use as levers, and the weight of each often decides who gains from them. Studying the economy without relations between states is like reading a map without relief, where every road looks straight.",
+    "btnAbout": "About",
+    "mapBandTitle": "The world by its blocs",
+    "mapBandHint": "Pick a region, then a bloc. Hover over a country to see every grouping it belongs to.",
+    "mapBandNote": "Membership as of 22 November 2026. Mercosur excludes Venezuela, which is suspended; BRICS includes Saudi Arabia, which has not formalised its membership. Small island states (Cabo Verde, Comoros, Mauritius, Seychelles, Bahrain, Singapore, Liechtenstein) do not show at this scale. Base map: Natural Earth.",
+    "regions": {
+      "africa": "Africa",
+      "europe": "Europe",
+      "asia": "Asia and Middle East",
+      "americas": "Americas",
+      "world": "Global"
+    },
+    "blocs": {
+      "ecowas": "ECOWAS",
+      "uemoa": "WAEMU",
+      "aes": "AES",
+      "cemac": "CEMAC",
+      "sadc": "SADC",
+      "eac": "East African Community",
+      "uma": "Arab Maghreb Union",
+      "eu": "European Union",
+      "nato": "NATO",
+      "efta": "EFTA",
+      "asean": "ASEAN",
+      "sco": "Shanghai Cooperation Organisation",
+      "rcep": "RCEP",
+      "gcc": "Gulf Cooperation Council",
+      "makkah": "Makkah defence alliance",
+      "usmca": "USMCA",
+      "mercosur": "Mercosur",
+      "g7": "G7",
+      "brics": "BRICS",
+      "bricsp": "BRICS partner country"
+    },
+    "noBloc": "None of the blocs shown"
   },
   "zh": {
     "nav": {
@@ -126,11 +266,81 @@ const SITE = {
       "经济制裁与贸易（基于全球制裁数据库GSDB）"
     ],
     "heroKicker": "地缘经济分析",
-    "heroTitle": "地缘政治如何影响世界经济",
-    "heroLead": "分析国家间的竞争与结盟如何影响贸易、投资、金融和大宗商品，并特别关注非洲。每篇分析从一项有明确日期的决定或事件出发，依据公开数据和经济学研究，并以情景分析作结。",
     "btnAll": "全部分析",
-    "btnResearch": "我的研究",
-    "aboutIdentity": "经济学家，克莱蒙奥弗涅大学经济学博士，2025年"
+    "aboutIdentity": "经济学家，克莱蒙奥弗涅大学经济学博士，2025年",
+    "quotes": [
+      {
+        "emblem": "column",
+        "text": "“强者为其所能为，弱者受其所必受。”",
+        "who": "修昔底德",
+        "work": "《伯罗奔尼撒战争史》，公元前5世纪",
+        "note": "古希腊历史学家，米洛斯对话（第五卷第89节）"
+      },
+      {
+        "emblem": "scales",
+        "text": "“贸易的自然效果是带来和平。”",
+        "who": "孟德斯鸠",
+        "work": "《论法的精神》，1748年",
+        "note": "哲学家，第二十章第二节"
+      },
+      {
+        "emblem": "ship",
+        "text": "“国防比富裕重要得多。”",
+        "who": "亚当·斯密",
+        "work": "《国富论》，1776年",
+        "note": "经济学家，第四篇第二章（译文）"
+      },
+      {
+        "emblem": "coins",
+        "text": "“凡合理且方便之处，让商品在本国生产；最重要的是，让金融以本国为主。”",
+        "who": "约翰·梅纳德·凯恩斯",
+        "work": "《国家自给》，1933年",
+        "note": "经济学家（译文）"
+      },
+      {
+        "emblem": "compass",
+        "text": "“以商业的语法行战争的逻辑”",
+        "who": "爱德华·勒特韦克",
+        "work": "《从地缘政治到地缘经济》，1990年",
+        "note": "战略家，对地缘经济的定义（译文）"
+      }
+    ],
+    "quotesLabel": "名言",
+    "synthesis": "从修昔底德到勒特韦克，同一个问题以不同形式反复出现。贸易在国家之间形成相互依赖，各国把这种依赖当作杠杆，而各自的分量往往决定谁从中获益。脱离国家间关系研究经济，就像阅读一张没有地形起伏的地图，所有道路看起来都是笔直的。",
+    "btnAbout": "简介",
+    "mapBandTitle": "以集团看世界",
+    "mapBandHint": "先选择地区，再选择集团。将鼠标悬停在国家上，可查看其所属组织。",
+    "mapBandNote": "成员构成截至2026年11月22日。南方共同市场不含已被暂停成员资格的委内瑞拉；金砖国家包含尚未正式确认加入的沙特阿拉伯。小岛屿国家（佛得角、科摩罗、毛里求斯、塞舌尔、巴林、新加坡、列支敦士登）在此比例尺下无法显示。底图：Natural Earth。",
+    "regions": {
+      "africa": "非洲",
+      "europe": "欧洲",
+      "asia": "亚洲与中东",
+      "americas": "美洲",
+      "world": "全球"
+    },
+    "blocs": {
+      "ecowas": "西共体",
+      "uemoa": "西非经货联盟",
+      "aes": "萨赫勒国家联盟",
+      "cemac": "中部非洲经货共同体",
+      "sadc": "南部非洲发展共同体",
+      "eac": "东非共同体",
+      "uma": "阿拉伯马格里布联盟",
+      "eu": "欧盟",
+      "nato": "北约",
+      "efta": "欧洲自由贸易联盟",
+      "asean": "东盟",
+      "sco": "上海合作组织",
+      "rcep": "RCEP",
+      "gcc": "海湾合作委员会",
+      "makkah": "麦加防务联盟",
+      "usmca": "美墨加协定",
+      "mercosur": "南方共同市场",
+      "g7": "七国集团",
+      "brics": "金砖国家",
+      "bricsp": "金砖国家伙伴国"
+    },
+    "noBloc": "不属于所示任何集团"
   }
 };
 export default SITE;

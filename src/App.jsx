@@ -10,6 +10,8 @@ import { FIG2 } from "./Charts2.jsx";
 import SiteSearch, { SEARCH_TXT, norm } from "./SiteSearch.jsx";
 import { Analytics } from "@vercel/analytics/react";
 import SITE from "./site-texts.js";
+import QuoteCarousel from "./QuoteCarousel.jsx";
+import WorldBand from "./WorldBand.jsx";
 import { T_ZH, PAPERS_ZH, THEMES_ZH, COURSES_NOW_ZH, COURSES_PAST_ZH, LEADERS_ZH, CITY_ZH, POLE_ZH, CAT_ZH, MONTH_NUM } from "./i18n-zh.js";
 
 const EMAIL = "ismaelouedraogo1004@gmail.com";
@@ -596,11 +598,11 @@ export default function App() {
           <div className="wrap hero-grid">
             <div>
               <p className="hero-kicker">{t.heroKicker}</p>
-              <h1 className="hero-title">{t.heroTitle}</h1>
-              <p className="hero-lead">{t.heroLead}</p>
+              <QuoteCarousel quotes={t.quotes} label={t.quotesLabel} />
+              <p className="hero-lead hero-synthesis">{t.synthesis}</p>
               <div className="hero-actions">
                 <a className="btn btn-primary" href="#analyses" onClick={go("analyses")}>{t.btnAll}</a>
-                <a className="btn btn-ghost" href="#research" onClick={go("research")}>{t.btnResearch}</a>
+                <a className="btn btn-ghost" href="#about" onClick={go("about")}>{t.btnAbout}</a>
               </div>
             </div>
             <a className="hero-latest" href={`#analyse-${latest.id}-${lang}`} onClick={openAnalysis(latest.id)}>
@@ -724,6 +726,7 @@ export default function App() {
         <section className="section is-band" id="app" hidden={!showApp}>
           <div className="wrap"><InstallApp lang={lang} /></div>
         </section>
+        <WorldBand t={t} lang={lang} />
       </main>
 
       <footer className="foot">
