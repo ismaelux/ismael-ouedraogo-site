@@ -9,7 +9,7 @@ const SITE = {
       "contact": "Contact"
     },
     "brandSub": "Économiste",
-    "analysesSub": "De la plus récente à la plus ancienne. Ces textes relèvent de l'analyse de politique économique et ne sont pas évalués par des pairs.",
+    "analysesSub": "Mes analyses de politique économique sur l'actualité géoéconomique, de la plus récente à la plus ancienne. Elles ne sont pas évaluées par des pairs.",
     "researchSub": "J'étudie les relations économiques internationales sous l'angle de la géopolitique. Ma thèse estime les effets de la distance géopolitique entre États sur le commerce bilatéral, sur l'aide des donateurs du Comité d'aide au développement (CAD) de l'OCDE et sur les investissements directs chinois, en calculant cette distance comme l'écart entre les points idéaux des États, que Bailey, Strezhnev et Voeten (2017) estiment à partir des votes à l'Assemblée générale des Nations unies. Mes autres travaux portent sur l'intégration régionale africaine, les chaînes de valeur, les biens publics régionaux et la qualité de l'emploi.",
     "thesisLabel": "Thèse de doctorat, 2025",
     "thesisText": "CERDI, Université Clermont Auvergne, soutenue le 11 juin 2025 sous la direction de Marie-Françoise Renard. Trois chapitres empiriques portent sur le commerce bilatéral, l'aide des donateurs du CAD, dont l'allocation ne répond à la distance géopolitique que pour certains canaux, et les stocks d'investissements directs chinois, pour lesquels la Chine se distingue des autres grandes puissances.",
@@ -112,7 +112,8 @@ const SITE = {
       "brics": "BRICS",
       "bricsp": "BRICS, pays partenaire"
     },
-    "noBloc": "Aucun des blocs affichés"
+    "noBloc": "Aucun des blocs affichés",
+    "readLatest": "Lire la dernière analyse"
   },
   "en": {
     "nav": {
@@ -123,7 +124,7 @@ const SITE = {
       "contact": "Contact"
     },
     "brandSub": "Economist",
-    "analysesSub": "From the most recent to the oldest. These are policy analyses and are not peer reviewed.",
+    "analysesSub": "My policy analyses of geoeconomic news, from the most recent to the oldest. They are not peer reviewed.",
     "researchSub": "I study international economic relations through the lens of geopolitics. My dissertation estimates the effects of geopolitical distance between states on bilateral trade, on aid from donors in the OECD Development Assistance Committee (DAC) and on Chinese foreign direct investment, computing this distance as the gap between countries' ideal points, which Bailey, Strezhnev and Voeten (2017) estimate from United Nations General Assembly votes. My other work deals with African regional integration, value chains, regional public goods and job quality.",
     "thesisLabel": "PhD dissertation, 2025",
     "thesisText": "CERDI, Université Clermont Auvergne, defended on 11 June 2025 under the supervision of Marie-Françoise Renard. Three empirical chapters cover bilateral trade, aid from DAC donors, whose allocation responds to geopolitical distance only through some channels, and the stock of Chinese FDI, where China stands apart from the other major powers.",
@@ -226,7 +227,8 @@ const SITE = {
       "brics": "BRICS",
       "bricsp": "BRICS partner country"
     },
-    "noBloc": "None of the blocs shown"
+    "noBloc": "None of the blocs shown",
+    "readLatest": "Read the latest analysis"
   },
   "zh": {
     "nav": {
@@ -237,7 +239,7 @@ const SITE = {
       "contact": "联系"
     },
     "brandSub": "经济学家",
-    "analysesSub": "按时间由近及远排列。这些文章属于经济政策分析，未经同行评审。",
+    "analysesSub": "我对地缘经济时事的经济政策分析，按时间由近及远排列。这些文章未经同行评审。",
     "researchSub": "我从地缘政治角度研究国际经济关系。我的博士论文估计了国家间地缘政治距离对双边贸易、经合组织发展援助委员会（DAC）成员国援助以及中国对外直接投资的影响，并将这一距离计算为各国“理想点”之间的差值，理想点由Bailey、Strezhnev和Voeten（2017）根据联合国大会投票估计得出。我的其他研究涉及非洲区域一体化、价值链、区域公共产品和就业质量。",
     "thesisLabel": "博士论文，2025年",
     "thesisText": "克莱蒙奥弗涅大学CERDI，2025年6月11日答辩，导师为Marie-Françoise Renard。三个实证章节分别研究双边贸易、DAC成员国援助（其分配仅在部分渠道上对地缘政治距离作出反应）以及中国对外直接投资存量（在这方面中国与其他大国有所不同）。",
@@ -340,7 +342,8 @@ const SITE = {
       "brics": "金砖国家",
       "bricsp": "金砖国家伙伴国"
     },
-    "noBloc": "不属于所示任何集团"
+    "noBloc": "不属于所示任何集团",
+    "readLatest": "阅读最新分析"
   }
 };
 export default SITE;

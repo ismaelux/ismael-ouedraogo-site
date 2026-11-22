@@ -601,20 +601,22 @@ export default function App() {
               <QuoteCarousel quotes={t.quotes} label={t.quotesLabel} />
               <p className="hero-lead hero-synthesis">{t.synthesis}</p>
               <div className="hero-actions">
-                <a className="btn btn-primary" href="#analyses" onClick={go("analyses")}>{t.btnAll}</a>
                 <a className="btn btn-ghost" href="#about" onClick={go("about")}>{t.btnAbout}</a>
               </div>
             </div>
-            <a className="hero-latest" href={`#analyse-${latest.id}-${lang}`} onClick={openAnalysis(latest.id)}>
-              <div className="lead-meta">
-                <span>{t.latest}</span>
-                <span className="when">{fmtDate(latest, lang)}</span>
-                <span className="cat-l">{catLabel(latest.category, lang)}</span>
-              </div>
-              <h2 className="hero-latest-title">{fr(latest.title, lang)}</h2>
-              {latest.nutshell && <ul className="hero-latest-points">{latest.nutshell.map((p, i) => <li key={i}>{fr(p, lang)}</li>)}</ul>}
-              <span className="lead-cta">{t.read} · {readingTime(latest.content)} {t.minutes}</span>
-            </a>
+            <div className="hero-side">
+              <a className="hero-latest" href={`#analyse-${latest.id}-${lang}`} onClick={openAnalysis(latest.id)}>
+                <span className="hero-latest-badge">{t.latest}</span>
+                <div className="lead-meta">
+                  <span className="when">{fmtDate(latest, lang)}</span>
+                  <span className="cat-l">{catLabel(latest.category, lang)}</span>
+                </div>
+                <h2 className="hero-latest-title">{fr(latest.title, lang)}</h2>
+                {latest.nutshell && <ul className="hero-latest-points">{latest.nutshell.map((p, i) => <li key={i}>{fr(p, lang)}</li>)}</ul>}
+                <span className="hero-latest-cta">{t.readLatest} · {readingTime(latest.content)} {t.minutes}</span>
+              </a>
+              <a className="btn btn-primary hero-all-btn" href="#analyses" onClick={go("analyses")}>{t.btnAll}</a>
+            </div>
           </div>
         </section>
 

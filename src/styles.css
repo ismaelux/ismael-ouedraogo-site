@@ -544,3 +544,21 @@ a { color: inherit; }
 .wb-tip span { display: block; margin-top: 4px; font-size: 13px; color: var(--ink-2); }
 .wb-note { padding-block: 14px 28px; font-size: 12.5px; color: var(--ink-3); }
 @media (max-width: 640px) { .wb-svg { height: 240px; transform: rotateX(14deg); } }
+
+/* Ajustements du 22 novembre (après relecture) */
+.qc-stage { display: grid; min-height: 0; }
+.qc-item { grid-area: 1 / 1; opacity: 0; visibility: hidden; animation: none; transition: opacity .6s ease, visibility .6s; }
+.qc-item.is-on { opacity: 1; visibility: visible; }
+@media (prefers-reduced-motion: reduce) { .qc-item { transition: none; } }
+@media (max-width: 640px) { .qc-stage { min-height: 0; } }
+.hero-side { display: grid; gap: 16px; align-content: start; }
+.hero-latest-badge { display: inline-block; margin-bottom: 14px; padding: 5px 12px; border-radius: 999px; background: var(--indigo); color: #fff; font-size: 13.5px; font-weight: 600; letter-spacing: .02em; }
+.hero-latest .lead-meta { margin-bottom: 2px; }
+.hero-latest-cta { display: inline-block; margin-top: 22px; padding: 9px 16px; border: 1.5px solid var(--indigo); border-radius: 10px; background: var(--indigo-soft); color: var(--indigo-ink); font-size: 15px; font-weight: 600; }
+.hero-latest:hover .hero-latest-cta { background: var(--indigo); color: #fff; }
+.hero-all-btn { justify-self: start; }
+.wb-stage { perspective: none; overflow: visible; }
+.wb-svg { height: auto; transform: none; }
+@media (max-width: 640px) { .wb-svg { height: auto; transform: none; } }
+.wb-tip { transform: translate(-50%, calc(-100% - 14px)); }
+.wb-tip.is-below { transform: translate(-50%, 18px); }

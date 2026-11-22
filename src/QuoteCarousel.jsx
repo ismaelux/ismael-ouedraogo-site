@@ -70,21 +70,22 @@ export default function QuoteCarousel({ quotes, label }) {
     const id = setTimeout(() => setI((n) => (n + 1) % quotes.length), 8000);
     return () => clearTimeout(id);
   }, [i, paused, quotes.length]);
-  const q = quotes[i];
   return (
     <div className="qc" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)} onFocus={() => setPaused(true)} onBlur={() => setPaused(false)}>
       <div className="qc-stage" aria-live="polite">
-        <figure className="qc-item" key={i}>
-          <Emblem kind={q.emblem} />
-          <div>
-            <blockquote className="qc-quote">{q.text}</blockquote>
-            <figcaption className="qc-cite">
-              <span className="qc-who">{q.who}</span>
-              <span className="qc-work">{q.work}</span>
-              {q.note && <span className="qc-note">{q.note}</span>}
-            </figcaption>
-          </div>
-        </figure>
+        {quotes.map((x, k) => (
+          <figure className={`qc-item ${k === i ? "is-on" : ""}`} key={k} aria-hidden={k !== i}>
+            <Emblem kind={x.emblem} />
+            <div>
+              <blockquote className="qc-quote">{x.text}</blockquote>
+              <figcaption className="qc-cite">
+                <span className="qc-who">{x.who}</span>
+                <span className="qc-work">{x.work}</span>
+                {x.note && <span className="qc-note">{x.note}</span>}
+              </figcaption>
+            </div>
+          </figure>
+        ))}
       </div>
       <div className="qc-dots" role="tablist" aria-label={label}>
         {quotes.map((x, k) => (

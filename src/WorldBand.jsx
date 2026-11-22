@@ -44,14 +44,14 @@ export default function WorldBand({ t, lang }) {
   }, [data]);
 
   if (!data) return <div className="wb-band" style={{ minHeight: 320 }} />;
-  const top = project(0, 76)[1], bottom = project(0, -56)[1];
+  const top = project(0, 84)[1], bottom = project(0, -58)[1];
   const vb = `0 ${top} ${data.width} ${bottom - top}`;
   const shown = BLOCS[region].filter(([k]) => k === bloc);
   const colorOf = (c) => { const hit = shown.find(([k]) => c.all.includes(k)); return hit ? hit[1] : null; };
   const onMove = (c) => (e) => {
     const box = wrap.current.getBoundingClientRect();
     const pt = e.touches ? e.touches[0] : e;
-    setHover({ c, x: pt.clientX - box.left, y: pt.clientY - box.top, w: box.width });
+    setHover({ c, x: pt.clientX - box.left, y: pt.clientY - box.top, w: box.width, h: box.height });
   };
   const name = (k) => t.blocs[k] || k;
 
@@ -76,7 +76,7 @@ export default function WorldBand({ t, lang }) {
         </div>
       </div>
       <div className="wb-stage" ref={wrap} onMouseLeave={() => setHover(null)}>
-        <svg className="wb-svg" viewBox={vb} preserveAspectRatio="xMidYMid slice" role="img" aria-label={t.mapBandTitle}>
+        <svg className="wb-svg" viewBox={vb} preserveAspectRatio="xMidYMid meet" role="img" aria-label={t.mapBandTitle}>
           <defs>
             <linearGradient id="wb-sea" x1="0" y1="0" x2="0" y2="1">
               <stop offset="0" stopColor="var(--wb-sea-top)" />
@@ -110,7 +110,7 @@ export default function WorldBand({ t, lang }) {
           </g>
         </svg>
         {hover && (
-          <div className="tip wb-tip" style={{ left: Math.min(hover.x, hover.w - 240), top: hover.y }}>
+          <div className={`tip wb-tip ${hover.y < 110 ? "is-below" : ""}`} style={{ left: Math.max(130, Math.min(hover.x, hover.w - 130)), top: hover.y }}>
             <strong>{hover.c[lang] || hover.c.en}</strong>
             <span>{hover.c.all.length ? hover.c.all.filter((k) => t.blocs[k]).map(name).join(" · ") : t.noBloc}</span>
           </div>
