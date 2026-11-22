@@ -9,6 +9,7 @@ import MapFigure from "./MapFigure.jsx";
 import { FIG2 } from "./Charts2.jsx";
 import SiteSearch, { SEARCH_TXT, norm } from "./SiteSearch.jsx";
 import { Analytics } from "@vercel/analytics/react";
+import SITE from "./site-texts.js";
 import { T_ZH, PAPERS_ZH, THEMES_ZH, COURSES_NOW_ZH, COURSES_PAST_ZH, LEADERS_ZH, CITY_ZH, POLE_ZH, CAT_ZH, MONTH_NUM } from "./i18n-zh.js";
 
 const EMAIL = "ismaelouedraogo1004@gmail.com";
@@ -36,6 +37,8 @@ const MONTHS = {
   fr: { JAN: "janvier", "FÉV": "février", FEV: "février", MAR: "mars", AVR: "avril", MAI: "mai", JUN: "juin", JUI: "juin", JUL: "juillet", "AOÛ": "août", AOU: "août", SEP: "septembre", OCT: "octobre", NOV: "novembre", "DÉC": "décembre", DEC: "décembre" },
   en: { JAN: "January", FEB: "February", MAR: "March", APR: "April", MAY: "May", JUN: "June", JUL: "July", AUG: "August", SEP: "September", OCT: "October", NOV: "November", DEC: "December" },
 };
+const MONTH_IDX = { JAN: 1, "FÉV": 2, FEB: 2, MAR: 3, AVR: 4, APR: 4, MAI: 5, MAY: 5, JUN: 6, JUL: 7, "AOÛ": 8, AUG: 8, SEP: 9, OCT: 10, NOV: 11, "DÉC": 12, DEC: 12 };
+const dateKey = (b) => Number(b.year) * 10000 + (MONTH_IDX[b.month] || 0) * 100 + Number(b.day);
 const fmtDate = (b, lang) => {
   if (lang === "zh") return `${b.year}年${MONTH_NUM[b.month] || b.month}月${Number(b.day)}日`;
   const m = MONTHS[lang][b.month] || b.month.toLowerCase();
@@ -168,16 +171,17 @@ const T = {
 };
 
 T.zh = T_ZH;
+for (const l of ["fr", "en", "zh"]) Object.assign(T[l], SITE[l]);
 
 const PAPERS = {
   fr: [
-    { title: "Friendship is as Important as Neighborhood: Geopolitical Distance and Bilateral Trade", desc: "Mesure l'effet de la distance géopolitique sur le commerce bilatéral à l'aide de modèles de gravité estimés en PPML.", year: "2024", status: "Working paper", presentations: "CSAE Oxford, INFER, CEID" },
+    { title: "Friendship is as Important as Neighborhood: Geopolitical Distance and Bilateral Trade", desc: "Estime l'effet de la distance géopolitique sur le commerce bilatéral avec des modèles de gravité estimés par PPML.", year: "2024", status: "Working paper", presentations: "CSAE Oxford, INFER, CEID" },
     { title: "Geopolitical Dynamics and the Effectiveness of Regional Trade Agreements", desc: "Évalue la manière dont les dynamiques géopolitiques modifient l'efficacité des accords commerciaux régionaux.", year: "2024", status: "Working paper", presentations: "Séminaire Brown Bag Lunch, Banque mondiale" },
     { title: "Regional Public Goods and African Integration: A Polycentric Governance Framework", desc: "Propose un cadre de gouvernance polycentrique pour les biens publics régionaux et l'intégration africaine.", year: "2025", draft: true },
     { title: "China-Africa Value Chains: Structural Asymmetries and Belt & Road Effects", desc: "Analyse les chaînes de valeur entre la Chine et l'Afrique à partir des tableaux EORA MRIO, en évaluant les asymétries structurelles et les effets des Nouvelles routes de la soie.", year: "2025", draft: true },
   ],
   en: [
-    { title: "Friendship is as Important as Neighborhood: Geopolitical Distance and Bilateral Trade", desc: "Measures the effect of geopolitical distance on bilateral trade using gravity models estimated with PPML.", year: "2024", status: "Working paper", presentations: "CSAE Oxford, INFER, CEID" },
+    { title: "Friendship is as Important as Neighborhood: Geopolitical Distance and Bilateral Trade", desc: "Estimates the effect of geopolitical distance on bilateral trade with gravity models estimated by PPML.", year: "2024", status: "Working paper", presentations: "CSAE Oxford, INFER, CEID" },
     { title: "Geopolitical Dynamics and the Effectiveness of Regional Trade Agreements", desc: "Assesses how geopolitical dynamics change the effectiveness of regional trade agreements.", year: "2024", status: "Working paper", presentations: "World Bank Brown Bag Lunch seminar" },
     { title: "Regional Public Goods and African Integration: A Polycentric Governance Framework", desc: "Proposes a polycentric governance framework for regional public goods and African integration.", year: "2025", draft: true },
     { title: "China-Africa Value Chains: Structural Asymmetries and Belt & Road Effects", desc: "Analyses China-Africa value chains using EORA MRIO tables, assessing structural asymmetries and Belt and Road effects.", year: "2025", draft: true },
@@ -438,7 +442,7 @@ function Reader({ b, lang, t, onClose }) {
   }, [b.id, lang]);
 
   const copyLink = async () => {
-    try { await navigator.clipboard.writeText(window.location.href); setCopied(true); setTimeout(() => setCopied(false), 2000); } catch (e) { /* presse-papiers indisponible */ }
+    try { await navigator.clipboard.writeText(`${window.location.origin}/analyse/${b.id}-${lang}/`); setCopied(true); setTimeout(() => setCopied(false), 2000); } catch (e) { /* presse-papiers indisponible */ }
   };
 
   return (
@@ -493,6 +497,7 @@ function Reader({ b, lang, t, onClose }) {
                 <ol>{sources.map((s, i) => <li key={i}><Rich text={s} /></li>)}</ol>
               </section>
             )}
+            <aside className="author-box"><p>{t.authorBox}</p><a href="#research" onClick={(e) => { e.preventDefault(); onClose(); setTimeout(() => document.getElementById("research")?.scrollIntoView({ behavior: "smooth" }), 80); }}>{t.authorLink}</a></aside>
             <p className="reader-end">{t.endNote} <a href={`mailto:${EMAIL}?subject=${encodeURIComponent(b.title)}`}>{EMAIL}</a>.</p>
           </article>
         </div>
@@ -525,9 +530,10 @@ export default function App() {
   const t = T[lang];
   const bulletins = lang === "fr" ? BULLETINS_FR : lang === "zh" ? BULLETINS_ZH : BULLETINS_EN;
   const categories = (lang === "fr" ? CATEGORIES_FR : CATEGORIES_EN).slice(1);
-  const sorted = useMemo(() => [...bulletins].sort((a, b) => b.id - a.id), [bulletins]);
+  const sorted = useMemo(() => [...bulletins].sort((a, b) => dateKey(b) - dateKey(a) || b.id - a.id), [bulletins]);
   const latest = sorted[0];
   const rest = filter ? sorted.filter(b => b.category === filter) : sorted.slice(1);
+  const [showApp, setShowApp] = useState(false);
   const open = openId != null ? bulletins.find(b => b.id === openId) : null;
 
   useEffect(() => {
@@ -613,37 +619,29 @@ export default function App() {
           <div className="wrap hero-grid">
             <div>
               <h1>Ismaël Ouédraogo</h1>
-              <p className="hero-lead">{t.lead}</p>
-              <ul className="hero-fields">{t.fields.map(f => <li key={f}>{f}</li>)}</ul>
-              <div className="hero-roles">
-                {t.roles.map(([r, o]) => <div key={r}><strong>{r}</strong>{lang === "zh" ? "，" : ", "}{o}</div>)}
-              </div>
+              <p className="hero-lead">{t.intro}</p>
+              <p className="hero-marks">{t.introMarks}</p>
               <div className="hero-actions">
                 <a className="btn btn-primary" href={`#analyse-${latest.id}-${lang}`} onClick={openAnalysis(latest.id)}>{t.ctaRead}</a>
-                <a className="btn btn-ghost" href="#contact" onClick={go("contact")}>{t.ctaContact}</a>
+                <a className="btn btn-ghost" href="#research" onClick={go("research")}>{t.ctaResearch}</a>
               </div>
             </div>
-            <HeroMaps t={t} lang={lang} onOpenLatest={() => setOpenId(latest.id)} />
+            <a className="hero-latest" href={`#analyse-${latest.id}-${lang}`} onClick={openAnalysis(latest.id)}>
+              <div className="lead-meta">
+                <span>{t.latest}</span>
+                <span className="when">{fmtDate(latest, lang)}</span>
+                <span className="cat-l">{catLabel(latest.category, lang)}</span>
+              </div>
+              <h2 className="hero-latest-title">{fr(latest.title, lang)}</h2>
+              {latest.nutshell && <ul className="hero-latest-points">{latest.nutshell.map((p, i) => <li key={i}>{fr(p, lang)}</li>)}</ul>}
+              <span className="lead-cta">{t.read} · {readingTime(latest.content)} {t.minutes}</span>
+            </a>
           </div>
         </section>
 
         <section className="section" id="analyses">
           <div className="wrap">
             <div className="section-head"><h2>{t.analysesTitle}</h2><p>{t.analysesSub}</p></div>
-            <a className="lead-analysis" href={`#analyse-${latest.id}-${lang}`} onClick={openAnalysis(latest.id)}>
-              <div className="lead-meta">
-                <span>{t.latest}</span>
-                <span className="when">{fmtDate(latest, lang)}</span>
-                <span className="cat-l">{catLabel(latest.category, lang)}</span>
-                <span>{readingTime(latest.content)} {t.minutes}</span>
-              </div>
-              <div>
-                <h3 className="lead-title">{fr(latest.title, lang)}</h3>
-                <p className="lead-excerpt">{fr(latest.excerpt, lang)}</p>
-                <span className="lead-cta">{t.read}</span>
-              </div>
-            </a>
-
             <div className="filters" role="group">
               <button className="filter" aria-pressed={!filter} onClick={() => setFilter(null)}>{t.all}<span className="count">{sorted.length}</span></button>
               {categories.map(c => {
@@ -674,22 +672,37 @@ export default function App() {
           <div className="wrap">
             <div className="section-head"><h2>{t.researchTitle}</h2><p>{t.researchSub}</p></div>
             <div className="papers">
-              {papers.map(p => (
-                <div key={p.title} className={`paper ${p.draft ? "is-draft" : ""}`}>
-                  <div className="paper-status">{p.draft ? t.draft : <><b>{p.status}</b>, {p.year}</>}</div>
+              <div className="paper is-jmp">
+                <div className="paper-status"><b>{t.jmpLabel}</b></div>
+                <div><h3>{t.jmpTitle}</h3><p>{t.jmpText}</p></div>
+              </div>
+              <div className="paper">
+                <div className="paper-status"><b>{t.thesisLabel}</b></div>
+                <div><h3 lang="en">Geopolitical Distance and International Economic Relations: An Analysis of Bilateral Trade, Development Aid, and Chinese FDI</h3><p>{t.thesisText}</p></div>
+              </div>
+              {PAPERS[lang].filter(p => !p.draft).map(p => (
+                <div key={p.title} className="paper">
+                  <div className="paper-status"><b>{p.status}</b>, {p.year}</div>
                   <div>
-                    <h3>{p.title}</h3>
+                    <h3 lang="en">{p.title}</h3>
                     <p>{p.desc}</p>
                     {p.presentations && <p className="presented">{t.presented} {p.presentations}</p>}
                   </div>
                 </div>
               ))}
             </div>
-            <label className="draft-toggle"><input type="checkbox" checked={showDrafts} onChange={e => setShowDrafts(e.target.checked)} /> {t.showDrafts}</label>
-            <div className="themes">
-              <h3>{t.themesTitle}</h3>
-              <ul>{THEMES[lang].map(th => <li key={th}>{th}</li>)}</ul>
+            <div className="research-more">
+              <div className="wip">
+                <h3>{t.wipTitle}</h3>
+                <ul>{t.wip.map(w => <li key={w}>{w}</li>)}</ul>
+              </div>
+              <div className="wb">
+                <h3>{t.wbTitle}</h3>
+                <p>{t.wbText}</p>
+                <a href="https://www.worldbank.org/en/brief/2026/08/25/integrating-africa-from-threads-to-hubs" target="_blank" rel="noopener">{t.wbLink}</a>
+              </div>
             </div>
+            <p className="measure-ref">{t.measureRef}</p>
           </div>
         </section>
 
@@ -700,12 +713,12 @@ export default function App() {
               <div>
                 <h3>{t.nowTitle}</h3>
                 <p className="where">{t.nowWhere}</p>
-                {COURSES_NOW[lang].map(c => <Course key={c.name} c={c} />)}
+                <ul className="course-list">{COURSES_NOW[lang].map(c => <li key={c.name}><span>{c.name}</span><span className="lvl">{c.level}</span></li>)}</ul>
               </div>
               <div>
                 <h3>{t.pastTitle}</h3>
                 <p className="where">{t.pastWhere}</p>
-                {COURSES_PAST[lang].map(c => <Course key={c.name} c={c} />)}
+                <ul className="course-list">{COURSES_PAST[lang].map(c => <li key={c.name}><span>{c.name}</span><span className="lvl">{c.level}</span></li>)}</ul>
               </div>
             </div>
           </div>
@@ -719,13 +732,6 @@ export default function App() {
             </div>
             <div>
               <div className="about-text">{t.about.map((p, i) => <p key={i}>{p}</p>)}</div>
-              <ol className="timeline">
-                {t.timeline.map(([yr, what, org, thesis]) => <li key={yr + what}><span className="yr">{yr}</span><span><span className="what">{what}</span><br /><span className="org">{org}</span>{thesis && <span className="thesis" lang="en">{thesis}</span>}</span></li>)}
-              </ol>
-              <div className="marks">
-                <h3>{t.marksTitle}</h3>
-                {t.marks.map(m => <p key={m}>{m}</p>)}
-              </div>
             </div>
           </div>
         </section>
@@ -734,22 +740,22 @@ export default function App() {
           <div className="wrap contact">
             <div className="section-head" style={{ display: "block", marginBottom: 0 }}><h2>{t.contactTitle}</h2><p style={{ marginTop: 10 }}>{t.contactSub}</p></div>
             <div>
-              <a className="contact-mail" href={`mailto:${EMAIL}`}>{EMAIL}</a>
+              <a className="contact-mail" href={`mailto:${EMAIL_PRO}`}>{EMAIL_PRO}</a>
               <dl>
-                <dt>{t.contactPro}</dt><dd><a href={`mailto:${EMAIL_PRO}`}>{EMAIL_PRO}</a></dd>
+                <dt>{({ fr: "Adresse personnelle", en: "Personal address", zh: "个人邮箱" })[lang]}</dt><dd><a href={`mailto:${EMAIL}`}>{EMAIL}</a></dd>
                 <dt>{t.contactBase}</dt><dd>{t.contactBaseValue}</dd>
               </dl>
             </div>
           </div>
         </section>
 
-        <section className="section is-band" id="app">
+        <section className="section is-band" id="app" hidden={!showApp}>
           <div className="wrap"><InstallApp lang={lang} /></div>
         </section>
       </main>
 
       <footer className="foot">
-        <div className="wrap"><span>Ismaël Ouédraogo</span><a className="foot-app" href="#app" onClick={(e) => { go("app")(e); requestInstall(); }}>{({ fr: "Installer l'application", en: "Install the app", zh: "安装应用" })[lang]}</a><span>{new Date().getFullYear()}</span></div>
+        <div className="wrap"><span>Ismaël Ouédraogo</span><a className="foot-app" href="#app" onClick={(e) => { e.preventDefault(); setShowApp(true); setTimeout(() => { document.getElementById("app")?.scrollIntoView({ behavior: "smooth" }); requestInstall(); }, 30); }}>{({ fr: "Installer l'application", en: "Install the app", zh: "安装应用" })[lang]}</a><span>{new Date().getFullYear()}</span></div>
       </footer>
 
       {open && <Reader b={open} lang={lang} t={t} onClose={() => setOpenId(null)} />}
