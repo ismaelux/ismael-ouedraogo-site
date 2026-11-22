@@ -672,10 +672,6 @@ export default function App() {
           <div className="wrap">
             <div className="section-head"><h2>{t.researchTitle}</h2><p>{t.researchSub}</p></div>
             <div className="papers">
-              <div className="paper is-jmp">
-                <div className="paper-status"><b>{t.jmpLabel}</b></div>
-                <div><h3>{t.jmpTitle}</h3><p>{t.jmpText}</p></div>
-              </div>
               <div className="paper">
                 <div className="paper-status"><b>{t.thesisLabel}</b></div>
                 <div><h3 lang="en">Geopolitical Distance and International Economic Relations: An Analysis of Bilateral Trade, Development Aid, and Chinese FDI</h3><p>{t.thesisText}</p></div>
