@@ -474,7 +474,7 @@ function Reader({ b, lang, t, onClose }) {
                 <ol>{sources.map((s, i) => <li key={i}><Rich text={s} /></li>)}</ol>
               </section>
             )}
-            <aside className="author-box"><p>{t.authorBox}</p><a href="#research" onClick={(e) => { e.preventDefault(); onClose(); setTimeout(() => document.getElementById("research")?.scrollIntoView({ behavior: "smooth" }), 80); }}>{t.authorLink}</a></aside>
+            <aside className="author-box"><p>{t.authorBox}</p></aside>
             <p className="reader-end">{t.endNote} <a href={`mailto:${EMAIL}?subject=${encodeURIComponent(b.title)}`}>{EMAIL}</a>.</p>
           </article>
         </div>
