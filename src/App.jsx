@@ -157,11 +157,11 @@ for (const l of ["fr", "en", "zh"]) Object.assign(T[l], SITE[l]);
 const PAPERS = {
   fr: [
     { title: "Friendship is as Important as Neighborhood: Geopolitical Distance and Bilateral Trade", desc: "Estime l'effet de la distance géopolitique sur le commerce bilatéral avec des modèles de gravité estimés par PPML.", year: "2024", status: "Working paper", presentations: "CSAE Oxford, INFER, CEID" },
-    { title: "Geopolitical Dynamics and the Effectiveness of Regional Trade Agreements", desc: "Évalue la manière dont les dynamiques géopolitiques modifient l'efficacité des accords commerciaux régionaux.", year: "2024", status: "Working paper", presentations: "Séminaire Brown Bag Lunch, Banque mondiale" },
+    { title: "Geopolitical Dynamics and the Effectiveness of Regional Trade Agreements", desc: "Évalue la manière dont les dynamiques géopolitiques modifient l'efficacité des accords commerciaux régionaux.", year: "2025", status: "Working paper", presentations: "Séminaire Brown Bag Lunch, Banque mondiale" },
   ],
   en: [
     { title: "Friendship is as Important as Neighborhood: Geopolitical Distance and Bilateral Trade", desc: "Estimates the effect of geopolitical distance on bilateral trade with gravity models estimated by PPML.", year: "2024", status: "Working paper", presentations: "CSAE Oxford, INFER, CEID" },
-    { title: "Geopolitical Dynamics and the Effectiveness of Regional Trade Agreements", desc: "Assesses how geopolitical dynamics change the effectiveness of regional trade agreements.", year: "2024", status: "Working paper", presentations: "World Bank Brown Bag Lunch seminar" },
+    { title: "Geopolitical Dynamics and the Effectiveness of Regional Trade Agreements", desc: "Assesses how geopolitical dynamics change the effectiveness of regional trade agreements.", year: "2025", status: "Working paper", presentations: "World Bank Brown Bag Lunch seminar" },
   ],
 };
 
@@ -532,7 +532,7 @@ export default function App() {
     const onScroll = () => {
       setScrolled(window.scrollY > 8);
       let cur = "";
-      for (const id of ["research", "analyses", "teaching", "about", "contact"]) {
+      for (const id of ["analyses", "research", "teaching", "about", "contact"]) {
         const el = document.getElementById(id);
         if (el && el.getBoundingClientRect().top < 120) cur = id;
       }
@@ -595,62 +595,24 @@ export default function App() {
         <section className="hero">
           <div className="wrap hero-grid">
             <div>
-              <h1>Ismaël Ouédraogo</h1>
-              <p className="hero-identity">{t.identity}</p>
-              <p className="hero-lead">{t.researchLine}</p>
-              <p className="hero-marks">{t.heroFacts}</p>
+              <p className="hero-kicker">{t.heroKicker}</p>
+              <h1 className="hero-title">{t.heroTitle}</h1>
+              <p className="hero-lead">{t.heroLead}</p>
               <div className="hero-actions">
-                <a className="btn btn-primary" href="#research" onClick={go("research")}>{t.btnResearch}</a>
-                <a className="btn btn-ghost" href="#analyses" onClick={go("analyses")}>{t.btnAnalyses}</a>
-                <a className="btn btn-ghost" href="#contact" onClick={go("contact")}>{t.btnContact}</a>
+                <a className="btn btn-primary" href="#analyses" onClick={go("analyses")}>{t.btnAll}</a>
+                <a className="btn btn-ghost" href="#research" onClick={go("research")}>{t.btnResearch}</a>
               </div>
             </div>
-            <div className="hero-side">
-              <a className="hero-latest" href={`#analyse-${latest.id}-${lang}`} onClick={openAnalysis(latest.id)}>
-                <div className="lead-meta">
-                  <span>{t.latest}</span>
-                  <span className="when">{fmtDate(latest, lang)}</span>
-                  <span className="cat-l">{catLabel(latest.category, lang)}</span>
-                </div>
-                <h2 className="hero-latest-title">{fr(latest.title, lang)}</h2>
-                <span className="lead-cta">{t.read} · {readingTime(latest.content)} {t.minutes}</span>
-              </a>
-              <a className="hero-all" href="#analyses" onClick={go("analyses")}>{t.allAnalyses}</a>
-            </div>
-          </div>
-        </section>
-
-        <section className="section is-band" id="research">
-          <div className="wrap">
-            <div className="section-head"><h2>{t.researchTitle}</h2><p>{t.researchSub}</p></div>
-            <div className="papers">
-              <div className="paper">
-                <div className="paper-status"><b>{t.thesisLabel}</b></div>
-                <div><h3 lang="en">Geopolitical Distance and International Economic Relations: An Analysis of Bilateral Trade, Development Aid, and Chinese FDI</h3><p>{t.thesisText}</p></div>
+            <a className="hero-latest" href={`#analyse-${latest.id}-${lang}`} onClick={openAnalysis(latest.id)}>
+              <div className="lead-meta">
+                <span>{t.latest}</span>
+                <span className="when">{fmtDate(latest, lang)}</span>
+                <span className="cat-l">{catLabel(latest.category, lang)}</span>
               </div>
-              {PAPERS[lang].filter(p => !p.draft).map(p => (
-                <div key={p.title} className="paper">
-                  <div className="paper-status"><b>{t.wpLabel}</b>, {p.year}</div>
-                  <div>
-                    <h3 lang="en">{p.title}</h3>
-                    <p>{p.desc}</p>
-                    {p.presentations && <p className="presented">{t.presented} {p.presentations}</p>}
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div className="research-more">
-              <div className="wip">
-                <h3>{t.wipTitle}</h3>
-                {t.wipGroups.map(([g, items]) => <div key={g} className="wip-group"><p className="wip-g">{g}</p><ul>{items.map(w => <li key={w}>{w}</li>)}</ul></div>)}
-              </div>
-              <div className="wb">
-                <h3>{t.wbTitle}</h3>
-                <p>{t.wbText}</p>
-                <a href="https://www.worldbank.org/en/brief/2026/08/25/integrating-africa-from-threads-to-hubs" target="_blank" rel="noopener">{t.wbLink}</a>
-              </div>
-            </div>
-            <p className="measure-ref">{t.measureRef}</p>
+              <h2 className="hero-latest-title">{fr(latest.title, lang)}</h2>
+              {latest.nutshell && <ul className="hero-latest-points">{latest.nutshell.map((p, i) => <li key={i}>{fr(p, lang)}</li>)}</ul>}
+              <span className="lead-cta">{t.read} · {readingTime(latest.content)} {t.minutes}</span>
+            </a>
           </div>
         </section>
 
@@ -683,6 +645,40 @@ export default function App() {
           </div>
         </section>
 
+        <section className="section is-band" id="research">
+          <div className="wrap">
+            <div className="section-head"><h2>{t.researchTitle}</h2><p>{t.researchSub}</p></div>
+            <div className="papers">
+              <div className="paper">
+                <div className="paper-status"><b>{t.thesisLabel}</b></div>
+                <div><h3 lang="en">Geopolitical Distance and International Economic Relations: An Analysis of Bilateral Trade, Development Aid, and Chinese FDI</h3><p>{t.thesisText}</p></div>
+              </div>
+              {PAPERS[lang].filter(p => !p.draft).map(p => (
+                <div key={p.title} className="paper">
+                  <div className="paper-status"><b>{p.status}</b>, {p.year}</div>
+                  <div>
+                    <h3 lang="en">{p.title}</h3>
+                    <p>{p.desc}</p>
+                    {p.presentations && <p className="presented">{t.presented} {p.presentations}</p>}
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="research-more">
+              <div className="wip">
+                <h3>{t.wipTitle}</h3>
+                <ul>{t.wip.map(w => <li key={w}>{w}</li>)}</ul>
+              </div>
+              <div className="wb">
+                <h3>{t.wbTitle}</h3>
+                <p>{t.wbText}</p>
+                <a href="https://www.worldbank.org/en/brief/2026/08/25/integrating-africa-from-threads-to-hubs" target="_blank" rel="noopener">{t.wbLink}</a>
+              </div>
+            </div>
+            <p className="measure-ref">{t.measureRef}</p>
+          </div>
+        </section>
+
         <section className="section" id="teaching">
           <div className="wrap">
             <div className="section-head"><h2>{t.teachingTitle}</h2><p>{t.teachingSub}</p></div>
@@ -708,7 +704,7 @@ export default function App() {
               <div className="portrait"><img src="/portrait-crayon.webp?v=3" alt="Ismaël Ouédraogo" loading="lazy" /></div>
             </div>
             <div>
-              <div className="about-text">{t.about.map((p, i) => <p key={i}>{p}</p>)}</div>
+              <div className="about-text"><p className="about-name">Ismaël Ouédraogo</p><p className="about-identity">{t.aboutIdentity}</p>{t.about.map((p, i) => <p key={i}>{p}</p>)}</div>
             </div>
           </div>
         </section>

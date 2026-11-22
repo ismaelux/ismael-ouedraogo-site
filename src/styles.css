@@ -494,3 +494,9 @@ a { color: inherit; }
 .hero-all { justify-self: start; font-size: 15px; font-weight: 600; color: var(--indigo); text-underline-offset: 4px; }
 .wip-group + .wip-group { margin-top: 18px; }
 .wip-g { margin: 0 0 8px; font-size: 14px; font-weight: 600; color: var(--teal); }
+.hero-kicker { font-size: 14px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--teal); }
+.hero h1.hero-title { margin-top: 14px; font-size: clamp(36px, 4.6vw, 56px); line-height: 1.06; text-wrap: balance; }
+.about-name { font-family: var(--serif); font-size: 26px; color: var(--ink); margin: 0; }
+.about-identity { margin-top: 4px !important; font-family: var(--sans); font-size: 15px; color: var(--ink-3); }
+.about-text p.about-name { font-family: var(--serif); font-size: 28px; line-height: 1.2; color: var(--ink); margin: 0; }
+.about-text p.about-identity { margin: 6px 0 22px; font-family: var(--sans); font-size: 15px; line-height: 1.5; color: var(--ink-3); }

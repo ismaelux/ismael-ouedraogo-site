@@ -49,7 +49,7 @@ export const T_ZH = {
 
 export const PAPERS_ZH = [
   { title: "Friendship is as Important as Neighborhood: Geopolitical Distance and Bilateral Trade", desc: "利用以PPML估计的引力模型，估计地缘政治距离对双边贸易的影响。", year: "2024", status: "工作论文", presentations: "牛津大学非洲经济研究中心（CSAE）、INFER、CEID" },
-  { title: "Geopolitical Dynamics and the Effectiveness of Regional Trade Agreements", desc: "评估地缘政治动态如何改变区域贸易协定的有效性。", year: "2024", status: "工作论文", presentations: "世界银行Brown Bag Lunch研讨会" },
+  { title: "Geopolitical Dynamics and the Effectiveness of Regional Trade Agreements", desc: "评估地缘政治动态如何改变区域贸易协定的有效性。", year: "2025", status: "工作论文", presentations: "世界银行Brown Bag Lunch研讨会" },
 ];
 
 export const THEMES_ZH = ["地缘政治与经济关系", "双边贸易", "非洲的外国直接投资", "官方发展援助", "区域经济一体化", "全球与区域价值链", "区域公共产品", "萨赫勒政治经济"];
