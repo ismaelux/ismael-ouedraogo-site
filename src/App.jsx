@@ -25,6 +25,7 @@ async function refreshSite() {
 }
 function RefreshButton({ lang }) {
   const [busy, setBusy] = useState(false);
+  if (typeof window !== "undefined" && !(window.matchMedia?.("(display-mode: standalone)").matches || window.navigator.standalone)) return null;
   return (
     <button className={`refresh-btn ${busy ? "is-busy" : ""}`} onClick={() => { setBusy(true); refreshSite(); }} aria-label={REFRESH_LABEL[lang]} title={REFRESH_LABEL[lang]}>
       <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><path d="M20 4.5v4.2h-4.2" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>
@@ -59,10 +60,7 @@ const T = {
   fr: {
     nav: { analyses: "Analyses", research: "Recherche", teaching: "Enseignement", about: "Parcours", contact: "Contact" },
     menu: "Menu", close: "Fermer",
-    lead: "Docteur en économie du développement, thèse soutenue au CERDI (Centre d'études et de recherches sur le développement international, Université Clermont Auvergne). Consultant au Bureau de l'économiste en chef pour l'Afrique de la Banque mondiale. Recherche en géopolitique économique, commerce international et dynamiques d'intégration africaine.",
-    fields: ["Géopolitique économique", "Commerce international", "Intégration africaine", "Chaînes de valeur", "Biens publics régionaux", "Économie du Sahel"],
     brandSub: "Économiste du développement, PhD",
-    roles: [["Docteur en sciences économiques", "CERDI, Université Clermont Auvergne, Prix Jeune Chercheur 2026"], ["Fellow puis consultant", "Bureau de l'économiste en chef pour l'Afrique, Banque mondiale"], ["Enseigne les sciences économiques", "Université Rennes 2"]],
     ctaRead: "Lire la dernière analyse", ctaContact: "Me contacter",
     mapTitle: "Afrique de l'Ouest : États membres de la CEDEAO, États de l'AES et principaux corridors portuaires",
     keyEcowas: "CEDEAO (12 États)", keyAes: "AES : Mali, Burkina Faso, Niger", keyCorridor: "Corridors vers les ports",
@@ -96,14 +94,7 @@ const T = {
       "Au sein du Bureau de l'économiste en chef pour l'Afrique de la Banque mondiale, j'ai contribué au rapport phare « Integrating Africa: From Threads to Hubs » ainsi qu'à des recherches sur la qualité de l'emploi dans les entreprises multinationales et sur les biens publics régionaux africains. Ce travail m'a placé au contact direct des questions d'intégration régionale, de chaînes de valeur et de coordination entre États africains.",
       "Parallèlement, je développe sur ce site des analyses économiques structurées sur les dynamiques africaines contemporaines. Elles mobilisent les outils de la théorie économique et des données vérifiables pour offrir un éclairage académique qui va au-delà du simple commentaire d'actualité.",
     ],
-    timeline: [
-      ["2026", "Enseignement des sciences économiques", "Université Rennes 2"],
-      ["2025-2026", "Fellow puis consultant", "Banque mondiale, Bureau de l'économiste en chef pour l'Afrique"],
-      ["2025", "Doctorat en sciences économiques", "CERDI, Université Clermont Auvergne", "Geopolitical Distance and International Economic Relations: An Analysis of Bilateral Trade, Development Aid, and Chinese FDI"],
-      ["2022-2026", "Enseignement de l'économie", "Université Clermont Auvergne"],
-    ],
     marksTitle: "Distinctions et qualifications",
-    marks: ["Prix Jeune Chercheur 2026, Fondation UCA et Ville de Clermont-Ferrand", "Qualification aux fonctions de maître de conférences, CNU section 05 (sciences économiques)", "Communications : CSAE Oxford, INFER, CEID, séminaire Brown Bag Lunch de la Banque mondiale"],
     contactTitle: "Contact",
     contactSub: "Pour une collaboration de recherche, une invitation ou un échange sur un poste.",
     contactPro: "Adresse universitaire", contactBase: "Lieu", contactBaseValue: "France",
@@ -115,10 +106,7 @@ const T = {
   en: {
     nav: { analyses: "Analyses", research: "Research", teaching: "Teaching", about: "Background", contact: "Contact" },
     menu: "Menu", close: "Close",
-    lead: "PhD in development economics, thesis defended at CERDI (Centre for Studies and Research on International Development, Université Clermont Auvergne). Consultant in the World Bank's Office of the Chief Economist for Africa. Research on economic geopolitics, international trade and African integration dynamics.",
-    fields: ["Economic geopolitics", "International trade", "African integration", "Value chains", "Regional public goods", "Sahel economics"],
     brandSub: "Development economist, PhD",
-    roles: [["PhD in Economics", "CERDI, Université Clermont Auvergne, Young Researcher Prize 2026"], ["Fellow, then consultant", "Office of the Chief Economist for Africa, World Bank"], ["Teaches economics", "Université Rennes 2"]],
     ctaRead: "Read the latest analysis", ctaContact: "Get in touch",
     mapTitle: "West Africa: ECOWAS member states, AES states and main port corridors",
     keyEcowas: "ECOWAS (12 states)", keyAes: "AES: Mali, Burkina Faso, Niger", keyCorridor: "Corridors to the ports",
@@ -152,14 +140,7 @@ const T = {
       "In the World Bank's Office of the Chief Economist for Africa, I contributed to the flagship report \u201cIntegrating Africa: From Threads to Hubs\u201d and to research on job quality in multinational enterprises and on African regional public goods. This work put me in direct contact with questions of regional integration, value chains and coordination among African states.",
       "In parallel, I publish on this site structured economic analyses of contemporary African dynamics. They draw on economic theory and verifiable data to offer an academic perspective that goes beyond simple news commentary.",
     ],
-    timeline: [
-      ["2026", "Teaching economics", "Université Rennes 2"],
-      ["2025-2026", "Fellow, then consultant", "World Bank, Office of the Chief Economist for Africa"],
-      ["2025", "PhD in Economics", "CERDI, Université Clermont Auvergne", "Geopolitical Distance and International Economic Relations: An Analysis of Bilateral Trade, Development Aid, and Chinese FDI"],
-      ["2022-2026", "Teaching economics", "Université Clermont Auvergne"],
-    ],
     marksTitle: "Awards and qualifications",
-    marks: ["Young Researcher Prize 2026, UCA Foundation and City of Clermont-Ferrand", "Qualified for associate professor positions, CNU section 05 (economics)", "Presentations: CSAE Oxford, INFER, CEID, World Bank Brown Bag Lunch seminar"],
     contactTitle: "Contact",
     contactSub: "For research collaboration, an invitation or a conversation about a position.",
     contactPro: "University address", contactBase: "Based in", contactBaseValue: "France",
@@ -177,14 +158,10 @@ const PAPERS = {
   fr: [
     { title: "Friendship is as Important as Neighborhood: Geopolitical Distance and Bilateral Trade", desc: "Estime l'effet de la distance géopolitique sur le commerce bilatéral avec des modèles de gravité estimés par PPML.", year: "2024", status: "Working paper", presentations: "CSAE Oxford, INFER, CEID" },
     { title: "Geopolitical Dynamics and the Effectiveness of Regional Trade Agreements", desc: "Évalue la manière dont les dynamiques géopolitiques modifient l'efficacité des accords commerciaux régionaux.", year: "2024", status: "Working paper", presentations: "Séminaire Brown Bag Lunch, Banque mondiale" },
-    { title: "Regional Public Goods and African Integration: A Polycentric Governance Framework", desc: "Propose un cadre de gouvernance polycentrique pour les biens publics régionaux et l'intégration africaine.", year: "2025", draft: true },
-    { title: "China-Africa Value Chains: Structural Asymmetries and Belt & Road Effects", desc: "Analyse les chaînes de valeur entre la Chine et l'Afrique à partir des tableaux EORA MRIO, en évaluant les asymétries structurelles et les effets des Nouvelles routes de la soie.", year: "2025", draft: true },
   ],
   en: [
     { title: "Friendship is as Important as Neighborhood: Geopolitical Distance and Bilateral Trade", desc: "Estimates the effect of geopolitical distance on bilateral trade with gravity models estimated by PPML.", year: "2024", status: "Working paper", presentations: "CSAE Oxford, INFER, CEID" },
     { title: "Geopolitical Dynamics and the Effectiveness of Regional Trade Agreements", desc: "Assesses how geopolitical dynamics change the effectiveness of regional trade agreements.", year: "2024", status: "Working paper", presentations: "World Bank Brown Bag Lunch seminar" },
-    { title: "Regional Public Goods and African Integration: A Polycentric Governance Framework", desc: "Proposes a polycentric governance framework for regional public goods and African integration.", year: "2025", draft: true },
-    { title: "China-Africa Value Chains: Structural Asymmetries and Belt & Road Effects", desc: "Analyses China-Africa value chains using EORA MRIO tables, assessing structural asymmetries and Belt and Road effects.", year: "2025", draft: true },
   ],
 };
 
@@ -555,7 +532,7 @@ export default function App() {
     const onScroll = () => {
       setScrolled(window.scrollY > 8);
       let cur = "";
-      for (const id of ["analyses", "research", "teaching", "about", "contact"]) {
+      for (const id of ["research", "analyses", "teaching", "about", "contact"]) {
         const el = document.getElementById(id);
         if (el && el.getBoundingClientRect().top < 120) cur = id;
       }
@@ -619,23 +596,61 @@ export default function App() {
           <div className="wrap hero-grid">
             <div>
               <h1>Ismaël Ouédraogo</h1>
-              <p className="hero-lead">{t.intro}</p>
-              <p className="hero-marks">{t.introMarks}</p>
+              <p className="hero-identity">{t.identity}</p>
+              <p className="hero-lead">{t.researchLine}</p>
+              <p className="hero-marks">{t.heroFacts}</p>
               <div className="hero-actions">
-                <a className="btn btn-primary" href={`#analyse-${latest.id}-${lang}`} onClick={openAnalysis(latest.id)}>{t.ctaRead}</a>
-                <a className="btn btn-ghost" href="#research" onClick={go("research")}>{t.ctaResearch}</a>
+                <a className="btn btn-primary" href="#research" onClick={go("research")}>{t.btnResearch}</a>
+                <a className="btn btn-ghost" href="#analyses" onClick={go("analyses")}>{t.btnAnalyses}</a>
+                <a className="btn btn-ghost" href="#contact" onClick={go("contact")}>{t.btnContact}</a>
               </div>
             </div>
-            <a className="hero-latest" href={`#analyse-${latest.id}-${lang}`} onClick={openAnalysis(latest.id)}>
-              <div className="lead-meta">
-                <span>{t.latest}</span>
-                <span className="when">{fmtDate(latest, lang)}</span>
-                <span className="cat-l">{catLabel(latest.category, lang)}</span>
+            <div className="hero-side">
+              <a className="hero-latest" href={`#analyse-${latest.id}-${lang}`} onClick={openAnalysis(latest.id)}>
+                <div className="lead-meta">
+                  <span>{t.latest}</span>
+                  <span className="when">{fmtDate(latest, lang)}</span>
+                  <span className="cat-l">{catLabel(latest.category, lang)}</span>
+                </div>
+                <h2 className="hero-latest-title">{fr(latest.title, lang)}</h2>
+                <span className="lead-cta">{t.read} · {readingTime(latest.content)} {t.minutes}</span>
+              </a>
+              <a className="hero-all" href="#analyses" onClick={go("analyses")}>{t.allAnalyses}</a>
+            </div>
+          </div>
+        </section>
+
+        <section className="section is-band" id="research">
+          <div className="wrap">
+            <div className="section-head"><h2>{t.researchTitle}</h2><p>{t.researchSub}</p></div>
+            <div className="papers">
+              <div className="paper">
+                <div className="paper-status"><b>{t.thesisLabel}</b></div>
+                <div><h3 lang="en">Geopolitical Distance and International Economic Relations: An Analysis of Bilateral Trade, Development Aid, and Chinese FDI</h3><p>{t.thesisText}</p></div>
               </div>
-              <h2 className="hero-latest-title">{fr(latest.title, lang)}</h2>
-              {latest.nutshell && <ul className="hero-latest-points">{latest.nutshell.map((p, i) => <li key={i}>{fr(p, lang)}</li>)}</ul>}
-              <span className="lead-cta">{t.read} · {readingTime(latest.content)} {t.minutes}</span>
-            </a>
+              {PAPERS[lang].filter(p => !p.draft).map(p => (
+                <div key={p.title} className="paper">
+                  <div className="paper-status"><b>{t.wpLabel}</b>, {p.year}</div>
+                  <div>
+                    <h3 lang="en">{p.title}</h3>
+                    <p>{p.desc}</p>
+                    {p.presentations && <p className="presented">{t.presented} {p.presentations}</p>}
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="research-more">
+              <div className="wip">
+                <h3>{t.wipTitle}</h3>
+                {t.wipGroups.map(([g, items]) => <div key={g} className="wip-group"><p className="wip-g">{g}</p><ul>{items.map(w => <li key={w}>{w}</li>)}</ul></div>)}
+              </div>
+              <div className="wb">
+                <h3>{t.wbTitle}</h3>
+                <p>{t.wbText}</p>
+                <a href="https://www.worldbank.org/en/brief/2026/08/25/integrating-africa-from-threads-to-hubs" target="_blank" rel="noopener">{t.wbLink}</a>
+              </div>
+            </div>
+            <p className="measure-ref">{t.measureRef}</p>
           </div>
         </section>
 
@@ -665,40 +680,6 @@ export default function App() {
                 ))}
               </ul>
             )}
-          </div>
-        </section>
-
-        <section className="section is-band" id="research">
-          <div className="wrap">
-            <div className="section-head"><h2>{t.researchTitle}</h2><p>{t.researchSub}</p></div>
-            <div className="papers">
-              <div className="paper">
-                <div className="paper-status"><b>{t.thesisLabel}</b></div>
-                <div><h3 lang="en">Geopolitical Distance and International Economic Relations: An Analysis of Bilateral Trade, Development Aid, and Chinese FDI</h3><p>{t.thesisText}</p></div>
-              </div>
-              {PAPERS[lang].filter(p => !p.draft).map(p => (
-                <div key={p.title} className="paper">
-                  <div className="paper-status"><b>{p.status}</b>, {p.year}</div>
-                  <div>
-                    <h3 lang="en">{p.title}</h3>
-                    <p>{p.desc}</p>
-                    {p.presentations && <p className="presented">{t.presented} {p.presentations}</p>}
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div className="research-more">
-              <div className="wip">
-                <h3>{t.wipTitle}</h3>
-                <ul>{t.wip.map(w => <li key={w}>{w}</li>)}</ul>
-              </div>
-              <div className="wb">
-                <h3>{t.wbTitle}</h3>
-                <p>{t.wbText}</p>
-                <a href="https://www.worldbank.org/en/brief/2026/08/25/integrating-africa-from-threads-to-hubs" target="_blank" rel="noopener">{t.wbLink}</a>
-              </div>
-            </div>
-            <p className="measure-ref">{t.measureRef}</p>
           </div>
         </section>
 
@@ -739,7 +720,6 @@ export default function App() {
               <a className="contact-mail" href={`mailto:${EMAIL_PRO}`}>{EMAIL_PRO}</a>
               <dl>
                 <dt>{({ fr: "Adresse personnelle", en: "Personal address", zh: "个人邮箱" })[lang]}</dt><dd><a href={`mailto:${EMAIL}`}>{EMAIL}</a></dd>
-                <dt>{t.contactBase}</dt><dd>{t.contactBaseValue}</dd>
               </dl>
             </div>
           </div>
@@ -758,8 +738,8 @@ export default function App() {
 
       <SiteSearch
         lang={lang} open={searchOpen} onClose={() => setSearchOpen(false)}
-        bulletins={sorted} papers={PAPERS[lang]} courses={[...COURSES_NOW[lang], ...COURSES_PAST[lang]]}
-        about={t.about} timeline={t.timeline} themes={THEMES[lang]}
+        bulletins={sorted} papers={PAPERS[lang].filter(p => !p.draft)} courses={[...COURSES_NOW[lang], ...COURSES_PAST[lang]]}
+        about={t.about} timeline={[]} themes={[]}
         fmtDate={fmtDate} catLabel={catLabel}
         onOpenAnalysis={openFromSearch} onGo={goFromSearch}
       />

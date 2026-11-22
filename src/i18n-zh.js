@@ -2,10 +2,7 @@
 export const T_ZH = {
   nav: { analyses: "分析", research: "研究", teaching: "教学", about: "履历", contact: "联系" },
   menu: "菜单", close: "关闭",
-  lead: "发展经济学博士，博士论文答辩于CERDI（国际发展研究中心，克莱蒙奥弗涅大学）。世界银行非洲首席经济学家办公室顾问。研究领域：经济地缘政治、国际贸易与非洲一体化进程。",
-  fields: ["经济地缘政治", "国际贸易", "非洲一体化", "价值链", "区域公共产品", "萨赫勒经济"],
   brandSub: "发展经济学家，博士",
-  roles: [["经济学博士", "CERDI，克莱蒙奥弗涅大学，2026年青年研究者奖"], ["研究员（Fellow）及顾问", "世界银行非洲首席经济学家办公室"], ["讲授经济学", "雷恩第二大学"]],
   ctaRead: "阅读最新分析", ctaContact: "联系我",
   mapTitle: "西非：西共体成员国、萨赫勒国家联盟成员国及主要港口通道",
   keyEcowas: "西共体（12国）", keyAes: "萨赫勒国家联盟：马里、布基纳法索、尼日尔", keyCorridor: "通往港口的通道",
@@ -40,14 +37,7 @@ export const T_ZH = {
     "在世界银行非洲首席经济学家办公室工作期间，我参与了旗舰报告《Integrating Africa: From Threads to Hubs》的撰写，并参与了关于跨国企业就业质量和非洲区域公共产品的研究。这段经历使我直接接触到区域一体化、价值链以及非洲国家间协调等问题。",
     "同时，我在本网站发表关于当代非洲发展动态的系统性经济分析。这些分析以经济学理论和可核实的数据为依据，力求提供超越一般时事评论的学术视角。",
   ],
-  timeline: [
-    ["2026", "讲授经济学", "雷恩第二大学"],
-    ["2025至2026", "研究员（Fellow）及顾问", "世界银行非洲首席经济学家办公室"],
-    ["2025", "经济学博士", "CERDI，克莱蒙奥弗涅大学", "Geopolitical Distance and International Economic Relations: An Analysis of Bilateral Trade, Development Aid, and Chinese FDI"],
-    ["2022至2026", "讲授经济学", "克莱蒙奥弗涅大学"],
-  ],
   marksTitle: "奖项与资格",
-  marks: ["2026年青年研究者奖，克莱蒙奥弗涅大学基金会与克莱蒙费朗市联合颁发", "法国国家大学委员会（CNU）第05学科（经济学）副教授任职资格", "学术报告：牛津大学CSAE会议、INFER、CEID、世界银行Brown Bag Lunch研讨会"],
   contactTitle: "联系",
   contactSub: "欢迎就研究合作、学术邀请或工作机会与我联系。",
   contactPro: "大学邮箱", contactBase: "所在地", contactBaseValue: "法国",
@@ -58,10 +48,8 @@ export const T_ZH = {
 };
 
 export const PAPERS_ZH = [
-  { title: "Friendship is as Important as Neighborhood: Geopolitical Distance and Bilateral Trade", desc: "利用以PPML估计的引力模型，估计地缘政治距离对双边贸易的影响。", year: "2024", status: "工作论文", presentations: "牛津大学CSAE会议、INFER、CEID" },
+  { title: "Friendship is as Important as Neighborhood: Geopolitical Distance and Bilateral Trade", desc: "利用以PPML估计的引力模型，估计地缘政治距离对双边贸易的影响。", year: "2024", status: "工作论文", presentations: "牛津大学非洲经济研究中心（CSAE）、INFER、CEID" },
   { title: "Geopolitical Dynamics and the Effectiveness of Regional Trade Agreements", desc: "评估地缘政治动态如何改变区域贸易协定的有效性。", year: "2024", status: "工作论文", presentations: "世界银行Brown Bag Lunch研讨会" },
-  { title: "Regional Public Goods and African Integration: A Polycentric Governance Framework", desc: "为区域公共产品与非洲一体化提出多中心治理框架。", year: "2025", draft: true },
-  { title: "China-Africa Value Chains: Structural Asymmetries and Belt & Road Effects", desc: "基于EORA多区域投入产出表分析中非价值链，评估结构性不对称及“一带一路”倡议的影响。", year: "2025", draft: true },
 ];
 
 export const THEMES_ZH = ["地缘政治与经济关系", "双边贸易", "非洲的外国直接投资", "官方发展援助", "区域经济一体化", "全球与区域价值链", "区域公共产品", "萨赫勒政治经济"];

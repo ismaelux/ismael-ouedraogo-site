@@ -4,9 +4,9 @@ import { stripLinks } from "./AnalysisBlocks.jsx";
 // Recherche dans le contenu du site (analyses, travaux, enseignement, parcours).
 // Distincte de la section « Recherche » (travaux de recherche) : icône loupe dans l'en-tête.
 export const SEARCH_TXT = {
-  fr: { open: "Rechercher sur le site", placeholder: "Mot-clé, nom, phrase…", close: "Fermer", empty: "Aucun résultat pour", hint: "Tapez au moins deux caractères. Raccourci : touche /", analyses: "Analyses", research: "Travaux de recherche", teaching: "Enseignement", about: "Parcours", results: (n) => `${n} résultat${n > 1 ? "s" : ""}` },
-  en: { open: "Search the site", placeholder: "Keyword, name, phrase…", close: "Close", empty: "No results for", hint: "Type at least two characters. Shortcut: / key", analyses: "Analyses", research: "Research papers", teaching: "Teaching", about: "Background", results: (n) => `${n} result${n > 1 ? "s" : ""}` },
-  zh: { open: "站内搜索", placeholder: "关键词、人名、短语……", close: "关闭", empty: "未找到相关结果：", hint: "请输入至少两个字符。快捷键：/", analyses: "分析", research: "研究成果", teaching: "教学", about: "履历", results: (n) => `${n} 条结果` },
+  fr: { open: "Rechercher sur le site", placeholder: "Mot-clé, nom, phrase…", close: "Fermer", empty: "Aucun résultat pour", hint: "Tapez au moins deux caractères. Raccourci : touche /", analyses: "Analyses", research: "Travaux de recherche", teaching: "Enseignement", about: "À propos", results: (n) => `${n} résultat${n > 1 ? "s" : ""}` },
+  en: { open: "Search the site", placeholder: "Keyword, name, phrase…", close: "Close", empty: "No results for", hint: "Type at least two characters. Shortcut: / key", analyses: "Analyses", research: "Research papers", teaching: "Teaching", about: "About", results: (n) => `${n} result${n > 1 ? "s" : ""}` },
+  zh: { open: "站内搜索", placeholder: "关键词、人名、短语……", close: "关闭", empty: "未找到相关结果：", hint: "请输入至少两个字符。快捷键：/", analyses: "分析", research: "研究成果", teaching: "教学", about: "简介", results: (n) => `${n} 条结果` },
 };
 
 export const norm = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[’']/g, "'");
